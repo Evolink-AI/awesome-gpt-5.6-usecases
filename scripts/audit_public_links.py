@@ -158,7 +158,7 @@ def main() -> int:
     report.extend(f"- P2: {item}" for item in link_copy_warnings) if link_copy_warnings else report.append("- No ambiguous functional link copy detected.")
     report.extend(["", "## Manual And Transient Verification", ""])
     report.append("- OpenAI launch page: curl returned 403 bot protection; the official page was verified through browser readback on 2026-07-10.")
-    report.append("- Star History chart: 503 is expected before the public repository exists; recheck immediately after first push.")
+    report.append("- Star History chart: a 503 is retained as P2 while the required chart awaits repository indexing or its first star; recheck on the next repository update.")
     report.extend(["", "## External Results", "", "| Status | Severity | URL | Final URL | Content Type |", "|---:|---|---|---|---|"])
     for url, status, final, content_type in results:
         report.append(f"| {status} | {severity[url]} | {url} | {final} | {content_type or '-'} |")
