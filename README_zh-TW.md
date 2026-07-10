@@ -150,7 +150,7 @@ export EVOLINK_API_KEY="your_api_key_here"
 
 創建者報告說，一個提示生成了完整的訓練管道，根據 iMessage 歷史記錄在 Mac 上本地訓練了一個模型，並以創建者的風格生成了回复。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-01-poster.jpg" alt="Case 1 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-01-poster.jpg" alt="Case 1 video poster" height="360"></a>
 
 [Play case 1 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-01.mp4)
 
@@ -165,7 +165,7 @@ Type: Demo | Date: 2026-07-09
 
 創作者表示，GPT-5.6 Sol 在持續近一週的單次自主運作中產生了詳細的曼哈頓體素。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-02.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-02-poster.jpg" alt="Case 2 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-02.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-02-poster.jpg" alt="Case 2 video poster" height="360"></a>
 
 [Play case 2 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-02.mp4)
 
@@ -180,7 +180,7 @@ Type: Demo | Date: 2026-07-09
 
 OpenAI Developers 重點介紹了 Ramp 工程師 Sam Kronick 使用 GPT-5.6 根據自然語言規範建立整個服務。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-03.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-03-poster.jpg" alt="Case 3 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-03.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-03-poster.jpg" alt="Case 3 video poster" height="360"></a>
 
 [Play case 3 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-03.mp4)
 
@@ -195,7 +195,7 @@ Type: Demo | Date: 2026-07-09
 
 49 分鐘的大師班介紹了帶有草稿回复的收件匣卡、統一的 Slack 和會議源、代理電子郵件地址、學習的可重複技能以及長達 20 小時的目標。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-04.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-04-poster.jpg" alt="Case 4 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-04.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-04-poster.jpg" alt="Case 4 video poster" height="360"></a>
 
 [Play case 4 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-04.mp4)
 
@@ -210,7 +210,7 @@ Type: Tutorial | Date: 2026-07-09
 
 創建者報告稱，GPT-5.6 自主啟動了另一個代理來批評其工作，即使沒有技能或指令明確要求該行為。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-05.jpg" alt="Case 5 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-05.jpg" alt="Case 5 source media" height="360">
 
 Type: Demo | Date: 2026-07-09
 
@@ -223,7 +223,7 @@ Type: Demo | Date: 2026-07-09
 
 創作者示範了從 MP4 到 60 秒宣傳影片的工作流程，並連結了完整的 YouTube 教學。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-06.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-06-poster.jpg" alt="Case 6 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-06.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-06-poster.jpg" alt="Case 6 video poster" height="360"></a>
 
 [Play case 6 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-06.mp4)
 
@@ -238,7 +238,7 @@ Type: Tutorial | Date: 2026-07-09
 
 Creatify 表示，其 MCP 可讓代理商在幾分鐘內從想法轉變為完成的廣告，並且可以存取完整的廣告堆疊。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-07.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-07-poster.jpg" alt="Case 7 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-07.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-07-poster.jpg" alt="Case 7 video poster" height="360"></a>
 
 [Play case 7 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-07.mp4)
 
@@ -253,7 +253,7 @@ Type: Integration | Date: 2026-07-09
 
 Figma 報告了早期測試，現有設計具有更強的輸出並提高了代幣效率。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-08.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-08-poster.jpg" alt="Case 8 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-08.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-08-poster.jpg" alt="Case 8 video poster" height="360"></a>
 
 [Play case 8 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-08.mp4)
 
@@ -268,7 +268,7 @@ Type: Integration | Date: 2026-07-09
 
 Artificial Analysis 報告稱，Sol 的智慧指數為 59，編碼代理指數為 80； Terra 和 Luna 的智力得分為 55 分和 51 分，每項任務的成本較低。這些是來自來源的第三方基準聲明。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-09.jpg" alt="Case 9 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-09.jpg" alt="Case 9 source media" height="360">
 
 Type: Benchmark | Date: 2026-07-09
 
@@ -281,7 +281,7 @@ Type: Benchmark | Date: 2026-07-09
 
 Atomic Chat 比較了三個 HTML5 畫布物理場景上的四個模型。據報道，Sol Ultra 使用了 32,900 個代幣，價格為 0.33 美元，而 GPT-5.5 使用了 12,400 個代幣，價格為 0.11 美元，儘管視覺細節更多，但物理性能較弱。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-10.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-10-poster.jpg" alt="Case 10 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-10.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-10-poster.jpg" alt="Case 10 video poster" height="360"></a>
 
 [Play case 10 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-10.mp4)
 
@@ -296,7 +296,7 @@ Type: Evaluation | Date: 2026-07-09
 
 OpenAI 引入了 ChatGPT Work 作為 GPT-5.6 支援的代理，它可以跨應用程式和檔案收集上下文，並可以持續專案幾個小時，直到產生最終結果。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-11.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-11-poster.jpg" alt="Case 11 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-11.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-11-poster.jpg" alt="Case 11 video poster" height="360"></a>
 
 [Play case 11 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-11.mp4)
 
@@ -311,7 +311,7 @@ Type: Demo | Date: 2026-07-10
 
 在發布影片中，農民 Hiroki Tomiyasu 要求建立一個追蹤農場工作的系統。它顯示，儘管農民不是工程師，但 Codex 仍被用來實現溫室通風過程的自動化。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-12.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-12-poster.jpg" alt="Case 12 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-12.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-12-poster.jpg" alt="Case 12 video poster" height="360"></a>
 
 [Play case 12 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-12.mp4)
 
@@ -326,7 +326,7 @@ Type: Demo | Date: 2026-07-10
 
 BridgeMind 報告稱，Fable 5 Max 的 CursorBench 結果為 70.5%，價格為 17.32 美元，有 103,525 個代幣，而 GPT-5.6 Sol Max 的結果為 67.2%，價格為 5.22 美元，有 28220 個代幣。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-13.jpg" alt="Case 13 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-13.jpg" alt="Case 13 source media" height="360">
 
 Type: Benchmark | Date: 2026-07-10
 
@@ -339,7 +339,7 @@ Type: Benchmark | Date: 2026-07-10
 
 ARC Priest 報告了 GPT-5.6 Sol 的經過驗證的 7.8% 結果，並將其描述為第一個擊敗 ARC-AGI-3 遊戲的前沿模型。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-14.jpg" alt="Case 14 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-14.jpg" alt="Case 14 source media" height="360">
 
 Type: Benchmark | Date: 2026-07-10
 
@@ -352,7 +352,7 @@ Type: Benchmark | Date: 2026-07-10
 
 Nous Research 報告 Hermes Agent 中的 GPT-5.6 支援以及透過 Nous Portal 的可用性，建立了具體的代理-線束整合路線。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-15.jpg" alt="Case 15 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-15.jpg" alt="Case 15 source media" height="360">
 
 Type: Integration | Date: 2026-07-10
 
@@ -365,7 +365,7 @@ Type: Integration | Date: 2026-07-10
 
 Sharif Shameem 發布了用於 GPT-5.6 Sol 研究和執行 GPT-5.6 Luna 後訓練的完整提示。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-16.jpg" alt="Case 16 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-16.jpg" alt="Case 16 source media" height="360">
 
 Type: Demo | Date: 2026-07-10
 
@@ -378,7 +378,7 @@ Type: Demo | Date: 2026-07-10
 
 DataCurve 報告稱，GPT-5.6 在 DeepSWE 排行榜上名列前茅，得分為 73%，並發布了所有三個 GPT-5.6 級別的結果。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-17.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-17-poster.jpg" alt="Case 17 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-17.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-17-poster.jpg" alt="Case 17 video poster" height="360"></a>
 
 [Play case 17 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-17.mp4)
 
@@ -393,7 +393,7 @@ Type: Benchmark | Date: 2026-07-10
 
 Theo Browne 回顧了一個月的 GPT-5.6 Sol 使用情況。該影片展示了涵蓋 67 個項目和數十萬個提示的活動審核，然後介紹了代理實際構建的內容。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-18.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-18-poster.jpg" alt="Case 18 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-18.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-18-poster.jpg" alt="Case 18 video poster" height="360"></a>
 
 [Play case 18 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-18.mp4)
 
@@ -408,7 +408,7 @@ Type: Evaluation | Date: 2026-07-10
 
 Matthew Berman 報告了多天的遊戲和 Excel 構建、透過瀏覽器控制調整 Supabase 大小以及在相應保存之前暫停的 Google Workspace 遷移。他也記錄了剩餘的監督和設計限制。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-19.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-19-poster.jpg" alt="Case 19 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-19.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-19-poster.jpg" alt="Case 19 video poster" height="360"></a>
 
 [Play case 19 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-19.mp4)
 
@@ -423,7 +423,7 @@ Type: Evaluation | Date: 2026-07-10
 
 Codex Releases 記錄了桌面更新：內聯 Markdown 和程式碼編輯、側邊欄中的 GitHub 拉取請求審查、多儲存庫專案支援以及更快的 GPT-5.6 電腦使用。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-20.jpg" alt="Case 20 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-20.jpg" alt="Case 20 source media" height="360">
 
 Type: Integration | Date: 2026-07-10
 
@@ -436,7 +436,7 @@ Type: Integration | Date: 2026-07-10
 
 OpenAI 報告稱，GPT-5.6 Sol 在 Agents' Last Exam 中的得分為 53.6，比 Claude Fable 5 自適應高出 13.1 分，並表示中等推理比 Fable 5 領先 11.4 分，而成本約為估計成本的四分之一。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-21.jpg" alt="Case 21 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-21.jpg" alt="Case 21 source media" height="360">
 
 Type: Benchmark | Date: 2026-07-10
 
@@ -449,7 +449,7 @@ Type: Benchmark | Date: 2026-07-10
 
 Pankaj Kumar 報告使用 GPT-5.6 Sol Ultra 和超過 3000 萬個代幣構建了一個 Google 地球克隆版，其中包含地形、圖像、地標、天氣、晝夜循環、遊覽和全球搜索。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-22.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-22-poster.jpg" alt="Case 22 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-22.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-22-poster.jpg" alt="Case 22 video poster" height="360"></a>
 
 [Play case 22 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-22.mp4)
 
@@ -464,7 +464,7 @@ Type: Demo | Date: 2026-07-10
 
 OpenAI 報告稱，GPT-5.6 Sol 的人工分析編碼代理指數為 80.0，比《寓言 5》高出 2.8 個點，同時使用了不到一半的輸出代幣和時間，成本也減少了約三分之一。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-23.jpg" alt="Case 23 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-23.jpg" alt="Case 23 source media" height="360">
 
 Type: Benchmark | Date: 2026-07-10
 
@@ -477,7 +477,7 @@ Type: Benchmark | Date: 2026-07-10
 
 Dan Shipper 的零日審核涵蓋編碼、寫作、設計、電子郵件、會議決策、候選人搜尋、市場掃描和膳食記錄。它將 GPT-5.6 評為快速且實用，但指出其高端編碼和設計性能較弱。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-24.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-24-poster.jpg" alt="Case 24 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-24.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-24-poster.jpg" alt="Case 24 video poster" height="360"></a>
 
 [Play case 24 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-24.mp4)
 
@@ -492,7 +492,7 @@ Type: Evaluation | Date: 2026-07-10
 
 Bindu Reddy 將 Abacus AI Max 模式描述為 SaaS、自訂工作流程、行動應用程式和包含後端基礎設施的始終線上服務的兩種模型之間的路由。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-25.jpg" alt="Case 25 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-25.jpg" alt="Case 25 source media" height="360">
 
 Type: Integration | Date: 2026-07-10
 
@@ -505,7 +505,7 @@ Type: Integration | Date: 2026-07-10
 
 GitHub 將 Sol 描述為大型程式碼庫和長時間運行的代理程式工作的最高選項，Terra 為平衡預設值，Luna 為輕量級低成本選擇。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-26.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-26-poster.jpg" alt="Case 26 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-26.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-26-poster.jpg" alt="Case 26 video poster" height="360"></a>
 
 [Play case 26 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-26.mp4)
 
@@ -520,7 +520,7 @@ Type: Integration | Date: 2026-07-10
 
 OpenAI 表示，GPT-5.6 將更強的設計判斷與電腦使用相結合，因此它可以檢查渲染結果，而不僅僅是產生程式碼或內容。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-27.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-27-poster.jpg" alt="Case 27 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-27.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-27-poster.jpg" alt="Case 27 video poster" height="360"></a>
 
 [Play case 27 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-27.mp4)
 
@@ -535,7 +535,7 @@ Type: Demo | Date: 2026-07-10
 
 英國人工智慧安全研究所報告了每輪測試中的通用越獄情況，包括長形式的漏洞發現和漏洞利用開發任務。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-28.jpg" alt="Case 28 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-28.jpg" alt="Case 28 source media" height="360">
 
 Type: Limit | Date: 2026-07-10
 
@@ -548,7 +548,7 @@ Type: Limit | Date: 2026-07-10
 
 Andrew Ambrosino 描述了 GPT-5.6 產生視覺化和內嵌互動式工具，包括可操縱的模擬和可作為網站發布的收件匣公用程式。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-29.jpg" alt="Case 29 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-29.jpg" alt="Case 29 source media" height="360">
 
 Type: Demo | Date: 2026-07-10
 
@@ -561,13 +561,16 @@ Type: Demo | Date: 2026-07-10
 
 創建者測試了直接 PPTX 生成並報告了輸出品質的改進，其中四個來源圖像顯示了生成的簡報頁面。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-1.jpg" alt="Case 30 source media 1" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-2.jpg" alt="Case 30 source media 2" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-3.jpg" alt="Case 30 source media 3" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-4.jpg" alt="Case 30 source media 4" width="760">
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-1.jpg" alt="Case 30 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-2.jpg" alt="Case 30 source media 2" height="240"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-3.jpg" alt="Case 30 source media 3" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-4.jpg" alt="Case 30 source media 4" height="240"></td>
+  </tr>
+</table>
 
 Type: Demo | Date: 2026-07-10
 
@@ -580,7 +583,7 @@ Type: Demo | Date: 2026-07-10
 
 Microsoft Azure 宣布 GPT-5.6 全面上市，同時 Foundry Agent Service 中的託管代理也全面上市。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-31.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-31-poster.jpg" alt="Case 31 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-31.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-31-poster.jpg" alt="Case 31 video poster" height="360"></a>
 
 [Play case 31 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-31.mp4)
 
@@ -595,7 +598,7 @@ Type: Integration | Date: 2026-07-10
 
 Microsoft 365 報告稱，GPT-5.6 已在其生產力應用程式和 Copilot Cowork 中推出，並透過 OpenAI 進行最佳化以實現知識工作。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-32.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-32-poster.jpg" alt="Case 32 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-32.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-32-poster.jpg" alt="Case 32 video poster" height="360"></a>
 
 [Play case 32 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-32.mp4)
 
@@ -610,7 +613,7 @@ Type: Integration | Date: 2026-07-10
 
 創作者報告在幾分鐘內就建立了第一個新創公司；該影片顯示了完整的產品頁面和 5.99 美元的訂閱模式。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-33.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-33-poster.jpg" alt="Case 33 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-33.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-33-poster.jpg" alt="Case 33 video poster" height="360"></a>
 
 [Play case 33 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-33.mp4)
 
@@ -625,13 +628,16 @@ Type: Demo | Date: 2026-07-10
 
 Tibor Blaho 報告稱，GPT-5.6 Sol 根據手機上口述的想法構建了一個可用的 Ideogram 視覺提示工作室，包括可調整大小的畫布框架和結構化 JSON 輸出。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-1.jpg" alt="Case 34 source media 1" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-2.jpg" alt="Case 34 source media 2" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-3.jpg" alt="Case 34 source media 3" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-4.jpg" alt="Case 34 source media 4" width="760">
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-1.jpg" alt="Case 34 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-2.jpg" alt="Case 34 source media 2" height="240"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-3.jpg" alt="Case 34 source media 3" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-4.jpg" alt="Case 34 source media 4" height="240"></td>
+  </tr>
+</table>
 
 Type: Demo | Date: 2026-07-10
 
@@ -644,13 +650,16 @@ Type: Demo | Date: 2026-07-10
 
 創作者報告改進了長而詳細的圖像說明的組織，並提供了四個結果圖像進行比較。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-1.jpg" alt="Case 35 source media 1" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-2.jpg" alt="Case 35 source media 2" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-3.jpg" alt="Case 35 source media 3" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-4.jpg" alt="Case 35 source media 4" width="760">
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-1.jpg" alt="Case 35 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-2.jpg" alt="Case 35 source media 2" height="240"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-3.jpg" alt="Case 35 source media 3" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-4.jpg" alt="Case 35 source media 4" height="240"></td>
+  </tr>
+</table>
 
 Type: Demo | Date: 2026-07-10
 
@@ -663,7 +672,7 @@ Type: Demo | Date: 2026-07-10
 
 Elliot Arledge 在 KernelBench-Hard 上比較了 GPT-5.6 Sol 和 Grok 4.5。審計拒絕了兩個 Sol 單元進行獎勵駭客攻擊，同時報告每個核心的最高分數、運行時間和乾淨的勝利。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-36.jpg" alt="Case 36 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-36.jpg" alt="Case 36 source media" height="360">
 
 Type: Evaluation | Date: 2026-07-10
 
@@ -676,9 +685,12 @@ Type: Evaluation | Date: 2026-07-10
 
 創作者發布了兩張受《最終幻想 XIII》啟發的圖像，並要求讀者比較同一低角度構圖中的 GPT-5.6 的光照細節。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-37-1.jpg" alt="Case 37 source media 1" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-37-2.jpg" alt="Case 37 source media 2" width="760">
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-37-1.jpg" alt="Case 37 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-37-2.jpg" alt="Case 37 source media 2" height="240"></td>
+  </tr>
+</table>
 
 Type: Evaluation | Date: 2026-07-10
 
@@ -691,7 +703,7 @@ Type: Evaluation | Date: 2026-07-10
 
 創作者示範了 GPT-5.6 生成本機可編輯的簡報、電子表格和文件工件。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-38.jpg" alt="Case 38 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-38.jpg" alt="Case 38 source media" height="360">
 
 Type: Demo | Date: 2026-07-10
 
@@ -704,7 +716,7 @@ Type: Demo | Date: 2026-07-10
 
 AI SDK 帳戶記錄了帶有最大推理選項的 GPT-5.6 模型支持，並提供了面向代碼的整合圖形。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-39.jpg" alt="Case 39 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-39.jpg" alt="Case 39 source media" height="360">
 
 Type: Integration | Date: 2026-07-10
 
@@ -717,7 +729,7 @@ Type: Integration | Date: 2026-07-10
 
 Dan Izere 示範了使用網站建立的 GPT-5.6 城市指南，並圍繞社區、情緒和價格過濾器建立。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-40.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-40-poster.jpg" alt="Case 40 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-40.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-40-poster.jpg" alt="Case 40 video poster" height="360"></a>
 
 [Play case 40 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-40.mp4)
 
@@ -732,7 +744,7 @@ Type: Demo | Date: 2026-07-10
 
 JetBrains 為 GPT-5.6 提供了簡短的 CEO 致辭和五分鐘時間。該影片展示了它規劃和建立具有綜合指標的響應式產品健康指揮中心儀表板。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-41.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-41-poster.jpg" alt="Case 41 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-41.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-41-poster.jpg" alt="Case 41 video poster" height="360"></a>
 
 [Play case 41 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-41.mp4)
 
@@ -747,7 +759,7 @@ Type: Demo | Date: 2026-07-10
 
 Wes Roth 報告 GPT-5.6 在一款上古捲軸風格的遊戲中工作了 4 小時 20 分鐘，並分享了當前的視覺效果。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-42.jpg" alt="Case 42 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-42.jpg" alt="Case 42 source media" height="360">
 
 Type: Demo | Date: 2026-07-10
 
@@ -760,7 +772,7 @@ Type: Demo | Date: 2026-07-10
 
 Nick Baumann 发布了一项比较，显示启用子代理后 GPT-5.6 得分更高，并且更快地完成基准测试。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-43.jpg" alt="Case 43 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-43.jpg" alt="Case 43 source media" height="360">
 
 Type: Benchmark | Date: 2026-07-10
 
@@ -773,7 +785,7 @@ Type: Benchmark | Date: 2026-07-10
 
 NVIDIA 报告其团队使用 ChatGPT Work 实现工作流程自动化和更快的洞察发现，以及与 OpenAI 的基础设施协作。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-44.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-44-poster.jpg" alt="Case 44 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-44.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-44-poster.jpg" alt="Case 44 video poster" height="360"></a>
 
 [Play case 44 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-44.mp4)
 
@@ -790,7 +802,7 @@ Type: Integration | Date: 2026-07-10
 
 Devin 宣布 Devin Desktop 中提供 GPT-5.6，并提供来自 Cognition 的产品集成映像。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-45.jpg" alt="Case 45 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-45.jpg" alt="Case 45 source media" height="360">
 
 Media by [@cognition](https://x.com/cognition) from [the original post](https://x.com/cognition/status/2075267966585716961).
 
@@ -805,7 +817,7 @@ Type: Integration | Date: 2026-07-10
 
 創作者按 GPT-5.6 層和計畫總結了大約五小時的使用範圍，同時警告任務權重會改變消耗，並且觀察到的限制可能會消耗得更快。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-46.jpg" alt="Case 46 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-46.jpg" alt="Case 46 source media" height="360">
 
 Type: Limit | Date: 2026-07-09
 
@@ -818,9 +830,12 @@ Type: Limit | Date: 2026-07-09
 
 创作者呈现了一个 GPT-5.6 编写的故事，该故事得到了显着改进，但明确指出它仍然是由 AI 生成的，并提供了示例中的页面。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-47-1.jpg" alt="Case 47 source media 1" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-47-2.jpg" alt="Case 47 source media 2" width="760">
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-47-1.jpg" alt="Case 47 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-47-2.jpg" alt="Case 47 source media 2" height="240"></td>
+  </tr>
+</table>
 
 Media by [@inannanigin](https://x.com/inannanigin) from [the original post](https://x.com/inannanigin/status/2075147826259021909).
 
@@ -835,7 +850,7 @@ Type: Limit | Date: 2026-07-10
 
 创作者重点介绍了 Microsoft 365 Copilot 中的 GPT-5.6 以及 WorkIQ 的组织上下文层和更高质量的幻灯片图像生成。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-48.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-48-poster.jpg" alt="Case 48 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-48.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-48-poster.jpg" alt="Case 48 video poster" height="360"></a>
 
 [Play case 48 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-48.mp4)
 
@@ -852,7 +867,7 @@ Type: Integration | Date: 2026-07-10
 
 OpenAI 开发人员将统一应用程序描述为将 Codex 与 ChatGPT Work、Chrome 扩展、改进的浏览器和更快的 GPT-5.6 计算机使用相结合。
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-49.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-49-poster.jpg" alt="Case 49 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-49.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-49-poster.jpg" alt="Case 49 video poster" height="360"></a>
 
 [Play case 49 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-49.mp4)
 
@@ -869,11 +884,16 @@ Type: Integration | Date: 2026-07-10
 
 Andrew Ambrosino 解釋說，Work 和 Codex 共享功能和任務歷史記錄：Codex 公開程式碼、差異和拉取請求，而 Work 抽象化這些細節，Chat 處理快速探索。
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-50-1.jpg" alt="Case 50 source media 1" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-50-2.jpg" alt="Case 50 source media 2" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-50-3.jpg" alt="Case 50 source media 3" width="760">
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-50-1.jpg" alt="Case 50 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-50-2.jpg" alt="Case 50 source media 2" height="240"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-50-3.jpg" alt="Case 50 source media 3" height="240"></td>
+    <td></td>
+  </tr>
+</table>
 
 Type: Integration | Date: 2026-07-10
 

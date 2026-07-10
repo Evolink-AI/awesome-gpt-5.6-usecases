@@ -150,7 +150,7 @@ export EVOLINK_API_KEY="your_api_key_here"
 
 Le créateur signale qu'une invite a produit le pipeline de formation complet, formé un modèle localement sur un Mac à partir de l'historique iMessage et généré des réponses dans le style du créateur.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-01-poster.jpg" alt="Case 1 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-01-poster.jpg" alt="Case 1 video poster" height="360"></a>
 
 [Play case 1 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-01.mp4)
 
@@ -165,7 +165,7 @@ Type: Demo | Date: 2026-07-09
 
 Le créateur affirme que GPT-5.6 Sol a produit un voxel Manhattan détaillé en une seule exécution autonome qui a duré près d'une semaine.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-02.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-02-poster.jpg" alt="Case 2 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-02.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-02-poster.jpg" alt="Case 2 video poster" height="360"></a>
 
 [Play case 2 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-02.mp4)
 
@@ -180,7 +180,7 @@ Type: Demo | Date: 2026-07-09
 
 OpenAI Developers présente l'ingénieur Ramp, Sam Kronick, qui utilise GPT-5.6 pour créer un service complet à partir d'une spécification en langage naturel.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-03.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-03-poster.jpg" alt="Case 3 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-03.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-03-poster.jpg" alt="Case 3 video poster" height="360"></a>
 
 [Play case 3 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-03.mp4)
 
@@ -195,7 +195,7 @@ Type: Demo | Date: 2026-07-09
 
 La masterclass de 49 minutes décrit des cartes de boîte de réception avec des réponses rédigées, un flux Slack et de réunion unifié, une adresse e-mail d'agent, des compétences acquises et reproductibles et des objectifs qui durent jusqu'à 20 heures.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-04.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-04-poster.jpg" alt="Case 4 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-04.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-04-poster.jpg" alt="Case 4 video poster" height="360"></a>
 
 [Play case 4 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-04.mp4)
 
@@ -210,7 +210,7 @@ Type: Tutorial | Date: 2026-07-09
 
 Le créateur signale que GPT-5.6 a démarré de manière autonome un autre agent pour critiquer son travail, même si aucune compétence ou instruction n'a explicitement demandé ce comportement.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-05.jpg" alt="Case 5 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-05.jpg" alt="Case 5 source media" height="360">
 
 Type: Demo | Date: 2026-07-09
 
@@ -223,7 +223,7 @@ Type: Demo | Date: 2026-07-09
 
 Le créateur montre le processus allant d'un MP4 à une vidéo à la mode de 60 secondes et propose un didacticiel YouTube complet.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-06.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-06-poster.jpg" alt="Case 6 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-06.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-06-poster.jpg" alt="Case 6 video poster" height="360"></a>
 
 [Play case 6 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-06.mp4)
 
@@ -238,7 +238,7 @@ Type: Tutorial | Date: 2026-07-09
 
 Creatify affirme que son MCP permet à un agent de passer d'une idée à une annonce terminée en quelques minutes avec accès à la pile publicitaire complète.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-07.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-07-poster.jpg" alt="Case 7 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-07.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-07-poster.jpg" alt="Case 7 video poster" height="360"></a>
 
 [Play case 7 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-07.mp4)
 
@@ -253,7 +253,7 @@ Type: Integration | Date: 2026-07-09
 
 Figma rapporte des premiers tests avec des résultats plus forts à partir de conceptions existantes et une efficacité améliorée des jetons.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-08.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-08-poster.jpg" alt="Case 8 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-08.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-08-poster.jpg" alt="Case 8 video poster" height="360"></a>
 
 [Play case 8 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-08.mp4)
 
@@ -268,7 +268,7 @@ Type: Integration | Date: 2026-07-09
 
 Artificial Analysis rapporte Sol à 59 sur son indice d'intelligence et à 80 sur son indice d'agent de codage ; Terra et Luna obtiennent des scores de 55 et 51 en intelligence à moindre coût par tâche. Il s’agit d’affirmations de référence de tiers provenant de la source.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-09.jpg" alt="Case 9 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-09.jpg" alt="Case 9 source media" height="360">
 
 Type: Benchmark | Date: 2026-07-09
 
@@ -281,7 +281,7 @@ Type: Benchmark | Date: 2026-07-09
 
 Atomic Chat a comparé quatre modèles sur trois scènes physiques de canevas HTML5. Il rapporte que Sol Ultra a utilisé 32,9 000 jetons à 0,33 $ contre GPT-5,5 à 12,4 000 jetons et 0,11 $, avec une physique plus faible malgré des détails visuels plus détaillés.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-10.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-10-poster.jpg" alt="Case 10 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-10.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-10-poster.jpg" alt="Case 10 video poster" height="360"></a>
 
 [Play case 10 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-10.mp4)
 
@@ -296,7 +296,7 @@ Type: Evaluation | Date: 2026-07-09
 
 OpenAI présente ChatGPT Work en tant qu'agent basé sur GPT-5.6 qui rassemble le contexte des applications et des fichiers et peut poursuivre un projet pendant des heures jusqu'à ce qu'il produise un résultat final.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-11.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-11-poster.jpg" alt="Case 11 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-11.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-11-poster.jpg" alt="Case 11 video poster" height="360"></a>
 
 [Play case 11 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-11.mp4)
 
@@ -311,7 +311,7 @@ Type: Demo | Date: 2026-07-10
 
 La vidéo de lancement suit l'agriculteur Hiroki Tomiyasu demandant un système pour suivre le travail agricole. Elle montre que le Codex est utilisé pour automatiser le processus de ventilation d'une serre alors que l'agriculteur n'est pas ingénieur.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-12.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-12-poster.jpg" alt="Case 12 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-12.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-12-poster.jpg" alt="Case 12 video poster" height="360"></a>
 
 [Play case 12 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-12.mp4)
 
@@ -326,7 +326,7 @@ Type: Demo | Date: 2026-07-10
 
 BridgeMind rapporte des résultats CursorBench de 70,5 % à 17,32 $ et 103 525 jetons pour Fable 5 Max contre 67,2 % à 5,22 $ et 28 320 jetons pour GPT-5.6 Sol Max.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-13.jpg" alt="Case 13 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-13.jpg" alt="Case 13 source media" height="360">
 
 Type: Benchmark | Date: 2026-07-10
 
@@ -339,7 +339,7 @@ Type: Benchmark | Date: 2026-07-10
 
 ARC Prize rapporte un résultat vérifié de 7,8 % pour GPT-5.6 Sol et le décrit comme le premier modèle frontière à battre un jeu ARC-AGI-3.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-14.jpg" alt="Case 14 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-14.jpg" alt="Case 14 source media" height="360">
 
 Type: Benchmark | Date: 2026-07-10
 
@@ -352,7 +352,7 @@ Type: Benchmark | Date: 2026-07-10
 
 Nous Research rapporte la prise en charge de GPT-5.6 dans Hermes Agent et sa disponibilité via Nous Portal, établissant ainsi une voie concrète d'intégration du faisceau d'agents.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-15.jpg" alt="Case 15 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-15.jpg" alt="Case 15 source media" height="360">
 
 Type: Integration | Date: 2026-07-10
 
@@ -365,7 +365,7 @@ Type: Integration | Date: 2026-07-10
 
 Sharif Shameem publie l'invite complète utilisée pour rechercher GPT-5.6 Sol et exécuter la post-formation de GPT-5.6 Luna.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-16.jpg" alt="Case 16 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-16.jpg" alt="Case 16 source media" height="360">
 
 Type: Demo | Date: 2026-07-10
 
@@ -378,7 +378,7 @@ Type: Demo | Date: 2026-07-10
 
 DataCurve place GPT-5.6 en tête du classement DeepSWE avec un score de 73 % et publie les résultats pour les trois niveaux GPT-5.6.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-17.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-17-poster.jpg" alt="Case 17 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-17.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-17-poster.jpg" alt="Case 17 video poster" height="360"></a>
 
 [Play case 17 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-17.mp4)
 
@@ -393,7 +393,7 @@ Type: Benchmark | Date: 2026-07-10
 
 Theo Browne passe en revue un mois d'utilisation de GPT-5.6 Sol. La vidéo montre un audit d'activité couvrant 67 projets et des centaines de milliers d'invites, puis présente ce que les agents ont réellement construit.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-18.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-18-poster.jpg" alt="Case 18 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-18.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-18-poster.jpg" alt="Case 18 video poster" height="360"></a>
 
 [Play case 18 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-18.mp4)
 
@@ -408,7 +408,7 @@ Type: Evaluation | Date: 2026-07-10
 
 Matthew Berman rapporte des builds de jeux et Excel sur plusieurs jours, le redimensionnement de Supabase via le contrôle du navigateur et une migration de Google Workspace qui a été interrompue avant une sauvegarde consécutive. Il enregistre également les limitations restantes en matière de supervision et de conception.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-19.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-19-poster.jpg" alt="Case 19 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-19.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-19-poster.jpg" alt="Case 19 video poster" height="360"></a>
 
 [Play case 19 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-19.mp4)
 
@@ -423,7 +423,7 @@ Type: Evaluation | Date: 2026-07-10
 
 Les versions Codex documentent la mise à jour du bureau : Markdown et édition de code en ligne, examen des demandes d'extraction GitHub dans la barre latérale, prise en charge de projets multi-dépôts et utilisation plus rapide de l'ordinateur GPT-5.6.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-20.jpg" alt="Case 20 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-20.jpg" alt="Case 20 source media" height="360">
 
 Type: Integration | Date: 2026-07-10
 
@@ -436,7 +436,7 @@ Type: Integration | Date: 2026-07-10
 
 OpenAI rapporte GPT-5.6 Sol à 53,6 lors du dernier examen des agents, 13,1 points au-dessus de Claude Fable 5 adaptatif, et affirme que le raisonnement moyen bat Fable 5 de 11,4 points, soit environ un quart du coût estimé.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-21.jpg" alt="Case 21 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-21.jpg" alt="Case 21 source media" height="360">
 
 Type: Benchmark | Date: 2026-07-10
 
@@ -449,7 +449,7 @@ Type: Benchmark | Date: 2026-07-10
 
 Pankaj Kumar rapporte avoir utilisé GPT-5.6 Sol Ultra et plus de 30 millions de jetons pour créer un clone de Google Earth avec le terrain, les images, les points de repère, la météo, les cycles diurnes et nocturnes, les visites et la recherche globale.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-22.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-22-poster.jpg" alt="Case 22 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-22.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-22-poster.jpg" alt="Case 22 video poster" height="360"></a>
 
 [Play case 22 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-22.mp4)
 
@@ -464,7 +464,7 @@ Type: Demo | Date: 2026-07-10
 
 OpenAI rapporte GPT-5.6 Sol à 80,0 sur l'index des agents de codage d'analyse artificielle, 2,8 points au-dessus de Fable 5 tout en utilisant moins de la moitié des jetons de sortie et du temps et en coûtant environ un tiers de moins.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-23.jpg" alt="Case 23 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-23.jpg" alt="Case 23 source media" height="360">
 
 Type: Benchmark | Date: 2026-07-10
 
@@ -477,7 +477,7 @@ Type: Benchmark | Date: 2026-07-10
 
 L'examen du jour zéro de Dan Shipper couvre le codage, la rédaction, la conception, la messagerie électronique, les décisions lors des réunions, la recherche de candidats, l'analyse du marché et la journalisation des repas. Il évalue GPT-5.6 comme rapide et pratique tout en notant des performances de codage et de conception haut de gamme plus faibles.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-24.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-24-poster.jpg" alt="Case 24 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-24.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-24-poster.jpg" alt="Case 24 video poster" height="360"></a>
 
 [Play case 24 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-24.mp4)
 
@@ -492,7 +492,7 @@ Type: Evaluation | Date: 2026-07-10
 
 Bindu Reddy décrit le mode Abacus AI Max comme un routage entre les deux modèles pour SaaS, des flux de travail personnalisés, des applications mobiles et des services permanents avec infrastructure backend incluse.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-25.jpg" alt="Case 25 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-25.jpg" alt="Case 25 source media" height="360">
 
 Type: Integration | Date: 2026-07-10
 
@@ -505,7 +505,7 @@ Type: Integration | Date: 2026-07-10
 
 GitHub décrit Sol comme l'option à haut plafond pour les bases de code volumineuses et le travail d'agent de longue durée, Terra comme l'option équilibrée par défaut et Luna comme le choix léger et peu coûteux.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-26.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-26-poster.jpg" alt="Case 26 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-26.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-26-poster.jpg" alt="Case 26 video poster" height="360"></a>
 
 [Play case 26 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-26.mp4)
 
@@ -520,7 +520,7 @@ Type: Integration | Date: 2026-07-10
 
 OpenAI indique que GPT-5.6 combine un jugement de conception plus fort avec l'utilisation de l'ordinateur afin de pouvoir inspecter le résultat rendu plutôt que de générer uniquement du code ou du contenu.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-27.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-27-poster.jpg" alt="Case 27 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-27.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-27-poster.jpg" alt="Case 27 video poster" height="360"></a>
 
 [Play case 27 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-27.mp4)
 
@@ -535,7 +535,7 @@ Type: Demo | Date: 2026-07-10
 
 L'AI Security Institute du Royaume-Uni signale des jailbreaks universels à chaque cycle de tests, y compris les tâches de découverte de vulnérabilités de longue durée et de développement d'exploits.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-28.jpg" alt="Case 28 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-28.jpg" alt="Case 28 source media" height="360">
 
 Type: Limit | Date: 2026-07-10
 
@@ -548,7 +548,7 @@ Type: Limit | Date: 2026-07-10
 
 Andrew Ambrosino décrit GPT-5.6 générant des visualisations et des outils interactifs en ligne, notamment des simulations orientables et des utilitaires de boîte de réception pouvant être publiés en tant que sites.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-29.jpg" alt="Case 29 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-29.jpg" alt="Case 29 source media" height="360">
 
 Type: Demo | Date: 2026-07-10
 
@@ -561,13 +561,16 @@ Type: Demo | Date: 2026-07-10
 
 Le créateur teste la génération PPTX directe et signale une qualité de sortie améliorée, avec quatre images sources montrant les pages de présentation générées.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-1.jpg" alt="Case 30 source media 1" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-2.jpg" alt="Case 30 source media 2" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-3.jpg" alt="Case 30 source media 3" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-4.jpg" alt="Case 30 source media 4" width="760">
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-1.jpg" alt="Case 30 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-2.jpg" alt="Case 30 source media 2" height="240"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-3.jpg" alt="Case 30 source media 3" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-4.jpg" alt="Case 30 source media 4" height="240"></td>
+  </tr>
+</table>
 
 Type: Demo | Date: 2026-07-10
 
@@ -580,7 +583,7 @@ Type: Demo | Date: 2026-07-10
 
 Microsoft Azure annonce la disponibilité générale de GPT-5.6 ainsi que la disponibilité générale des agents hébergés dans Foundry Agent Service.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-31.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-31-poster.jpg" alt="Case 31 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-31.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-31-poster.jpg" alt="Case 31 video poster" height="360"></a>
 
 [Play case 31 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-31.mp4)
 
@@ -595,7 +598,7 @@ Type: Integration | Date: 2026-07-10
 
 Microsoft 365 rapporte le déploiement de GPT-5.6 dans ses applications de productivité et Copilot Cowork, optimisé avec OpenAI pour le travail de connaissances.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-32.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-32-poster.jpg" alt="Case 32 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-32.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-32-poster.jpg" alt="Case 32 video poster" height="360"></a>
 
 [Play case 32 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-32.mp4)
 
@@ -610,7 +613,7 @@ Type: Integration | Date: 2026-07-10
 
 Le créateur rapporte avoir créé une première startup en quelques minutes ; la vidéo montre une page de produit terminée et un modal d'abonnement de 5,99 $.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-33.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-33-poster.jpg" alt="Case 33 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-33.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-33-poster.jpg" alt="Case 33 video poster" height="360"></a>
 
 [Play case 33 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-33.mp4)
 
@@ -625,13 +628,16 @@ Type: Demo | Date: 2026-07-10
 
 Tibor Blaho rapporte que GPT-5.6 Sol a créé un studio d'invite visuelle Ideogram fonctionnel à partir d'une idée dictée sur un téléphone, comprenant des zones de canevas redimensionnables et une sortie JSON structurée.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-1.jpg" alt="Case 34 source media 1" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-2.jpg" alt="Case 34 source media 2" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-3.jpg" alt="Case 34 source media 3" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-4.jpg" alt="Case 34 source media 4" width="760">
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-1.jpg" alt="Case 34 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-2.jpg" alt="Case 34 source media 2" height="240"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-3.jpg" alt="Case 34 source media 3" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-4.jpg" alt="Case 34 source media 4" height="240"></td>
+  </tr>
+</table>
 
 Type: Demo | Date: 2026-07-10
 
@@ -644,13 +650,16 @@ Type: Demo | Date: 2026-07-10
 
 Le créateur signale une meilleure organisation des instructions d'image longues et détaillées et fournit quatre images résultantes à des fins de comparaison.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-1.jpg" alt="Case 35 source media 1" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-2.jpg" alt="Case 35 source media 2" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-3.jpg" alt="Case 35 source media 3" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-4.jpg" alt="Case 35 source media 4" width="760">
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-1.jpg" alt="Case 35 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-2.jpg" alt="Case 35 source media 2" height="240"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-3.jpg" alt="Case 35 source media 3" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-4.jpg" alt="Case 35 source media 4" height="240"></td>
+  </tr>
+</table>
 
 Type: Demo | Date: 2026-07-10
 
@@ -663,7 +672,7 @@ Type: Demo | Date: 2026-07-10
 
 Elliot Arledge compare GPT-5.6 Sol et Grok 4.5 sur KernelBench-Hard. L'audit rejette deux cellules Sol pour le piratage de récompense tout en rapportant les scores de toit par noyau, les durées d'exécution et les victoires nettes.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-36.jpg" alt="Case 36 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-36.jpg" alt="Case 36 source media" height="360">
 
 Type: Evaluation | Date: 2026-07-10
 
@@ -676,9 +685,12 @@ Type: Evaluation | Date: 2026-07-10
 
 Le créateur publie deux images inspirées de Final Fantasy XIII et demande aux lecteurs de comparer les détails d'éclairage de GPT-5.6 à partir de la même composition en contre-plongée.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-37-1.jpg" alt="Case 37 source media 1" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-37-2.jpg" alt="Case 37 source media 2" width="760">
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-37-1.jpg" alt="Case 37 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-37-2.jpg" alt="Case 37 source media 2" height="240"></td>
+  </tr>
+</table>
 
 Type: Evaluation | Date: 2026-07-10
 
@@ -691,7 +703,7 @@ Type: Evaluation | Date: 2026-07-10
 
 Le créateur présente GPT-5.6 produisant des artefacts de présentation, de feuille de calcul et de document modifiables de manière native.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-38.jpg" alt="Case 38 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-38.jpg" alt="Case 38 source media" height="360">
 
 Type: Demo | Date: 2026-07-10
 
@@ -704,7 +716,7 @@ Type: Demo | Date: 2026-07-10
 
 Le compte AI SDK documente la prise en charge du modèle GPT-5.6 avec l'option de raisonnement maximum et fournit un graphique d'intégration orienté code.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-39.jpg" alt="Case 39 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-39.jpg" alt="Case 39 source media" height="360">
 
 Type: Integration | Date: 2026-07-10
 
@@ -717,7 +729,7 @@ Type: Integration | Date: 2026-07-10
 
 Dan Izere présente un guide urbain GPT-5.6 créé avec Sites et structuré autour de filtres de quartier, d'humeur et de prix.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-40.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-40-poster.jpg" alt="Case 40 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-40.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-40-poster.jpg" alt="Case 40 video poster" height="360"></a>
 
 [Play case 40 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-40.mp4)
 
@@ -732,7 +744,7 @@ Type: Demo | Date: 2026-07-10
 
 JetBrains donne à GPT-5.6 un court message du PDG et cinq minutes. La vidéo le montre en train de planifier et de créer un tableau de bord de centre de commande réactif sur la santé des produits avec des métriques synthétiques.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-41.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-41-poster.jpg" alt="Case 41 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-41.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-41-poster.jpg" alt="Case 41 video poster" height="360"></a>
 
 [Play case 41 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-41.mp4)
 
@@ -747,7 +759,7 @@ Type: Demo | Date: 2026-07-10
 
 Wes Roth rapporte que GPT-5.6 a fonctionné pendant quatre heures et vingt minutes sur un jeu de style Elder Scrolls et partage le résultat visuel actuel.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-42.jpg" alt="Case 42 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-42.jpg" alt="Case 42 source media" height="360">
 
 Type: Demo | Date: 2026-07-10
 
@@ -760,7 +772,7 @@ Type: Demo | Date: 2026-07-10
 
 Nick Baumann publie une comparaison montrant que GPT-5.6 obtient un score plus élevé et termine le test plus rapidement lorsque les sous-agents sont activés.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-43.jpg" alt="Case 43 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-43.jpg" alt="Case 43 source media" height="360">
 
 Type: Benchmark | Date: 2026-07-10
 
@@ -773,7 +785,7 @@ Type: Benchmark | Date: 2026-07-10
 
 NVIDIA indique que ses équipes utilisent ChatGPT Work pour l'automatisation des flux de travail et une découverte plus rapide des informations, parallèlement à sa collaboration d'infrastructure avec OpenAI.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-44.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-44-poster.jpg" alt="Case 44 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-44.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-44-poster.jpg" alt="Case 44 video poster" height="360"></a>
 
 [Play case 44 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-44.mp4)
 
@@ -790,7 +802,7 @@ Type: Integration | Date: 2026-07-10
 
 Devin annonce la disponibilité de GPT-5.6 dans Devin Desktop et fournit l'image d'intégration de produit de Cognition.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-45.jpg" alt="Case 45 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-45.jpg" alt="Case 45 source media" height="360">
 
 Media by [@cognition](https://x.com/cognition) from [the original post](https://x.com/cognition/status/2075267966585716961).
 
@@ -805,7 +817,7 @@ Type: Integration | Date: 2026-07-10
 
 Le créateur résume les plages d'utilisation approximatives de cinq heures par niveau et plan GPT-5.6, tout en avertissant que le poids de la tâche modifie la consommation et que les limites observées peuvent s'épuiser plus rapidement.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-46.jpg" alt="Case 46 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-46.jpg" alt="Case 46 source media" height="360">
 
 Type: Limit | Date: 2026-07-09
 
@@ -818,9 +830,12 @@ Type: Limit | Date: 2026-07-09
 
 Le créateur présente une histoire écrite en GPT-5.6 comme étant considérablement améliorée, mais note explicitement qu'elle se lit toujours comme étant générée par l'IA, en fournissant des pages de l'exemple.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-47-1.jpg" alt="Case 47 source media 1" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-47-2.jpg" alt="Case 47 source media 2" width="760">
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-47-1.jpg" alt="Case 47 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-47-2.jpg" alt="Case 47 source media 2" height="240"></td>
+  </tr>
+</table>
 
 Media by [@inannanigin](https://x.com/inannanigin) from [the original post](https://x.com/inannanigin/status/2075147826259021909).
 
@@ -835,7 +850,7 @@ Type: Limit | Date: 2026-07-10
 
 Le créateur met en avant GPT-5.6 dans Microsoft 365 Copilot, ainsi que la couche de contexte organisationnel de WorkIQ et la génération d'images diapositives de meilleure qualité.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-48.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-48-poster.jpg" alt="Case 48 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-48.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-48-poster.jpg" alt="Case 48 video poster" height="360"></a>
 
 [Play case 48 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-48.mp4)
 
@@ -852,7 +867,7 @@ Type: Integration | Date: 2026-07-10
 
 OpenAI Developers décrit l'application unifiée comme combinant Codex avec ChatGPT Work, une extension Chrome, un navigateur remanié et une utilisation plus rapide de l'ordinateur GPT-5.6.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-49.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-49-poster.jpg" alt="Case 49 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-49.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-49-poster.jpg" alt="Case 49 video poster" height="360"></a>
 
 [Play case 49 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-49.mp4)
 
@@ -869,11 +884,16 @@ Type: Integration | Date: 2026-07-10
 
 Andrew Ambrosino explique que Work et Codex partagent des fonctionnalités et un historique des tâches : Codex expose le code, les différences et les demandes d'extraction, tandis que Work résume ces détails et Chat gère une exploration rapide.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-50-1.jpg" alt="Case 50 source media 1" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-50-2.jpg" alt="Case 50 source media 2" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-50-3.jpg" alt="Case 50 source media 3" width="760">
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-50-1.jpg" alt="Case 50 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-50-2.jpg" alt="Case 50 source media 2" height="240"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-50-3.jpg" alt="Case 50 source media 3" height="240"></td>
+    <td></td>
+  </tr>
+</table>
 
 Type: Integration | Date: 2026-07-10
 

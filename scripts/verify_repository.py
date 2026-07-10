@@ -8,6 +8,7 @@ import hashlib
 import re
 import struct
 import sys
+from math import ceil
 from pathlib import Path
 
 
@@ -181,6 +182,34 @@ def verify() -> list[str]:
             fail(errors, f"{filename}: case numbers are not contiguous 1-{expected_count}: {numbers}")
         if any(f"](#case-{number})" not in text for number in range(1, expected_count + 1)):
             fail(errors, f"{filename}: Menu lacks one or more case links")
+        for record, item in zip(records, expected):
+            media = str(record["media"])
+            number = item["public_number"]
+            if item["media_type"] == "video":
+                expected_tag = (
+                    f'<a href="{item["playable_video_url"]}"><img src="{item["poster_url"]}" '
+                    f'alt="Case {number} video poster" height="360"></a>'
+                )
+                if expected_tag not in media:
+                    fail(errors, f"{filename}: case {number} video poster must use height 360")
+            else:
+                urls = item["r2_media_urls"]
+                if len(urls) == 1:
+                    expected_tag = f'<img src="{urls[0]}" alt="Case {number} source media" height="360">'
+                    if expected_tag not in media or "<table>" in media:
+                        fail(errors, f"{filename}: case {number} single image must use height 360 without a table")
+                else:
+                    if media.count("<table>") != 1 or media.count("<tr>") != ceil(len(urls) / 2):
+                        fail(errors, f"{filename}: case {number} multi-image media must use two-column rows")
+                    for index, url in enumerate(urls, start=1):
+                        expected_tag = (
+                            f'<td align="center"><img src="{url}" alt="Case {number} source media {index}" '
+                            f'height="240"></td>'
+                        )
+                        if expected_tag not in media:
+                            fail(errors, f"{filename}: case {number} image {index} must use height 240")
+            if 'width="760"' in media:
+                fail(errors, f"{filename}: case {number} media must not use the full-width 760 setting")
         acknowledge = text.split("## 🙏", 1)[-1]
         if re.search(r"^- \[@", acknowledge, re.MULTILINE):
             fail(errors, f"{filename}: Acknowledge creators must be comma-separated, not one bullet per creator")

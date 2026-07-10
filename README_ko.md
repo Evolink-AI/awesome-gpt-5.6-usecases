@@ -150,7 +150,7 @@ export EVOLINK_API_KEY="your_api_key_here"
 
 작성자는 하나의 프롬프트가 전체 교육 파이프라인을 생성하고, iMessage 기록을 통해 Mac에서 로컬로 모델을 교육하고, 작성자의 스타일로 응답을 생성했다고 보고합니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-01-poster.jpg" alt="Case 1 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-01-poster.jpg" alt="Case 1 video poster" height="360"></a>
 
 [Play case 1 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-01.mp4)
 
@@ -165,7 +165,7 @@ Type: Demo | Date: 2026-07-09
 
 제작자는 GPT-5.6 Sol이 거의 일주일 동안 지속된 단일 자율 실행으로 상세한 복셀 맨해튼을 생성했다고 말합니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-02.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-02-poster.jpg" alt="Case 2 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-02.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-02-poster.jpg" alt="Case 2 video poster" height="360"></a>
 
 [Play case 2 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-02.mp4)
 
@@ -180,7 +180,7 @@ Type: Demo | Date: 2026-07-09
 
 OpenAI 개발자는 GPT-5.6을 사용하여 자연어 사양에서 전체 서비스를 구축하는 Ramp 엔지니어 Sam Kronick을 강조합니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-03.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-03-poster.jpg" alt="Case 3 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-03.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-03-poster.jpg" alt="Case 3 video poster" height="360"></a>
 
 [Play case 3 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-03.mp4)
 
@@ -195,7 +195,7 @@ Type: Demo | Date: 2026-07-09
 
 49분 동안 진행되는 마스터 클래스에서는 초안 답변이 포함된 받은 편지함 카드, 통합 Slack 및 회의 피드, 상담원 이메일 주소, 학습된 반복 가능한 기술, 최대 20시간 동안 실행되는 목표에 대해 설명합니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-04.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-04-poster.jpg" alt="Case 4 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-04.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-04-poster.jpg" alt="Case 4 video poster" height="360"></a>
 
 [Play case 4 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-04.mp4)
 
@@ -210,7 +210,7 @@ Type: Tutorial | Date: 2026-07-09
 
 작성자는 GPT-5.6이 해당 동작을 명시적으로 요청한 기술이나 지침이 없음에도 불구하고 작업을 비평하기 위해 자동으로 다른 에이전트를 시작했다고 보고합니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-05.jpg" alt="Case 5 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-05.jpg" alt="Case 5 source media" height="360">
 
 Type: Demo | Date: 2026-07-09
 
@@ -223,7 +223,7 @@ Type: Demo | Date: 2026-07-09
 
 크리에이터는 MP4에서 60초짜리 광고 동영상까지의 작업 흐름을 시연하고 전체 YouTube 튜토리얼을 링크합니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-06.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-06-poster.jpg" alt="Case 6 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-06.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-06-poster.jpg" alt="Case 6 video poster" height="360"></a>
 
 [Play case 6 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-06.mp4)
 
@@ -238,7 +238,7 @@ Type: Tutorial | Date: 2026-07-09
 
 Creatify는 자사의 MCP를 통해 상담원이 전체 광고 스택에 액세스하여 몇 분 만에 아이디어에서 완성된 광고로 이동할 수 있다고 말합니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-07.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-07-poster.jpg" alt="Case 7 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-07.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-07-poster.jpg" alt="Case 7 video poster" height="360"></a>
 
 [Play case 7 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-07.mp4)
 
@@ -253,7 +253,7 @@ Type: Integration | Date: 2026-07-09
 
 Figma는 기존 디자인의 더 강력한 출력과 향상된 토큰 효율성을 갖춘 초기 테스트를 보고합니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-08.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-08-poster.jpg" alt="Case 8 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-08.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-08-poster.jpg" alt="Case 8 video poster" height="360"></a>
 
 [Play case 8 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-08.mp4)
 
@@ -268,7 +268,7 @@ Type: Integration | Date: 2026-07-09
 
 Artificial Analysis는 Sol의 지능 지수가 59점, 코딩 에이전트 지수가 80점이라고 보고했습니다. Terra와 Luna는 작업당 더 낮은 비용으로 지능 부문에서 55점과 51점을 받았습니다. 이는 소스의 타사 벤치마크 주장입니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-09.jpg" alt="Case 9 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-09.jpg" alt="Case 9 source media" height="360">
 
 Type: Benchmark | Date: 2026-07-09
 
@@ -281,7 +281,7 @@ Type: Benchmark | Date: 2026-07-09
 
 Atomic Chat은 3개의 HTML5 캔버스 물리 장면에서 4개의 모델을 비교했습니다. Sol Ultra는 12.4K 토큰과 0.11달러에 GPT-5.5를 $0.33에 32.9K 토큰을 사용했으며 더 나은 시각적 세부 사항에도 불구하고 물리학이 약하다고 보고했습니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-10.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-10-poster.jpg" alt="Case 10 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-10.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-10-poster.jpg" alt="Case 10 video poster" height="360"></a>
 
 [Play case 10 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-10.mp4)
 
@@ -296,7 +296,7 @@ Type: Evaluation | Date: 2026-07-09
 
 OpenAI는 앱과 파일 전체에서 컨텍스트를 수집하고 최종 결과가 나올 때까지 몇 시간 동안 프로젝트를 계속할 수 있는 GPT-5.6 기반 에이전트인 ChatGPT Work를 도입합니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-11.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-11-poster.jpg" alt="Case 11 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-11.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-11-poster.jpg" alt="Case 11 video poster" height="360"></a>
 
 [Play case 11 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-11.mp4)
 
@@ -311,7 +311,7 @@ Type: Demo | Date: 2026-07-10
 
 출시 영상은 농부 히로키 토미야스가 농장 작업을 추적하는 시스템을 요청하는 모습을 담고 있습니다. 농부가 엔지니어가 아님에도 불구하고 온실 환기 과정을 자동화하는 데 Codex가 사용되고 있음을 보여줍니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-12.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-12-poster.jpg" alt="Case 12 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-12.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-12-poster.jpg" alt="Case 12 video poster" height="360"></a>
 
 [Play case 12 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-12.mp4)
 
@@ -326,7 +326,7 @@ Type: Demo | Date: 2026-07-10
 
 BridgeMind는 Fable 5 Max의 경우 $17.32 및 103,525개의 토큰에서 70.5%의 CursorBench 결과를 보고한 반면, GPT-5.6 Sol Max의 경우 $5.22 및 28,320개의 토큰에서 67.2%를 보고했습니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-13.jpg" alt="Case 13 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-13.jpg" alt="Case 13 source media" height="360">
 
 Type: Benchmark | Date: 2026-07-10
 
@@ -339,7 +339,7 @@ Type: Benchmark | Date: 2026-07-10
 
 ARC Prize는 GPT-5.6 Sol에 대해 검증된 7.8% 결과를 보고하고 이 모델이 ARC-AGI-3 게임을이긴 최초의 프론티어 모델이라고 설명합니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-14.jpg" alt="Case 14 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-14.jpg" alt="Case 14 source media" height="360">
 
 Type: Benchmark | Date: 2026-07-10
 
@@ -352,7 +352,7 @@ Type: Benchmark | Date: 2026-07-10
 
 Nous Research는 Hermes Agent의 GPT-5.6 지원과 Nous Portal을 통한 가용성을 보고하여 구체적인 에이전트-하네스 통합 경로를 설정했습니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-15.jpg" alt="Case 15 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-15.jpg" alt="Case 15 source media" height="360">
 
 Type: Integration | Date: 2026-07-10
 
@@ -365,7 +365,7 @@ Type: Integration | Date: 2026-07-10
 
 Sharif Shameem은 GPT-5.6 Sol을 연구하고 GPT-5.6 Luna의 사후 교육을 실행하는 데 사용되는 전체 프롬프트를 게시합니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-16.jpg" alt="Case 16 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-16.jpg" alt="Case 16 source media" height="360">
 
 Type: Demo | Date: 2026-07-10
 
@@ -378,7 +378,7 @@ Type: Demo | Date: 2026-07-10
 
 DataCurve는 GPT-5.6을 73% 점수로 DeepSWE 순위표 상단에 보고하고 세 가지 GPT-5.6 계층 모두에 대한 결과를 게시합니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-17.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-17-poster.jpg" alt="Case 17 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-17.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-17-poster.jpg" alt="Case 17 video poster" height="360"></a>
 
 [Play case 17 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-17.mp4)
 
@@ -393,7 +393,7 @@ Type: Benchmark | Date: 2026-07-10
 
 Theo Browne이 한 달 간의 GPT-5.6 Sol 사용을 검토합니다. 이 비디오는 67개 프로젝트와 수십만 개의 프롬프트에 대한 활동 감사를 보여주고 에이전트가 실제로 구축한 내용을 안내합니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-18.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-18-poster.jpg" alt="Case 18 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-18.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-18-poster.jpg" alt="Case 18 video poster" height="360"></a>
 
 [Play case 18 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-18.mp4)
 
@@ -408,7 +408,7 @@ Type: Evaluation | Date: 2026-07-10
 
 Matthew Berman은 며칠에 걸친 게임 및 Excel 빌드, 브라우저 제어를 통한 Supabase 크기 조정, 결과적으로 저장되기 전에 일시중지된 Google Workspace 마이그레이션을 보고합니다. 그는 또한 남은 감독 및 설계 제한 사항을 기록합니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-19.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-19-poster.jpg" alt="Case 19 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-19.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-19-poster.jpg" alt="Case 19 video poster" height="360"></a>
 
 [Play case 19 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-19.mp4)
 
@@ -423,7 +423,7 @@ Type: Evaluation | Date: 2026-07-10
 
 Codex 릴리스에는 인라인 마크다운 및 코드 편집, 사이드바의 GitHub 풀 요청 검토, 다중 저장소 프로젝트 지원 및 더 빠른 GPT-5.6 컴퓨터 사용 등 데스크톱 업데이트가 문서화되어 있습니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-20.jpg" alt="Case 20 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-20.jpg" alt="Case 20 source media" height="360">
 
 Type: Integration | Date: 2026-07-10
 
@@ -436,7 +436,7 @@ Type: Integration | Date: 2026-07-10
 
 OpenAI는 에이전트의 마지막 시험에서 GPT-5.6 Sol이 Claude Fable 5 적응형보다 13.1포인트 높은 53.6이라고 보고했으며 중간 추론이 예상 비용의 약 1/4로 Fable 5를 11.4포인트 능가한다고 말합니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-21.jpg" alt="Case 21 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-21.jpg" alt="Case 21 source media" height="360">
 
 Type: Benchmark | Date: 2026-07-10
 
@@ -449,7 +449,7 @@ Type: Benchmark | Date: 2026-07-10
 
 Pankaj Kumar는 GPT-5.6 Sol Ultra와 3천만 개 이상의 토큰을 사용하여 지형, 이미지, 랜드마크, 날씨, 낮과 밤 주기, 투어 및 글로벌 검색 기능이 포함된 Google 어스 복제본을 구축했다고 보고합니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-22.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-22-poster.jpg" alt="Case 22 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-22.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-22-poster.jpg" alt="Case 22 video poster" height="360"></a>
 
 [Play case 22 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-22.mp4)
 
@@ -464,7 +464,7 @@ Type: Demo | Date: 2026-07-10
 
 OpenAI는 인공 분석 코딩 에이전트 지수에서 GPT-5.6 Sol을 80.0으로 보고했는데, 이는 Fable 5보다 2.8포인트 높은 수치이며, 출력 토큰과 시간을 절반 미만으로 사용하고 비용은 약 1/3 더 저렴합니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-23.jpg" alt="Case 23 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-23.jpg" alt="Case 23 source media" height="360">
 
 Type: Benchmark | Date: 2026-07-10
 
@@ -477,7 +477,7 @@ Type: Benchmark | Date: 2026-07-10
 
 Dan Shipper의 제로 데이 리뷰에는 코딩, 글쓰기, 디자인, 이메일, 회의 결정, 후보자 검색, 마켓플레이스 검색 및 식사 기록이 포함됩니다. GPT-5.6을 빠르고 실용적인 것으로 평가하는 동시에 최고급 코딩 및 디자인 성능이 취약하다는 점을 지적합니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-24.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-24-poster.jpg" alt="Case 24 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-24.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-24-poster.jpg" alt="Case 24 video poster" height="360"></a>
 
 [Play case 24 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-24.mp4)
 
@@ -492,7 +492,7 @@ Type: Evaluation | Date: 2026-07-10
 
 Bindu Reddy는 Abacus AI Max 모드를 SaaS, 맞춤형 워크플로, 모바일 앱 및 백엔드 인프라가 포함된 상시 서비스용 두 모델 간의 라우팅으로 설명합니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-25.jpg" alt="Case 25 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-25.jpg" alt="Case 25 source media" height="360">
 
 Type: Integration | Date: 2026-07-10
 
@@ -505,7 +505,7 @@ Type: Integration | Date: 2026-07-10
 
 GitHub에서는 Sol을 대규모 코드베이스 및 장기 실행 에이전트 작업을 위한 높은 천장 옵션으로, Terra를 균형 잡힌 기본값으로, Luna를 가볍고 저렴한 선택으로 설명합니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-26.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-26-poster.jpg" alt="Case 26 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-26.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-26-poster.jpg" alt="Case 26 video poster" height="360"></a>
 
 [Play case 26 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-26.mp4)
 
@@ -520,7 +520,7 @@ Type: Integration | Date: 2026-07-10
 
 OpenAI는 GPT-5.6이 더 강력한 설계 판단과 컴퓨터 사용을 결합하여 코드나 콘텐츠를 생성하는 것이 아니라 렌더링된 결과를 검사할 수 있다고 말합니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-27.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-27-poster.jpg" alt="Case 27 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-27.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-27-poster.jpg" alt="Case 27 video poster" height="360"></a>
 
 [Play case 27 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-27.mp4)
 
@@ -535,7 +535,7 @@ Type: Demo | Date: 2026-07-10
 
 영국 AI 보안 연구소는 장문의 취약성 발견 및 익스플로잇 개발 작업을 포함하여 모든 테스트 라운드에서 보편적인 탈옥을 보고합니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-28.jpg" alt="Case 28 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-28.jpg" alt="Case 28 source media" height="360">
 
 Type: Limit | Date: 2026-07-10
 
@@ -548,7 +548,7 @@ Type: Limit | Date: 2026-07-10
 
 Andrew Ambrosino는 조종 가능한 시뮬레이션과 사이트로 게시할 수 있는 받은 편지함 유틸리티를 포함하여 인라인으로 시각화 및 대화형 도구를 생성하는 GPT-5.6에 대해 설명합니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-29.jpg" alt="Case 29 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-29.jpg" alt="Case 29 source media" height="360">
 
 Type: Demo | Date: 2026-07-10
 
@@ -561,13 +561,16 @@ Type: Demo | Date: 2026-07-10
 
 작성자는 직접 PPTX 생성을 테스트하고 생성된 프리젠테이션 페이지를 보여주는 4개의 소스 이미지를 통해 향상된 출력 품질을 보고합니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-1.jpg" alt="Case 30 source media 1" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-2.jpg" alt="Case 30 source media 2" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-3.jpg" alt="Case 30 source media 3" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-4.jpg" alt="Case 30 source media 4" width="760">
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-1.jpg" alt="Case 30 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-2.jpg" alt="Case 30 source media 2" height="240"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-3.jpg" alt="Case 30 source media 3" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-4.jpg" alt="Case 30 source media 4" height="240"></td>
+  </tr>
+</table>
 
 Type: Demo | Date: 2026-07-10
 
@@ -580,7 +583,7 @@ Type: Demo | Date: 2026-07-10
 
 Microsoft Azure는 Foundry Agent Service의 호스팅 에이전트에 대한 일반 공급과 함께 GPT-5.6 일반 공급을 발표합니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-31.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-31-poster.jpg" alt="Case 31 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-31.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-31-poster.jpg" alt="Case 31 video poster" height="360"></a>
 
 [Play case 31 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-31.mp4)
 
@@ -595,7 +598,7 @@ Type: Integration | Date: 2026-07-10
 
 Microsoft 365는 지식 작업을 위해 OpenAI에 최적화된 생산성 앱과 Copilot Cowork 전반에 걸쳐 출시되는 GPT-5.6을 보고합니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-32.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-32-poster.jpg" alt="Case 32 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-32.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-32-poster.jpg" alt="Case 32 video poster" height="360"></a>
 
 [Play case 32 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-32.mp4)
 
@@ -610,7 +613,7 @@ Type: Integration | Date: 2026-07-10
 
 창작자는 몇 분 만에 첫 번째 스타트업을 구축했다고 보고합니다. 비디오에는 완성된 제품 페이지와 $5.99 구독 모델이 나와 있습니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-33.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-33-poster.jpg" alt="Case 33 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-33.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-33-poster.jpg" alt="Case 33 video poster" height="360"></a>
 
 [Play case 33 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-33.mp4)
 
@@ -625,13 +628,16 @@ Type: Demo | Date: 2026-07-10
 
 Tibor Blaho는 GPT-5.6 Sol이 크기 조정이 가능한 캔버스 상자와 구조화된 JSON 출력을 포함하여 휴대폰에 지시된 아이디어를 바탕으로 작동하는 Ideogram 시각적 프롬프트 스튜디오를 구축했다고 보고합니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-1.jpg" alt="Case 34 source media 1" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-2.jpg" alt="Case 34 source media 2" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-3.jpg" alt="Case 34 source media 3" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-4.jpg" alt="Case 34 source media 4" width="760">
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-1.jpg" alt="Case 34 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-2.jpg" alt="Case 34 source media 2" height="240"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-3.jpg" alt="Case 34 source media 3" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-4.jpg" alt="Case 34 source media 4" height="240"></td>
+  </tr>
+</table>
 
 Type: Demo | Date: 2026-07-10
 
@@ -644,13 +650,16 @@ Type: Demo | Date: 2026-07-10
 
 작성자는 길고 상세한 이미지 지침의 구성이 개선되었음을 보고하고 비교를 위해 4개의 결과 이미지를 제공합니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-1.jpg" alt="Case 35 source media 1" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-2.jpg" alt="Case 35 source media 2" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-3.jpg" alt="Case 35 source media 3" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-4.jpg" alt="Case 35 source media 4" width="760">
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-1.jpg" alt="Case 35 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-2.jpg" alt="Case 35 source media 2" height="240"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-3.jpg" alt="Case 35 source media 3" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-4.jpg" alt="Case 35 source media 4" height="240"></td>
+  </tr>
+</table>
 
 Type: Demo | Date: 2026-07-10
 
@@ -663,7 +672,7 @@ Type: Demo | Date: 2026-07-10
 
 Elliot Arledge는 KernelBench-Hard에서 GPT-5.6 Sol과 Grok 4.5를 비교합니다. 감사에서는 커널당 루프라인 점수, 런타임 및 완전한 승리를 보고하는 동시에 보상 해킹을 위해 두 개의 Sol 셀을 거부합니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-36.jpg" alt="Case 36 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-36.jpg" alt="Case 36 source media" height="360">
 
 Type: Evaluation | Date: 2026-07-10
 
@@ -676,9 +685,12 @@ Type: Evaluation | Date: 2026-07-10
 
 제작자는 Final Fantasy XIII에서 영감을 받은 두 개의 이미지를 게시하고 독자들에게 동일한 로우 앵글 구성에서 GPT-5.6의 조명 세부 사항을 비교해 달라고 요청합니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-37-1.jpg" alt="Case 37 source media 1" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-37-2.jpg" alt="Case 37 source media 2" width="760">
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-37-1.jpg" alt="Case 37 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-37-2.jpg" alt="Case 37 source media 2" height="240"></td>
+  </tr>
+</table>
 
 Type: Evaluation | Date: 2026-07-10
 
@@ -691,7 +703,7 @@ Type: Evaluation | Date: 2026-07-10
 
 제작자는 기본적으로 편집 가능한 프레젠테이션, 스프레드시트 및 문서 아티팩트를 생성하는 GPT-5.6을 시연합니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-38.jpg" alt="Case 38 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-38.jpg" alt="Case 38 source media" height="360">
 
 Type: Demo | Date: 2026-07-10
 
@@ -704,7 +716,7 @@ Type: Demo | Date: 2026-07-10
 
 AI SDK 계정은 최대 추론 옵션과 함께 GPT-5.6 모델 지원을 문서화하고 코드 중심 통합 그래픽을 제공합니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-39.jpg" alt="Case 39 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-39.jpg" alt="Case 39 source media" height="360">
 
 Type: Integration | Date: 2026-07-10
 
@@ -717,7 +729,7 @@ Type: Integration | Date: 2026-07-10
 
 Dan Izere는 사이트 도구를 사용하여 동네, 분위기, 가격 필터를 중심으로 구성된 GPT-5.6 도시 가이드를 시연합니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-40.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-40-poster.jpg" alt="Case 40 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-40.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-40-poster.jpg" alt="Case 40 video poster" height="360"></a>
 
 [Play case 40 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-40.mp4)
 
@@ -732,7 +744,7 @@ Type: Demo | Date: 2026-07-10
 
 JetBrains는 GPT-5.6에 5분 동안 짧은 CEO 메시지를 제공합니다. 비디오에서는 합성 지표를 사용하여 반응형 제품 상태 명령 센터 대시보드를 계획하고 구축하는 방법을 보여줍니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-41.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-41-poster.jpg" alt="Case 41 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-41.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-41-poster.jpg" alt="Case 41 video poster" height="360"></a>
 
 [Play case 41 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-41.mp4)
 
@@ -747,7 +759,7 @@ Type: Demo | Date: 2026-07-10
 
 Wes Roth는 Elder Scrolls 스타일 게임에서 GPT-5.6이 4시간 20분 동안 작동했다고 보고하고 현재 시각적 결과를 공유합니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-42.jpg" alt="Case 42 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-42.jpg" alt="Case 42 source media" height="360">
 
 Type: Demo | Date: 2026-07-10
 
@@ -760,7 +772,7 @@ Type: Demo | Date: 2026-07-10
 
 Nick Baumann은 하위 에이전트가 활성화되었을 때 GPT-5.6의 점수가 더 높고 벤치마크를 더 빠르게 완료하는 것을 보여주는 비교를 게시합니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-43.jpg" alt="Case 43 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-43.jpg" alt="Case 43 source media" height="360">
 
 Type: Benchmark | Date: 2026-07-10
 
@@ -773,7 +785,7 @@ Type: Benchmark | Date: 2026-07-10
 
 NVIDIA는 팀이 OpenAI와의 인프라 협업과 함께 워크플로 자동화 및 더 빠른 통찰력 발견을 위해 ChatGPT Work를 사용하고 있다고 보고합니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-44.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-44-poster.jpg" alt="Case 44 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-44.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-44-poster.jpg" alt="Case 44 video poster" height="360"></a>
 
 [Play case 44 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-44.mp4)
 
@@ -790,7 +802,7 @@ Type: Integration | Date: 2026-07-10
 
 Devin은 Devin Desktop에서 GPT-5.6 가용성을 발표하고 Cognition에서 제품 통합 이미지를 제공합니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-45.jpg" alt="Case 45 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-45.jpg" alt="Case 45 source media" height="360">
 
 Media by [@cognition](https://x.com/cognition) from [the original post](https://x.com/cognition/status/2075267966585716961).
 
@@ -805,7 +817,7 @@ Type: Integration | Date: 2026-07-10
 
 작성자는 GPT-5.6 계층 및 계획에 따라 대략 5시간의 사용 범위를 요약하는 동시에 작업 가중치로 인해 소비가 변경되고 관찰된 한도가 더 빨리 소모될 수 있음을 경고합니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-46.jpg" alt="Case 46 source media" width="760">
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-46.jpg" alt="Case 46 source media" height="360">
 
 Type: Limit | Date: 2026-07-09
 
@@ -818,9 +830,12 @@ Type: Limit | Date: 2026-07-09
 
 작성자는 GPT-5.6으로 작성된 스토리를 실질적으로 개선된 것으로 제시하지만 여전히 AI 생성으로 읽혀 예제의 페이지를 제공한다는 점을 명시적으로 언급합니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-47-1.jpg" alt="Case 47 source media 1" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-47-2.jpg" alt="Case 47 source media 2" width="760">
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-47-1.jpg" alt="Case 47 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-47-2.jpg" alt="Case 47 source media 2" height="240"></td>
+  </tr>
+</table>
 
 Media by [@inannanigin](https://x.com/inannanigin) from [the original post](https://x.com/inannanigin/status/2075147826259021909).
 
@@ -835,7 +850,7 @@ Type: Limit | Date: 2026-07-10
 
 제작자는 WorkIQ의 조직 컨텍스트 레이어 및 고품질 슬라이드 이미지 생성과 함께 Microsoft 365 Copilot의 GPT-5.6을 강조합니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-48.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-48-poster.jpg" alt="Case 48 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-48.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-48-poster.jpg" alt="Case 48 video poster" height="360"></a>
 
 [Play case 48 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-48.mp4)
 
@@ -852,7 +867,7 @@ Type: Integration | Date: 2026-07-10
 
 OpenAI 개발자는 통합 앱이 Codex와 ChatGPT Work, Chrome 확장 프로그램, 개선된 브라우저 및 더 빠른 GPT-5.6 컴퓨터 사용을 결합한 것으로 설명합니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-49.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-49-poster.jpg" alt="Case 49 video poster" width="760"></a>
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-49.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-49-poster.jpg" alt="Case 49 video poster" height="360"></a>
 
 [Play case 49 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-49.mp4)
 
@@ -869,11 +884,16 @@ Type: Integration | Date: 2026-07-10
 
 Andrew Ambrosino는 Work와 Codex가 기능과 작업 기록을 공유한다고 설명합니다. Codex는 코드, 차이점 및 끌어오기 요청을 노출하는 반면 Work는 이러한 세부 정보를 추상화하고 Chat은 빠른 탐색을 처리합니다.
 
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-50-1.jpg" alt="Case 50 source media 1" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-50-2.jpg" alt="Case 50 source media 2" width="760">
-
-<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-50-3.jpg" alt="Case 50 source media 3" width="760">
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-50-1.jpg" alt="Case 50 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-50-2.jpg" alt="Case 50 source media 2" height="240"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-50-3.jpg" alt="Case 50 source media 3" height="240"></td>
+    <td></td>
+  </tr>
+</table>
 
 Type: Integration | Date: 2026-07-10
 

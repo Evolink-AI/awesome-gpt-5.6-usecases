@@ -331,13 +331,24 @@ def render_case_media(case: dict) -> list[str]:
     lines: list[str] = []
     if case["media_type"] == "video":
         lines.extend([
-            f'<a href="{case["playable_video_url"]}"><img src="{case["poster_url"]}" alt="Case {number} video poster" width="760"></a>', "",
+            f'<a href="{case["playable_video_url"]}"><img src="{case["poster_url"]}" alt="Case {number} video poster" height="360"></a>', "",
             f'[Play case {number} demo video]({case["playable_video_url"]})', "",
         ])
     else:
-        for index, url in enumerate(case.get("r2_media_urls", []), start=1):
-            suffix = f" {index}" if len(case.get("r2_media_urls", [])) > 1 else ""
-            lines.extend([f'<img src="{url}" alt="Case {number} source media{suffix}" width="760">', ""])
+        urls = case.get("r2_media_urls", [])
+        if len(urls) == 1:
+            lines.extend([f'<img src="{urls[0]}" alt="Case {number} source media" height="360">', ""])
+        else:
+            lines.extend(["<table>", "  <tr>"])
+            for index, url in enumerate(urls, start=1):
+                if index > 1 and index % 2 == 1:
+                    lines.extend(["  </tr>", "  <tr>"])
+                lines.append(
+                    f'    <td align="center"><img src="{url}" alt="Case {number} source media {index}" height="240"></td>'
+                )
+            if len(urls) % 2 == 1:
+                lines.append("    <td></td>")
+            lines.extend(["  </tr>", "</table>", ""])
     if case.get("media_source_url") and case["media_source_url"] != case["source_url"]:
         lines.extend([
             f'Media by [{case["media_author_handle"]}]({case["media_author_url"]}) from [the original post]({case["media_source_url"]}).', "",
