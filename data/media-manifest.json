@@ -1,0 +1,20 @@
+{
+  "bucket": "image",
+  "public_base_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev",
+  "key_prefix": "github-repo-media",
+  "repository": "Evolink-AI/awesome-gpt-5.6-usecases",
+  "files": {
+    "images/banner-template.png": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/images/banner-template.png",
+    "images/de.png": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/images/de.png",
+    "images/en.png": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/images/en.png",
+    "images/es.png": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/images/es.png",
+    "images/fr.png": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/images/fr.png",
+    "images/ja.png": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/images/ja.png",
+    "images/ko.png": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/images/ko.png",
+    "images/pt.png": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/images/pt.png",
+    "images/ru.png": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/images/ru.png",
+    "images/tr.png": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/images/tr.png",
+    "images/zh-tw.png": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/images/zh-tw.png",
+    "images/zh.png": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/images/zh.png"
+  }
+}

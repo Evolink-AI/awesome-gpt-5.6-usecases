@@ -1,0 +1,41 @@
+name: Propose a use case
+description: Propose a source-backed GPT-5.6 workflow, tutorial, integration, benchmark, or limitation.
+title: "[Case]: "
+labels: ["use-case"]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Public source URL
+      description: Link to the original public post, tutorial, demo, or benchmark.
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Creator profile URL
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow and evidence
+      description: Explain the input, action, result, and any limitations without inventing missing details.
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Evidence type
+      options: [Demo, Tutorial, Evaluation, Integration, Benchmark, Limit]
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Source checks
+      options:
+        - label: The source is public and specifically concerns GPT-5.6.
+          required: true
+        - label: I did not reconstruct a missing prompt, result, date, price, or benchmark claim.
+          required: true

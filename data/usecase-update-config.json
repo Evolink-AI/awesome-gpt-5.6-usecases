@@ -1,0 +1,27 @@
+{
+  "public_artifact_boundary": {
+    "json": "public",
+    "scripts": "public"
+  },
+  "namespace": {
+    "heading_prefix": "Case",
+    "anchor_prefix": "case",
+    "section_anchor": "",
+    "numbering_order": "document",
+    "menu_policy": "per-case",
+    "category_anchors": [
+      "coding-and-builds",
+      "agents-and-workflows",
+      "creative-and-product-work",
+      "evaluation-and-limits"
+    ]
+  },
+  "requirements": {
+    "takeaway": true,
+    "localized_title_translation": true
+  },
+  "structured_data": {
+    "path": "data/gpt-5.6-usecase-curated.json",
+    "items_key": "items"
+  }
+}

@@ -1,0 +1,10 @@
+.DS_Store
+.env
+node_modules/
+*.log
+.codex/
+github-repo-review-action-list.md
+__pycache__/
+*.pyc
+__pycache__/
+*.pyc
