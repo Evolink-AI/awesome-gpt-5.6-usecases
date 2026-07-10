@@ -19,13 +19,20 @@
       "prompt_boundary": "No exact reusable prompt text is present in the supplied JSON; omit the prompt block.",
       "prompt_public": false,
       "prompt_text": "",
-      "media_type": "none",
+      "media_type": "video",
       "source_engagement": {
         "like_count": 3985,
         "view_count": 434763,
         "bookmark_count": 4213,
         "retweet_count": 0
-      }
+      },
+      "poster_path": "media/cases/case-01-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-01-poster.jpg",
+      "playable_video_path": "media/cases/case-01.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-01.mp4",
+      "media_source_url": "https://x.com/skirano/status/2075283308276220011",
+      "media_author_handle": "@skirano",
+      "media_author_url": "https://x.com/skirano"
     },
     {
       "public_number": 2,
@@ -46,13 +53,20 @@
       "prompt_boundary": "No exact reusable prompt text is present in the supplied JSON; omit the prompt block.",
       "prompt_public": false,
       "prompt_text": "",
-      "media_type": "none",
+      "media_type": "video",
       "source_engagement": {
         "like_count": 3095,
         "view_count": 631808,
         "bookmark_count": 946,
         "retweet_count": 0
-      }
+      },
+      "poster_path": "media/cases/case-02-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-02-poster.jpg",
+      "playable_video_path": "media/cases/case-02.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-02.mp4",
+      "media_source_url": "https://x.com/mattshumer_/status/2075268746315268138",
+      "media_author_handle": "@mattshumer_",
+      "media_author_url": "https://x.com/mattshumer_"
     },
     {
       "public_number": 3,
@@ -73,13 +87,20 @@
       "prompt_boundary": "No exact reusable prompt text is present in the supplied JSON; omit the prompt block.",
       "prompt_public": false,
       "prompt_text": "",
-      "media_type": "none",
+      "media_type": "video",
       "source_engagement": {
         "like_count": 178,
         "view_count": 33583,
         "bookmark_count": 40,
         "retweet_count": 9
-      }
+      },
+      "poster_path": "media/cases/case-03-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-03-poster.jpg",
+      "playable_video_path": "media/cases/case-03.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-03.mp4",
+      "media_source_url": "https://x.com/OpenAIDevs/status/2075279941906936035",
+      "media_author_handle": "@OpenAIDevs",
+      "media_author_url": "https://x.com/OpenAIDevs"
     },
     {
       "public_number": 4,
@@ -100,13 +121,20 @@
       "prompt_boundary": "No exact reusable prompt text is present in the supplied JSON; omit the prompt block.",
       "prompt_public": false,
       "prompt_text": "",
-      "media_type": "none",
+      "media_type": "video",
       "source_engagement": {
         "like_count": 1287,
         "view_count": 101431,
         "bookmark_count": 1923,
         "retweet_count": 0
-      }
+      },
+      "poster_path": "media/cases/case-04-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-04-poster.jpg",
+      "playable_video_path": "media/cases/case-04.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-04.mp4",
+      "media_source_url": "https://x.com/gregisenberg/status/2075278451116818795",
+      "media_author_handle": "@gregisenberg",
+      "media_author_url": "https://x.com/gregisenberg"
     },
     {
       "public_number": 5,
@@ -127,13 +155,22 @@
       "prompt_boundary": "No exact reusable prompt text is present in the supplied JSON; omit the prompt block.",
       "prompt_public": false,
       "prompt_text": "",
-      "media_type": "none",
+      "media_type": "image",
       "source_engagement": {
         "like_count": 99,
         "view_count": 8254,
         "bookmark_count": 14,
         "retweet_count": 0
-      }
+      },
+      "media_paths": [
+        "media/cases/case-05.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-05.jpg"
+      ],
+      "media_source_url": "https://x.com/AdamHoltererer/status/2075338169000620322",
+      "media_author_handle": "@AdamHoltererer",
+      "media_author_url": "https://x.com/AdamHoltererer"
     },
     {
       "public_number": 6,
@@ -154,13 +191,20 @@
       "prompt_boundary": "No exact reusable prompt text is present in the supplied JSON; omit the prompt block.",
       "prompt_public": false,
       "prompt_text": "",
-      "media_type": "none",
+      "media_type": "video",
       "source_engagement": {
         "like_count": 228,
         "view_count": 34105,
         "bookmark_count": 361,
         "retweet_count": 9
-      }
+      },
+      "poster_path": "media/cases/case-06-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-06-poster.jpg",
+      "playable_video_path": "media/cases/case-06.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-06.mp4",
+      "media_source_url": "https://x.com/clairevo/status/2075279502331248746",
+      "media_author_handle": "@clairevo",
+      "media_author_url": "https://x.com/clairevo"
     },
     {
       "public_number": 7,
@@ -181,13 +225,20 @@
       "prompt_boundary": "No exact reusable prompt text is present in the supplied JSON; omit the prompt block.",
       "prompt_public": false,
       "prompt_text": "",
-      "media_type": "none",
+      "media_type": "video",
       "source_engagement": {
         "like_count": 105,
         "view_count": 29279,
         "bookmark_count": 28,
         "retweet_count": 4
-      }
+      },
+      "poster_path": "media/cases/case-07-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-07-poster.jpg",
+      "playable_video_path": "media/cases/case-07.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-07.mp4",
+      "media_source_url": "https://x.com/Creatify_AI/status/2075281407887409569",
+      "media_author_handle": "@Creatify_AI",
+      "media_author_url": "https://x.com/Creatify_AI"
     },
     {
       "public_number": 8,
@@ -208,13 +259,20 @@
       "prompt_boundary": "No exact reusable prompt text is present in the supplied JSON; omit the prompt block.",
       "prompt_public": false,
       "prompt_text": "",
-      "media_type": "none",
+      "media_type": "video",
       "source_engagement": {
         "like_count": 210,
         "view_count": 22354,
         "bookmark_count": 42,
         "retweet_count": 22
-      }
+      },
+      "poster_path": "media/cases/case-08-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-08-poster.jpg",
+      "playable_video_path": "media/cases/case-08.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-08.mp4",
+      "media_source_url": "https://x.com/figma/status/2075272590822625405",
+      "media_author_handle": "@figma",
+      "media_author_url": "https://x.com/figma"
     },
     {
       "public_number": 9,
@@ -235,13 +293,22 @@
       "prompt_boundary": "No exact reusable prompt text is present in the supplied JSON; omit the prompt block.",
       "prompt_public": false,
       "prompt_text": "",
-      "media_type": "none",
+      "media_type": "image",
       "source_engagement": {
         "like_count": 1822,
         "view_count": 142041,
         "bookmark_count": 345,
         "retweet_count": 0
-      }
+      },
+      "media_paths": [
+        "media/cases/case-09.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-09.jpg"
+      ],
+      "media_source_url": "https://x.com/ArtificialAnlys/status/2075268970492657905",
+      "media_author_handle": "@ArtificialAnlys",
+      "media_author_url": "https://x.com/ArtificialAnlys"
     },
     {
       "public_number": 10,
@@ -262,13 +329,1372 @@
       "prompt_boundary": "No exact reusable prompt text is present in the supplied JSON; omit the prompt block.",
       "prompt_public": false,
       "prompt_text": "",
-      "media_type": "none",
+      "media_type": "video",
       "source_engagement": {
         "like_count": 738,
         "view_count": 470355,
         "bookmark_count": 319,
         "retweet_count": 0
-      }
+      },
+      "poster_path": "media/cases/case-10-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-10-poster.jpg",
+      "playable_video_path": "media/cases/case-10.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-10.mp4",
+      "media_source_url": "https://x.com/atomic_chat_hq/status/2075323372574068947",
+      "media_author_handle": "@atomic_chat_hq",
+      "media_author_url": "https://x.com/atomic_chat_hq"
+    },
+    {
+      "public_number": 11,
+      "dedup_key": "https://x.com/OpenAI/status/2075274271845404744",
+      "source_url": "https://x.com/OpenAI/status/2075274271845404744",
+      "author_url": "https://x.com/OpenAI",
+      "author_handle": "@OpenAI",
+      "title": "Turn Goals Into Finished Work",
+      "takeaway": "Use ChatGPT Work to act across apps and files, stay with a project for hours, and return finished work.",
+      "body_notes": "OpenAI introduces ChatGPT Work as a GPT-5.6-powered agent that gathers context across apps and files and can continue a project for hours until it produces a finished result.",
+      "type": "Demo",
+      "date": "2026-07-10",
+      "category": "Agents & Workflows",
+      "category_key": "agents",
+      "decision": "high_confidence_update",
+      "decision_reason": "First-party demonstration with a defined context boundary, long-running execution, and finished-work output.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 18006,
+        "view_count": 3593423
+      },
+      "media_type": "video",
+      "poster_path": "media/cases/case-11-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-11-poster.jpg",
+      "playable_video_path": "media/cases/case-11.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-11.mp4",
+      "media_source_url": "https://x.com/OpenAI/status/2075274271845404744",
+      "media_author_handle": "@OpenAI",
+      "media_author_url": "https://x.com/OpenAI"
+    },
+    {
+      "public_number": 12,
+      "dedup_key": "https://x.com/OpenAI/status/2075310019185389913",
+      "source_url": "https://x.com/OpenAI/status/2075310019185389913",
+      "author_url": "https://x.com/OpenAI",
+      "author_handle": "@OpenAI",
+      "title": "Automate Work on a Broccoli Farm",
+      "takeaway": "Describe an operational problem on site, then use GPT-5.6 to build a tracking and automation workflow around it.",
+      "body_notes": "The launch video follows farmer Hiroki Tomiyasu asking for a system to track farm work. It shows Codex being used to automate a greenhouse ventilation process despite the farmer not being an engineer.",
+      "type": "Demo",
+      "date": "2026-07-10",
+      "category": "Agents & Workflows",
+      "category_key": "agents",
+      "decision": "high_confidence_update",
+      "decision_reason": "The source video establishes the operator, real environment, spoken requirement, implementation, and farm automation result.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 5305,
+        "view_count": 671437
+      },
+      "media_type": "video",
+      "poster_path": "media/cases/case-12-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-12-poster.jpg",
+      "playable_video_path": "media/cases/case-12.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-12.mp4",
+      "media_source_url": "https://x.com/OpenAI/status/2075310019185389913",
+      "media_author_handle": "@OpenAI",
+      "media_author_url": "https://x.com/OpenAI"
+    },
+    {
+      "public_number": 13,
+      "dedup_key": "https://x.com/bridgemindai/status/2075271377397981641",
+      "source_url": "https://x.com/bridgemindai/status/2075271377397981641",
+      "author_url": "https://x.com/bridgemindai",
+      "author_handle": "@bridgemindai",
+      "title": "Compare Coding Performance Per Dollar",
+      "takeaway": "Compare benchmark score, task cost, and token use together instead of ranking coding models on score alone.",
+      "body_notes": "BridgeMind reports CursorBench results of 70.5% at $17.32 and 103,525 tokens for Fable 5 Max versus 67.2% at $5.22 and 28,320 tokens for GPT-5.6 Sol Max.",
+      "type": "Benchmark",
+      "date": "2026-07-10",
+      "category": "Evaluation & Limits",
+      "category_key": "evaluation",
+      "decision": "high_confidence_update",
+      "decision_reason": "Named benchmark with model settings, scores, per-task cost, and token counts.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 2561,
+        "view_count": 197191
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-13.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-13.jpg"
+      ],
+      "media_source_url": "https://x.com/bridgemindai/status/2075271377397981641",
+      "media_author_handle": "@bridgemindai",
+      "media_author_url": "https://x.com/bridgemindai"
+    },
+    {
+      "public_number": 14,
+      "dedup_key": "https://x.com/arcprize/status/2075270869992264003",
+      "source_url": "https://x.com/arcprize/status/2075270869992264003",
+      "author_url": "https://x.com/arcprize",
+      "author_handle": "@arcprize",
+      "title": "Test Novel Reasoning With ARC-AGI-3",
+      "takeaway": "Use ARC-AGI-3 to test how well a model orients itself in unfamiliar interactive tasks.",
+      "body_notes": "ARC Prize reports a verified 7.8% result for GPT-5.6 Sol and describes it as the first frontier model to beat an ARC-AGI-3 game.",
+      "type": "Benchmark",
+      "date": "2026-07-10",
+      "category": "Evaluation & Limits",
+      "category_key": "evaluation",
+      "decision": "high_confidence_update",
+      "decision_reason": "First-party benchmark organization reports a verified score and explains the capability being measured.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 2312,
+        "view_count": 357687
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-14.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-14.jpg"
+      ],
+      "media_source_url": "https://x.com/arcprize/status/2075270869992264003",
+      "media_author_handle": "@arcprize",
+      "media_author_url": "https://x.com/arcprize"
+    },
+    {
+      "public_number": 15,
+      "dedup_key": "https://x.com/NousResearch/status/2075270903458373640",
+      "source_url": "https://x.com/NousResearch/status/2075270903458373640",
+      "author_url": "https://x.com/NousResearch",
+      "author_handle": "@NousResearch",
+      "title": "Run GPT-5.6 Through Hermes Agent",
+      "takeaway": "Use GPT-5.6 inside Hermes Agent with Nous Portal as the model access layer.",
+      "body_notes": "Nous Research reports GPT-5.6 support in Hermes Agent and availability through Nous Portal, establishing a concrete agent-harness integration route.",
+      "type": "Integration",
+      "date": "2026-07-10",
+      "category": "Coding & Builds",
+      "category_key": "coding",
+      "decision": "high_confidence_update",
+      "decision_reason": "First-party integration announcement names both the agent harness and model access service.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 1926,
+        "view_count": 116140
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-15.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-15.jpg"
+      ],
+      "media_source_url": "https://x.com/NousResearch/status/2075270903458373640",
+      "media_author_handle": "@NousResearch",
+      "media_author_url": "https://x.com/NousResearch"
+    },
+    {
+      "public_number": 16,
+      "dedup_key": "https://x.com/sharifshameem/status/2075279959996928307",
+      "source_url": "https://x.com/sharifshameem/status/2075279959996928307",
+      "author_url": "https://x.com/sharifshameem",
+      "author_handle": "@sharifshameem",
+      "title": "Post-Train a Smaller Model",
+      "takeaway": "Give GPT-5.6 Sol a complete research prompt and use it to design the post-training process for GPT-5.6 Luna.",
+      "body_notes": "Sharif Shameem publishes the full prompt used to have GPT-5.6 Sol research and execute the post-training of GPT-5.6 Luna.",
+      "type": "Demo",
+      "date": "2026-07-10",
+      "category": "Agents & Workflows",
+      "category_key": "agents",
+      "decision": "high_confidence_update",
+      "decision_reason": "The source exposes the complete task prompt, target model, and post-training outcome.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 1594,
+        "view_count": 192242
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-16.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-16.jpg"
+      ],
+      "media_source_url": "https://x.com/sharifshameem/status/2075279959996928307",
+      "media_author_handle": "@sharifshameem",
+      "media_author_url": "https://x.com/sharifshameem"
+    },
+    {
+      "public_number": 17,
+      "dedup_key": "https://x.com/datacurve/status/2075336589866316091",
+      "source_url": "https://x.com/datacurve/status/2075336589866316091",
+      "author_url": "https://x.com/datacurve",
+      "author_handle": "@datacurve",
+      "title": "Compare Tiers on DeepSWE",
+      "takeaway": "Compare Sol, Terra, and Luna on the same software-engineering leaderboard before selecting a tier.",
+      "body_notes": "DataCurve reports GPT-5.6 at the top of the DeepSWE leaderboard with a 73% score and publishes results for all three GPT-5.6 tiers.",
+      "type": "Benchmark",
+      "date": "2026-07-10",
+      "category": "Evaluation & Limits",
+      "category_key": "evaluation",
+      "decision": "high_confidence_update",
+      "decision_reason": "Named leaderboard, explicit score, and cross-tier comparison.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 1529,
+        "view_count": 126596
+      },
+      "media_type": "video",
+      "poster_path": "media/cases/case-17-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-17-poster.jpg",
+      "playable_video_path": "media/cases/case-17.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-17.mp4",
+      "media_source_url": "https://x.com/datacurve/status/2075336589866316091",
+      "media_author_handle": "@datacurve",
+      "media_author_url": "https://x.com/datacurve"
+    },
+    {
+      "public_number": 18,
+      "dedup_key": "https://x.com/theo/status/2075439348267577790",
+      "source_url": "https://x.com/theo/status/2075439348267577790",
+      "author_url": "https://x.com/theo",
+      "author_handle": "@theo",
+      "title": "Audit a Month of Agent Builds",
+      "takeaway": "Review aggregate agent activity and completed projects before drawing conclusions from a large model trial.",
+      "body_notes": "Theo Browne reviews a month of GPT-5.6 Sol use. The video shows an activity audit spanning 67 projects and hundreds of thousands of prompts, then walks through what the agents actually built.",
+      "type": "Evaluation",
+      "date": "2026-07-10",
+      "category": "Evaluation & Limits",
+      "category_key": "evaluation",
+      "decision": "high_confidence_update",
+      "decision_reason": "Long-form review backed by an on-screen fleet-work audit and concrete project outputs.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 1446,
+        "view_count": 95841
+      },
+      "media_type": "video",
+      "poster_path": "media/cases/case-18-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-18-poster.jpg",
+      "playable_video_path": "media/cases/case-18.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-18.mp4",
+      "media_source_url": "https://x.com/theo/status/2075439348267577790",
+      "media_author_handle": "@theo",
+      "media_author_url": "https://x.com/theo"
+    },
+    {
+      "public_number": 19,
+      "dedup_key": "https://x.com/MatthewBerman/status/2075267049266487689",
+      "source_url": "https://x.com/MatthewBerman/status/2075267049266487689",
+      "author_url": "https://x.com/MatthewBerman",
+      "author_handle": "@MatthewBerman",
+      "title": "Run Multi-Day Browser and Coding Tasks",
+      "takeaway": "Use one agent for small edits, browser operations, and multi-day builds, while retaining approval for consequential actions.",
+      "body_notes": "Matthew Berman reports multi-day game and Excel builds, Supabase resizing through browser control, and a Google Workspace migration that paused before a consequential save. He also records remaining supervision and design limitations.",
+      "type": "Evaluation",
+      "date": "2026-07-10",
+      "category": "Agents & Workflows",
+      "category_key": "agents",
+      "decision": "high_confidence_update",
+      "decision_reason": "Detailed two-month review with named tasks, observed controls, useful failures, and explicit limitations.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 1390,
+        "view_count": 145813
+      },
+      "media_type": "video",
+      "poster_path": "media/cases/case-19-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-19-poster.jpg",
+      "playable_video_path": "media/cases/case-19.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-19.mp4",
+      "media_source_url": "https://x.com/MatthewBerman/status/2075267049266487689",
+      "media_author_handle": "@MatthewBerman",
+      "media_author_url": "https://x.com/MatthewBerman"
+    },
+    {
+      "public_number": 20,
+      "dedup_key": "https://x.com/CodexReleases/status/2075265220054782386",
+      "source_url": "https://x.com/CodexReleases/status/2075265220054782386",
+      "author_url": "https://x.com/CodexReleases",
+      "author_handle": "@CodexReleases",
+      "title": "Review Pull Requests From Desktop",
+      "takeaway": "Use the unified desktop app for inline edits, pull-request review, multi-repository work, and faster Computer Use.",
+      "body_notes": "Codex Releases documents the desktop update: inline Markdown and code editing, GitHub pull-request review in the sidebar, multi-repository project support, and faster GPT-5.6 Computer Use.",
+      "type": "Integration",
+      "date": "2026-07-10",
+      "category": "Coding & Builds",
+      "category_key": "coding",
+      "decision": "high_confidence_update",
+      "decision_reason": "Concrete product workflow with a specific set of coding and review features.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 1140,
+        "view_count": 116253
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-20.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-20.jpg"
+      ],
+      "media_source_url": "https://x.com/CodexReleases/status/2075265220054782386",
+      "media_author_handle": "@CodexReleases",
+      "media_author_url": "https://x.com/CodexReleases"
+    },
+    {
+      "public_number": 21,
+      "dedup_key": "https://x.com/OpenAI/status/2075271423992680532",
+      "source_url": "https://x.com/OpenAI/status/2075271423992680532",
+      "author_url": "https://x.com/OpenAI",
+      "author_handle": "@OpenAI",
+      "title": "Measure Agent Performance and Cost",
+      "takeaway": "Compare agent benchmark score and estimated cost at the same reasoning setting.",
+      "body_notes": "OpenAI reports GPT-5.6 Sol at 53.6 on Agents' Last Exam, 13.1 points above Claude Fable 5 adaptive, and says medium reasoning beats Fable 5 by 11.4 points at about one-quarter the estimated cost.",
+      "type": "Benchmark",
+      "date": "2026-07-10",
+      "category": "Evaluation & Limits",
+      "category_key": "evaluation",
+      "decision": "high_confidence_update",
+      "decision_reason": "First-party benchmark claim includes score deltas, reasoning setting, and estimated cost comparison.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 1082,
+        "view_count": 112875
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-21.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-21.jpg"
+      ],
+      "media_source_url": "https://x.com/OpenAI/status/2075271423992680532",
+      "media_author_handle": "@OpenAI",
+      "media_author_url": "https://x.com/OpenAI"
+    },
+    {
+      "public_number": 22,
+      "dedup_key": "https://x.com/pankajkumar_dev/status/2075292795557040391",
+      "source_url": "https://x.com/pankajkumar_dev/status/2075292795557040391",
+      "author_url": "https://x.com/pankajkumar_dev",
+      "author_handle": "@pankajkumar_dev",
+      "title": "Build an Interactive Earth Clone",
+      "takeaway": "Use a long-running build to combine 3D terrain, satellite imagery, weather, search, and cinematic navigation.",
+      "body_notes": "Pankaj Kumar reports using GPT-5.6 Sol Ultra and more than 30 million tokens to build a Google Earth clone with terrain, imagery, landmarks, weather, day and night cycles, tours, and global search.",
+      "type": "Demo",
+      "date": "2026-07-10",
+      "category": "Coding & Builds",
+      "category_key": "coding",
+      "decision": "high_confidence_update",
+      "decision_reason": "Concrete output, model setting, feature list, and token scale are all stated.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 970,
+        "view_count": 104339
+      },
+      "media_type": "video",
+      "poster_path": "media/cases/case-22-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-22-poster.jpg",
+      "playable_video_path": "media/cases/case-22.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-22.mp4",
+      "media_source_url": "https://x.com/pankajkumar_dev/status/2075292795557040391",
+      "media_author_handle": "@pankajkumar_dev",
+      "media_author_url": "https://x.com/pankajkumar_dev"
+    },
+    {
+      "public_number": 23,
+      "dedup_key": "https://x.com/OpenAI/status/2075271425548795909",
+      "source_url": "https://x.com/OpenAI/status/2075271425548795909",
+      "author_url": "https://x.com/OpenAI",
+      "author_handle": "@OpenAI",
+      "title": "Benchmark Coding Efficiency",
+      "takeaway": "Evaluate coding score together with output tokens, elapsed time, and task cost.",
+      "body_notes": "OpenAI reports GPT-5.6 Sol at 80.0 on the Artificial Analysis Coding Agent Index, 2.8 points above Fable 5 while using less than half the output tokens and time and costing about one-third less.",
+      "type": "Benchmark",
+      "date": "2026-07-10",
+      "category": "Evaluation & Limits",
+      "category_key": "evaluation",
+      "decision": "high_confidence_update",
+      "decision_reason": "Named index with score, efficiency, time, and cost comparisons.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 915,
+        "view_count": 194860
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-23.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-23.jpg"
+      ],
+      "media_source_url": "https://x.com/OpenAI/status/2075271425548795909",
+      "media_author_handle": "@OpenAI",
+      "media_author_url": "https://x.com/OpenAI"
+    },
+    {
+      "public_number": 24,
+      "dedup_key": "https://x.com/danshipper/status/2075263920613277809",
+      "source_url": "https://x.com/danshipper/status/2075263920613277809",
+      "author_url": "https://x.com/danshipper",
+      "author_handle": "@danshipper",
+      "title": "Choose Models by Task Shape",
+      "takeaway": "Use GPT-5.6 for broad knowledge-work loops and implementation, while reserving other models for the hardest architecture work.",
+      "body_notes": "Dan Shipper's day-zero review covers coding, writing, design, email, meeting decisions, candidate search, marketplace scanning, and meal logging. It rates GPT-5.6 as fast and practical while noting weaker top-end coding and design performance.",
+      "type": "Evaluation",
+      "date": "2026-07-10",
+      "category": "Evaluation & Limits",
+      "category_key": "evaluation",
+      "decision": "high_confidence_update",
+      "decision_reason": "Multi-domain review includes workflows, comparative scores, operating guidance, and negative findings.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 794,
+        "view_count": 132856
+      },
+      "media_type": "video",
+      "poster_path": "media/cases/case-24-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-24-poster.jpg",
+      "playable_video_path": "media/cases/case-24.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-24.mp4",
+      "media_source_url": "https://x.com/danshipper/status/2075263920613277809",
+      "media_author_handle": "@danshipper",
+      "media_author_url": "https://x.com/danshipper"
+    },
+    {
+      "public_number": 25,
+      "dedup_key": "https://x.com/bindureddy/status/2075295728373833801",
+      "source_url": "https://x.com/bindureddy/status/2075295728373833801",
+      "author_url": "https://x.com/bindureddy",
+      "author_handle": "@bindureddy",
+      "title": "Route Complex Builds in Max Mode",
+      "takeaway": "Route build tasks between GPT-5.6 Sol and Fable 5 while keeping deployment infrastructure in one agent environment.",
+      "body_notes": "Bindu Reddy describes Abacus AI Max Mode as routing between the two models for SaaS, custom workflows, mobile apps, and always-on services with backend infrastructure included.",
+      "type": "Integration",
+      "date": "2026-07-10",
+      "category": "Coding & Builds",
+      "category_key": "coding",
+      "decision": "high_confidence_update",
+      "decision_reason": "Named routing integration, supported output classes, and infrastructure boundary.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 684,
+        "view_count": 2517882
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-25.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-25.jpg"
+      ],
+      "media_source_url": "https://x.com/bindureddy/status/2075295728373833801",
+      "media_author_handle": "@bindureddy",
+      "media_author_url": "https://x.com/bindureddy"
+    },
+    {
+      "public_number": 26,
+      "dedup_key": "https://x.com/github/status/2075274864110293060",
+      "source_url": "https://x.com/github/status/2075274864110293060",
+      "author_url": "https://x.com/github",
+      "author_handle": "@github",
+      "title": "Select a GPT-5.6 Copilot Tier",
+      "takeaway": "Match Sol, Terra, or Luna to long-running reasoning, everyday coding, or fast low-cost tasks in GitHub Copilot.",
+      "body_notes": "GitHub describes Sol as the high-ceiling option for large codebases and long-running agent work, Terra as the balanced default, and Luna as the lightweight low-cost choice.",
+      "type": "Integration",
+      "date": "2026-07-10",
+      "category": "Coding & Builds",
+      "category_key": "coding",
+      "decision": "high_confidence_update",
+      "decision_reason": "First-party Copilot integration with explicit tier-selection guidance.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 633,
+        "view_count": 109824
+      },
+      "media_type": "video",
+      "poster_path": "media/cases/case-26-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-26-poster.jpg",
+      "playable_video_path": "media/cases/case-26.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-26.mp4",
+      "media_source_url": "https://x.com/github/status/2075274864110293060",
+      "media_author_handle": "@github",
+      "media_author_url": "https://x.com/github"
+    },
+    {
+      "public_number": 27,
+      "dedup_key": "https://x.com/OpenAI/status/2075271429336273153",
+      "source_url": "https://x.com/OpenAI/status/2075271429336273153",
+      "author_url": "https://x.com/OpenAI",
+      "author_handle": "@OpenAI",
+      "title": "Inspect and Refine Rendered Designs",
+      "takeaway": "Have the agent inspect its rendered output, catch visual or functional defects, and revise before handoff.",
+      "body_notes": "OpenAI says GPT-5.6 combines stronger design judgment with Computer Use so it can inspect the rendered result rather than only generating code or content.",
+      "type": "Demo",
+      "date": "2026-07-10",
+      "category": "Creative & Product Work",
+      "category_key": "creative",
+      "decision": "high_confidence_update",
+      "decision_reason": "First-party description of an inspect-and-refine loop with visual and functional checks.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 490,
+        "view_count": 51099
+      },
+      "media_type": "video",
+      "poster_path": "media/cases/case-27-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-27-poster.jpg",
+      "playable_video_path": "media/cases/case-27.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-27.mp4",
+      "media_source_url": "https://x.com/OpenAI/status/2075271429336273153",
+      "media_author_handle": "@OpenAI",
+      "media_author_url": "https://x.com/OpenAI"
+    },
+    {
+      "public_number": 28,
+      "dedup_key": "https://x.com/alxndrdavies/status/2075279477626564933",
+      "source_url": "https://x.com/alxndrdavies/status/2075279477626564933",
+      "author_url": "https://x.com/alxndrdavies",
+      "author_handle": "@alxndrdavies",
+      "title": "Account for Universal Cyber Jailbreaks",
+      "takeaway": "Treat cybersecurity safeguards as a deployment constraint because long-form agentic attacks remained reachable in testing.",
+      "body_notes": "The UK AI Security Institute reports universal jailbreaks in every testing round, including long-form vulnerability discovery and exploit-development tasks.",
+      "type": "Limit",
+      "date": "2026-07-10",
+      "category": "Evaluation & Limits",
+      "category_key": "evaluation",
+      "decision": "high_confidence_update",
+      "decision_reason": "Independent safety evaluator reports a repeated failure mode and the affected task domains.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 376,
+        "view_count": 72866
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-28.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-28.jpg"
+      ],
+      "media_source_url": "https://x.com/alxndrdavies/status/2075279477626564933",
+      "media_author_handle": "@alxndrdavies",
+      "media_author_url": "https://x.com/alxndrdavies"
+    },
+    {
+      "public_number": 29,
+      "dedup_key": "https://x.com/ajambrosino/status/2075274372907225402",
+      "source_url": "https://x.com/ajambrosino/status/2075274372907225402",
+      "author_url": "https://x.com/ajambrosino",
+      "author_handle": "@ajambrosino",
+      "title": "Create Interactive Visual Explanations",
+      "takeaway": "Turn data and concepts into charts, walkthroughs, 3D models, simulations, mini-apps, and shareable Sites.",
+      "body_notes": "Andrew Ambrosino describes GPT-5.6 generating visualizations and interactive tools inline, including steerable simulations and inbox utilities that can be published as Sites.",
+      "type": "Demo",
+      "date": "2026-07-10",
+      "category": "Creative & Product Work",
+      "category_key": "creative",
+      "decision": "high_confidence_update",
+      "decision_reason": "Named output formats and a concrete publication path are provided.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 163,
+        "view_count": 21031
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-29.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-29.jpg"
+      ],
+      "media_source_url": "https://x.com/ajambrosino/status/2075274372907225402",
+      "media_author_handle": "@ajambrosino",
+      "media_author_url": "https://x.com/ajambrosino"
+    },
+    {
+      "public_number": 30,
+      "dedup_key": "https://x.com/super_bonochin/status/2075350868787163589",
+      "source_url": "https://x.com/super_bonochin/status/2075350868787163589",
+      "author_url": "https://x.com/super_bonochin",
+      "author_handle": "@super_bonochin",
+      "title": "Generate a Presentation Draft",
+      "takeaway": "Use GPT-5.6 to create an initial editable presentation, then review structure and visual quality before delivery.",
+      "body_notes": "The creator tests direct PPTX generation and reports improved output quality, with four source images showing the generated presentation pages.",
+      "type": "Demo",
+      "date": "2026-07-10",
+      "category": "Creative & Product Work",
+      "category_key": "creative",
+      "decision": "high_confidence_update",
+      "decision_reason": "The source pairs a stated PPTX workflow with multiple visible output pages.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 159,
+        "view_count": 74886
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-30-1.jpg",
+        "media/cases/case-30-2.jpg",
+        "media/cases/case-30-3.jpg",
+        "media/cases/case-30-4.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-1.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-2.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-3.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-30-4.jpg"
+      ],
+      "media_source_url": "https://x.com/super_bonochin/status/2075350868787163589",
+      "media_author_handle": "@super_bonochin",
+      "media_author_url": "https://x.com/super_bonochin"
+    },
+    {
+      "public_number": 31,
+      "dedup_key": "https://x.com/Azure/status/2075275078237852100",
+      "source_url": "https://x.com/Azure/status/2075275078237852100",
+      "author_url": "https://x.com/Azure",
+      "author_handle": "@Azure",
+      "title": "Deploy Agents in Microsoft Foundry",
+      "takeaway": "Use GPT-5.6 with hosted agents in Microsoft Foundry for managed enterprise agent workflows.",
+      "body_notes": "Microsoft Azure announces GPT-5.6 general availability alongside general availability for hosted agents in Foundry Agent Service.",
+      "type": "Integration",
+      "date": "2026-07-10",
+      "category": "Agents & Workflows",
+      "category_key": "agents",
+      "decision": "high_confidence_update",
+      "decision_reason": "First-party platform integration with a named hosted-agent runtime.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 155,
+        "view_count": 17588
+      },
+      "media_type": "video",
+      "poster_path": "media/cases/case-31-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-31-poster.jpg",
+      "playable_video_path": "media/cases/case-31.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-31.mp4",
+      "media_source_url": "https://x.com/Azure/status/2075275078237852100",
+      "media_author_handle": "@Azure",
+      "media_author_url": "https://x.com/Azure"
+    },
+    {
+      "public_number": 32,
+      "dedup_key": "https://x.com/Microsoft365/status/2075333378769932371",
+      "source_url": "https://x.com/Microsoft365/status/2075333378769932371",
+      "author_url": "https://x.com/Microsoft365",
+      "author_handle": "@Microsoft365",
+      "title": "Use GPT-5.6 Across Microsoft 365",
+      "takeaway": "Apply one preferred model across Word, Excel, PowerPoint, Chat, and Copilot Cowork knowledge-work tasks.",
+      "body_notes": "Microsoft 365 reports GPT-5.6 rolling out across its productivity apps and Copilot Cowork, optimized with OpenAI for knowledge work.",
+      "type": "Integration",
+      "date": "2026-07-10",
+      "category": "Agents & Workflows",
+      "category_key": "agents",
+      "decision": "high_confidence_update",
+      "decision_reason": "First-party suite integration names the applications and workload class.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 153,
+        "view_count": 16874
+      },
+      "media_type": "video",
+      "poster_path": "media/cases/case-32-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-32-poster.jpg",
+      "playable_video_path": "media/cases/case-32.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-32.mp4",
+      "media_source_url": "https://x.com/Microsoft365/status/2075333378769932371",
+      "media_author_handle": "@Microsoft365",
+      "media_author_url": "https://x.com/Microsoft365"
+    },
+    {
+      "public_number": 33,
+      "dedup_key": "https://x.com/Akasheth_/status/2075453343485292641",
+      "source_url": "https://x.com/Akasheth_/status/2075453343485292641",
+      "author_url": "https://x.com/Akasheth_",
+      "author_handle": "@Akasheth_",
+      "title": "Build a Subscription Product Page",
+      "takeaway": "Turn a startup idea into a working subscription product page, then inspect pricing and checkout states before launch.",
+      "body_notes": "The creator reports building a first startup in minutes; the video shows a completed product page and a $5.99 subscription modal.",
+      "type": "Demo",
+      "date": "2026-07-10",
+      "category": "Coding & Builds",
+      "category_key": "coding",
+      "decision": "high_confidence_update",
+      "decision_reason": "The source shows a concrete web product output and monetization state while the description remains limited to visible evidence.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 143,
+        "view_count": 3875
+      },
+      "media_type": "video",
+      "poster_path": "media/cases/case-33-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-33-poster.jpg",
+      "playable_video_path": "media/cases/case-33.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-33.mp4",
+      "media_source_url": "https://x.com/Akasheth_/status/2075453343485292641",
+      "media_author_handle": "@Akasheth_",
+      "media_author_url": "https://x.com/Akasheth_"
+    },
+    {
+      "public_number": 34,
+      "dedup_key": "https://x.com/btibor91/status/2075335905599271268",
+      "source_url": "https://x.com/btibor91/status/2075335905599271268",
+      "author_url": "https://x.com/btibor91",
+      "author_handle": "@btibor91",
+      "title": "Build a Visual Prompt Studio",
+      "takeaway": "Dictate a product idea, then have the agent implement a canvas tool that converts arranged boxes into structured image prompts.",
+      "body_notes": "Tibor Blaho reports that GPT-5.6 Sol built a working Ideogram visual prompt studio from an idea dictated on a phone, including resizable canvas boxes and structured JSON output.",
+      "type": "Demo",
+      "date": "2026-07-10",
+      "category": "Coding & Builds",
+      "category_key": "coding",
+      "decision": "high_confidence_update",
+      "decision_reason": "Detailed input, interface behavior, output format, and working result.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 139,
+        "view_count": 10826
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-34-1.jpg",
+        "media/cases/case-34-2.jpg",
+        "media/cases/case-34-3.jpg",
+        "media/cases/case-34-4.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-1.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-2.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-3.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-34-4.jpg"
+      ],
+      "media_source_url": "https://x.com/btibor91/status/2075335905599271268",
+      "media_author_handle": "@btibor91",
+      "media_author_url": "https://x.com/btibor91"
+    },
+    {
+      "public_number": 35,
+      "dedup_key": "https://x.com/fuuro_ito/status/2075420501133205595",
+      "source_url": "https://x.com/fuuro_ito/status/2075420501133205595",
+      "author_url": "https://x.com/fuuro_ito",
+      "author_handle": "@fuuro_ito",
+      "title": "Organize Detailed Image Instructions",
+      "takeaway": "Use GPT-5.6 to structure long image-generation requirements before sending them to an unchanged image engine.",
+      "body_notes": "The creator reports improved organization of long, detailed image instructions and supplies four resulting images for comparison.",
+      "type": "Demo",
+      "date": "2026-07-10",
+      "category": "Creative & Product Work",
+      "category_key": "creative",
+      "decision": "high_confidence_update",
+      "decision_reason": "The source clearly separates instruction organization from the unchanged image-generation engine and shows outputs.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 123,
+        "view_count": 7050
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-35-1.jpg",
+        "media/cases/case-35-2.jpg",
+        "media/cases/case-35-3.jpg",
+        "media/cases/case-35-4.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-1.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-2.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-3.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-35-4.jpg"
+      ],
+      "media_source_url": "https://x.com/fuuro_ito/status/2075420501133205595",
+      "media_author_handle": "@fuuro_ito",
+      "media_author_url": "https://x.com/fuuro_ito"
+    },
+    {
+      "public_number": 36,
+      "dedup_key": "https://x.com/elliotarledge/status/2075415715306410147",
+      "source_url": "https://x.com/elliotarledge/status/2075415715306410147",
+      "author_url": "https://x.com/elliotarledge",
+      "author_handle": "@elliotarledge",
+      "title": "Audit Kernel Optimizations for Reward Hacking",
+      "takeaway": "Inspect benchmark submissions for grader-specific shortcuts before accepting performance scores.",
+      "body_notes": "Elliot Arledge compares GPT-5.6 Sol and Grok 4.5 on KernelBench-Hard. The audit rejects two Sol cells for reward hacking while reporting per-kernel roofline scores, runtimes, and clean wins.",
+      "type": "Evaluation",
+      "date": "2026-07-10",
+      "category": "Evaluation & Limits",
+      "category_key": "evaluation",
+      "decision": "high_confidence_update",
+      "decision_reason": "Detailed hardware benchmark with audit method, accepted and rejected cells, scores, and runtime evidence.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 121,
+        "view_count": 31018
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-36.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-36.jpg"
+      ],
+      "media_source_url": "https://x.com/elliotarledge/status/2075415715306410147",
+      "media_author_handle": "@elliotarledge",
+      "media_author_url": "https://x.com/elliotarledge"
+    },
+    {
+      "public_number": 37,
+      "dedup_key": "https://x.com/AIna_artmusic/status/2075396775305773374",
+      "source_url": "https://x.com/AIna_artmusic/status/2075396775305773374",
+      "author_url": "https://x.com/AIna_artmusic",
+      "author_handle": "@AIna_artmusic",
+      "title": "Compare Lighting Detail in Game Art",
+      "takeaway": "Compare low-angle lighting outputs side by side when evaluating visual detail.",
+      "body_notes": "The creator publishes two Final Fantasy XIII-inspired images and asks readers to compare GPT-5.6's lighting detail from the same low-angle composition.",
+      "type": "Evaluation",
+      "date": "2026-07-10",
+      "category": "Creative & Product Work",
+      "category_key": "creative",
+      "decision": "high_confidence_update",
+      "decision_reason": "Side-by-side visual evidence supports a narrowly scoped lighting comparison.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 96,
+        "view_count": 3818
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-37-1.jpg",
+        "media/cases/case-37-2.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-37-1.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-37-2.jpg"
+      ],
+      "media_source_url": "https://x.com/AIna_artmusic/status/2075396775305773374",
+      "media_author_handle": "@AIna_artmusic",
+      "media_author_url": "https://x.com/AIna_artmusic"
+    },
+    {
+      "public_number": 38,
+      "dedup_key": "https://x.com/neelajj/status/2075331067662528695",
+      "source_url": "https://x.com/neelajj/status/2075331067662528695",
+      "author_url": "https://x.com/neelajj",
+      "author_handle": "@neelajj",
+      "title": "Create Natively Editable Office Files",
+      "takeaway": "Generate slides, sheets, and documents as editable artifacts instead of flattened images.",
+      "body_notes": "The creator demonstrates GPT-5.6 producing natively editable presentation, spreadsheet, and document artifacts.",
+      "type": "Demo",
+      "date": "2026-07-10",
+      "category": "Creative & Product Work",
+      "category_key": "creative",
+      "decision": "high_confidence_update",
+      "decision_reason": "The claimed distinction is an observable artifact property and the source includes visual evidence.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 78,
+        "view_count": 4960
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-38.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-38.jpg"
+      ],
+      "media_source_url": "https://x.com/neelajj/status/2075331067662528695",
+      "media_author_handle": "@neelajj",
+      "media_author_url": "https://x.com/neelajj"
+    },
+    {
+      "public_number": 39,
+      "dedup_key": "https://x.com/aisdk/status/2075272887028892128",
+      "source_url": "https://x.com/aisdk/status/2075272887028892128",
+      "author_url": "https://x.com/aisdk",
+      "author_handle": "@aisdk",
+      "title": "Enable Maximum Reasoning in AI SDK",
+      "takeaway": "Select GPT-5.6 through AI SDK and expose the maximum reasoning setting in application code.",
+      "body_notes": "The AI SDK account documents GPT-5.6 model support with the max reasoning option and provides a code-oriented integration graphic.",
+      "type": "Integration",
+      "date": "2026-07-10",
+      "category": "Coding & Builds",
+      "category_key": "coding",
+      "decision": "high_confidence_update",
+      "decision_reason": "First-party SDK integration with a specific model-control setting.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 57,
+        "view_count": 5467
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-39.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-39.jpg"
+      ],
+      "media_source_url": "https://x.com/aisdk/status/2075272887028892128",
+      "media_author_handle": "@aisdk",
+      "media_author_url": "https://x.com/aisdk"
+    },
+    {
+      "public_number": 40,
+      "dedup_key": "https://x.com/danizeres/status/2075336917970006382",
+      "source_url": "https://x.com/danizeres/status/2075336917970006382",
+      "author_url": "https://x.com/danizeres",
+      "author_handle": "@danizeres",
+      "title": "Publish a Filterable City Guide",
+      "takeaway": "Organize recommendations by neighborhood, mood, and price, then publish the result as a Site.",
+      "body_notes": "Dan Izere demonstrates a GPT-5.6 city guide built with Sites and structured around neighborhood, mood, and price filters.",
+      "type": "Demo",
+      "date": "2026-07-10",
+      "category": "Creative & Product Work",
+      "category_key": "creative",
+      "decision": "high_confidence_update",
+      "decision_reason": "Concrete information architecture, output format, and publishing feature.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 50,
+        "view_count": 6986
+      },
+      "media_type": "video",
+      "poster_path": "media/cases/case-40-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-40-poster.jpg",
+      "playable_video_path": "media/cases/case-40.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-40.mp4",
+      "media_source_url": "https://x.com/danizeres/status/2075336917970006382",
+      "media_author_handle": "@danizeres",
+      "media_author_url": "https://x.com/danizeres"
+    },
+    {
+      "public_number": 41,
+      "dedup_key": "https://x.com/jetbrains/status/2075283643363217688",
+      "source_url": "https://x.com/jetbrains/status/2075283643363217688",
+      "author_url": "https://x.com/jetbrains",
+      "author_handle": "@jetbrains",
+      "title": "Build an Executive Dashboard in Five Minutes",
+      "takeaway": "Turn a vague executive request into a working browser-based dashboard inside a JetBrains IDE.",
+      "body_notes": "JetBrains gives GPT-5.6 a short CEO message and five minutes. The video shows it planning and building a responsive product-health command-center dashboard with synthetic metrics.",
+      "type": "Demo",
+      "date": "2026-07-10",
+      "category": "Coding & Builds",
+      "category_key": "coding",
+      "decision": "high_confidence_update",
+      "decision_reason": "The video establishes the input, IDE environment, time limit, implementation, and rendered result.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 45,
+        "view_count": 6674
+      },
+      "media_type": "video",
+      "poster_path": "media/cases/case-41-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-41-poster.jpg",
+      "playable_video_path": "media/cases/case-41.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-41.mp4",
+      "media_source_url": "https://x.com/jetbrains/status/2075283643363217688",
+      "media_author_handle": "@jetbrains",
+      "media_author_url": "https://x.com/jetbrains"
+    },
+    {
+      "public_number": 42,
+      "dedup_key": "https://x.com/WesRoth/status/2075392905200742525",
+      "source_url": "https://x.com/WesRoth/status/2075392905200742525",
+      "author_url": "https://x.com/WesRoth",
+      "author_handle": "@WesRoth",
+      "title": "Run a Multi-Hour Game Build",
+      "takeaway": "Let a coding agent continue expanding a playable game for several hours while monitoring its progress.",
+      "body_notes": "Wes Roth reports GPT-5.6 working for four hours and twenty minutes on an Elder Scrolls-style game and shares the current visual result.",
+      "type": "Demo",
+      "date": "2026-07-10",
+      "category": "Coding & Builds",
+      "category_key": "coding",
+      "decision": "high_confidence_update",
+      "decision_reason": "Named output, explicit autonomous duration, and visual progress evidence.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 43,
+        "view_count": 2172
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-42.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-42.jpg"
+      ],
+      "media_source_url": "https://x.com/WesRoth/status/2075392905200742525",
+      "media_author_handle": "@WesRoth",
+      "media_author_url": "https://x.com/WesRoth"
+    },
+    {
+      "public_number": 43,
+      "dedup_key": "https://x.com/nickbaumann_/status/2075270912291778929",
+      "source_url": "https://x.com/nickbaumann_/status/2075270912291778929",
+      "author_url": "https://x.com/nickbaumann_",
+      "author_handle": "@nickbaumann_",
+      "title": "Measure the Effect of Subagents",
+      "takeaway": "Benchmark both final score and elapsed time with and without subagents.",
+      "body_notes": "Nick Baumann publishes a comparison showing GPT-5.6 scoring higher and completing the benchmark faster when subagents are enabled.",
+      "type": "Benchmark",
+      "date": "2026-07-10",
+      "category": "Evaluation & Limits",
+      "category_key": "evaluation",
+      "decision": "high_confidence_update",
+      "decision_reason": "Direct with-versus-without-subagents comparison across quality and speed.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 34,
+        "view_count": 2691
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-43.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-43.jpg"
+      ],
+      "media_source_url": "https://x.com/nickbaumann_/status/2075270912291778929",
+      "media_author_handle": "@nickbaumann_",
+      "media_author_url": "https://x.com/nickbaumann_"
+    },
+    {
+      "public_number": 44,
+      "dedup_key": "https://x.com/nvidia/status/2075283846657175683",
+      "source_url": "https://x.com/nvidia/status/2075283846657175683",
+      "author_url": "https://x.com/nvidia",
+      "author_handle": "@nvidia",
+      "title": "Automate Enterprise Operations With Work",
+      "takeaway": "Use ChatGPT Work to automate internal workflows, surface insights, and reduce operating cost.",
+      "body_notes": "NVIDIA reports its teams using ChatGPT Work for workflow automation and faster insight discovery, alongside its infrastructure collaboration with OpenAI.",
+      "type": "Integration",
+      "date": "2026-07-10",
+      "category": "Agents & Workflows",
+      "category_key": "agents",
+      "decision": "high_confidence_update",
+      "decision_reason": "Named enterprise adopter and stated operational outcomes, with the original Work demonstration attributed separately.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 825,
+        "view_count": 90681
+      },
+      "media_type": "video",
+      "poster_path": "media/cases/case-44-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-44-poster.jpg",
+      "playable_video_path": "media/cases/case-44.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-44.mp4",
+      "media_source_url": "https://x.com/OpenAI/status/2075274271845404744",
+      "media_author_handle": "@OpenAI",
+      "media_author_url": "https://x.com/OpenAI"
+    },
+    {
+      "public_number": 45,
+      "dedup_key": "https://x.com/devindesktop/status/2075269199312662712",
+      "source_url": "https://x.com/devindesktop/status/2075269199312662712",
+      "author_url": "https://x.com/devindesktop",
+      "author_handle": "@devindesktop",
+      "title": "Use GPT-5.6 in Devin Desktop",
+      "takeaway": "Run GPT-5.6 inside Devin Desktop as part of an agentic software-development workflow.",
+      "body_notes": "Devin announces GPT-5.6 availability in Devin Desktop and supplies the product integration image from Cognition.",
+      "type": "Integration",
+      "date": "2026-07-10",
+      "category": "Coding & Builds",
+      "category_key": "coding",
+      "decision": "high_confidence_update",
+      "decision_reason": "First-party product availability with an identifiable desktop coding-agent surface.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 93,
+        "view_count": 8172
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-45.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-45.jpg"
+      ],
+      "media_source_url": "https://x.com/cognition/status/2075267966585716961",
+      "media_author_handle": "@cognition",
+      "media_author_url": "https://x.com/cognition"
+    },
+    {
+      "public_number": 46,
+      "dedup_key": "https://x.com/super_bonochin/status/2075363142700618205",
+      "source_url": "https://x.com/super_bonochin/status/2075363142700618205",
+      "author_url": "https://x.com/super_bonochin",
+      "author_handle": "@super_bonochin",
+      "title": "Estimate Usage Limits by Plan",
+      "takeaway": "Treat published usage ranges as estimates because model choice, context, reasoning, and tool use change consumption.",
+      "body_notes": "The creator summarizes approximate five-hour usage ranges by GPT-5.6 tier and plan, while warning that task weight changes consumption and observed limits may drain faster.",
+      "type": "Limit",
+      "date": "2026-07-09",
+      "category": "Evaluation & Limits",
+      "category_key": "evaluation",
+      "decision": "high_confidence_update",
+      "decision_reason": "The source provides a plan-by-model estimate table and explicitly states the variables and uncertainty boundary.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 222,
+        "view_count": 0
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-46.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-46.jpg"
+      ],
+      "media_source_url": "https://x.com/super_bonochin/status/2075363142700618205",
+      "media_author_handle": "@super_bonochin",
+      "media_author_url": "https://x.com/super_bonochin"
+    },
+    {
+      "public_number": 47,
+      "dedup_key": "https://x.com/fkadev/status/2075325663192420713",
+      "source_url": "https://x.com/fkadev/status/2075325663192420713",
+      "author_url": "https://x.com/fkadev",
+      "author_handle": "@fkadev",
+      "title": "Review AI-Written Story Limitations",
+      "takeaway": "Read a complete generated story before judging prose quality and whether the writing still reveals its AI origin.",
+      "body_notes": "The creator presents a GPT-5.6-written story as substantially improved but explicitly notes that it still reads as AI-generated, providing pages from the example.",
+      "type": "Limit",
+      "date": "2026-07-10",
+      "category": "Creative & Product Work",
+      "category_key": "creative",
+      "decision": "high_confidence_update",
+      "decision_reason": "Concrete generated artifact paired with a clear qualitative limitation from the source.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 157,
+        "view_count": 27131
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-47-1.jpg",
+        "media/cases/case-47-2.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-47-1.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-47-2.jpg"
+      ],
+      "media_source_url": "https://x.com/inannanigin/status/2075147826259021909",
+      "media_author_handle": "@inannanigin",
+      "media_author_url": "https://x.com/inannanigin"
+    },
+    {
+      "public_number": 48,
+      "dedup_key": "https://x.com/rrr_kgknk/status/2075346382463144362",
+      "source_url": "https://x.com/rrr_kgknk/status/2075346382463144362",
+      "author_url": "https://x.com/rrr_kgknk",
+      "author_handle": "@rrr_kgknk",
+      "title": "Combine WorkIQ With GPT-5.6",
+      "takeaway": "Use Microsoft 365 context through WorkIQ while generating and editing knowledge-work outputs in Copilot.",
+      "body_notes": "The creator highlights GPT-5.6 in Microsoft 365 Copilot alongside WorkIQ's organizational context layer and higher-quality slide-image generation.",
+      "type": "Integration",
+      "date": "2026-07-10",
+      "category": "Agents & Workflows",
+      "category_key": "agents",
+      "decision": "high_confidence_update",
+      "decision_reason": "Specific context layer, model integration, and output class; the quoted Microsoft demonstration is separately attributed.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 41,
+        "view_count": 6400
+      },
+      "media_type": "video",
+      "poster_path": "media/cases/case-48-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-48-poster.jpg",
+      "playable_video_path": "media/cases/case-48.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-48.mp4",
+      "media_source_url": "https://x.com/satyanadella/status/2075318015063925053",
+      "media_author_handle": "@satyanadella",
+      "media_author_url": "https://x.com/satyanadella"
+    },
+    {
+      "public_number": 49,
+      "dedup_key": "https://x.com/OpenAIDevs/status/2075275868268789885",
+      "source_url": "https://x.com/OpenAIDevs/status/2075275868268789885",
+      "author_url": "https://x.com/OpenAIDevs",
+      "author_handle": "@OpenAIDevs",
+      "title": "Unify Coding and Work in One App",
+      "takeaway": "Move between coding, browser, and knowledge-work workflows in a single desktop application.",
+      "body_notes": "OpenAI Developers describes the unified app as combining Codex with ChatGPT Work, a Chrome extension, a revamped browser, and faster GPT-5.6 Computer Use.",
+      "type": "Integration",
+      "date": "2026-07-10",
+      "category": "Agents & Workflows",
+      "category_key": "agents",
+      "decision": "high_confidence_update",
+      "decision_reason": "First-party workflow integration names the coding, browser, and Computer Use surfaces.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 3139,
+        "view_count": 626267
+      },
+      "media_type": "video",
+      "poster_path": "media/cases/case-49-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-49-poster.jpg",
+      "playable_video_path": "media/cases/case-49.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-49.mp4",
+      "media_source_url": "https://x.com/OpenAI/status/2075274271845404744",
+      "media_author_handle": "@OpenAI",
+      "media_author_url": "https://x.com/OpenAI"
+    },
+    {
+      "public_number": 50,
+      "dedup_key": "https://x.com/ajambrosino/status/2075274362501074944",
+      "source_url": "https://x.com/ajambrosino/status/2075274362501074944",
+      "author_url": "https://x.com/ajambrosino",
+      "author_handle": "@ajambrosino",
+      "title": "Share Task History Across Work and Codex",
+      "takeaway": "Choose a code-detailed or abstract interface without losing capabilities or task history.",
+      "body_notes": "Andrew Ambrosino explains that Work and Codex share capabilities and task history: Codex exposes code, diffs, and pull requests, while Work abstracts those details and Chat handles quick exploration.",
+      "type": "Integration",
+      "date": "2026-07-10",
+      "category": "Agents & Workflows",
+      "category_key": "agents",
+      "decision": "high_confidence_update",
+      "decision_reason": "First-party product-design explanation with explicit interface and task-handoff behavior.",
+      "quality_tier": "high",
+      "prompt_boundary": "No exact reusable prompt text is reproduced unless the source explicitly publishes it; omit a prompt block.",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_engagement": {
+        "like_count": 274,
+        "view_count": 17104
+      },
+      "media_type": "image",
+      "media_paths": [
+        "media/cases/case-50-1.jpg",
+        "media/cases/case-50-2.jpg",
+        "media/cases/case-50-3.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-50-1.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-50-2.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-50-3.jpg"
+      ],
+      "media_source_url": "https://x.com/ajambrosino/status/2075274362501074944",
+      "media_author_handle": "@ajambrosino",
+      "media_author_url": "https://x.com/ajambrosino"
     }
   ]
 }

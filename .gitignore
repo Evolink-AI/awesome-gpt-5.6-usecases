@@ -3,6 +3,7 @@
 node_modules/
 *.log
 .codex/
+media/cases/
 github-repo-review-action-list.md
 __pycache__/
 *.pyc

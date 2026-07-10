@@ -31,7 +31,8 @@ CASE_RE = re.compile(
     r'^### Case (?P=number): \[(?P<title>[^\]]+)\]\((?P<source>[^)]+)\) '
     r'\(by \[(?P<author>[^\]]+)\]\((?P<author_url>[^)]+)\)\)\n\n'
     r'^\*\*(?P<takeaway>[^\n]+)\*\*\n\n'
-    r'(?P<body>.*?)\n\n'
+    r'(?P<body>[^\n]+)\n\n'
+    r'(?P<media>.*?)'
     r'^Type: (?P<type>Demo|Tutorial|Evaluation|Integration|Benchmark|Limit) \| Date: (?P<date>\d{4}-\d{2}-\d{2})$',
     re.MULTILINE | re.DOTALL,
 )
@@ -69,8 +70,9 @@ def verify() -> list[str]:
     data_path = ROOT / "data" / "gpt-5.6-usecase-curated.json"
     data = json.loads(data_path.read_text(encoding="utf-8"))
     expected = data["items"]
-    if len(expected) != 10 or data.get("total_public_cases") != 10:
-        fail(errors, "curated data must declare exactly 10 public cases")
+    expected_count = len(expected)
+    if expected_count != 50 or data.get("total_public_cases") != expected_count:
+        fail(errors, "curated data must declare exactly 50 public cases")
     required_handoff = (
         "public_number", "dedup_key", "source_url", "author_url", "author_handle", "title", "takeaway",
         "body_notes", "type", "date", "category", "decision", "decision_reason", "prompt_boundary", "media_type",
@@ -84,8 +86,26 @@ def verify() -> list[str]:
             fail(errors, f"curated case {item.get('public_number')} is not high_confidence_update")
         if len(str(item.get("title", "")).split()) > 10:
             fail(errors, f"curated case {item.get('public_number')} title exceeds 10 words")
-        if item.get("media_type") != "none":
-            fail(errors, f"first-publication text case {item.get('public_number')} must use media_type none")
+        media_type = item.get("media_type")
+        if media_type == "video":
+            for field in ("poster_path", "poster_url", "playable_video_path", "playable_video_url"):
+                if not item.get(field):
+                    fail(errors, f"curated case {item.get('public_number')} missing video field {field}")
+            for field in ("poster_path", "playable_video_path"):
+                path = ROOT / str(item.get(field, ""))
+                if path.exists() and (not path.is_file() or path.stat().st_size == 0):
+                    fail(errors, f"curated case {item.get('public_number')} missing local video asset {field}")
+        elif media_type == "image":
+            paths = item.get("media_paths", [])
+            urls = item.get("r2_media_urls", [])
+            if not paths or len(paths) != len(urls):
+                fail(errors, f"curated case {item.get('public_number')} has invalid image media arrays")
+            for path_value in paths:
+                path = ROOT / str(path_value)
+                if path.exists() and (not path.is_file() or path.stat().st_size == 0):
+                    fail(errors, f"curated case {item.get('public_number')} missing image asset {path_value}")
+        else:
+            fail(errors, f"curated case {item.get('public_number')} media_type must be image or video")
     decision_counts = data.get("decision_counts", {})
     if sum(decision_counts.values()) != data.get("total_candidates_reviewed") or data.get("total_candidates_reviewed") != 211:
         fail(errors, "semantic review decision counts do not reconcile to 211 candidates")
@@ -122,11 +142,17 @@ def verify() -> list[str]:
             fail(errors, f"missing deterministic banner generator {generator}")
     if manifest_path.is_file():
         expected_media = set(LANGS.values()) | {"images/banner-template.png"}
+        for item in expected:
+            if item["media_type"] == "video":
+                expected_media.update((item["poster_path"], item["playable_video_path"]))
+            else:
+                expected_media.update(item["media_paths"])
         if set(remote_media) != expected_media:
-            fail(errors, "media manifest must contain exactly the 12 public PNG assets")
+            fail(errors, f"media manifest must contain all {len(expected_media)} public media assets")
         expected_prefix = "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/"
         for source, url in remote_media.items():
-            if not url.startswith(expected_prefix) or not (ROOT / source).is_file():
+            local_required = source.startswith("images/")
+            if not url.startswith(expected_prefix) or (local_required and not (ROOT / source).is_file()):
                 fail(errors, f"invalid media manifest entry: {source}")
 
     english_records: list[dict[str, str | int]] = []
@@ -151,12 +177,15 @@ def verify() -> list[str]:
                 fail(errors, f"{filename}: missing category anchor or Menu link {anchor}")
         records = case_records(text)
         numbers = [record["number"] for record in records]
-        if numbers != list(range(1, 11)):
-            fail(errors, f"{filename}: case numbers are not contiguous 1-10: {numbers}")
-        if any(f"](#case-{number})" not in text for number in range(1, 11)):
+        if numbers != list(range(1, expected_count + 1)):
+            fail(errors, f"{filename}: case numbers are not contiguous 1-{expected_count}: {numbers}")
+        if any(f"](#case-{number})" not in text for number in range(1, expected_count + 1)):
             fail(errors, f"{filename}: Menu lacks one or more case links")
+        acknowledge = text.split("## 🙏", 1)[-1]
+        if re.search(r"^- \[@", acknowledge, re.MULTILINE):
+            fail(errors, f"{filename}: Acknowledge creators must be comma-separated, not one bullet per creator")
         if filename == "README.md":
-            headings = ["## 🍌 Introduction", "## 📊 Overview", "## ⚡ Quick Start", "## 📑 Menu", "## 💻 Coding & Builds", "## Related Repositories", "## 🙏 Acknowledge"]
+            headings = ["## 🍌 Introduction", "## 📊 Overview", "## ⚡ Quick Start", "## 📑 Menu", "## 💻 Coding & Builds", "## Use Cases", "## Related Repositories", "## 🙏 Acknowledge"]
             positions = [text.find(heading) for heading in headings]
             if any(position < 0 for position in positions) or positions != sorted(positions):
                 fail(errors, "README.md: required section order failed")
@@ -213,9 +242,9 @@ def main() -> int:
         return 1
     print("PASS")
     print("readmes=11")
-    print("public_cases=10")
+    print("public_cases=50")
     print("structured_data_equality=passed")
-    print("first_publication_handoff_fields=passed")
+    print("recurring_update_handoff_fields=passed")
     print("semantic_review_reconciliation=passed")
     print("localized_case_parity=passed")
     print("localized_banner_integrity=passed")

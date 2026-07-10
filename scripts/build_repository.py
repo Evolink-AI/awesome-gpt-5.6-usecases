@@ -14,7 +14,7 @@ from pathlib import Path
 
 
 REPO = Path(__file__).resolve().parents[1]
-RUN_ID = "20260710-gpt56-first-publication"
+RUN_ID = "20260710-expand-to-50"
 EVIDENCE = REPO / ".codex" / "model-repo-pipeline" / "runs" / RUN_ID
 REPO_SLUG = "awesome-gpt-5.6-usecases"
 REPO_OWNER = "Evolink-AI"
@@ -249,15 +249,16 @@ def build_review(candidates: dict[str, dict], cases: list[dict], source: Path) -
 
 
 def translatable_strings(cases: list[dict]) -> list[str]:
+    overview_count = f"{len(cases)} selected GPT-5.6 cases from public creators, developers, product teams, and benchmark groups."
     strings = [
-        "Introduction", "Overview", "Quick Start", "Menu", "Related Repositories", "Acknowledge",
+        "Introduction", "Overview", "Quick Start", "Menu", "Use Cases", "Related Repositories", "Acknowledge",
         "Coding & Builds", "Agents & Workflows", "Creative & Product Work", "Evaluation & Limits",
         "Section", "Cases", "Case", "What it shows", "Type", "Credits and correction policy",
         "Welcome to the GPT-5.6 high-signal usecase repository.",
         "We collect real-world workflows, tutorials, integrations, evaluations, and limits for GPT-5.6, curated from public evidence.",
         "Every public case in this repository comes from the supplied launch-window dataset. Case titles link to the original posts and author handles link to creator profiles.",
         "Join GPT-5.6 early access on EvoLink.",
-        "10 selected GPT-5.6 cases from public creators, developers, product teams, and benchmark groups.",
+        overview_count,
         "Covers coding builds, long-running agents, business workflows, creative production, product integrations, benchmarks, and practical limits.",
         "Each case includes the original source, creator attribution, a concise takeaway, evidence type, and publication date.",
         "Use this repository to identify practical workflows and compare strengths, costs, and limitations before choosing a GPT-5.6 tier.",
@@ -325,6 +326,25 @@ def media_url(relative_path: str) -> str:
     return manifest.get("files", {}).get(relative_path, relative_path)
 
 
+def render_case_media(case: dict) -> list[str]:
+    number = case["public_number"]
+    lines: list[str] = []
+    if case["media_type"] == "video":
+        lines.extend([
+            f'<a href="{case["playable_video_url"]}"><img src="{case["poster_url"]}" alt="Case {number} video poster" width="760"></a>', "",
+            f'[Play case {number} demo video]({case["playable_video_url"]})', "",
+        ])
+    else:
+        for index, url in enumerate(case.get("r2_media_urls", []), start=1):
+            suffix = f" {index}" if len(case.get("r2_media_urls", [])) > 1 else ""
+            lines.extend([f'<img src="{url}" alt="Case {number} source media{suffix}" width="760">', ""])
+    if case.get("media_source_url") and case["media_source_url"] != case["source_url"]:
+        lines.extend([
+            f'Media by [{case["media_author_handle"]}]({case["media_author_url"]}) from [the original post]({case["media_source_url"]}).', "",
+        ])
+    return lines
+
+
 def render_readme(lang: str, cases: list[dict], cache: dict[str, dict[str, str]]) -> str:
     filename, banner, _ = LANGUAGES[lang]
     banner_src = media_url(f"images/{banner}")
@@ -344,7 +364,7 @@ def render_readme(lang: str, cases: list[dict], cache: dict[str, dict[str, str]]
         tr(cache, lang, "Every public case in this repository comes from the supplied launch-window dataset. Case titles link to the original posts and author handles link to creator profiles."), "",
         f"[{tr(cache, lang, 'Join GPT-5.6 early access on EvoLink.')}]({intro_url})", "",
         f"## 📊 {tr(cache, lang, 'Overview')}", "",
-        f"- **{tr(cache, lang, '10 selected GPT-5.6 cases from public creators, developers, product teams, and benchmark groups.')}**",
+        f"- **{tr(cache, lang, f'{len(cases)} selected GPT-5.6 cases from public creators, developers, product teams, and benchmark groups.')}**",
         f"- {tr(cache, lang, 'Covers coding builds, long-running agents, business workflows, creative production, product integrations, benchmarks, and practical limits.')}",
         f"- {tr(cache, lang, 'Each case includes the original source, creator attribution, a concise takeaway, evidence type, and publication date.')}",
         f"- {tr(cache, lang, 'Use this repository to identify practical workflows and compare strengths, costs, and limitations before choosing a GPT-5.6 tier.')}", "",
@@ -361,30 +381,39 @@ def render_readme(lang: str, cases: list[dict], cache: dict[str, dict[str, str]]
     ]
     for key, label, anchor, emoji in CATEGORIES:
         cat_cases = [case for case in cases if case["category_key"] == key]
-        case_range = f"Case {cat_cases[0]['public_number']}-{cat_cases[-1]['public_number']}"
-        parts.append(f"| [{emoji} {tr(cache, lang, label)}](#{anchor}) | {case_range} |")
+        parts.append(f"| [{emoji} {tr(cache, lang, label)}](#{anchor}) | {len(cat_cases)} {tr(cache, lang, 'Cases')} |")
     parts.append(f"| [{tr(cache, lang, 'Acknowledge')}](#acknowledge) | {tr(cache, lang, 'Credits and correction policy')} |")
     parts.append("")
     for key, label, anchor, emoji in CATEGORIES:
         cat_cases = [case for case in cases if case["category_key"] == key]
         parts.extend([
-            f"### [{emoji} {tr(cache, lang, label)}](#{anchor})", "",
+            f'<a id="{anchor}"></a>',
+            f"## {emoji} {tr(cache, lang, label)}", "",
             f"| {tr(cache, lang, 'Case')} | {tr(cache, lang, 'What it shows')} | {tr(cache, lang, 'Type')} |", "|---|---|---|",
         ])
         for case in cat_cases:
             parts.append(f"| [{tr(cache, lang, case['title'])}](#case-{case['public_number']}) | {tr(cache, lang, case['takeaway'])} | {case['type']} |")
         parts.append("")
-    for key, label, anchor, emoji in CATEGORIES:
-        parts.extend([f'<a id="{anchor}"></a>', f"## {emoji} {tr(cache, lang, label)}", ""])
-        for case in [item for item in cases if item["category_key"] == key]:
-            parts.extend([
-                f'<a id="case-{case["public_number"]}"></a>',
-                f"### Case {case['public_number']}: [{tr(cache, lang, case['title'])}]({case['source_url']}) (by [{case['author_handle']}]({case['author_url']}))", "",
-                f"**{tr(cache, lang, case['takeaway'])}**", "",
-                tr(cache, lang, case["body_notes"]), "",
-                f"Type: {case['type']} | Date: {case['date']}", "", "---", "",
-            ])
-    creators = sorted({case["author_handle"] for case in cases}, key=str.lower)
+    parts.extend([f"## {tr(cache, lang, 'Use Cases')}", ""])
+    for case in sorted(cases, key=lambda item: item["public_number"]):
+        parts.extend([
+            f'<a id="case-{case["public_number"]}"></a>',
+            f"### Case {case['public_number']}: [{tr(cache, lang, case['title'])}]({case['source_url']}) (by [{case['author_handle']}]({case['author_url']}))", "",
+            f"**{tr(cache, lang, case['takeaway'])}**", "",
+            tr(cache, lang, case["body_notes"]), "",
+        ])
+        parts.extend(render_case_media(case))
+        parts.extend([f"Type: {case['type']} | Date: {case['date']}", "", "---", ""])
+    creator_links = {
+        case["author_handle"]: case["author_url"]
+        for case in cases
+    }
+    creator_links.update({
+        case["media_author_handle"]: case["media_author_url"]
+        for case in cases
+        if case.get("media_author_handle") and case.get("media_author_url")
+    })
+    creators = sorted(creator_links, key=str.lower)
     parts.extend([
         f"## {tr(cache, lang, 'Related Repositories')}", "",
         tr(cache, lang, "No dedicated GPT-5.6 Skill or API examples repository has been verified. Future Skill and API release work is owned by the separate skill-release pipeline."), "",
@@ -393,8 +422,7 @@ def render_readme(lang: str, cases: list[dict], cache: dict[str, dict[str, str]]
         tr(cache, lang, "This repository was inspired by the creators, developers, product teams, and benchmark groups who shared real GPT-5.6 use cases publicly."), "",
         tr(cache, lang, "Thanks to the source creators represented in this collection:"), "",
     ])
-    for creator in creators:
-        parts.append(f"- [{creator}](https://x.com/{creator.lstrip('@')})")
+    parts.append(", ".join(f"[{creator}]({creator_links[creator]})" for creator in creators))
     parts.extend([
         "", f"*{tr(cache, lang, 'We cannot guarantee that every case is attributed to the original creator. If anything needs to be corrected, please open an issue and we will update it.')}*", "",
         tr(cache, lang, "Share additional evidence-backed use cases through an issue or pull request."), "",
@@ -448,17 +476,15 @@ def write_support_files(cases: list[dict], review: dict, source_data: dict) -> N
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--source", required=True, type=Path)
+    parser.add_argument("--curated", type=Path, default=REPO / "data/gpt-5.6-usecase-curated.json")
     parser.add_argument("--offline", action="store_true")
     args = parser.parse_args()
-    candidates, source_data = load_candidates(args.source.expanduser().resolve())
-    cases = build_cases(candidates)
-    review = build_review(candidates, cases, args.source)
-    write_support_files(cases, review, source_data)
+    curated_path = args.curated.expanduser().resolve()
+    curated = json.loads(curated_path.read_text(encoding="utf-8"))
+    cases = curated["items"]
     cache = translations(cases, args.offline)
     for lang, (filename, _, _) in LANGUAGES.items():
         (REPO / filename).write_text(render_readme(lang, cases, cache), encoding="utf-8")
-    print(f"candidate_count={len(candidates)}")
     print(f"public_case_count={len(cases)}")
     print(f"localized_readmes={len(LANGUAGES)}")
     print(f"generated_at={datetime.now(timezone.utc).isoformat()}")
