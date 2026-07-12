@@ -4,7 +4,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 [![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=badge&utm_campaign=awesome-gpt-5.6-usecases&utm_content=top_badge)
-[![GPT-5.6 Early Access](https://img.shields.io/badge/GPT--5.6-Early_Access-f97316)](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=badge&utm_campaign=awesome-gpt-5.6-usecases&utm_content=top_badge)
+[![GPT-5.6 Available Now](https://img.shields.io/badge/GPT--5.6-Available_Now-22c55e)](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=badge&utm_campaign=awesome-gpt-5.6-usecases&utm_content=top_badge)
 
 [![🇺🇸 English](https://img.shields.io/badge/🇺🇸_English-Default_Source-111111)](README.md)
 [![🇪🇸 Español](https://img.shields.io/badge/🇪🇸_Español-Ver-ffb703)](README_es.md)
@@ -28,9 +28,9 @@
 
 **Мы собираем реальные рабочие процессы, учебные пособия, интеграции, оценки и ограничения для GPT-5.6, отобранные на основе общедоступных данных.**
 
-Все общедоступные случаи в этом репозитории взяты из предоставленного набора данных окна запуска. Заголовки дел ссылаются на исходные сообщения, а имена авторов — на профили создателей.
+Каждое публичное дело рассматривается на основе стартового окна и повторяющихся публичных доказательств. Заголовки дел ссылаются на исходные сообщения, а имена авторов — на профили создателей.
 
-[Присоединяйтесь к раннему доступу GPT-5.6 на EvoLink.](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-5.6-usecases&utm_content=introduction_cta)
+[Используйте GPT-5.6 в EvoLink.](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-5.6-usecases&utm_content=introduction_cta)
 
 ## 📊 Обзор
 
@@ -44,18 +44,18 @@
 
 ## ⚡ Быстрый старт
 
-**GPT-5.6 указан как скоро появится на EvoLink. Маршрут первого запуска текущей модели или устанавливаемый навык GPT-5.6 еще не проверены.**
+**GPT-5.6 теперь доступен на EvoLink. Используйте точный идентификатор уровня: gpt-5.6-sol, gpt-5.6-terra или gpt-5.6-luna. Общий псевдоним gpt-5.6 недоступен.**
 
-1. [Присоединяйтесь к раннему доступу к GPT-5.6.](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gpt-5.6-usecases&utm_content=model_link)
+1. [Просмотрите модели GPT-5.6 и цены.](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gpt-5.6-usecases&utm_content=model_link)
 2. [Создавайте ключ API EvoLink или управляйте им.](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gpt-5.6-usecases&utm_content=api_key)
-3. [Вернитесь на страницу модели GPT-5.6, чтобы просмотреть проверенный маршрут первого запуска, когда он станет доступен.](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=docs&utm_campaign=awesome-gpt-5.6-usecases&utm_content=first_run)
+3. [Выполните свой первый вызов API GPT-5.6 с помощью специального руководства по быстрому запуску.](https://docs.evolink.ai/en/api-manual/language-series/gpt-5.6/gpt-5.6-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gpt-5.6-usecases&utm_content=first_run)
 
 ```bash
 export EVOLINK_API_KEY="your_api_key_here"
 ```
 
 > [!IMPORTANT]
-> Не заменяйте пример GPT-5.5 в качестве доказательства возможности вызова GPT-5.6.
+> Используйте точный идентификатор уровня GPT-5.6 в каждом запросе; не используйте общий псевдоним gpt-5.6.
 
 ## 📑 Меню
 
@@ -1023,9 +1023,11 @@ Type: Demo | Date: 2026-07-11
 
 ## Связанные репозитории
 
-Ни один выделенный репозиторий навыков GPT-5.6 или примеров API не проверен. Работа по выпуску будущих навыков и API принадлежит отдельному конвейеру выпуска навыков.
+Доступна специальная документация по API GPT-5.6. Никакой устанавливаемый навык GPT-5.6 не был проверен; Работа по выпуску навыков и пакетов остается в ведении отдельного конвейера выпуска навыков.
 
-- [OpenAI GPT-5.6 launch announcement](https://openai.com/index/previewing-gpt-5-6-sol/)
+- [Запустите краткое руководство GPT-5.6.](https://docs.evolink.ai/en/api-manual/language-series/gpt-5.6/gpt-5.6-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gpt-5.6-usecases&utm_content=quickstart)
+- [Прочитайте полный справочник по API GPT-5.6.](https://docs.evolink.ai/en/api-manual/language-series/gpt-5.6/gpt-5.6-reference?utm_source=github&utm_medium=docs&utm_campaign=awesome-gpt-5.6-usecases&utm_content=api_reference)
+- [Прочитайте объявление о выпуске OpenAI GPT-5.6.](https://openai.com/index/previewing-gpt-5-6-sol/)
 
 <a id="acknowledge"></a>
 ## 🙏 Подтвердить

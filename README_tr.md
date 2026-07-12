@@ -4,7 +4,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 [![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=badge&utm_campaign=awesome-gpt-5.6-usecases&utm_content=top_badge)
-[![GPT-5.6 Early Access](https://img.shields.io/badge/GPT--5.6-Early_Access-f97316)](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=badge&utm_campaign=awesome-gpt-5.6-usecases&utm_content=top_badge)
+[![GPT-5.6 Available Now](https://img.shields.io/badge/GPT--5.6-Available_Now-22c55e)](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=badge&utm_campaign=awesome-gpt-5.6-usecases&utm_content=top_badge)
 
 [![🇺🇸 English](https://img.shields.io/badge/🇺🇸_English-Default_Source-111111)](README.md)
 [![🇪🇸 Español](https://img.shields.io/badge/🇪🇸_Español-Ver-ffb703)](README_es.md)
@@ -28,9 +28,9 @@ GPT-5.6 yüksek sinyal kullanım senaryosu deposuna hoş geldiniz.
 
 **GPT-5.6 için gerçek dünyadaki iş akışlarını, eğitimleri, entegrasyonları, değerlendirmeleri ve sınırları kamuya açık kanıtlardan derleyerek topluyoruz.**
 
-Bu depodaki her genel vaka, sağlanan başlatma penceresi veri kümesinden gelir. Vaka başlıkları orijinal gönderilere, yazar tanıtıcıları ise yaratıcı profillerine bağlantı verir.
+Her genel vaka, başlatma penceresinden ve yinelenen genel kanıtlardan seçilmiştir. Vaka başlıkları orijinal gönderilere, yazar tanıtıcıları ise yaratıcı profillerine bağlantı verir.
 
-[EvoLink'te GPT-5.6 erken erişimine katılın.](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-5.6-usecases&utm_content=introduction_cta)
+[EvoLink'te GPT-5.6'yı kullanın.](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-5.6-usecases&utm_content=introduction_cta)
 
 ## 📊 Genel Bakış
 
@@ -44,18 +44,18 @@ Bu depodaki her genel vaka, sağlanan başlatma penceresi veri kümesinden gelir
 
 ## ⚡ Hızlı Başlangıç
 
-**GPT-5.6, EvoLink'te çok yakında çıkacak şekilde listeleniyor. Mevcut modelin ilk çalıştırma rotası veya kurulabilir GPT-5.6 becerisi henüz doğrulanmadı.**
+**GPT-5.6 artık EvoLink'te mevcut. Tam bir katman kimliği kullanın: gpt-5.6-sol, gpt-5.6-terra veya gpt-5.6-luna. Genel bir gpt-5.6 takma adı mevcut değil.**
 
-1. [GPT-5.6 için erken erişime katılın.](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gpt-5.6-usecases&utm_content=model_link)
+1. [GPT-5.6 modellerini ve fiyatlarını görüntüleyin.](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gpt-5.6-usecases&utm_content=model_link)
 2. [EvoLink API anahtarınızı oluşturun veya yönetin.](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gpt-5.6-usecases&utm_content=api_key)
-3. [Doğrulanmış ilk çalıştırma rotası kullanıma sunulduğunda GPT-5.6 model sayfasına geri dönün.](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=docs&utm_campaign=awesome-gpt-5.6-usecases&utm_content=first_run)
+3. [İlk GPT-5.6 API çağrınızı özel Hızlı Başlangıç ​​ile çalıştırın.](https://docs.evolink.ai/en/api-manual/language-series/gpt-5.6/gpt-5.6-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gpt-5.6-usecases&utm_content=first_run)
 
 ```bash
 export EVOLINK_API_KEY="your_api_key_here"
 ```
 
 > [!IMPORTANT]
-> GPT-5.6'nın çağrılabilir olduğunun kanıtı olarak GPT-5.5 örneğini kullanmayın.
+> Her istekte tam bir GPT-5.6 katman kimliği kullanın; genel bir gpt-5.6 takma adı kullanmayın.
 
 ## 📑 Menü
 
@@ -1023,9 +1023,11 @@ Type: Demo | Date: 2026-07-11
 
 ## İlgili Depolar
 
-Ayrılmış GPT-5.6 Beceri veya API örnekleri deposu doğrulanmadı. Gelecekteki Beceri ve API sürümü çalışmaları, ayrı bir beceri sürümü kanalına aittir.
+Özel GPT-5.6 API belgeleri mevcuttur. Yüklenebilir hiçbir GPT-5.6 becerisi doğrulanmadı; beceri ve paket yayınlama işi, ayrı bir beceri yayınlama hattına ait olmaya devam ediyor.
 
-- [OpenAI GPT-5.6 launch announcement](https://openai.com/index/previewing-gpt-5-6-sol/)
+- [GPT-5.6 Hızlı Başlangıç'ı çalıştırın.](https://docs.evolink.ai/en/api-manual/language-series/gpt-5.6/gpt-5.6-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gpt-5.6-usecases&utm_content=quickstart)
+- [GPT-5.6 API referansının tamamını okuyun.](https://docs.evolink.ai/en/api-manual/language-series/gpt-5.6/gpt-5.6-reference?utm_source=github&utm_medium=docs&utm_campaign=awesome-gpt-5.6-usecases&utm_content=api_reference)
+- [OpenAI GPT-5.6 lansman duyurusunu okuyun.](https://openai.com/index/previewing-gpt-5-6-sol/)
 
 <a id="acknowledge"></a>
 ## 🙏 Onayla

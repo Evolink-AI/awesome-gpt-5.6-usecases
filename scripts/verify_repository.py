@@ -43,6 +43,8 @@ CANONICAL_BADGES = [
     "🇰🇷_한국어-보기", "🇩🇪_Deutsch-Ansehen", "🇫🇷_Français-Voir", "🇹🇷_Türkçe-Görüntüle",
     "🇹🇼_繁體中文-查看", "🇨🇳_简体中文-查看", "🇷🇺_Русский-Смотреть",
 ]
+QUICKSTART_URL = "https://docs.evolink.ai/en/api-manual/language-series/gpt-5.6/gpt-5.6-quickstart"
+REFERENCE_URL = "https://docs.evolink.ai/en/api-manual/language-series/gpt-5.6/gpt-5.6-reference"
 
 
 def fail(errors: list[str], message: str) -> None:
@@ -173,6 +175,16 @@ def verify() -> list[str]:
             fail(errors, f"{filename}: canonical language badge block missing or out of order")
         if text.find("License-CC_BY_4.0") > text.find("Try_it_on-Evolink"):
             fail(errors, f"{filename}: License badge must precede EvoLink badges")
+        required_availability_markers = (
+            "GPT--5.6-Available_Now",
+            QUICKSTART_URL,
+            "gpt-5.6-sol",
+            "gpt-5.6-terra",
+            "gpt-5.6-luna",
+        )
+        for marker in required_availability_markers:
+            if marker not in text:
+                fail(errors, f"{filename}: missing current GPT-5.6 availability marker {marker}")
         for anchor in CATEGORY_ANCHORS:
             if f'<a id="{anchor}"></a>' not in text or f"](#{anchor})" not in text:
                 fail(errors, f"{filename}: missing category anchor or Menu link {anchor}")
@@ -214,6 +226,12 @@ def verify() -> list[str]:
         if re.search(r"^- \[@", acknowledge, re.MULTILINE):
             fail(errors, f"{filename}: Acknowledge creators must be comma-separated, not one bullet per creator")
         if filename == "README.md":
+            stale_copy = ("early access", "coming soon", "when it becomes available", "gpt-5.5 example")
+            for marker in stale_copy:
+                if marker in text.lower():
+                    fail(errors, f"README.md: stale availability copy remains: {marker}")
+            if REFERENCE_URL not in text:
+                fail(errors, "README.md: missing current GPT-5.6 complete API reference")
             headings = ["## 🍌 Introduction", "## 📊 Overview", "## ⚡ Quick Start", "## 📑 Menu", "## 💻 Coding & Builds", "## Use Cases", "## Related Repositories", "## 🙏 Acknowledge"]
             positions = [text.find(heading) for heading in headings]
             if any(position < 0 for position in positions) or positions != sorted(positions):

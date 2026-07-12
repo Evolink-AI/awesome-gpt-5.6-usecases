@@ -121,7 +121,7 @@ def main() -> int:
 
         for match in re.finditer(r"\[([^\]]+)\]\((https?://[^)]+)\)", text):
             copy = match.group(1).strip()
-            if path.name == "README.md" and "evolink.ai" in match.group(2) and not re.match(r"^(Join|Create|Return|Try|Use|Get|Read|Open|View)", copy, re.IGNORECASE):
+            if path.name == "README.md" and "evolink.ai" in match.group(2) and not re.match(r"^(Join|Create|Return|Run|Try|Use|Get|Read|Open|View)", copy, re.IGNORECASE):
                 link_copy_warnings.append(f"{path.relative_to(ROOT)}: functional link copy may be ambiguous: {copy}")
 
     external = sorted({target for _, target in refs if urllib.parse.urlparse(target).scheme in {"http", "https"}})

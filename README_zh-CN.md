@@ -4,7 +4,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 [![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=badge&utm_campaign=awesome-gpt-5.6-usecases&utm_content=top_badge)
-[![GPT-5.6 Early Access](https://img.shields.io/badge/GPT--5.6-Early_Access-f97316)](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=badge&utm_campaign=awesome-gpt-5.6-usecases&utm_content=top_badge)
+[![GPT-5.6 Available Now](https://img.shields.io/badge/GPT--5.6-Available_Now-22c55e)](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=badge&utm_campaign=awesome-gpt-5.6-usecases&utm_content=top_badge)
 
 [![🇺🇸 English](https://img.shields.io/badge/🇺🇸_English-Default_Source-111111)](README.md)
 [![🇪🇸 Español](https://img.shields.io/badge/🇪🇸_Español-Ver-ffb703)](README_es.md)
@@ -28,9 +28,9 @@
 
 **我们根据公开证据收集 GPT-5.6 的真实工作流程、教程、集成、评估和限制。**
 
-此存储库中的每个公共案例都来自提供的启动窗口数据集。案例标题链接到原始帖子，作者处理链接到创建者简介。
+每个公开案例都是根据启动窗口和反复出现的公开证据策划的。案例标题链接到原始帖子，作者处理链接到创建者简介。
 
-[加入 EvoLink 上的 GPT-5.6 抢先体验。](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-5.6-usecases&utm_content=introduction_cta)
+[在 EvoLink 上使用 GPT-5.6。](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-5.6-usecases&utm_content=introduction_cta)
 
 ## 📊 概览
 
@@ -44,18 +44,18 @@
 
 ## ⚡ 快速入门
 
-**GPT-5.6 在 EvoLink 上被列为即将推出。当前型号的首次运行路线或可安装的 GPT-5.6 技能尚未得到验证。**
+**GPT-5.6 现已在 EvoLink 上提供。使用确切的层 ID：gpt-5.6-sol、gpt-5.6-terra 或 gpt-5.6-luna。通用 gpt-5.6 别名不可用。**
 
-1. [加入 GPT-5.6 的抢先体验。](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gpt-5.6-usecases&utm_content=model_link)
+1. [查看 GPT-5.6 型号和定价。](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gpt-5.6-usecases&utm_content=model_link)
 2. [创建或管理您的 EvoLink API 密钥。](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gpt-5.6-usecases&utm_content=api_key)
-3. [当验证的首轮路线可用时，返回 GPT-5.6 模型页面。](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=docs&utm_campaign=awesome-gpt-5.6-usecases&utm_content=first_run)
+3. [使用专用的快速入门运行您的第一个 GPT-5.6 API 调用。](https://docs.evolink.ai/en/api-manual/language-series/gpt-5.6/gpt-5.6-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gpt-5.6-usecases&utm_content=first_run)
 
 ```bash
 export EVOLINK_API_KEY="your_api_key_here"
 ```
 
 > [!IMPORTANT]
-> 请勿替换 GPT-5.5 示例作为 GPT-5.6 可调用的证据。
+> 在每个请求中使用准确的 GPT-5.6 层 ID；不要使用通用 gpt-5.6 别名。
 
 ## 📑 菜单
 
@@ -1023,9 +1023,11 @@ Type: Demo | Date: 2026-07-11
 
 ## 相关存储库
 
-没有验证专用的 GPT-5.6 技能或 API 示例存储库。未来的技能和 API 发布工作由单独的技能发布管道负责。
+提供专用的 GPT-5.6 API 文档。尚未验证可安装的 GPT-5.6 技能；技能和包发布工作仍然由单独的技能发布管道负责。
 
-- [OpenAI GPT-5.6 launch announcement](https://openai.com/index/previewing-gpt-5-6-sol/)
+- [运行 GPT-5.6 快速入门。](https://docs.evolink.ai/en/api-manual/language-series/gpt-5.6/gpt-5.6-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gpt-5.6-usecases&utm_content=quickstart)
+- [阅读完整的 GPT-5.6 API 参考。](https://docs.evolink.ai/en/api-manual/language-series/gpt-5.6/gpt-5.6-reference?utm_source=github&utm_medium=docs&utm_campaign=awesome-gpt-5.6-usecases&utm_content=api_reference)
+- [阅读 OpenAI GPT-5.6 发布公告。](https://openai.com/index/previewing-gpt-5-6-sol/)
 
 <a id="acknowledge"></a>
 ## 🙏 确认

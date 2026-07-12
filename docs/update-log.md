@@ -15,3 +15,11 @@
 - Added Cases 51-58 covering role-based model routing, three benchmark methods, advisor-to-implementation handoff, programmatic tool calls, and an iterative Three.js build.
 - Uploaded five videos, five generated poster frames, and three source images to the repository's R2 namespace.
 - Updated English first, then synchronized all 10 localized README files after the English gate passed.
+
+## 2026-07-12 - GPT-5.6 Availability Audit
+
+- Replaced early-access and coming-soon copy after the EvoLink model page and dedicated GPT-5.6 docs became public.
+- Updated the three-step conversion path to model selection, API key management, and the current GPT-5.6 Quick Start.
+- Added exact Sol, Terra, and Luna model IDs plus dedicated Quick Start and complete API reference links.
+- Hardened repository verification so stale availability copy or missing current-model docs fail future builds.
+- Rebuilt English first, then synchronized all 10 localized README files after the English gate passed.

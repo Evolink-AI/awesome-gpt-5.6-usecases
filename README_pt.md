@@ -4,7 +4,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 [![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=badge&utm_campaign=awesome-gpt-5.6-usecases&utm_content=top_badge)
-[![GPT-5.6 Early Access](https://img.shields.io/badge/GPT--5.6-Early_Access-f97316)](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=badge&utm_campaign=awesome-gpt-5.6-usecases&utm_content=top_badge)
+[![GPT-5.6 Available Now](https://img.shields.io/badge/GPT--5.6-Available_Now-22c55e)](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=badge&utm_campaign=awesome-gpt-5.6-usecases&utm_content=top_badge)
 
 [![🇺🇸 English](https://img.shields.io/badge/🇺🇸_English-Default_Source-111111)](README.md)
 [![🇪🇸 Español](https://img.shields.io/badge/🇪🇸_Español-Ver-ffb703)](README_es.md)
@@ -28,9 +28,9 @@ Bem-vindo ao repositório de casos de uso de alto sinal GPT-5.6.
 
 **Coletamos fluxos de trabalho, tutoriais, integrações, avaliações e limites do mundo real para GPT-5.6, com curadoria de evidências públicas.**
 
-Cada caso público neste repositório vem do conjunto de dados da janela de inicialização fornecido. Os títulos dos casos direcionam para as postagens originais e os identificadores do autor vinculam aos perfis dos criadores.
+Cada caso público é selecionado a partir da janela de lançamento e de evidências públicas recorrentes. Os títulos dos casos direcionam para as postagens originais e os identificadores do autor vinculam aos perfis dos criadores.
 
-[Participe do acesso antecipado GPT-5.6 no EvoLink.](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-5.6-usecases&utm_content=introduction_cta)
+[Use GPT-5.6 no EvoLink.](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-5.6-usecases&utm_content=introduction_cta)
 
 ## 📊 Visão geral
 
@@ -44,18 +44,18 @@ Cada caso público neste repositório vem do conjunto de dados da janela de inic
 
 ## ⚡ Início rápido
 
-**GPT-5.6 está listado como disponível em breve no EvoLink. Nenhuma rota de primeira execução do modelo atual ou habilidade GPT-5.6 instalável foi verificada ainda.**
+**GPT-5.6 já está disponível no EvoLink. Use um ID de nível exato: gpt-5.6-sol, gpt-5.6-terra ou gpt-5.6-luna. Um alias genérico gpt-5.6 não está disponível.**
 
-1. [Assine o acesso antecipado ao GPT-5.6.](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gpt-5.6-usecases&utm_content=model_link)
+1. [Veja modelos e preços do GPT-5.6.](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gpt-5.6-usecases&utm_content=model_link)
 2. [Crie ou gerencie sua chave de API EvoLink.](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gpt-5.6-usecases&utm_content=api_key)
-3. [Retorne à página do modelo GPT-5.6 para obter a rota de primeira execução verificada quando ela estiver disponível.](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=docs&utm_campaign=awesome-gpt-5.6-usecases&utm_content=first_run)
+3. [Execute sua primeira chamada de API GPT-5.6 com o Quick Start dedicado.](https://docs.evolink.ai/en/api-manual/language-series/gpt-5.6/gpt-5.6-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gpt-5.6-usecases&utm_content=first_run)
 
 ```bash
 export EVOLINK_API_KEY="your_api_key_here"
 ```
 
 > [!IMPORTANT]
-> Não substitua um exemplo de GPT-5.5 como prova de que GPT-5.6 pode ser chamado.
+> Use um ID de nível GPT-5.6 exato em cada solicitação; não use um alias genérico gpt-5.6.
 
 ## 📑 Menu
 
@@ -1023,9 +1023,11 @@ Type: Demo | Date: 2026-07-11
 
 ## Repositórios Relacionados
 
-Nenhum repositório dedicado de habilidades GPT-5.6 ou exemplos de API foi verificado. O trabalho futuro de liberação de habilidades e API pertence ao pipeline separado de liberação de habilidades.
+A documentação dedicada da API GPT-5.6 está disponível. Nenhuma habilidade instalável do GPT-5.6 foi verificada; o trabalho de liberação de habilidades e pacotes permanece pertencente ao pipeline de liberação de habilidades separado.
 
-- [OpenAI GPT-5.6 launch announcement](https://openai.com/index/previewing-gpt-5-6-sol/)
+- [Execute o início rápido do GPT-5.6.](https://docs.evolink.ai/en/api-manual/language-series/gpt-5.6/gpt-5.6-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gpt-5.6-usecases&utm_content=quickstart)
+- [Leia a referência completa da API GPT-5.6.](https://docs.evolink.ai/en/api-manual/language-series/gpt-5.6/gpt-5.6-reference?utm_source=github&utm_medium=docs&utm_campaign=awesome-gpt-5.6-usecases&utm_content=api_reference)
+- [Leia o anúncio de lançamento do OpenAI GPT-5.6.](https://openai.com/index/previewing-gpt-5-6-sol/)
 
 <a id="acknowledge"></a>
 ## 🙏 Reconhecer

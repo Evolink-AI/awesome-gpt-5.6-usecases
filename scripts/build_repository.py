@@ -21,6 +21,8 @@ REPO_OWNER = "Evolink-AI"
 MODEL = "GPT-5.6"
 MODEL_URL = "https://evolink.ai/gpt-5-6"
 KEYS_URL = "https://evolink.ai/dashboard/keys"
+QUICKSTART_URL = "https://docs.evolink.ai/en/api-manual/language-series/gpt-5.6/gpt-5.6-quickstart"
+REFERENCE_URL = "https://docs.evolink.ai/en/api-manual/language-series/gpt-5.6/gpt-5.6-reference"
 OPENAI_URL = "https://openai.com/index/previewing-gpt-5-6-sol/"
 
 LANGUAGES = {
@@ -39,7 +41,7 @@ LANGUAGES = {
 
 BADGES = """[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 [![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)]({badge_url})
-[![GPT-5.6 Early Access](https://img.shields.io/badge/GPT--5.6-Early_Access-f97316)]({badge_url})
+[![GPT-5.6 Available Now](https://img.shields.io/badge/GPT--5.6-Available_Now-22c55e)]({badge_url})
 
 [![🇺🇸 English](https://img.shields.io/badge/🇺🇸_English-Default_Source-111111)](README.md)
 [![🇪🇸 Español](https://img.shields.io/badge/🇪🇸_Español-Ver-ffb703)](README_es.md)
@@ -256,18 +258,21 @@ def translatable_strings(cases: list[dict]) -> list[str]:
         "Section", "Cases", "Case", "What it shows", "Type", "Credits and correction policy",
         "Welcome to the GPT-5.6 high-signal usecase repository.",
         "We collect real-world workflows, tutorials, integrations, evaluations, and limits for GPT-5.6, curated from public evidence.",
-        "Every public case in this repository comes from the supplied launch-window dataset. Case titles link to the original posts and author handles link to creator profiles.",
-        "Join GPT-5.6 early access on EvoLink.",
+        "Every public case is curated from launch-window and recurring public evidence. Case titles link to the original posts and author handles link to creator profiles.",
+        "Use GPT-5.6 on EvoLink.",
         overview_count,
         "Covers coding builds, long-running agents, business workflows, creative production, product integrations, benchmarks, and practical limits.",
         "Each case includes the original source, creator attribution, a concise takeaway, evidence type, and publication date.",
         "Use this repository to identify practical workflows and compare strengths, costs, and limitations before choosing a GPT-5.6 tier.",
         "This collection favors concrete evidence over hype. It publishes only cases with a clear workflow, integration, benchmark method, shipped result, or explicit limitation.",
-        "GPT-5.6 is listed as coming soon on EvoLink. No current-model first-run route or installable GPT-5.6 skill has been verified yet.",
-        "Join early access for GPT-5.6.", "Create or manage your EvoLink API key.",
-        "Return to the GPT-5.6 model page for the verified first-run route when it becomes available.",
-        "Do not substitute a GPT-5.5 example as proof that GPT-5.6 is callable.",
-        "No dedicated GPT-5.6 Skill or API examples repository has been verified. Future Skill and API release work is owned by the separate skill-release pipeline.",
+        "GPT-5.6 is available now on EvoLink. Use an exact tier ID: gpt-5.6-sol, gpt-5.6-terra, or gpt-5.6-luna. A generic gpt-5.6 alias is not available.",
+        "View GPT-5.6 models and pricing.", "Create or manage your EvoLink API key.",
+        "Run your first GPT-5.6 API call with the dedicated Quick Start.",
+        "Use an exact GPT-5.6 tier ID in every request; do not use a generic gpt-5.6 alias.",
+        "Dedicated GPT-5.6 API documentation is available. No installable GPT-5.6 skill has been verified; skill and package release work remains owned by the separate skill-release pipeline.",
+        "Run the GPT-5.6 Quick Start.",
+        "Read the complete GPT-5.6 API reference.",
+        "Read the OpenAI GPT-5.6 launch announcement.",
         "This repository was inspired by the creators, developers, product teams, and benchmark groups who shared real GPT-5.6 use cases publicly.",
         "Thanks to the source creators represented in this collection:",
         "We cannot guarantee that every case is attributed to the original creator. If anything needs to be corrected, please open an issue and we will update it.",
@@ -312,6 +317,7 @@ def translations(cases: list[dict], offline: bool, languages: list[str] | None =
             raise SystemExit(f"offline mode: {len(missing)} missing translations for {lang}")
         for start in range(0, len(missing), 20):
             lang_cache.update(translate_chunk(missing[start:start + 20], target))
+        cache[lang] = {value: lang_cache[value] for value in strings}
     cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return cache
 
@@ -374,8 +380,8 @@ def render_readme(lang: str, cases: list[dict], cache: dict[str, dict[str, str]]
         f"## 🍌 {tr(cache, lang, 'Introduction')}", "",
         tr(cache, lang, "Welcome to the GPT-5.6 high-signal usecase repository."), "",
         f"**{tr(cache, lang, 'We collect real-world workflows, tutorials, integrations, evaluations, and limits for GPT-5.6, curated from public evidence.')}**", "",
-        tr(cache, lang, "Every public case in this repository comes from the supplied launch-window dataset. Case titles link to the original posts and author handles link to creator profiles."), "",
-        f"[{tr(cache, lang, 'Join GPT-5.6 early access on EvoLink.')}]({intro_url})", "",
+        tr(cache, lang, "Every public case is curated from launch-window and recurring public evidence. Case titles link to the original posts and author handles link to creator profiles."), "",
+        f"[{tr(cache, lang, 'Use GPT-5.6 on EvoLink.')}]({intro_url})", "",
         f"## 📊 {tr(cache, lang, 'Overview')}", "",
         f"- **{tr(cache, lang, f'{len(cases)} selected GPT-5.6 cases from public creators, developers, product teams, and benchmark groups.')}**",
         f"- {tr(cache, lang, 'Covers coding builds, long-running agents, business workflows, creative production, product integrations, benchmarks, and practical limits.')}",
@@ -383,12 +389,12 @@ def render_readme(lang: str, cases: list[dict], cache: dict[str, dict[str, str]]
         f"- {tr(cache, lang, 'Use this repository to identify practical workflows and compare strengths, costs, and limitations before choosing a GPT-5.6 tier.')}", "",
         "> [!NOTE]", f"> {tr(cache, lang, 'This collection favors concrete evidence over hype. It publishes only cases with a clear workflow, integration, benchmark method, shipped result, or explicit limitation.')}", "",
         f"## ⚡ {tr(cache, lang, 'Quick Start')}", "",
-        f"**{tr(cache, lang, 'GPT-5.6 is listed as coming soon on EvoLink. No current-model first-run route or installable GPT-5.6 skill has been verified yet.')}**", "",
-        f"1. [{tr(cache, lang, 'Join early access for GPT-5.6.')}]({model_quick})",
+        f"**{tr(cache, lang, 'GPT-5.6 is available now on EvoLink. Use an exact tier ID: gpt-5.6-sol, gpt-5.6-terra, or gpt-5.6-luna. A generic gpt-5.6 alias is not available.')}**", "",
+        f"1. [{tr(cache, lang, 'View GPT-5.6 models and pricing.')}]({model_quick})",
         f"2. [{tr(cache, lang, 'Create or manage your EvoLink API key.')}]({key_url})",
-        f"3. [{tr(cache, lang, 'Return to the GPT-5.6 model page for the verified first-run route when it becomes available.')}]({tracked(MODEL_URL, 'docs', 'first_run')})", "",
+        f"3. [{tr(cache, lang, 'Run your first GPT-5.6 API call with the dedicated Quick Start.')}]({tracked(QUICKSTART_URL, 'docs', 'first_run')})", "",
         "```bash", 'export EVOLINK_API_KEY="your_api_key_here"', "```", "",
-        f"> [!IMPORTANT]", f"> {tr(cache, lang, 'Do not substitute a GPT-5.5 example as proof that GPT-5.6 is callable.')}", "",
+        f"> [!IMPORTANT]", f"> {tr(cache, lang, 'Use an exact GPT-5.6 tier ID in every request; do not use a generic gpt-5.6 alias.')}", "",
         f"## 📑 {tr(cache, lang, 'Menu')}", "",
         f"| {tr(cache, lang, 'Section')} | {tr(cache, lang, 'Cases')} |", "|---|---|",
     ]
@@ -429,8 +435,10 @@ def render_readme(lang: str, cases: list[dict], cache: dict[str, dict[str, str]]
     creators = sorted(creator_links, key=str.lower)
     parts.extend([
         f"## {tr(cache, lang, 'Related Repositories')}", "",
-        tr(cache, lang, "No dedicated GPT-5.6 Skill or API examples repository has been verified. Future Skill and API release work is owned by the separate skill-release pipeline."), "",
-        f"- [OpenAI GPT-5.6 launch announcement]({OPENAI_URL})", "",
+        tr(cache, lang, "Dedicated GPT-5.6 API documentation is available. No installable GPT-5.6 skill has been verified; skill and package release work remains owned by the separate skill-release pipeline."), "",
+        f"- [{tr(cache, lang, 'Run the GPT-5.6 Quick Start.')}]({tracked(QUICKSTART_URL, 'docs', 'quickstart')})",
+        f"- [{tr(cache, lang, 'Read the complete GPT-5.6 API reference.')}]({tracked(REFERENCE_URL, 'docs', 'api_reference')})",
+        f"- [{tr(cache, lang, 'Read the OpenAI GPT-5.6 launch announcement.')}]({OPENAI_URL})", "",
         '<a id="acknowledge"></a>', f"## 🙏 {tr(cache, lang, 'Acknowledge')}", "",
         tr(cache, lang, "This repository was inspired by the creators, developers, product teams, and benchmark groups who shared real GPT-5.6 use cases publicly."), "",
         tr(cache, lang, "Thanks to the source creators represented in this collection:"), "",

@@ -4,7 +4,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 [![Try it on Evolink](https://img.shields.io/badge/Try_it_on-Evolink-black)](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=badge&utm_campaign=awesome-gpt-5.6-usecases&utm_content=top_badge)
-[![GPT-5.6 Early Access](https://img.shields.io/badge/GPT--5.6-Early_Access-f97316)](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=badge&utm_campaign=awesome-gpt-5.6-usecases&utm_content=top_badge)
+[![GPT-5.6 Available Now](https://img.shields.io/badge/GPT--5.6-Available_Now-22c55e)](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=badge&utm_campaign=awesome-gpt-5.6-usecases&utm_content=top_badge)
 
 [![🇺🇸 English](https://img.shields.io/badge/🇺🇸_English-Default_Source-111111)](README.md)
 [![🇪🇸 Español](https://img.shields.io/badge/🇪🇸_Español-Ver-ffb703)](README_es.md)
@@ -28,9 +28,9 @@ GPT-5.6 고신호 사용 사례 저장소에 오신 것을 환영합니다.
 
 **우리는 공개 증거를 바탕으로 선별된 GPT-5.6에 대한 실제 워크플로, 튜토리얼, 통합, 평가 및 제한 사항을 수집합니다.**
 
-이 저장소의 모든 공개 사례는 제공된 실행 기간 데이터 세트에서 나옵니다. 사례 제목은 원본 게시물에 대한 링크이고 작성자는 작성자 프로필에 대한 링크를 처리합니다.
+모든 공개 사건은 시작 기간과 반복되는 공개 증거를 통해 선별됩니다. 사례 제목은 원본 게시물에 대한 링크이고 작성자는 작성자 프로필에 대한 링크를 처리합니다.
 
-[EvoLink에서 GPT-5.6 조기 액세스에 참여하세요.](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-5.6-usecases&utm_content=introduction_cta)
+[EvoLink에서 GPT-5.6을 사용하세요.](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=readme&utm_campaign=awesome-gpt-5.6-usecases&utm_content=introduction_cta)
 
 ## 📊 개요
 
@@ -44,18 +44,18 @@ GPT-5.6 고신호 사용 사례 저장소에 오신 것을 환영합니다.
 
 ## ⚡ 빠른 시작
 
-**GPT-5.6은 EvoLink에 곧 출시될 예정입니다. 현재 모델의 첫 실행 경로나 설치 가능한 GPT-5.6 기술은 아직 검증되지 않았습니다.**
+**GPT-5.6은 현재 EvoLink에서 사용 가능합니다. 정확한 계층 ID(gpt-5.6-sol, gpt-5.6-terra 또는 gpt-5.6-luna)를 사용하세요. 일반 gpt-5.6 별칭은 사용할 수 없습니다.**
 
-1. [GPT-5.6 조기 액세스에 참여하세요.](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gpt-5.6-usecases&utm_content=model_link)
+1. [GPT-5.6 모델 및 가격을 확인하세요.](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gpt-5.6-usecases&utm_content=model_link)
 2. [EvoLink API 키를 생성하거나 관리하세요.](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gpt-5.6-usecases&utm_content=api_key)
-3. [검증된 첫 실행 경로가 제공되면 GPT-5.6 모델 페이지로 돌아갑니다.](https://evolink.ai/gpt-5-6?utm_source=github&utm_medium=docs&utm_campaign=awesome-gpt-5.6-usecases&utm_content=first_run)
+3. [전용 Quick Start를 사용하여 첫 번째 GPT-5.6 API 호출을 실행하세요.](https://docs.evolink.ai/en/api-manual/language-series/gpt-5.6/gpt-5.6-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gpt-5.6-usecases&utm_content=first_run)
 
 ```bash
 export EVOLINK_API_KEY="your_api_key_here"
 ```
 
 > [!IMPORTANT]
-> GPT-5.6이 호출 가능하다는 증거로 GPT-5.5 예제를 대체하지 마십시오.
+> 모든 요청에 ​​정확한 GPT-5.6 등급 ID를 사용하세요. 일반 gpt-5.6 별칭을 사용하지 마세요.
 
 ## 📑 메뉴
 
@@ -1023,9 +1023,11 @@ Type: Demo | Date: 2026-07-11
 
 ## 관련 저장소
 
-전용 GPT-5.6 기술 또는 API 예제 저장소가 확인되지 않았습니다. 향후 기술 및 API 릴리스 작업은 별도의 기술 릴리스 파이프라인에서 소유합니다.
+전용 GPT-5.6 API 문서를 사용할 수 있습니다. 설치 가능한 GPT-5.6 기술이 확인되지 않았습니다. 기술 및 패키지 릴리스 작업은 별도의 기술 릴리스 파이프라인이 계속 소유합니다.
 
-- [OpenAI GPT-5.6 launch announcement](https://openai.com/index/previewing-gpt-5-6-sol/)
+- [GPT-5.6 빠른 시작을 실행하세요.](https://docs.evolink.ai/en/api-manual/language-series/gpt-5.6/gpt-5.6-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gpt-5.6-usecases&utm_content=quickstart)
+- [전체 GPT-5.6 API 참조를 읽어보세요.](https://docs.evolink.ai/en/api-manual/language-series/gpt-5.6/gpt-5.6-reference?utm_source=github&utm_medium=docs&utm_campaign=awesome-gpt-5.6-usecases&utm_content=api_reference)
+- [OpenAI GPT-5.6 출시 발표를 읽어보세요.](https://openai.com/index/previewing-gpt-5-6-sol/)
 
 <a id="acknowledge"></a>
 ## 🙏 확인
