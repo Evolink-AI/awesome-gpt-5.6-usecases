@@ -6,7 +6,7 @@
 - Source intake metadata: `source_artifact` and `source_generated_at` in `data/gpt-5.6-usecase-curated.json`
 - English structure: `README.md`
 - Localization cache: `data/localization-cache.json`
-- Build command: `python3 scripts/build_repository.py --source <source.json> --offline`
+- Build command: `python3 scripts/build_repository.py --curated data/gpt-5.6-usecase-curated.json --offline`
 
 The public dataset contains only the selected high-confidence subset. It also records the aggregate review decision counts and the selected source URLs needed to reconcile the public case set.
 
@@ -28,7 +28,7 @@ Every case requires a contiguous number, stable `case-N` anchor, source URL, aut
 ## Validation
 
 ```bash
-python3 scripts/build_repository.py --source <source.json> --offline
+python3 scripts/build_repository.py --curated data/gpt-5.6-usecase-curated.json --language en --offline
 python3 scripts/verify_repository.py
 python3 /path/to/model-repo-pipeline/bundled-skills/usecase-update-loop/scripts/verify_usecase_update.py --repo .
 git diff --check

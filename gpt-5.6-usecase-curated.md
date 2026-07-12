@@ -52,6 +52,14 @@
 | 48 | Combine WorkIQ With GPT-5.6 | Integration | Agents & Workflows | [@rrr_kgknk](https://x.com/rrr_kgknk/status/2075346382463144362) |
 | 49 | Unify Coding and Work in One App | Integration | Agents & Workflows | [@OpenAIDevs](https://x.com/OpenAIDevs/status/2075275868268789885) |
 | 50 | Share Task History Across Work and Codex | Integration | Agents & Workflows | [@ajambrosino](https://x.com/ajambrosino/status/2075274362501074944) |
+| 51 | Build a Role-Based Multi-Model Coding Agent | Integration | Agents & Workflows | [@bindureddy](https://x.com/bindureddy/status/2076165296977858836) |
+| 52 | Compare Models on the Same 3D Build | Benchmark | Evaluation & Limits | [@om_patel5](https://x.com/om_patel5/status/2076126741274173637) |
+| 53 | Compare Security Accuracy and Precision Cost | Benchmark | Evaluation & Limits | [@zeeg](https://x.com/zeeg/status/2076031530414039386) |
+| 54 | Compare Agent Behavior Through a Playable Game | Benchmark | Evaluation & Limits | [@ai_layer2](https://x.com/ai_layer2/status/2075991522953355631) |
+| 55 | Plan With an Advisor Before GPT-5.6 Implements | Integration | Agents & Workflows | [@cjzafir](https://x.com/cjzafir/status/2075987900072968596) |
+| 56 | Compare GPT-5.6 Tiers on Surface Evolver | Benchmark | Evaluation & Limits | [@Deep_Burner](https://x.com/Deep_Burner/status/2075974647267410252) |
+| 57 | Use Programmatic Tool Calls for Data Reduction | Tutorial | Agents & Workflows | [@diamai_](https://x.com/diamai_/status/2075875136704569690) |
+| 58 | Iterate a Text-Only Three.js Castle | Demo | Coding & Builds | [@givros](https://x.com/givros/status/2075850209880383845) |
 
-Source candidates reviewed: 211
-Public cases selected: 50
+Source candidates reviewed: 249
+Public cases selected: 58

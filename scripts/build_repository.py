@@ -296,11 +296,13 @@ def translate_chunk(strings: list[str], target: str) -> dict[str, str]:
     return output
 
 
-def translations(cases: list[dict], offline: bool) -> dict[str, dict[str, str]]:
+def translations(cases: list[dict], offline: bool, languages: list[str] | None = None) -> dict[str, dict[str, str]]:
     cache_path = REPO / "data" / "localization-cache.json"
     cache = json.loads(cache_path.read_text(encoding="utf-8")) if cache_path.is_file() else {}
     strings = translatable_strings(cases)
-    for lang, (_, _, target) in LANGUAGES.items():
+    selected_languages = languages or list(LANGUAGES)
+    for lang in selected_languages:
+        _, _, target = LANGUAGES[lang]
         if lang == "en":
             cache[lang] = {value: value for value in strings}
             continue
@@ -489,15 +491,18 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--curated", type=Path, default=REPO / "data/gpt-5.6-usecase-curated.json")
     parser.add_argument("--offline", action="store_true")
+    parser.add_argument("--language", choices=LANGUAGES, action="append", help="Build only the selected README language. Repeatable.")
     args = parser.parse_args()
     curated_path = args.curated.expanduser().resolve()
     curated = json.loads(curated_path.read_text(encoding="utf-8"))
     cases = curated["items"]
-    cache = translations(cases, args.offline)
-    for lang, (filename, _, _) in LANGUAGES.items():
+    selected_languages = args.language or list(LANGUAGES)
+    cache = translations(cases, args.offline, selected_languages)
+    for lang in selected_languages:
+        filename, _, _ = LANGUAGES[lang]
         (REPO / filename).write_text(render_readme(lang, cases, cache), encoding="utf-8")
     print(f"public_case_count={len(cases)}")
-    print(f"localized_readmes={len(LANGUAGES)}")
+    print(f"readmes_built={len(selected_languages)}")
     print(f"generated_at={datetime.now(timezone.utc).isoformat()}")
     return 0
 

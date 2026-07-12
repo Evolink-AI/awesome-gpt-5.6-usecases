@@ -34,7 +34,7 @@ Bu depodaki her genel vaka, sağlanan başlatma penceresi veri kümesinden gelir
 
 ## 📊 Genel Bakış
 
-- **Herkese açık yaratıcılardan, geliştiricilerden, ürün ekiplerinden ve karşılaştırma gruplarından seçilen 50 GPT-5.6 örneği.**
+- **Herkese açık yaratıcılardan, geliştiricilerden, ürün ekiplerinden ve karşılaştırma gruplarından seçilen 58 GPT-5.6 örneği.**
 - Kodlama derlemelerini, uzun süre çalışan aracıları, iş iş akışlarını, yaratıcı üretimi, ürün entegrasyonlarını, karşılaştırmaları ve pratik sınırları kapsar.
 - Her vaka orijinal kaynağı, yaratıcının atıfını, kısa bir çıkarımı, kanıt türünü ve yayın tarihini içerir.
 - GPT-5.6 katmanını seçmeden önce pratik iş akışlarını belirlemek ve güçlü yönleri, maliyetleri ve sınırlamaları karşılaştırmak için bu depoyu kullanın.
@@ -61,10 +61,10 @@ export EVOLINK_API_KEY="your_api_key_here"
 
 | Bölüm | Vakalar |
 |---|---|
-| [💻 Kodlama ve Derlemeler](#coding-and-builds) | 14 Vakalar |
-| [🤖 Aracılar ve İş Akışları](#agents-and-workflows) | 12 Vakalar |
+| [💻 Kodlama ve Derlemeler](#coding-and-builds) | 15 Vakalar |
+| [🤖 Aracılar ve İş Akışları](#agents-and-workflows) | 15 Vakalar |
 | [🎨 Yaratıcı ve Ürün Çalışması](#creative-and-product-work) | 11 Vakalar |
-| [🧪 Değerlendirme ve Sınırlar](#evaluation-and-limits) | 13 Vakalar |
+| [🧪 Değerlendirme ve Sınırlar](#evaluation-and-limits) | 17 Vakalar |
 | [Onayla](#acknowledge) | Krediler ve düzeltme politikası |
 
 <a id="coding-and-builds"></a>
@@ -86,6 +86,7 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Beş Dakikada Yönetici Kontrol Paneli Oluşturun](#case-41) | Belirsiz bir yönetici isteğini JetBrains IDE içinde tarayıcı tabanlı çalışan bir kontrol paneline dönüştürün. | Demo |
 | [Çok Saatlik Bir Oyun Derleme Çalıştırın](#case-42) | Kodlama temsilcisinin oynanabilir bir oyunu birkaç saat boyunca genişletmeye devam etmesine ve bir yandan da ilerlemesini izlemesine izin verin. | Demo |
 | [Devin Masaüstünde GPT-5.6'yı kullanın](#case-45) | Ajanslı yazılım geliştirme iş akışının bir parçası olarak GPT-5.6'yı Devin Masaüstü'nde çalıştırın. | Integration |
+| [Yalnızca Metinden Oluşan Üç.js Kalesini Yineleyin](#case-58) | Salt metinden oluşan bir Three.js özetini harici öğeler olmadan keşfedilebilir bir yerel sahneye dönüştürmek için birbirini izleyen GPT-5.6 düzeltmelerini kullanın. | Demo |
 
 <a id="agents-and-workflows"></a>
 ## 🤖 Aracılar ve İş Akışları
@@ -104,6 +105,9 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [WorkIQ'yu GPT-5.6 ile Birleştirin](#case-48) | Copilot'ta bilgi çalışması çıktıları oluştururken ve düzenlerken WorkIQ aracılığıyla Microsoft 365 bağlamını kullanın. | Integration |
 | [Kodlamayı ve Çalışmayı Tek Uygulamada Birleştirin](#case-49) | Tek bir masaüstü uygulamasında kodlama, tarayıcı ve bilgi çalışması iş akışları arasında geçiş yapın. | Integration |
 | [İş ve Kodeks Genelinde Görev Geçmişini Paylaşın](#case-50) | Yetenekleri veya görev geçmişini kaybetmeden kod ayrıntılı veya soyut bir arayüz seçin. | Integration |
+| [Rol Tabanlı Çok Modelli Kodlama Aracısı Oluşturun](#case-51) | Diğer kodlama rollerini zorluk veya maliyet açısından seçilen modellere yönlendirirken GPT-5.6 Sol'u arka uç çalışmasına atayın. | Integration |
+| [GPT-5.6 Uygulamaya Geçmeden Önce Bir Danışmanla Plan Yapın](#case-55) | Onaylanan görev listesini GPT-5.6 uygulama katmanına teslim etmeden önce bir danışman ve GPT-5.6'nın birlikte bir plan eleştirmesini sağlayın. | Integration |
+| [Veri Azaltma için Programatik Araç Çağrılarını Kullanın](#case-57) | GPT-5.6'ya yalnızca kararla ilgili sonuçları döndürmeden önce korumalı alana alınmış bir programın zincirlenmesine ve araç çıktılarının azaltılmasına izin verin. | Tutorial |
 
 <a id="creative-and-product-work"></a>
 ## 🎨 Yaratıcı ve Ürün Çalışması
@@ -140,6 +144,10 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Ödüllü Hacking için Çekirdek Optimizasyonlarını Denetleme](#case-36) | Performans puanlarını kabul etmeden önce not verene özel kısayollar açısından karşılaştırma gönderimlerini inceleyin. | Evaluation |
 | [Alt Aracıların Etkisini Ölçme](#case-43) | Alt aracılarla ve alt aracılar olmadan hem son puanı hem de geçen süreyi karşılaştırın. | Benchmark |
 | [Plana Göre Kullanım Sınırlarını Tahmin Edin](#case-46) | Model seçimi, bağlam, akıl yürütme ve araç kullanımı tüketimi değiştirdiğinden, yayınlanan kullanım aralıklarını tahmin olarak değerlendirin. | Limit |
+| [Aynı 3D Yapıdaki Modelleri Karşılaştırın](#case-52) | Birden fazla modele aynı tarayıcı tabanlı 3D özetini verin ve tutarlılığı, görsel kaliteyi ve simge kullanımını yan yana karşılaştırın. | Benchmark |
+| [Güvenlik Doğruluğu ile Kesinlik Maliyetini Karşılaştırın](#case-53) | Tek bir puan yerine doğruluk, fiyat ve kesin sonuç başına maliyeti kullanarak kodlama modellerini bir güvenlik karşılaştırmasına göre değerlendirin. | Benchmark |
+| [Oynanabilir Bir Oyun Aracılığıyla Temsilci Davranışını Karşılaştırın](#case-54) | Birkaç modele aynı oyun kurallarını verin ve sonuçta ortaya çıkan hayatta kalma, düşman ve puanlama davranışını etkileşimli olarak karşılaştırın. | Benchmark |
+| [Surface Evolver'daki GPT-5.6 Katmanlarını Karşılaştırın](#case-56) | Önceki liderlerle öncü performansı ve maliyeti karşılaştırmak için Sol, Terra ve Luna'yı aynı karşılaştırma üzerinden çalıştırın. | Benchmark |
 
 ## Kullanım Durumları
 
@@ -899,6 +907,120 @@ Type: Integration | Date: 2026-07-10
 
 ---
 
+<a id="case-51"></a>
+### Case 51: [Rol Tabanlı Çok Modelli Kodlama Aracısı Oluşturun](https://x.com/bindureddy/status/2076165296977858836) (by [@bindureddy](https://x.com/bindureddy))
+
+**Diğer kodlama rollerini zorluk veya maliyet açısından seçilen modellere yönlendirirken GPT-5.6 Sol'u arka uç çalışmasına atayın.**
+
+Bindu Reddy, sabit kodlama, arka uç, ön uç ve daha kolay görevlere farklı modeller atayan özel bir kodlama aracısı oluşturucusunu gösteriyor; GPT-5.6 Sol, arka uç rolü olarak gösterilir. İş akışı aynı zamanda daha düşük maliyetli modelleri de tercih edebilir.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-51.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-51-poster.jpg" alt="Case 51 video poster" height="360"></a>
+
+[Play case 51 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-51.mp4)
+
+Type: Integration | Date: 2026-07-12
+
+---
+
+<a id="case-52"></a>
+### Case 52: [Aynı 3D Yapıdaki Modelleri Karşılaştırın](https://x.com/om_patel5/status/2076126741274173637) (by [@om_patel5](https://x.com/om_patel5))
+
+**Birden fazla modele aynı tarayıcı tabanlı 3D özetini verin ve tutarlılığı, görsel kaliteyi ve simge kullanımını yan yana karşılaştırın.**
+
+Om Patel, tarayıcıda Paris, Londra ve New York'un yüzen ada versiyonlarını oluşturmak için dört modele aynı istemi verdiğini bildirdi. Video, çıktıları yan yana yerleştiriyor; kaynak, Fable 5'i en tutarlı, GPT-5.6 Sol'u sağlam ancak daha kaba, GLM-5.2'yi aşırı çiçek kullanan ve Grok 4.5'i daha az token kullanan daha zayıf olarak derecelendiriyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-52.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-52-poster.jpg" alt="Case 52 video poster" height="360"></a>
+
+[Play case 52 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-52.mp4)
+
+Type: Benchmark | Date: 2026-07-12
+
+---
+
+<a id="case-53"></a>
+### Case 53: [Güvenlik Doğruluğu ile Kesinlik Maliyetini Karşılaştırın](https://x.com/zeeg/status/2076031530414039386) (by [@zeeg](https://x.com/zeeg))
+
+**Tek bir puan yerine doğruluk, fiyat ve kesin sonuç başına maliyeti kullanarak kodlama modellerini bir güvenlik karşılaştırmasına göre değerlendirin.**
+
+David Cramer, Müdür'ün güvenlik karşılaştırmasında GPT-5.6 Luna'yı Yüksek çabayla çalıştırdığını bildirdi. Fiyatlandırmasını ve doğruluğunu rekabetçi olarak tanımlıyor ve karşılaştırmayı normalleştirmek için sonuç tablosuna hassas maliyet ekliyor.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-53.jpg" alt="Case 53 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-11
+
+---
+
+<a id="case-54"></a>
+### Case 54: [Oynanabilir Bir Oyun Aracılığıyla Temsilci Davranışını Karşılaştırın](https://x.com/ai_layer2/status/2075991522953355631) (by [@ai_layer2](https://x.com/ai_layer2))
+
+**Birkaç modele aynı oyun kurallarını verin ve sonuçta ortaya çıkan hayatta kalma, düşman ve puanlama davranışını etkileşimli olarak karşılaştırın.**
+
+Yaratıcı, Fable 5, GPT-5.6, GLM-5.2 ve DeepSeek V4 Pro'dan aynı istem, kurallar, ölüm mantığı ve puan tablosuyla aynı otomatik oynayan Contra tarzı oyunu oluşturmalarını istedi. Dördü de çalıştırılabilir oyunlar üretti; video ise risk, hayatta kalma, düşman davranışı ve puanlama arasındaki farklılıkları ortaya koyuyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-54.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-54-poster.jpg" alt="Case 54 video poster" height="360"></a>
+
+[Play case 54 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-54.mp4)
+
+Type: Benchmark | Date: 2026-07-11
+
+---
+
+<a id="case-55"></a>
+### Case 55: [GPT-5.6 Uygulamaya Geçmeden Önce Bir Danışmanla Plan Yapın](https://x.com/cjzafir/status/2075987900072968596) (by [@cjzafir](https://x.com/cjzafir))
+
+**Onaylanan görev listesini GPT-5.6 uygulama katmanına teslim etmeden önce bir danışman ve GPT-5.6'nın birlikte bir plan eleştirmesini sağlayın.**
+
+Yaratıcı, Codex'te danışman olarak Fable 5'i kullanırken Ekstra Yüksek çabayla GPT-5.6 Sol birlikte plan yapar, eleştiri yapar ve bir ana plan üzerinde anlaşır. Codex daha sonra planı ve görev listesini uygulama için Yüksek çabayla GPT-5.6 Sol veya Terra'ya iletir.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-55.png" alt="Case 55 source media" height="360">
+
+Type: Integration | Date: 2026-07-11
+
+---
+
+<a id="case-56"></a>
+### Case 56: [Surface Evolver'daki GPT-5.6 Katmanlarını Karşılaştırın](https://x.com/Deep_Burner/status/2075974647267410252) (by [@Deep_Burner](https://x.com/Deep_Burner))
+
+**Önceki liderlerle öncü performansı ve maliyeti karşılaştırmak için Sol, Terra ve Luna'yı aynı karşılaştırma üzerinden çalıştırın.**
+
+Yaratıcı, GPT-5.6 Luna, Terra ve Sol'u Surface Evolver Benchmark'a ekler ve üçünün de sınıra indiğini bildirir. Kaynak, Sol'un önceki lider Fable ile yarı maliyetle aynı puana sahip olduğunu söylüyor.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-56.jpg" alt="Case 56 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-11
+
+---
+
+<a id="case-57"></a>
+### Case 57: [Veri Azaltma için Programatik Araç Çağrılarını Kullanın](https://x.com/diamai_/status/2075875136704569690) (by [@diamai_](https://x.com/diamai_))
+
+**GPT-5.6'ya yalnızca kararla ilgili sonuçları döndürmeden önce korumalı alana alınmış bir programın zincirlenmesine ve araç çıktılarının azaltılmasına izin verin.**
+
+Diam, GPT-5.6 kart oyunu demosunu analiz ediyor: model, mekaniği tasarlıyor, varlıklar üretiyor, sanat ve ses yetkilerini veriyor ve paralel olarak yapıya devam ediyor. Kaynak, harici yazma işlemi olmayan sabit şema işlem hatları için programlı araç çağrılarını önerirken strateji, onay veya alıntılar görünür bir iz gerektirdiğinde doğrudan çağrıları korur.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-57.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-57-poster.jpg" alt="Case 57 video poster" height="360"></a>
+
+[Play case 57 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-57.mp4)
+
+Type: Tutorial | Date: 2026-07-11
+
+---
+
+<a id="case-58"></a>
+### Case 58: [Yalnızca Metinden Oluşan Üç.js Kalesini Yineleyin](https://x.com/givros/status/2075850209880383845) (by [@givros](https://x.com/givros))
+
+**Salt metinden oluşan bir Three.js özetini harici öğeler olmadan keşfedilebilir bir yerel sahneye dönüştürmek için birbirini izleyen GPT-5.6 düzeltmelerini kullanın.**
+
+Givros, GPT-5.6 Sol'u CDN, React, Blender dışa aktarımı, GLTF, indirilen dokular, harici varlıklar veya referans görüntüsü olmadan yerel bir Vite ve Three.js kalesinde test ediyor. Çeşitli komutlar ve düzeltmelerle yapı, yeniden kullanılabilir geometri, aydınlatma, kontroller, bir hendek, çalışır durumda bir asma köprü, hareketli bir kapı ve keşfedilebilir bir iç mekan kazanır.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-58.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-58-poster.jpg" alt="Case 58 video poster" height="360"></a>
+
+[Play case 58 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-58.mp4)
+
+Type: Demo | Date: 2026-07-11
+
+---
+
 ## İlgili Depolar
 
 Ayrılmış GPT-5.6 Beceri veya API örnekleri deposu doğrulanmadı. Gelecekteki Beceri ve API sürümü çalışmaları, ayrı bir beceri sürümü kanalına aittir.
@@ -912,7 +1034,7 @@ Bu depo, gerçek GPT-5.6 kullanım örneklerini herkese açık olarak paylaşan 
 
 Bu koleksiyonda temsil edilen kaynak oluşturuculara teşekkürler:
 
-[@AdamHoltererer](https://x.com/AdamHoltererer), [@AIna_artmusic](https://x.com/AIna_artmusic), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@alxndrdavies](https://x.com/alxndrdavies), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Azure](https://x.com/Azure), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Creatify_AI](https://x.com/Creatify_AI), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@devindesktop](https://x.com/devindesktop), [@elliotarledge](https://x.com/elliotarledge), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@gregisenberg](https://x.com/gregisenberg), [@inannanigin](https://x.com/inannanigin), [@jetbrains](https://x.com/jetbrains), [@MatthewBerman](https://x.com/MatthewBerman), [@mattshumer_](https://x.com/mattshumer_), [@Microsoft365](https://x.com/Microsoft365), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@rrr_kgknk](https://x.com/rrr_kgknk), [@satyanadella](https://x.com/satyanadella), [@sharifshameem](https://x.com/sharifshameem), [@skirano](https://x.com/skirano), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@WesRoth](https://x.com/WesRoth)
+[@AdamHoltererer](https://x.com/AdamHoltererer), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@alxndrdavies](https://x.com/alxndrdavies), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Azure](https://x.com/Azure), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Creatify_AI](https://x.com/Creatify_AI), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@Deep_Burner](https://x.com/Deep_Burner), [@devindesktop](https://x.com/devindesktop), [@diamai_](https://x.com/diamai_), [@elliotarledge](https://x.com/elliotarledge), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@inannanigin](https://x.com/inannanigin), [@jetbrains](https://x.com/jetbrains), [@MatthewBerman](https://x.com/MatthewBerman), [@mattshumer_](https://x.com/mattshumer_), [@Microsoft365](https://x.com/Microsoft365), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@om_patel5](https://x.com/om_patel5), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@rrr_kgknk](https://x.com/rrr_kgknk), [@satyanadella](https://x.com/satyanadella), [@sharifshameem](https://x.com/sharifshameem), [@skirano](https://x.com/skirano), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@WesRoth](https://x.com/WesRoth), [@zeeg](https://x.com/zeeg)
 
 *Her vakanın orijinal yaratıcıya atfedildiğini garanti edemeyiz. Düzeltilmesi gereken bir şey varsa lütfen bir konu açın, biz de güncelleyeceğiz.*
 

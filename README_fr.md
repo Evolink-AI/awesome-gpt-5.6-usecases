@@ -34,7 +34,7 @@ Chaque cas public de ce référentiel provient de l'ensemble de données de la f
 
 ## 📊 Présentation
 
-- **50 cas GPT-5.6 sélectionnés provenant de créateurs publics, de développeurs, d'équipes produit et de groupes de référence.**
+- **58 cas GPT-5.6 sélectionnés provenant de créateurs publics, de développeurs, d'équipes produit et de groupes de référence.**
 - Couvre les builds de codage, les agents de longue durée, les flux de travail métier, la production créative, les intégrations de produits, les tests de performance et les limites pratiques.
 - Chaque cas inclut la source originale, l'attribution du créateur, un résumé concis, le type de preuve et la date de publication.
 - Utilisez ce référentiel pour identifier les flux de travail pratiques et comparer les points forts, les coûts et les limites avant de choisir un niveau GPT-5.6.
@@ -61,10 +61,10 @@ export EVOLINK_API_KEY="your_api_key_here"
 
 | Section | Cas |
 |---|---|
-| [💻 Codage et builds](#coding-and-builds) | 14 Cas |
-| [🤖 Agents et flux de travail](#agents-and-workflows) | 12 Cas |
+| [💻 Codage et builds](#coding-and-builds) | 15 Cas |
+| [🤖 Agents et flux de travail](#agents-and-workflows) | 15 Cas |
 | [🎨 Travail de création et de produit](#creative-and-product-work) | 11 Cas |
-| [🧪 Évaluation et limites](#evaluation-and-limits) | 13 Cas |
+| [🧪 Évaluation et limites](#evaluation-and-limits) | 17 Cas |
 | [Acquitter](#acknowledge) | Crédits et politique de correction |
 
 <a id="coding-and-builds"></a>
@@ -86,6 +86,7 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Créez un tableau de bord exécutif en cinq minutes](#case-41) | Transformez une vague demande exécutive en un tableau de bord fonctionnel basé sur un navigateur dans un IDE JetBrains. | Demo |
 | [Exécuter une création de jeu sur plusieurs heures](#case-42) | Laissez un agent de codage continuer à développer un jeu jouable pendant plusieurs heures tout en surveillant sa progression. | Demo |
 | [Utiliser GPT-5.6 dans Devin Desktop](#case-45) | Exécutez GPT-5.6 dans Devin Desktop dans le cadre d'un workflow de développement logiciel agent. | Integration |
+| [Itérer un château Three.js en texte uniquement](#case-58) | Utilisez les révisions successives de GPT-5.6 pour transformer un brief Three.js contenant uniquement du texte en une scène locale explorable sans ressources externes. | Demo |
 
 <a id="agents-and-workflows"></a>
 ## 🤖 Agents et flux de travail
@@ -104,6 +105,9 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Combinez WorkIQ avec GPT-5.6](#case-48) | Utilisez le contexte Microsoft 365 via WorkIQ tout en générant et en modifiant les résultats du travail de connaissances dans Copilot. | Integration |
 | [Unifiez le codage et travaillez dans une seule application](#case-49) | Passez des workflows de codage, de navigateur et de travail de connaissances dans une seule application de bureau. | Integration |
 | [Partager l'historique des tâches entre Work et le Codex](#case-50) | Choisissez une interface détaillée ou abstraite sans perdre les fonctionnalités ni l'historique des tâches. | Integration |
+| [Créer un agent de codage multimodèle basé sur des rôles](#case-51) | Attribuez GPT-5.6 Sol au travail backend tout en acheminant d'autres rôles de codage vers des modèles choisis en fonction de leur difficulté ou de leur coût. | Integration |
+| [Planifiez avec un conseiller avant la mise en œuvre de GPT-5.6](#case-55) | Demandez à un conseiller et à GPT-5.6 de critiquer ensemble un plan avant de transmettre la liste de tâches approuvée à un niveau de mise en œuvre de GPT-5.6. | Integration |
+| [Utiliser les appels aux outils de programmation pour la réduction des données](#case-57) | Laissez un programme en bac à sable enchaîner et réduire les résultats de l'outil avant de renvoyer uniquement les résultats pertinents pour la décision à GPT-5.6. | Tutorial |
 
 <a id="creative-and-product-work"></a>
 ## 🎨 Travail de création et de produit
@@ -140,6 +144,10 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Auditer les optimisations du noyau pour le piratage de récompenses](#case-36) | Inspectez les soumissions de référence pour les raccourcis spécifiques aux évaluateurs avant d'accepter les scores de performance. | Evaluation |
 | [Mesurer l'effet des sous-agents](#case-43) | Évaluez à la fois le score final et le temps écoulé avec et sans sous-agents. | Benchmark |
 | [Estimer les limites d'utilisation par forfait](#case-46) | Traitez les plages d'utilisation publiées comme des estimations, car le choix du modèle, le contexte, le raisonnement et l'utilisation des outils modifient la consommation. | Limit |
+| [Comparer les modèles sur la même construction 3D](#case-52) | Donnez à plusieurs modèles le même brief 3D basé sur un navigateur et comparez côte à côte la cohérence, la qualité visuelle et l'utilisation des jetons. | Benchmark |
+| [Comparez l'exactitude de la sécurité et le coût de la précision](#case-53) | Évaluez les modèles de codage sur une référence de sécurité en utilisant la précision, le prix et le coût par résultat précis plutôt qu'un score unique. | Benchmark |
+| [Comparez le comportement des agents via un jeu jouable](#case-54) | Donnez à plusieurs modèles des règles de jeu identiques et comparez de manière interactive le comportement de survie, d'ennemi et de score qui en résulte. | Benchmark |
+| [Comparez les niveaux GPT-5.6 sur Surface Evolver](#case-56) | Exécutez Sol, Terra et Luna via le même benchmark pour comparer les performances et les coûts de pointe par rapport aux leaders précédents. | Benchmark |
 
 ## Cas d'utilisation
 
@@ -899,6 +907,120 @@ Type: Integration | Date: 2026-07-10
 
 ---
 
+<a id="case-51"></a>
+### Case 51: [Créer un agent de codage multimodèle basé sur des rôles](https://x.com/bindureddy/status/2076165296977858836) (by [@bindureddy](https://x.com/bindureddy))
+
+**Attribuez GPT-5.6 Sol au travail backend tout en acheminant d'autres rôles de codage vers des modèles choisis en fonction de leur difficulté ou de leur coût.**
+
+Bindu Reddy présente un générateur d'agent de codage personnalisé qui attribue différents modèles au codage en dur, au backend, au frontend et aux tâches plus simples ; GPT-5.6 Sol est affiché comme rôle backend. Le flux de travail peut également favoriser les modèles moins coûteux.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-51.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-51-poster.jpg" alt="Case 51 video poster" height="360"></a>
+
+[Play case 51 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-51.mp4)
+
+Type: Integration | Date: 2026-07-12
+
+---
+
+<a id="case-52"></a>
+### Case 52: [Comparer les modèles sur la même construction 3D](https://x.com/om_patel5/status/2076126741274173637) (by [@om_patel5](https://x.com/om_patel5))
+
+**Donnez à plusieurs modèles le même brief 3D basé sur un navigateur et comparez côte à côte la cohérence, la qualité visuelle et l'utilisation des jetons.**
+
+Om Patel rapporte avoir donné à quatre modèles la même invite pour créer des versions d'îles flottantes de Paris, Londres et New York dans le navigateur. La vidéo place les sorties côte à côte ; la source considère Fable 5 comme le plus cohérent, GPT-5.6 Sol comme solide mais plus rugueux, GLM-5.2 comme utilisant excessivement la floraison et Grok 4.5 comme plus faible tout en utilisant moins de jetons.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-52.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-52-poster.jpg" alt="Case 52 video poster" height="360"></a>
+
+[Play case 52 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-52.mp4)
+
+Type: Benchmark | Date: 2026-07-12
+
+---
+
+<a id="case-53"></a>
+### Case 53: [Comparez l'exactitude de la sécurité et le coût de la précision](https://x.com/zeeg/status/2076031530414039386) (by [@zeeg](https://x.com/zeeg))
+
+**Évaluez les modèles de codage sur une référence de sécurité en utilisant la précision, le prix et le coût par résultat précis plutôt qu'un score unique.**
+
+David Cramer rapporte avoir exécuté GPT-5.6 Luna avec un niveau d'effort élevé sur le test de sécurité de Warden. Il décrit son prix et sa précision comme compétitifs et ajoute le coût de précision au tableau des résultats pour normaliser la comparaison.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-53.jpg" alt="Case 53 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-11
+
+---
+
+<a id="case-54"></a>
+### Case 54: [Comparez le comportement des agents via un jeu jouable](https://x.com/ai_layer2/status/2075991522953355631) (by [@ai_layer2](https://x.com/ai_layer2))
+
+**Donnez à plusieurs modèles des règles de jeu identiques et comparez de manière interactive le comportement de survie, d'ennemi et de score qui en résulte.**
+
+Le créateur a demandé à Fable 5, GPT-5.6, GLM-5.2 et DeepSeek V4 Pro de créer le même jeu de style Contra à lecture automatique avec la même invite, les mêmes règles, la même logique de mort et le même tableau de bord. Tous les quatre ont produit des jeux exécutables, tandis que la vidéo expose les différences en termes de risque, de survie, de comportement de l'ennemi et de score.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-54.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-54-poster.jpg" alt="Case 54 video poster" height="360"></a>
+
+[Play case 54 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-54.mp4)
+
+Type: Benchmark | Date: 2026-07-11
+
+---
+
+<a id="case-55"></a>
+### Case 55: [Planifiez avec un conseiller avant la mise en œuvre de GPT-5.6](https://x.com/cjzafir/status/2075987900072968596) (by [@cjzafir](https://x.com/cjzafir))
+
+**Demandez à un conseiller et à GPT-5.6 de critiquer ensemble un plan avant de transmettre la liste de tâches approuvée à un niveau de mise en œuvre de GPT-5.6.**
+
+Le créateur utilise Fable 5 comme conseiller au sein du Codex tandis que GPT-5.6 Sol à Extra High effort co-planifie, critique et se met d'accord sur un plan directeur. Le Codex remet ensuite le plan et la liste des tâches à GPT-5.6 Sol ou Terra avec un effort élevé pour la mise en œuvre.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-55.png" alt="Case 55 source media" height="360">
+
+Type: Integration | Date: 2026-07-11
+
+---
+
+<a id="case-56"></a>
+### Case 56: [Comparez les niveaux GPT-5.6 sur Surface Evolver](https://x.com/Deep_Burner/status/2075974647267410252) (by [@Deep_Burner](https://x.com/Deep_Burner))
+
+**Exécutez Sol, Terra et Luna via le même benchmark pour comparer les performances et les coûts de pointe par rapport aux leaders précédents.**
+
+Le créateur ajoute GPT-5.6 Luna, Terra et Sol au Surface Evolver Benchmark et rapporte que tous les trois atterrissent sur la frontière. La source affirme que Sol obtient un score comparable à celui de son précédent leader, Fable, à moitié prix.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-56.jpg" alt="Case 56 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-11
+
+---
+
+<a id="case-57"></a>
+### Case 57: [Utiliser les appels aux outils de programmation pour la réduction des données](https://x.com/diamai_/status/2075875136704569690) (by [@diamai_](https://x.com/diamai_))
+
+**Laissez un programme en bac à sable enchaîner et réduire les résultats de l'outil avant de renvoyer uniquement les résultats pertinents pour la décision à GPT-5.6.**
+
+Diam analyse la démo du jeu de cartes GPT-5.6 : le modèle conçoit les mécaniques, génère les actifs, délègue l'art et le son, et poursuit la construction en parallèle. La source recommande les appels d'outils de programmation pour les pipelines à schéma fixe sans écriture externe, tout en conservant les appels directs lorsque la stratégie, l'approbation ou les citations nécessitent une trace visible.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-57.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-57-poster.jpg" alt="Case 57 video poster" height="360"></a>
+
+[Play case 57 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-57.mp4)
+
+Type: Tutorial | Date: 2026-07-11
+
+---
+
+<a id="case-58"></a>
+### Case 58: [Itérer un château Three.js en texte uniquement](https://x.com/givros/status/2075850209880383845) (by [@givros](https://x.com/givros))
+
+**Utilisez les révisions successives de GPT-5.6 pour transformer un brief Three.js contenant uniquement du texte en une scène locale explorable sans ressources externes.**
+
+Givros teste GPT-5.6 Sol sur un château Vite et Three.js local sans CDN, React, exportation Blender, GLTF, textures téléchargées, ressources externes ou image de référence. Grâce à plusieurs invites et corrections, la construction bénéficie d'une géométrie réutilisable, d'un éclairage, de commandes, d'un fossé, d'un pont-levis fonctionnel, d'une herse animée et d'un intérieur explorable.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-58.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-58-poster.jpg" alt="Case 58 video poster" height="360"></a>
+
+[Play case 58 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-58.mp4)
+
+Type: Demo | Date: 2026-07-11
+
+---
+
 ## Dépôts associés
 
 Aucun référentiel dédié de compétences GPT-5.6 ou d'exemples d'API n'a été vérifié. Les travaux de publication de compétences futures et d'API appartiennent au pipeline de publication de compétences distinct.
@@ -912,7 +1034,7 @@ Ce référentiel a été inspiré par les créateurs, les développeurs, les éq
 
 Merci aux créateurs de sources représentés dans cette collection :
 
-[@AdamHoltererer](https://x.com/AdamHoltererer), [@AIna_artmusic](https://x.com/AIna_artmusic), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@alxndrdavies](https://x.com/alxndrdavies), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Azure](https://x.com/Azure), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Creatify_AI](https://x.com/Creatify_AI), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@devindesktop](https://x.com/devindesktop), [@elliotarledge](https://x.com/elliotarledge), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@gregisenberg](https://x.com/gregisenberg), [@inannanigin](https://x.com/inannanigin), [@jetbrains](https://x.com/jetbrains), [@MatthewBerman](https://x.com/MatthewBerman), [@mattshumer_](https://x.com/mattshumer_), [@Microsoft365](https://x.com/Microsoft365), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@rrr_kgknk](https://x.com/rrr_kgknk), [@satyanadella](https://x.com/satyanadella), [@sharifshameem](https://x.com/sharifshameem), [@skirano](https://x.com/skirano), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@WesRoth](https://x.com/WesRoth)
+[@AdamHoltererer](https://x.com/AdamHoltererer), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@alxndrdavies](https://x.com/alxndrdavies), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Azure](https://x.com/Azure), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Creatify_AI](https://x.com/Creatify_AI), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@Deep_Burner](https://x.com/Deep_Burner), [@devindesktop](https://x.com/devindesktop), [@diamai_](https://x.com/diamai_), [@elliotarledge](https://x.com/elliotarledge), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@inannanigin](https://x.com/inannanigin), [@jetbrains](https://x.com/jetbrains), [@MatthewBerman](https://x.com/MatthewBerman), [@mattshumer_](https://x.com/mattshumer_), [@Microsoft365](https://x.com/Microsoft365), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@om_patel5](https://x.com/om_patel5), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@rrr_kgknk](https://x.com/rrr_kgknk), [@satyanadella](https://x.com/satyanadella), [@sharifshameem](https://x.com/sharifshameem), [@skirano](https://x.com/skirano), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@WesRoth](https://x.com/WesRoth), [@zeeg](https://x.com/zeeg)
 
 *Nous ne pouvons pas garantir que chaque cas soit attribué au créateur d'origine. Si quelque chose doit être corrigé, veuillez ouvrir un problème et nous le mettrons à jour.*
 

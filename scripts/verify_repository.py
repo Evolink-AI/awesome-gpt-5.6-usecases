@@ -72,8 +72,8 @@ def verify() -> list[str]:
     data = json.loads(data_path.read_text(encoding="utf-8"))
     expected = data["items"]
     expected_count = len(expected)
-    if expected_count != 50 or data.get("total_public_cases") != expected_count:
-        fail(errors, "curated data must declare exactly 50 public cases")
+    if expected_count < 1 or data.get("total_public_cases") != expected_count:
+        fail(errors, "curated data total_public_cases must match the non-empty public case list")
     required_handoff = (
         "public_number", "dedup_key", "source_url", "author_url", "author_handle", "title", "takeaway",
         "body_notes", "type", "date", "category", "decision", "decision_reason", "prompt_boundary", "media_type",
@@ -108,8 +108,8 @@ def verify() -> list[str]:
         else:
             fail(errors, f"curated case {item.get('public_number')} media_type must be image or video")
     decision_counts = data.get("decision_counts", {})
-    if sum(decision_counts.values()) != data.get("total_candidates_reviewed") or data.get("total_candidates_reviewed") != 211:
-        fail(errors, "semantic review decision counts do not reconcile to 211 candidates")
+    if sum(decision_counts.values()) != data.get("total_candidates_reviewed"):
+        fail(errors, "semantic review decision counts do not reconcile to total_candidates_reviewed")
     if decision_counts.get("high_confidence_update") != len(expected):
         fail(errors, "semantic review selected count differs from public case count")
     if set(data.get("selected_source_urls", [])) != {item["source_url"] for item in expected}:
@@ -271,7 +271,8 @@ def main() -> int:
         return 1
     print("PASS")
     print("readmes=11")
-    print("public_cases=50")
+    data = json.loads((ROOT / "data" / "gpt-5.6-usecase-curated.json").read_text(encoding="utf-8"))
+    print(f"public_cases={len(data['items'])}")
     print("structured_data_equality=passed")
     print("recurring_update_handoff_fields=passed")
     print("semantic_review_reconciliation=passed")
