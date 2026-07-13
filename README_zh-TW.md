@@ -34,7 +34,7 @@
 
 ## 📊 概覽
 
-- **58 個來自公共創作者、開發者、產品團隊和基準測試小組的精選 GPT-5.6 案例。**
+- **68 個來自公共創作者、開發者、產品團隊和基準測試小組的精選 GPT-5.6 案例。**
 - 涵蓋編碼建置、長期運作的代理商、業務工作流程、創意製作、產品整合、基準測試和實際限制。
 - 每個案例都包含原始來源、創建者歸屬、簡明要點、證據類型和發布日期。
 - 在選擇 GPT-5.6 層之前，使用此儲存庫來確定實際工作流程並比較優勢、成本和限制。
@@ -61,10 +61,10 @@ export EVOLINK_API_KEY="your_api_key_here"
 
 | 部分 | 案例 |
 |---|---|
-| [💻 編碼與構建](#coding-and-builds) | 15 案例 |
-| [🤖 代理與工作流程](#agents-and-workflows) | 15 案例 |
-| [🎨 創意與產品工作](#creative-and-product-work) | 11 案例 |
-| [🧪 評估與限制](#evaluation-and-limits) | 17 案例 |
+| [💻 編碼與構建](#coding-and-builds) | 16 案例 |
+| [🤖 代理與工作流程](#agents-and-workflows) | 17 案例 |
+| [🎨 創意與產品工作](#creative-and-product-work) | 13 案例 |
+| [🧪 評估與限制](#evaluation-and-limits) | 22 案例 |
 | [確認](#acknowledge) | 學分與更正政策 |
 
 <a id="coding-and-builds"></a>
@@ -87,6 +87,7 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [運行多小時的遊戲構建](#case-42) | 讓編碼代理繼續擴展可玩遊戲幾個小時，同時監控其進度。 | Demo |
 | [在 Devin 桌面使用 GPT-5.6](#case-45) | 在 Devin Desktop 中运行 GPT-5.6，作为代理软件开发工作流程的一部分。 | Integration |
 | [迭代純文字 Three.js Castle](#case-58) | 使用連續的 GPT-5.6 修訂版將純文字 Three.js 簡介轉變為可探索的本地場景，無需外部資源。 | Demo |
+| [將 GPT-5.6 路由到 Claude Code](#case-66) | 只有在評估帳號與政策風險後，才把 GPT-5.6 Codex API 存取透過 proxy 接到 Claude Code。 | Integration |
 
 <a id="agents-and-workflows"></a>
 ## 🤖 代理與工作流程
@@ -108,6 +109,8 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [建構基於角色的多模型編碼代理](#case-51) | 將 GPT-5.6 Sol 分配給後端工作，同時將其他編碼角色路由到根據難度或成本選擇的模型。 | Integration |
 | [在 GPT-5.6 實施之前與顧問一起制定計劃](#case-55) | 在將核准的任務清單交給 GPT-5.6 實施層之前，讓顧問和 GPT-5.6 一起審查計畫。 | Integration |
 | [使用程式設計工具呼叫來減少數據](#case-57) | 在僅將與決策相關的結果返回 GPT-5.6 之前，讓沙盒程式鍊起來並減少工具輸出。 | Tutorial |
+| [移除過時的子代理引導](#case-60) | 審核舊的 skill 與子代理指令，因為 GPT-5.6 可能已經會積極呼叫這些流程。 | Tutorial |
+| [路由規劃、寫程式與驗證](#case-62) | 在 GPT-5.6 Sol 作為預設直到額度耗盡的同時，把規劃、實作與驗證拆給不同模型。 | Evaluation |
 
 <a id="creative-and-product-work"></a>
 ## 🎨 創意與產品工作
@@ -125,6 +128,8 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [建立本機可編輯的 Office 文件](#case-38) | 將投影片、工作表和文件產生為可編輯工件，而非平面影像。 | Demo |
 | [發布可過濾的城市指南](#case-40) | 按街區、心情和價格組織推薦，然後將結果發佈為網站。 | Demo |
 | [查看 AI 編寫的故事限制](#case-47) | 在判断散文质量以及写作是否仍然揭示其人工智能起源之前，请阅读完整的生成故事。 | Limit |
+| [比較 Remotion 與 HyperFrames 影片流程](#case-64) | 用兩條流程執行同一個 GPT-5.6 影片概念，來比較動畫品質、工作流與輸出。 | Demo |
+| [建立分層主題 UI demo](#case-68) | 使用 GPT-5.6 Sol Low，把熱門想法變成具有 Luna、Terra、Sol 分別視覺狀態的 UI demo。 | Demo |
 
 <a id="evaluation-and-limits"></a>
 ## 🧪 評估與限制
@@ -148,6 +153,12 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [比較安全準確性與精確度成本](#case-53) | 使用準確性、價格和每個精確結果的成本而不是單一分數來評估安全基準上的編碼模型。 | Benchmark |
 | [透過可玩遊戲比較代理行為](#case-54) | 給予幾個模型相同的遊戲規則，並以互動方式比較結果的生存、敵人和得分行為。 | Benchmark |
 | [比較 Surface Evolver 上的 GPT-5.6 層](#case-56) | 透過相同的基準運行 Sol、Terra 和 Luna，以將前沿性能和成本與先前的領先者進行比較。 | Benchmark |
+| [追蹤降低後的 GPT-5.6 思考預算](#case-59) | 在假設更快的 GPT-5.6 Sol 執行仍保留同樣推理深度前，先比較可見的思考預算設定。 | Limit |
+| [依任務選擇 GPT-5.6 層級](#case-61) | 將日常寫程式、全倉庫修改與最終審查分配到不同 GPT-5.6 層級，而不是預設使用 Ultra。 | Limit |
+| [依努力層級評測工程任務](#case-63) | 在假設更高努力會提高準確率前，先用真實工程任務測試 low、medium 和 high。 | Benchmark |
+| [評測 Claude Code harness 結果](#case-65) | 把相同 GPT-5.6 任務移到不同 harness，觀察速度、token 使用與漏掉問題是否改變。 | Benchmark |
+| [檢查 Luna 每分成本說法](#case-67) | 在把 GPT-5.6 Luna 當作預設 coding agent 層級前，先用公開 benchmark 數據驗證每分成本說法。 | Benchmark |
+
 
 ## 用例
 
@@ -1021,6 +1032,151 @@ Type: Demo | Date: 2026-07-11
 
 ---
 
+<a id="case-59"></a>
+### Case 59: [追蹤降低後的 GPT-5.6 思考預算](https://x.com/Lentils80/status/2076460021861187754) (by [@Lentils80](https://x.com/Lentils80))
+
+**在假設更快的 GPT-5.6 Sol 執行仍保留同樣推理深度前，先比較可見的思考預算設定。**
+
+創作者回報 GPT-5.6 Sol 的 juice 數值相較發布日被降低，而 Terra 和 Luna 未受影響。附圖顯示其所稱的預算比較。
+
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-59-1.png" alt="Case 59 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-59-2.png" alt="Case 59 source media 2" height="240"></td>
+  </tr>
+</table>
+
+Type: Limit | Date: 2026-07-13
+
+---
+
+<a id="case-60"></a>
+### Case 60: [移除過時的子代理引導](https://x.com/dexhorthy/status/2076381087203475772) (by [@dexhorthy](https://x.com/dexhorthy))
+
+**審核舊的 skill 與子代理指令，因為 GPT-5.6 可能已經會積極呼叫這些流程。**
+
+Dex Horthy 表示 GPT-5.6 模型很強，但現在太偏向使用子代理與 skills。他的流程調整移除強烈的子代理引導，降低宣傳式 skill 描述，並在部分 skills 中停用模型呼叫。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-60.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-60-poster.jpg" alt="Case 60 video poster" height="360"></a>
+
+[Play case 60 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-60.mp4)
+
+Type: Tutorial | Date: 2026-07-12
+
+---
+
+<a id="case-61"></a>
+### Case 61: [依任務選擇 GPT-5.6 層級](https://x.com/simplifyinAI/status/2076360674201272691) (by [@simplifyinAI](https://x.com/simplifyinAI))
+
+**將日常寫程式、全倉庫修改與最終審查分配到不同 GPT-5.6 層級，而不是預設使用 Ultra。**
+
+來源建議日常寫程式用 Luna high，大型功能用 Terra medium，全倉庫修改用 Terra high，規劃、架構與最終審查用 Sol high。它提醒 Ultra 應設限制，因為平行代理會快速消耗額度。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-61.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-61-poster.jpg" alt="Case 61 video poster" height="360"></a>
+
+[Play case 61 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-61.mp4)
+
+Type: Limit | Date: 2026-07-12
+
+---
+
+<a id="case-62"></a>
+### Case 62: [路由規劃、寫程式與驗證](https://x.com/vedhsaka/status/2076350160628564442) (by [@vedhsaka](https://x.com/vedhsaka))
+
+**在 GPT-5.6 Sol 作為預設直到額度耗盡的同時，把規劃、實作與驗證拆給不同模型。**
+
+Vedh Saka 描述目前堆疊：用 Codex 5.6 Ultra 做規劃，用另一個模型挑戰計畫，用 Grok 加速實作，用 Fable 驗證。對其應用而言，來源稱 5.6 Sol 在達到 token 限制前，於規劃、執行、測試與瀏覽器使用上表現最好。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-62.jpg" alt="Case 62 source media" height="360">
+
+Type: Evaluation | Date: 2026-07-12
+
+---
+
+<a id="case-63"></a>
+### Case 63: [依努力層級評測工程任務](https://x.com/morganlinton/status/2076334862706073721) (by [@morganlinton](https://x.com/morganlinton))
+
+**在假設更高努力會提高準確率前，先用真實工程任務測試 low、medium 和 high。**
+
+Morgan Linton 回報用真實工程問題而非謎題，比較 Grok 4.5、GPT-5.6 和 Fable 5。來源表示從 medium 提到 high 不一定提高準確率，而 medium 可能是實務甜蜜點。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-63.jpg" alt="Case 63 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-12
+
+---
+
+<a id="case-64"></a>
+### Case 64: [比較 Remotion 與 HyperFrames 影片流程](https://x.com/Oluwaphilemon1/status/2076333536701759573) (by [@Oluwaphilemon1](https://x.com/Oluwaphilemon1))
+
+**用兩條流程執行同一個 GPT-5.6 影片概念，來比較動畫品質、工作流與輸出。**
+
+Oluwaphilemon 表示 GPT-5.6 Sol Ultra 先建立介紹影片概念，接著用 Remotion 與 HyperFrames 測試同一概念。貼文從動畫品質、工作流與最終輸出角度比較。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-64.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-64-poster.jpg" alt="Case 64 video poster" height="360"></a>
+
+[Play case 64 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-64.mp4)
+
+Type: Demo | Date: 2026-07-12
+
+---
+
+<a id="case-65"></a>
+### Case 65: [評測 Claude Code harness 結果](https://x.com/Voxyz_ai/status/2076320930188427363) (by [@Voxyz_ai](https://x.com/Voxyz_ai))
+
+**把相同 GPT-5.6 任務移到不同 harness，觀察速度、token 使用與漏掉問題是否改變。**
+
+Voxyz 回報將同一 benchmark 從 Codex 移到 Claude Code harness，並使用全新目錄與 session、隱藏評分、360 秒 timeout，且停用 MCP、skills、plugins、設定、Chrome、子代理與持久化。表格比較完成率、時間、輸出 token、工具呼叫與分數。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-65.png" alt="Case 65 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-12
+
+---
+
+<a id="case-66"></a>
+### Case 66: [將 GPT-5.6 路由到 Claude Code](https://x.com/hqmank/status/2076286676440072231) (by [@hqmank](https://x.com/hqmank))
+
+**只有在評估帳號與政策風險後，才把 GPT-5.6 Codex API 存取透過 proxy 接到 Claude Code。**
+
+創作者透過 CLIProxyAPI 將 Codex API 存取路由到 Claude Code，並展示短 demo。來源明確警告部分使用者回報使用 proxy 後 Codex 帳號被封，因此此整合應視為高風險。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-66.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-66-poster.jpg" alt="Case 66 video poster" height="360"></a>
+
+[Play case 66 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-66.mp4)
+
+Type: Integration | Date: 2026-07-12
+
+---
+
+<a id="case-67"></a>
+### Case 67: [檢查 Luna 每分成本說法](https://x.com/old_pgmrs_will/status/2076170502931116402) (by [@old_pgmrs_will](https://x.com/old_pgmrs_will))
+
+**在把 GPT-5.6 Luna 當作預設 coding agent 層級前，先用公開 benchmark 數據驗證每分成本說法。**
+
+日文來源用 Artificial Analysis coding-agent benchmark 公開數據檢查 Luna Max 成本效益說法。它認為 Luna 可能適合作為日常設定，但實際任務仍須分別驗證能力與成本效益。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-67.jpg" alt="Case 67 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-12
+
+---
+
+<a id="case-68"></a>
+### Case 68: [建立分層主題 UI demo](https://x.com/fragiannicola/status/2076119698333167737) (by [@fragiannicola](https://x.com/fragiannicola))
+
+**使用 GPT-5.6 Sol Low，把熱門想法變成具有 Luna、Terra、Sol 分別視覺狀態的 UI demo。**
+
+Fragiannicola 回報用 Codex 與 GPT-5.6 Sol Low 建立 UI demo。該 demo 可選 Luna、Terra 或 Sol，Luna 顯示月相，Terra 顯示極光與大氣，Sol 顯示電漿、閃焰、日珥與 CME 效果。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-68.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-68-poster.jpg" alt="Case 68 video poster" height="360"></a>
+
+[Play case 68 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-68.mp4)
+
+Type: Demo | Date: 2026-07-12
+
+---
+
 ## 相關儲存庫
 
 提供專用的 GPT-5.6 API 文件。尚未驗證可安裝的 GPT-5.6 技能；技能和套件發布工作仍然由單獨的技能發布管道負責。
@@ -1036,7 +1192,7 @@ Type: Demo | Date: 2026-07-11
 
 感謝此集合中的來源創建者：
 
-[@AdamHoltererer](https://x.com/AdamHoltererer), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@alxndrdavies](https://x.com/alxndrdavies), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Azure](https://x.com/Azure), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Creatify_AI](https://x.com/Creatify_AI), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@Deep_Burner](https://x.com/Deep_Burner), [@devindesktop](https://x.com/devindesktop), [@diamai_](https://x.com/diamai_), [@elliotarledge](https://x.com/elliotarledge), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@inannanigin](https://x.com/inannanigin), [@jetbrains](https://x.com/jetbrains), [@MatthewBerman](https://x.com/MatthewBerman), [@mattshumer_](https://x.com/mattshumer_), [@Microsoft365](https://x.com/Microsoft365), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@om_patel5](https://x.com/om_patel5), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@rrr_kgknk](https://x.com/rrr_kgknk), [@satyanadella](https://x.com/satyanadella), [@sharifshameem](https://x.com/sharifshameem), [@skirano](https://x.com/skirano), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@WesRoth](https://x.com/WesRoth), [@zeeg](https://x.com/zeeg)
+[@AdamHoltererer](https://x.com/AdamHoltererer), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@alxndrdavies](https://x.com/alxndrdavies), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Azure](https://x.com/Azure), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Creatify_AI](https://x.com/Creatify_AI), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@Deep_Burner](https://x.com/Deep_Burner), [@devindesktop](https://x.com/devindesktop), [@dexhorthy](https://x.com/dexhorthy), [@diamai_](https://x.com/diamai_), [@elliotarledge](https://x.com/elliotarledge), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fragiannicola](https://x.com/fragiannicola), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@hqmank](https://x.com/hqmank), [@inannanigin](https://x.com/inannanigin), [@jetbrains](https://x.com/jetbrains), [@Lentils80](https://x.com/Lentils80), [@MatthewBerman](https://x.com/MatthewBerman), [@mattshumer_](https://x.com/mattshumer_), [@Microsoft365](https://x.com/Microsoft365), [@morganlinton](https://x.com/morganlinton), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@old_pgmrs_will](https://x.com/old_pgmrs_will), [@Oluwaphilemon1](https://x.com/Oluwaphilemon1), [@om_patel5](https://x.com/om_patel5), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@rrr_kgknk](https://x.com/rrr_kgknk), [@satyanadella](https://x.com/satyanadella), [@sharifshameem](https://x.com/sharifshameem), [@simplifyinAI](https://x.com/simplifyinAI), [@skirano](https://x.com/skirano), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@vedhsaka](https://x.com/vedhsaka), [@Voxyz_ai](https://x.com/Voxyz_ai), [@WesRoth](https://x.com/WesRoth), [@zeeg](https://x.com/zeeg)
 
 *我們無法保證每個案例均歸屬於原創者。如果有任何需要糾正的地方，請提出問題，我們將更新它。*
 

@@ -34,7 +34,7 @@ GPT-5.6 高信号ユースケース リポジトリへようこそ。
 
 ## 📊 概要
 
-- **公開クリエイター、開発者、製品チーム、ベンチマーク グループから選ばれた 58 件の GPT-5.6 ケース。**
+- **公開クリエイター、開発者、製品チーム、ベンチマーク グループから選ばれた 68 件の GPT-5.6 ケース。**
 - コーディング ビルド、長期実行エージェント、ビジネス ワークフロー、クリエイティブ制作、製品統合、ベンチマーク、実際的な制限について説明します。
 - 各ケースには、元の情報源、作成者の帰属、簡潔な要点、証拠の種類、発行日が含まれます。
 - GPT-5.6 層を選択する前に、このリポジトリを使用して実際のワークフローを特定し、長所、コスト、制限を比較してください。
@@ -61,10 +61,10 @@ export EVOLINK_API_KEY="your_api_key_here"
 
 | セクション | ケース |
 |---|---|
-| [💻 コーディングとビルド](#coding-and-builds) | 15 ケース |
-| [🤖 エージェントとワークフロー](#agents-and-workflows) | 15 ケース |
-| [🎨 クリエイティブおよびプロダクト作業](#creative-and-product-work) | 11 ケース |
-| [🧪 評価と制限](#evaluation-and-limits) | 17 ケース |
+| [💻 コーディングとビルド](#coding-and-builds) | 16 ケース |
+| [🤖 エージェントとワークフロー](#agents-and-workflows) | 17 ケース |
+| [🎨 クリエイティブおよびプロダクト作業](#creative-and-product-work) | 13 ケース |
+| [🧪 評価と制限](#evaluation-and-limits) | 22 ケース |
 | [了承する](#acknowledge) | クレジットと修正ポリシー |
 
 <a id="coding-and-builds"></a>
@@ -87,6 +87,7 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [数時間にわたるゲーム ビルドを実行する](#case-42) | コーディング エージェントに、進行状況を監視しながら、プレイ可能なゲームの拡張を数時間続けさせます。 | Demo |
 | [Devin デスクトップで GPT-5.6 を使用する](#case-45) | エージェント ソフトウェア開発ワークフローの一環として、Devin Desktop 内で GPT-5.6 を実行します。 | Integration |
 | [テキストのみの Three.js キャッスルを反復する](#case-58) | 連続する GPT-5.6 リビジョンを使用して、テキストのみの Three.js ブリーフを、外部アセットを使用せずに探索可能なローカル シーンに変換します。 | Demo |
+| [GPT-5.6をClaude Codeへルーティングする](#case-66) | アカウントとポリシーのリスクを検討したうえで、GPT-5.6 Codex APIアクセスをClaude Codeへプロキシします。 | Integration |
 
 <a id="agents-and-workflows"></a>
 ## 🤖 エージェントとワークフロー
@@ -108,6 +109,8 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [ロールベースのマルチモデル コーディング エージェントを構築する](#case-51) | GPT-5.6 Sol をバックエンド作業に割り当て、他のコーディングの役割を難易度やコストを考慮して選択したモデルにルーティングします。 | Integration |
 | [GPT-5.6 の実装前にアドバイザーと計画を立てる](#case-55) | 承認されたタスク リストを GPT-5.6 実装層に渡す前に、アドバイザーと GPT-5.6 で計画を一緒に批評してもらいます。 | Integration |
 | [データ削減のためにプログラムによるツール呼び出しを使用する](#case-57) | サンドボックス化されたプログラムチェーンを使用し、意思決定に関連する結果のみを GPT-5.6 に返す前にツールの出力を削減します。 | Tutorial |
+| [古いサブエージェント誘導を削除する](#case-60) | GPT-5.6が既にそれらのフローを強く呼び出す可能性があるため、古いskillとサブエージェント指示を監査します。 | Tutorial |
+| [計画、実装、検証をルーティングする](#case-62) | GPT-5.6 Solをクォータ切れまで既定にしながら、計画、実装、検証をモデル間で分担します。 | Evaluation |
 
 <a id="creative-and-product-work"></a>
 ## 🎨 クリエイティブおよびプロダクト作業
@@ -125,6 +128,8 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [ネイティブに編集可能な Office ファイルを作成する](#case-38) | フラット化された画像ではなく、編集可能な成果物としてスライド、シート、ドキュメントを生成します。 | Demo |
 | [フィルター可能な都市ガイドを公開する](#case-40) | 近所、雰囲気、価格ごとにおすすめを整理し、結果をサイトとして公開します。 | Demo |
 | [AI が作成したストーリーの制限を確認する](#case-47) | 散文の質や文章が AI の起源を明らかにしているかどうかを判断する前に、生成された完全なストーリーを読んでください。 | Limit |
+| [RemotionとHyperFramesの動画パイプラインを比較する](#case-64) | 同じGPT-5.6動画コンセプトを2つのパイプラインで実行し、アニメーション品質、ワークフロー、出力を比較します。 | Demo |
+| [階層テーマのUIデモを作る](#case-68) | GPT-5.6 Sol Lowで、Luna、Terra、Solそれぞれの視覚状態を持つUIデモへバイラルなアイデアを変換します。 | Demo |
 
 <a id="evaluation-and-limits"></a>
 ## 🧪 評価と制限
@@ -148,6 +153,12 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [セキュリティの精度と精度のコストを比較する](#case-53) | 単一スコアではなく、精度、価格、正確な結果ごとのコストを使用して、セキュリティ ベンチマークでコーディング モデルを評価します。 | Benchmark |
 | [プレイ可能なゲームを通じてエージェントの行動を比較する](#case-54) | いくつかのモデルに同一のゲーム ルールを与え、その結果の生存、敵、スコアの動作をインタラクティブに比較します。 | Benchmark |
 | [Surface Evolver での GPT-5.6 階層の比較](#case-56) | Sol、Terra、Luna を同じベンチマークで実行し、フロンティアのパフォーマンスとコストを以前のリーダーと比較します。 | Benchmark |
+| [削減されたGPT-5.6思考予算を追跡する](#case-59) | 高速化したGPT-5.6 Solの実行が同じ推論深度を保つと考える前に、表示される思考予算設定を比較します。 | Limit |
+| [タスク別にGPT-5.6階層を選ぶ](#case-61) | 日常のコーディング、リポジトリ全体の変更、最終レビューを、Ultra一択ではなく異なるGPT-5.6階層に振り分けます。 | Limit |
+| [工学タスクを努力量別に測る](#case-63) | 努力量を上げれば精度が上がると仮定する前に、実際の工学タスクでlow、medium、highを試します。 | Benchmark |
+| [Claude Codeハーネス結果をベンチマークする](#case-65) | 同一のGPT-5.6タスクをハーネス間で移し、速度、トークン、見逃しが変わるか確認します。 | Benchmark |
+| [Lunaのコスト対スコア主張を確認する](#case-67) | GPT-5.6 Lunaを標準のコーディングエージェント階層にする前に、コスト対スコアの主張を公開データで検証します。 | Benchmark |
+
 
 ## 使用例
 
@@ -1021,6 +1032,151 @@ Type: Demo | Date: 2026-07-11
 
 ---
 
+<a id="case-59"></a>
+### Case 59: [削減されたGPT-5.6思考予算を追跡する](https://x.com/Lentils80/status/2076460021861187754) (by [@Lentils80](https://x.com/Lentils80))
+
+**高速化したGPT-5.6 Solの実行が同じ推論深度を保つと考える前に、表示される思考予算設定を比較します。**
+
+投稿者は、GPT-5.6 Solのjuice値がリリース日より下げられ、TerraとLunaは影響を受けていないと報告しています。添付スクリーンショットは、その予算比較を示しています。
+
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-59-1.png" alt="Case 59 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-59-2.png" alt="Case 59 source media 2" height="240"></td>
+  </tr>
+</table>
+
+Type: Limit | Date: 2026-07-13
+
+---
+
+<a id="case-60"></a>
+### Case 60: [古いサブエージェント誘導を削除する](https://x.com/dexhorthy/status/2076381087203475772) (by [@dexhorthy](https://x.com/dexhorthy))
+
+**GPT-5.6が既にそれらのフローを強く呼び出す可能性があるため、古いskillとサブエージェント指示を監査します。**
+
+Dex Horthyは、GPT-5.6モデルは強力だがサブエージェントとskillsを過度に使う傾向があると述べています。重いサブエージェント誘導を外し、宣伝的なskill説明を減らし、一部skillsでモデル呼び出しを無効化したと説明しています。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-60.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-60-poster.jpg" alt="Case 60 video poster" height="360"></a>
+
+[Play case 60 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-60.mp4)
+
+Type: Tutorial | Date: 2026-07-12
+
+---
+
+<a id="case-61"></a>
+### Case 61: [タスク別にGPT-5.6階層を選ぶ](https://x.com/simplifyinAI/status/2076360674201272691) (by [@simplifyinAI](https://x.com/simplifyinAI))
+
+**日常のコーディング、リポジトリ全体の変更、最終レビューを、Ultra一択ではなく異なるGPT-5.6階層に振り分けます。**
+
+ソースは日常コーディングにLuna high、大きな機能にTerra medium、リポジトリ全体の変更にTerra high、計画・設計・最終レビューにSol highを推奨しています。Ultraは並列エージェントでクォータを急速に消費するため、制限を設けるべきだと警告しています。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-61.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-61-poster.jpg" alt="Case 61 video poster" height="360"></a>
+
+[Play case 61 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-61.mp4)
+
+Type: Limit | Date: 2026-07-12
+
+---
+
+<a id="case-62"></a>
+### Case 62: [計画、実装、検証をルーティングする](https://x.com/vedhsaka/status/2076350160628564442) (by [@vedhsaka](https://x.com/vedhsaka))
+
+**GPT-5.6 Solをクォータ切れまで既定にしながら、計画、実装、検証をモデル間で分担します。**
+
+Vedh Sakaは、計画にCodex 5.6 Ultra、計画への反証に別モデル、実装速度にGrok、検証にFableを使う現在の構成を説明しています。アプリでは、5.6 Solがクォータに達するまで計画、実行、テスト、ブラウザ利用で最も良いと述べています。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-62.jpg" alt="Case 62 source media" height="360">
+
+Type: Evaluation | Date: 2026-07-12
+
+---
+
+<a id="case-63"></a>
+### Case 63: [工学タスクを努力量別に測る](https://x.com/morganlinton/status/2076334862706073721) (by [@morganlinton](https://x.com/morganlinton))
+
+**努力量を上げれば精度が上がると仮定する前に、実際の工学タスクでlow、medium、highを試します。**
+
+Morgan Lintonは、パズルではなく実際の工学問題でGrok 4.5、GPT-5.6、Fable 5を比較したと報告しています。mediumからhighへ上げても常に精度が上がるわけではなく、mediumが実用上の妥協点かもしれないと述べています。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-63.jpg" alt="Case 63 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-12
+
+---
+
+<a id="case-64"></a>
+### Case 64: [RemotionとHyperFramesの動画パイプラインを比較する](https://x.com/Oluwaphilemon1/status/2076333536701759573) (by [@Oluwaphilemon1](https://x.com/Oluwaphilemon1))
+
+**同じGPT-5.6動画コンセプトを2つのパイプラインで実行し、アニメーション品質、ワークフロー、出力を比較します。**
+
+Oluwaphilemonは、GPT-5.6 Sol Ultraが紹介動画のコンセプトを作成し、その同じコンセプトをRemotionとHyperFramesでテストしたと述べています。投稿はアニメーション品質、ワークフロー、最終出力を比較しています。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-64.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-64-poster.jpg" alt="Case 64 video poster" height="360"></a>
+
+[Play case 64 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-64.mp4)
+
+Type: Demo | Date: 2026-07-12
+
+---
+
+<a id="case-65"></a>
+### Case 65: [Claude Codeハーネス結果をベンチマークする](https://x.com/Voxyz_ai/status/2076320930188427363) (by [@Voxyz_ai](https://x.com/Voxyz_ai))
+
+**同一のGPT-5.6タスクをハーネス間で移し、速度、トークン、見逃しが変わるか確認します。**
+
+Voxyzは、同じベンチマークをCodexからClaude Codeハーネスに移し、新しいディレクトリとセッション、非公開採点、360秒タイムアウト、MCP、skills、plugins、設定、Chrome、サブエージェント、永続化を無効にした条件で実行したと報告しています。表は完了、時間、出力トークン、ツール呼び出し、スコアを比較しています。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-65.png" alt="Case 65 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-12
+
+---
+
+<a id="case-66"></a>
+### Case 66: [GPT-5.6をClaude Codeへルーティングする](https://x.com/hqmank/status/2076286676440072231) (by [@hqmank](https://x.com/hqmank))
+
+**アカウントとポリシーのリスクを検討したうえで、GPT-5.6 Codex APIアクセスをClaude Codeへプロキシします。**
+
+投稿者はCLIProxyAPIを通じてCodex APIアクセスをClaude Codeへルーティングし、短いデモを示しています。ソースは、プロキシ利用後にCodexアカウントBANを報告したユーザーがいると明示しており、この統合はリスクを伴います。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-66.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-66-poster.jpg" alt="Case 66 video poster" height="360"></a>
+
+[Play case 66 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-66.mp4)
+
+Type: Integration | Date: 2026-07-12
+
+---
+
+<a id="case-67"></a>
+### Case 67: [Lunaのコスト対スコア主張を確認する](https://x.com/old_pgmrs_will/status/2076170502931116402) (by [@old_pgmrs_will](https://x.com/old_pgmrs_will))
+
+**GPT-5.6 Lunaを標準のコーディングエージェント階層にする前に、コスト対スコアの主張を公開データで検証します。**
+
+日本語の投稿は、Artificial Analysisのコーディングエージェントベンチマーク公開データを使い、Luna Maxのコスト性能主張を確認しています。Lunaは日常設定として有力だが、能力とコスト性能は実タスクごとに分けて検証すべきだと結論づけています。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-67.jpg" alt="Case 67 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-12
+
+---
+
+<a id="case-68"></a>
+### Case 68: [階層テーマのUIデモを作る](https://x.com/fragiannicola/status/2076119698333167737) (by [@fragiannicola](https://x.com/fragiannicola))
+
+**GPT-5.6 Sol Lowで、Luna、Terra、Solそれぞれの視覚状態を持つUIデモへバイラルなアイデアを変換します。**
+
+FragiannicolaはCodexとGPT-5.6 Sol LowでUIデモを作ったと報告しています。デモではLuna、Terra、Solを選択でき、Lunaには月相、Terraにはオーロラと大気、Solにはプラズマ、フレア、プロミネンス、CME効果が表示されます。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-68.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-68-poster.jpg" alt="Case 68 video poster" height="360"></a>
+
+[Play case 68 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-68.mp4)
+
+Type: Demo | Date: 2026-07-12
+
+---
+
 ## 関連リポジトリ
 
 専用の GPT-5.6 API ドキュメントが利用可能です。インストール可能な GPT-5.6 スキルは検証されていません。スキルとパッケージのリリース作業は、別のスキル リリース パイプラインによって所有されたままになります。
@@ -1036,7 +1192,7 @@ Type: Demo | Date: 2026-07-11
 
 このコレクションに参加しているソース作成者に感謝します。
 
-[@AdamHoltererer](https://x.com/AdamHoltererer), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@alxndrdavies](https://x.com/alxndrdavies), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Azure](https://x.com/Azure), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Creatify_AI](https://x.com/Creatify_AI), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@Deep_Burner](https://x.com/Deep_Burner), [@devindesktop](https://x.com/devindesktop), [@diamai_](https://x.com/diamai_), [@elliotarledge](https://x.com/elliotarledge), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@inannanigin](https://x.com/inannanigin), [@jetbrains](https://x.com/jetbrains), [@MatthewBerman](https://x.com/MatthewBerman), [@mattshumer_](https://x.com/mattshumer_), [@Microsoft365](https://x.com/Microsoft365), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@om_patel5](https://x.com/om_patel5), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@rrr_kgknk](https://x.com/rrr_kgknk), [@satyanadella](https://x.com/satyanadella), [@sharifshameem](https://x.com/sharifshameem), [@skirano](https://x.com/skirano), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@WesRoth](https://x.com/WesRoth), [@zeeg](https://x.com/zeeg)
+[@AdamHoltererer](https://x.com/AdamHoltererer), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@alxndrdavies](https://x.com/alxndrdavies), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Azure](https://x.com/Azure), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Creatify_AI](https://x.com/Creatify_AI), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@Deep_Burner](https://x.com/Deep_Burner), [@devindesktop](https://x.com/devindesktop), [@dexhorthy](https://x.com/dexhorthy), [@diamai_](https://x.com/diamai_), [@elliotarledge](https://x.com/elliotarledge), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fragiannicola](https://x.com/fragiannicola), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@hqmank](https://x.com/hqmank), [@inannanigin](https://x.com/inannanigin), [@jetbrains](https://x.com/jetbrains), [@Lentils80](https://x.com/Lentils80), [@MatthewBerman](https://x.com/MatthewBerman), [@mattshumer_](https://x.com/mattshumer_), [@Microsoft365](https://x.com/Microsoft365), [@morganlinton](https://x.com/morganlinton), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@old_pgmrs_will](https://x.com/old_pgmrs_will), [@Oluwaphilemon1](https://x.com/Oluwaphilemon1), [@om_patel5](https://x.com/om_patel5), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@rrr_kgknk](https://x.com/rrr_kgknk), [@satyanadella](https://x.com/satyanadella), [@sharifshameem](https://x.com/sharifshameem), [@simplifyinAI](https://x.com/simplifyinAI), [@skirano](https://x.com/skirano), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@vedhsaka](https://x.com/vedhsaka), [@Voxyz_ai](https://x.com/Voxyz_ai), [@WesRoth](https://x.com/WesRoth), [@zeeg](https://x.com/zeeg)
 
 *すべてのケースが元の作成者に起因することを保証することはできません。修正が必要な場合は、問題を開いてください。更新されます。*
 

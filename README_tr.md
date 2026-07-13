@@ -34,7 +34,7 @@ Her genel vaka, başlatma penceresinden ve yinelenen genel kanıtlardan seçilmi
 
 ## 📊 Genel Bakış
 
-- **Herkese açık yaratıcılardan, geliştiricilerden, ürün ekiplerinden ve karşılaştırma gruplarından seçilen 58 GPT-5.6 örneği.**
+- **Herkese açık yaratıcılardan, geliştiricilerden, ürün ekiplerinden ve karşılaştırma gruplarından seçilen 68 GPT-5.6 örneği.**
 - Kodlama derlemelerini, uzun süre çalışan aracıları, iş iş akışlarını, yaratıcı üretimi, ürün entegrasyonlarını, karşılaştırmaları ve pratik sınırları kapsar.
 - Her vaka orijinal kaynağı, yaratıcının atıfını, kısa bir çıkarımı, kanıt türünü ve yayın tarihini içerir.
 - GPT-5.6 katmanını seçmeden önce pratik iş akışlarını belirlemek ve güçlü yönleri, maliyetleri ve sınırlamaları karşılaştırmak için bu depoyu kullanın.
@@ -61,10 +61,10 @@ export EVOLINK_API_KEY="your_api_key_here"
 
 | Bölüm | Vakalar |
 |---|---|
-| [💻 Kodlama ve Derlemeler](#coding-and-builds) | 15 Vakalar |
-| [🤖 Aracılar ve İş Akışları](#agents-and-workflows) | 15 Vakalar |
-| [🎨 Yaratıcı ve Ürün Çalışması](#creative-and-product-work) | 11 Vakalar |
-| [🧪 Değerlendirme ve Sınırlar](#evaluation-and-limits) | 17 Vakalar |
+| [💻 Kodlama ve Derlemeler](#coding-and-builds) | 16 Vakalar |
+| [🤖 Aracılar ve İş Akışları](#agents-and-workflows) | 17 Vakalar |
+| [🎨 Yaratıcı ve Ürün Çalışması](#creative-and-product-work) | 13 Vakalar |
+| [🧪 Değerlendirme ve Sınırlar](#evaluation-and-limits) | 22 Vakalar |
 | [Onayla](#acknowledge) | Krediler ve düzeltme politikası |
 
 <a id="coding-and-builds"></a>
@@ -87,6 +87,7 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Çok Saatlik Bir Oyun Derleme Çalıştırın](#case-42) | Kodlama temsilcisinin oynanabilir bir oyunu birkaç saat boyunca genişletmeye devam etmesine ve bir yandan da ilerlemesini izlemesine izin verin. | Demo |
 | [Devin Masaüstünde GPT-5.6'yı kullanın](#case-45) | Ajanslı yazılım geliştirme iş akışının bir parçası olarak GPT-5.6'yı Devin Masaüstü'nde çalıştırın. | Integration |
 | [Yalnızca Metinden Oluşan Üç.js Kalesini Yineleyin](#case-58) | Salt metinden oluşan bir Three.js özetini harici öğeler olmadan keşfedilebilir bir yerel sahneye dönüştürmek için birbirini izleyen GPT-5.6 düzeltmelerini kullanın. | Demo |
+| [GPT-5.6'yı Claude Code'a yönlendirin](#case-66) | GPT-5.6 Codex API erişimini Claude Code'a yalnızca hesap ve politika risklerini tarttıktan sonra proxy ile bağlayın. | Integration |
 
 <a id="agents-and-workflows"></a>
 ## 🤖 Aracılar ve İş Akışları
@@ -108,6 +109,8 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Rol Tabanlı Çok Modelli Kodlama Aracısı Oluşturun](#case-51) | Diğer kodlama rollerini zorluk veya maliyet açısından seçilen modellere yönlendirirken GPT-5.6 Sol'u arka uç çalışmasına atayın. | Integration |
 | [GPT-5.6 Uygulamaya Geçmeden Önce Bir Danışmanla Plan Yapın](#case-55) | Onaylanan görev listesini GPT-5.6 uygulama katmanına teslim etmeden önce bir danışman ve GPT-5.6'nın birlikte bir plan eleştirmesini sağlayın. | Integration |
 | [Veri Azaltma için Programatik Araç Çağrılarını Kullanın](#case-57) | GPT-5.6'ya yalnızca kararla ilgili sonuçları döndürmeden önce korumalı alana alınmış bir programın zincirlenmesine ve araç çıktılarının azaltılmasına izin verin. | Tutorial |
+| [Eski subagent yönlendirmesini kaldırın](#case-60) | GPT-5.6 bu akışları zaten agresif biçimde çağırabildiği için eski skill ve subagent yönergelerini denetleyin. | Tutorial |
+| [Planlama, kodlama ve doğrulamayı yönlendirin](#case-62) | GPT-5.6 Sol'u kota bitene kadar varsayılan tutarken planlama, uygulama ve doğrulamayı modeller arasında bölün. | Evaluation |
 
 <a id="creative-and-product-work"></a>
 ## 🎨 Yaratıcı ve Ürün Çalışması
@@ -125,6 +128,8 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Yerel Olarak Düzenlenebilir Office Dosyaları Oluşturun](#case-38) | Slaytları, sayfaları ve belgeleri düzleştirilmiş görüntüler yerine düzenlenebilir yapılar olarak oluşturun. | Demo |
 | [Filtrelenebilir Şehir Rehberi Yayınlayın](#case-40) | Önerileri mahalleye, ruh haline ve fiyata göre düzenleyin ve ardından sonucu Site olarak yayınlayın. | Demo |
 | [Yapay Zeka Tarafından Yazılan Hikaye Sınırlamalarını İnceleyin](#case-47) | Düzyazı kalitesini ve yazının hala yapay zeka kökenini gösterip göstermediğini değerlendirmeden önce oluşturulmuş bir hikayenin tamamını okuyun. | Limit |
+| [Remotion ve HyperFrames video hatlarını karşılaştırın](#case-64) | Animasyon kalitesi, iş akışı ve çıktıyı karşılaştırmak için aynı GPT-5.6 video fikrini iki hattan geçirin. | Demo |
+| [Seviye temalı bir UI demosu oluşturun](#case-68) | Viral bir fikri Luna, Terra ve Sol için ayrı görsel durumlara sahip bir UI demosuna çevirmek üzere GPT-5.6 Sol Low kullanın. | Demo |
 
 <a id="evaluation-and-limits"></a>
 ## 🧪 Değerlendirme ve Sınırlar
@@ -148,6 +153,12 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Güvenlik Doğruluğu ile Kesinlik Maliyetini Karşılaştırın](#case-53) | Tek bir puan yerine doğruluk, fiyat ve kesin sonuç başına maliyeti kullanarak kodlama modellerini bir güvenlik karşılaştırmasına göre değerlendirin. | Benchmark |
 | [Oynanabilir Bir Oyun Aracılığıyla Temsilci Davranışını Karşılaştırın](#case-54) | Birkaç modele aynı oyun kurallarını verin ve sonuçta ortaya çıkan hayatta kalma, düşman ve puanlama davranışını etkileşimli olarak karşılaştırın. | Benchmark |
 | [Surface Evolver'daki GPT-5.6 Katmanlarını Karşılaştırın](#case-56) | Önceki liderlerle öncü performansı ve maliyeti karşılaştırmak için Sol, Terra ve Luna'yı aynı karşılaştırma üzerinden çalıştırın. | Benchmark |
+| [Azaltılmış GPT-5.6 düşünme bütçelerini izleyin](#case-59) | Daha hızlı bir GPT-5.6 Sol çalışmasının aynı akıl yürütme derinliğini koruduğunu varsaymadan önce görünen bütçe ayarlarını karşılaştırın. | Limit |
+| [GPT-5.6 seviyelerini göreve göre seçin](#case-61) | Günlük kodlama, repo genelindeki değişiklikler ve son inceleme için varsayılan Ultra yerine farklı GPT-5.6 seviyeleri kullanın. | Limit |
+| [Mühendislik görevlerini çabaya göre kıyaslayın](#case-63) | Daha yüksek çabanın doğruluğu artırdığını varsaymadan önce gerçek mühendislik görevlerinde düşük, orta ve yüksek çabayı test edin. | Benchmark |
+| [Claude Code harness sonuçlarını kıyaslayın](#case-65) | Hız, token kullanımı ve kaçan sorunlar değişiyor mu görmek için aynı GPT-5.6 görevlerini farklı harness'lara taşıyın. | Benchmark |
+| [Luna puan başı maliyet iddialarını kontrol edin](#case-67) | GPT-5.6 Luna'yı varsayılan kod ajanı seviyesi yapmadan önce puan başı maliyet iddialarını herkese açık verilerle doğrulayın. | Benchmark |
+
 
 ## Kullanım Durumları
 
@@ -1021,6 +1032,151 @@ Type: Demo | Date: 2026-07-11
 
 ---
 
+<a id="case-59"></a>
+### Case 59: [Azaltılmış GPT-5.6 düşünme bütçelerini izleyin](https://x.com/Lentils80/status/2076460021861187754) (by [@Lentils80](https://x.com/Lentils80))
+
+**Daha hızlı bir GPT-5.6 Sol çalışmasının aynı akıl yürütme derinliğini koruduğunu varsaymadan önce görünen bütçe ayarlarını karşılaştırın.**
+
+İçerik üretici, GPT-5.6 Sol juice değerlerinin çıkış gününe göre azaltıldığını, Terra ve Luna değerlerinin etkilenmediğini bildiriyor. Ekli ekran görüntüleri iddia edilen bütçe karşılaştırmasını gösteriyor.
+
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-59-1.png" alt="Case 59 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-59-2.png" alt="Case 59 source media 2" height="240"></td>
+  </tr>
+</table>
+
+Type: Limit | Date: 2026-07-13
+
+---
+
+<a id="case-60"></a>
+### Case 60: [Eski subagent yönlendirmesini kaldırın](https://x.com/dexhorthy/status/2076381087203475772) (by [@dexhorthy](https://x.com/dexhorthy))
+
+**GPT-5.6 bu akışları zaten agresif biçimde çağırabildiği için eski skill ve subagent yönergelerini denetleyin.**
+
+Dex Horthy, GPT-5.6 modellerinin güçlü olduğunu ancak artık subagent ve skill kullanımına fazla eğildiğini söylüyor. Değişiklikleri ağır subagent yönlendirmesini kaldırıyor, tanıtım kokan skill açıklamalarını azaltıyor ve bazı skill'lerde model çağrısını devre dışı bırakıyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-60.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-60-poster.jpg" alt="Case 60 video poster" height="360"></a>
+
+[Play case 60 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-60.mp4)
+
+Type: Tutorial | Date: 2026-07-12
+
+---
+
+<a id="case-61"></a>
+### Case 61: [GPT-5.6 seviyelerini göreve göre seçin](https://x.com/simplifyinAI/status/2076360674201272691) (by [@simplifyinAI](https://x.com/simplifyinAI))
+
+**Günlük kodlama, repo genelindeki değişiklikler ve son inceleme için varsayılan Ultra yerine farklı GPT-5.6 seviyeleri kullanın.**
+
+Kaynak, günlük kodlama için Luna high, büyük özellikler için Terra medium, repo genelindeki değişiklikler için Terra high ve planlama, mimari, son inceleme için Sol high öneriyor. Ultra'nın paralel ajanlar yüzünden kotayı hızlı tüketebileceği için sınırlandırılmasını söylüyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-61.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-61-poster.jpg" alt="Case 61 video poster" height="360"></a>
+
+[Play case 61 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-61.mp4)
+
+Type: Limit | Date: 2026-07-12
+
+---
+
+<a id="case-62"></a>
+### Case 62: [Planlama, kodlama ve doğrulamayı yönlendirin](https://x.com/vedhsaka/status/2076350160628564442) (by [@vedhsaka](https://x.com/vedhsaka))
+
+**GPT-5.6 Sol'u kota bitene kadar varsayılan tutarken planlama, uygulama ve doğrulamayı modeller arasında bölün.**
+
+Vedh Saka mevcut yığını Codex 5.6 Ultra ile planlama, başka bir modelle plana itiraz, Grok ile hızlı uygulama ve Fable ile doğrulama olarak anlatıyor. Uygulama için kaynak, 5.6 Sol'un kota dolana kadar planlama, yürütme, test ve tarayıcı kullanımında en iyi olduğunu söylüyor.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-62.jpg" alt="Case 62 source media" height="360">
+
+Type: Evaluation | Date: 2026-07-12
+
+---
+
+<a id="case-63"></a>
+### Case 63: [Mühendislik görevlerini çabaya göre kıyaslayın](https://x.com/morganlinton/status/2076334862706073721) (by [@morganlinton](https://x.com/morganlinton))
+
+**Daha yüksek çabanın doğruluğu artırdığını varsaymadan önce gerçek mühendislik görevlerinde düşük, orta ve yüksek çabayı test edin.**
+
+Morgan Linton, bulmacalar yerine gerçek mühendislik problemleriyle Grok 4.5, GPT-5.6 ve Fable 5 karşılaştırması yaptığını bildiriyor. Kaynak, medium'dan high'a geçmenin doğruluğu her zaman artırmadığını ve medium'un pratik tatlı nokta olabileceğini söylüyor.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-63.jpg" alt="Case 63 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-12
+
+---
+
+<a id="case-64"></a>
+### Case 64: [Remotion ve HyperFrames video hatlarını karşılaştırın](https://x.com/Oluwaphilemon1/status/2076333536701759573) (by [@Oluwaphilemon1](https://x.com/Oluwaphilemon1))
+
+**Animasyon kalitesi, iş akışı ve çıktıyı karşılaştırmak için aynı GPT-5.6 video fikrini iki hattan geçirin.**
+
+Oluwaphilemon, GPT-5.6 Sol Ultra'nın bir tanıtım videosu fikri oluşturduğunu ve aynı fikri Remotion ile HyperFrames üzerinde test ettiğini söylüyor. Gönderi animasyon kalitesi, iş akışı ve nihai çıktıyı karşılaştırıyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-64.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-64-poster.jpg" alt="Case 64 video poster" height="360"></a>
+
+[Play case 64 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-64.mp4)
+
+Type: Demo | Date: 2026-07-12
+
+---
+
+<a id="case-65"></a>
+### Case 65: [Claude Code harness sonuçlarını kıyaslayın](https://x.com/Voxyz_ai/status/2076320930188427363) (by [@Voxyz_ai](https://x.com/Voxyz_ai))
+
+**Hız, token kullanımı ve kaçan sorunlar değişiyor mu görmek için aynı GPT-5.6 görevlerini farklı harness'lara taşıyın.**
+
+Voxyz aynı benchmark'ı Codex'ten Claude Code harness'ına taşıdığını; yeni dizin ve oturumlar, gizli puanlama, 360 saniye zaman aşımı ve kapalı MCP, skill, plugin, ayar, Chrome, subagent ve kalıcılık kullandığını bildiriyor. Tablo tamamlanma, süre, çıktı tokenları, araç çağrıları ve puanları karşılaştırıyor.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-65.png" alt="Case 65 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-12
+
+---
+
+<a id="case-66"></a>
+### Case 66: [GPT-5.6'yı Claude Code'a yönlendirin](https://x.com/hqmank/status/2076286676440072231) (by [@hqmank](https://x.com/hqmank))
+
+**GPT-5.6 Codex API erişimini Claude Code'a yalnızca hesap ve politika risklerini tarttıktan sonra proxy ile bağlayın.**
+
+İçerik üretici Codex API erişimini CLIProxyAPI ile Claude Code'a yönlendiriyor ve kısa bir demo gösteriyor. Kaynak, proxy kullanan bazı kişilerin Codex hesap yasağı bildirdiğini açıkça belirtiyor; bu yüzden entegrasyon riskli görülmeli.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-66.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-66-poster.jpg" alt="Case 66 video poster" height="360"></a>
+
+[Play case 66 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-66.mp4)
+
+Type: Integration | Date: 2026-07-12
+
+---
+
+<a id="case-67"></a>
+### Case 67: [Luna puan başı maliyet iddialarını kontrol edin](https://x.com/old_pgmrs_will/status/2076170502931116402) (by [@old_pgmrs_will](https://x.com/old_pgmrs_will))
+
+**GPT-5.6 Luna'yı varsayılan kod ajanı seviyesi yapmadan önce puan başı maliyet iddialarını herkese açık verilerle doğrulayın.**
+
+Japonca kaynak, Luna Max maliyet-performans iddiasını Artificial Analysis kodlama ajanı benchmark verileriyle kontrol ediyor. Luna'nın güçlü bir günlük ayar olabileceğini, ancak yetenek ve maliyet-performansın gerçek görev için ayrı doğrulanması gerektiğini söylüyor.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-67.jpg" alt="Case 67 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-12
+
+---
+
+<a id="case-68"></a>
+### Case 68: [Seviye temalı bir UI demosu oluşturun](https://x.com/fragiannicola/status/2076119698333167737) (by [@fragiannicola](https://x.com/fragiannicola))
+
+**Viral bir fikri Luna, Terra ve Sol için ayrı görsel durumlara sahip bir UI demosuna çevirmek üzere GPT-5.6 Sol Low kullanın.**
+
+Fragiannicola, Codex ve GPT-5.6 Sol Low ile bir UI demosu yaptığını bildiriyor. Demo Luna, Terra veya Sol seçimine izin veriyor; Luna için ay evreleri, Terra için aurora ve atmosfer, Sol için plazma, patlamalar, çıkıntılar ve CME efektleri gösteriyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-68.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-68-poster.jpg" alt="Case 68 video poster" height="360"></a>
+
+[Play case 68 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-68.mp4)
+
+Type: Demo | Date: 2026-07-12
+
+---
+
 ## İlgili Depolar
 
 Özel GPT-5.6 API belgeleri mevcuttur. Yüklenebilir hiçbir GPT-5.6 becerisi doğrulanmadı; beceri ve paket yayınlama işi, ayrı bir beceri yayınlama hattına ait olmaya devam ediyor.
@@ -1036,7 +1192,7 @@ Bu depo, gerçek GPT-5.6 kullanım örneklerini herkese açık olarak paylaşan 
 
 Bu koleksiyonda temsil edilen kaynak oluşturuculara teşekkürler:
 
-[@AdamHoltererer](https://x.com/AdamHoltererer), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@alxndrdavies](https://x.com/alxndrdavies), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Azure](https://x.com/Azure), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Creatify_AI](https://x.com/Creatify_AI), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@Deep_Burner](https://x.com/Deep_Burner), [@devindesktop](https://x.com/devindesktop), [@diamai_](https://x.com/diamai_), [@elliotarledge](https://x.com/elliotarledge), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@inannanigin](https://x.com/inannanigin), [@jetbrains](https://x.com/jetbrains), [@MatthewBerman](https://x.com/MatthewBerman), [@mattshumer_](https://x.com/mattshumer_), [@Microsoft365](https://x.com/Microsoft365), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@om_patel5](https://x.com/om_patel5), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@rrr_kgknk](https://x.com/rrr_kgknk), [@satyanadella](https://x.com/satyanadella), [@sharifshameem](https://x.com/sharifshameem), [@skirano](https://x.com/skirano), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@WesRoth](https://x.com/WesRoth), [@zeeg](https://x.com/zeeg)
+[@AdamHoltererer](https://x.com/AdamHoltererer), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@alxndrdavies](https://x.com/alxndrdavies), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Azure](https://x.com/Azure), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Creatify_AI](https://x.com/Creatify_AI), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@Deep_Burner](https://x.com/Deep_Burner), [@devindesktop](https://x.com/devindesktop), [@dexhorthy](https://x.com/dexhorthy), [@diamai_](https://x.com/diamai_), [@elliotarledge](https://x.com/elliotarledge), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fragiannicola](https://x.com/fragiannicola), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@hqmank](https://x.com/hqmank), [@inannanigin](https://x.com/inannanigin), [@jetbrains](https://x.com/jetbrains), [@Lentils80](https://x.com/Lentils80), [@MatthewBerman](https://x.com/MatthewBerman), [@mattshumer_](https://x.com/mattshumer_), [@Microsoft365](https://x.com/Microsoft365), [@morganlinton](https://x.com/morganlinton), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@old_pgmrs_will](https://x.com/old_pgmrs_will), [@Oluwaphilemon1](https://x.com/Oluwaphilemon1), [@om_patel5](https://x.com/om_patel5), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@rrr_kgknk](https://x.com/rrr_kgknk), [@satyanadella](https://x.com/satyanadella), [@sharifshameem](https://x.com/sharifshameem), [@simplifyinAI](https://x.com/simplifyinAI), [@skirano](https://x.com/skirano), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@vedhsaka](https://x.com/vedhsaka), [@Voxyz_ai](https://x.com/Voxyz_ai), [@WesRoth](https://x.com/WesRoth), [@zeeg](https://x.com/zeeg)
 
 *Her vakanın orijinal yaratıcıya atfedildiğini garanti edemeyiz. Düzeltilmesi gereken bir şey varsa lütfen bir konu açın, biz de güncelleyeceğiz.*
 

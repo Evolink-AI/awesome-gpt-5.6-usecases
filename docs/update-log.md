@@ -23,3 +23,11 @@
 - Added exact Sol, Terra, and Luna model IDs plus dedicated Quick Start and complete API reference links.
 - Hardened repository verification so stale availability copy or missing current-model docs fail future builds.
 - Rebuilt English first, then synchronized all 10 localized README files after the English gate passed.
+
+## 2026-07-13 - Daily Usecase Update
+
+- Collected 543 deduplicated candidates from 10 GPT-5.6 searches and reviewed 52 records that met the fixed 24-hour and engagement window.
+- Selected 10 high-confidence cases, deferred 3, marked 7 unsure, and dropped 32.
+- Added Cases 59-68 covering thinking-budget limits, subagent workflow tuning, tier routing, benchmark effort sweeps, video pipelines, harness integration, and UI demos.
+- Prepared five videos, five generated poster frames, and five source-image cases for the repository's R2 namespace.
+- Updated English first, then synchronized all 10 localized README files after the English gate passed.

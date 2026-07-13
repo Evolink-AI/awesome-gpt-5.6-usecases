@@ -60,6 +60,16 @@
 | 56 | Compare GPT-5.6 Tiers on Surface Evolver | Benchmark | Evaluation & Limits | [@Deep_Burner](https://x.com/Deep_Burner/status/2075974647267410252) |
 | 57 | Use Programmatic Tool Calls for Data Reduction | Tutorial | Agents & Workflows | [@diamai_](https://x.com/diamai_/status/2075875136704569690) |
 | 58 | Iterate a Text-Only Three.js Castle | Demo | Coding & Builds | [@givros](https://x.com/givros/status/2075850209880383845) |
+| 59 | Track Reduced GPT-5.6 Thinking Budgets | Limit | Evaluation & Limits | [@Lentils80](https://x.com/Lentils80/status/2076460021861187754) |
+| 60 | Remove Obsolete Subagent Steering | Tutorial | Agents & Workflows | [@dexhorthy](https://x.com/dexhorthy/status/2076381087203475772) |
+| 61 | Pick GPT-5.6 Tiers by Task | Limit | Evaluation & Limits | [@simplifyinAI](https://x.com/simplifyinAI/status/2076360674201272691) |
+| 62 | Route Planning, Coding, and Verification | Evaluation | Agents & Workflows | [@vedhsaka](https://x.com/vedhsaka/status/2076350160628564442) |
+| 63 | Benchmark Engineering Tasks by Effort | Benchmark | Evaluation & Limits | [@morganlinton](https://x.com/morganlinton/status/2076334862706073721) |
+| 64 | Compare Remotion and HyperFrames Video Pipelines | Demo | Creative & Product Work | [@Oluwaphilemon1](https://x.com/Oluwaphilemon1/status/2076333536701759573) |
+| 65 | Benchmark Claude Code Harness Results | Benchmark | Evaluation & Limits | [@Voxyz_ai](https://x.com/Voxyz_ai/status/2076320930188427363) |
+| 66 | Route GPT-5.6 Into Claude Code | Integration | Coding & Builds | [@hqmank](https://x.com/hqmank/status/2076286676440072231) |
+| 67 | Check Luna Cost-Per-Score Claims | Benchmark | Evaluation & Limits | [@old_pgmrs_will](https://x.com/old_pgmrs_will/status/2076170502931116402) |
+| 68 | Build a Tier-Themed UI Demo | Demo | Creative & Product Work | [@fragiannicola](https://x.com/fragiannicola/status/2076119698333167737) |
 
-Source candidates reviewed: 249
-Public cases selected: 58
+Source candidates reviewed: 301
+Public cases selected: 68
