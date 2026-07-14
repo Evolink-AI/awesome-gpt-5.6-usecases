@@ -70,6 +70,16 @@
 | 66 | Route GPT-5.6 Into Claude Code | Integration | Coding & Builds | [@hqmank](https://x.com/hqmank/status/2076286676440072231) |
 | 67 | Check Luna Cost-Per-Score Claims | Benchmark | Evaluation & Limits | [@old_pgmrs_will](https://x.com/old_pgmrs_will/status/2076170502931116402) |
 | 68 | Build a Tier-Themed UI Demo | Demo | Creative & Product Work | [@fragiannicola](https://x.com/fragiannicola/status/2076119698333167737) |
+| 69 | Benchmark HealthBench Professional Cost | Benchmark | Evaluation & Limits | [@MedicalSphereAI](https://x.com/MedicalSphereAI/status/2076776649807573075) |
+| 70 | Orchestrate Multi-Model Prediction Debates | Demo | Agents & Workflows | [@omnigent_ai](https://x.com/omnigent_ai/status/2076730560836432108) |
+| 71 | Run Fable With GPT Executors | Tutorial | Agents & Workflows | [@sairahul1](https://x.com/sairahul1/status/2076724433293861315) |
+| 72 | Benchmark RadLE Diagnosis Readiness | Benchmark | Evaluation & Limits | [@DrDatta_AIIMS](https://x.com/DrDatta_AIIMS/status/2076689408040849507) |
+| 73 | Build WordPress Editorial Publishing | Demo | Coding & Builds | [@tonysimons_](https://x.com/tonysimons_/status/2076687880378872274) |
+| 74 | Compare AI Video Direction | Demo | Creative & Product Work | [@Deevid_AI](https://x.com/Deevid_AI/status/2076650852832415841) |
+| 75 | Connect Creatify MCP to Ads | Tutorial | Creative & Product Work | [@heyrobinai](https://x.com/heyrobinai/status/2076645641774915870) |
+| 76 | Build 3D Sneaker Storefront | Demo | Creative & Product Work | [@BuildFastWithAI](https://x.com/BuildFastWithAI/status/2076627753600716963) |
+| 77 | Test Luna Design Experience | Limit | Evaluation & Limits | [@melvynx](https://x.com/melvynx/status/2076621638729146434) |
+| 78 | Use Max Effort for Frontend Polish | Demo | Creative & Product Work | [@TokenGremlin](https://x.com/TokenGremlin/status/2076535319386550316) |
 
-Source candidates reviewed: 301
-Public cases selected: 68
+Source candidates reviewed: 48
+Public cases selected: 10
