@@ -34,7 +34,7 @@ Jeder öffentliche Fall wird aus dem Startfenster und wiederkehrenden öffentlic
 
 ## 📊 Übersicht
 
-- **78 ausgewählte GPT-5.6-Fälle von öffentlichen Erstellern, Entwicklern, Produktteams und Benchmark-Gruppen.**
+- **88 ausgewählte GPT-5.6-Fälle von öffentlichen Erstellern, Entwicklern, Produktteams und Benchmark-Gruppen.**
 - Behandelt Codierungs-Builds, lang laufende Agenten, Geschäftsabläufe, kreative Produktion, Produktintegrationen, Benchmarks und praktische Grenzen.
 - Jeder Fall enthält die Originalquelle, die Urheberangabe, eine kurze Zusammenfassung, die Art des Beweismittels und das Veröffentlichungsdatum.
 - Verwenden Sie dieses Repository, um praktische Arbeitsabläufe zu identifizieren und Stärken, Kosten und Einschränkungen zu vergleichen, bevor Sie sich für eine GPT-5.6-Stufe entscheiden.
@@ -61,10 +61,10 @@ export EVOLINK_API_KEY="your_api_key_here"
 
 | Abschnitt | Fälle |
 |---|---|
-| [💻 Codierung und Builds](#coding-and-builds) | 17 Fälle |
-| [🤖 Agenten und Arbeitsabläufe](#agents-and-workflows) | 19 Fälle |
-| [🎨 Kreativ- und Produktarbeit](#creative-and-product-work) | 17 Fälle |
-| [🧪 Bewertung und Einschränkungen](#evaluation-and-limits) | 25 Fälle |
+| [💻 Codierung und Builds](#coding-and-builds) | 20 Fälle |
+| [🤖 Agenten und Arbeitsabläufe](#agents-and-workflows) | 20 Fälle |
+| [🎨 Kreativ- und Produktarbeit](#creative-and-product-work) | 19 Fälle |
+| [🧪 Bewertung und Einschränkungen](#evaluation-and-limits) | 29 Fälle |
 | [Bestätigen](#acknowledge) | Credits und Korrekturrichtlinien |
 
 <a id="coding-and-builds"></a>
@@ -89,6 +89,9 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Iterieren Sie ein Nur-Text-Three.js-Castle](#case-58) | Verwenden Sie aufeinanderfolgende GPT-5.6-Revisionen, um ein Three.js-Briefing, das nur aus Text besteht, in eine erkundbare lokale Szene ohne externe Ressourcen zu verwandeln. | Demo |
 | [GPT-5.6 in Claude Code routen](#case-66) | Leiten Sie GPT-5.6-Codex-API-Zugriff nur dann per Proxy in Claude Code, wenn Konto- und Richtlinienrisiken abgewogen wurden. | Integration |
 | [Erstellen Sie WordPress Editorial Publishing](#case-73) | Verwenden Sie GPT-5.6 Sol im Zielmodus, um eine fokussierte Content-Management-App bereitzustellen, wenn der Buildplan und die Bestätigungsgrenzen explizit sind. | Demo |
+| [Konvertieren Sie Papiere in Marimo-Notizbücher](#case-83) | Verwandeln Sie ein arXiv-Papier in ein interaktives Marimo-Notizbuch, damit Leser Code prüfen und praktisch experimentieren können. | Demo |
+| [Prototyp eines Three.js-Spielkonzepts](#case-85) | Verwenden Sie GPT-5.6 Sol für einen kurzen Three.js-Proof of Concept, bevor Sie in Politur oder Gameplay-Tiefe investieren. | Demo |
+| [Frustum Culling zum Renderer hinzufügen](#case-87) | Verwenden Sie GPT-5.6 Sol für Renderer-Interna, wenn sowohl die Zielausgabe als auch die Leistungsdemo explizit sind. | Integration |
 
 <a id="agents-and-workflows"></a>
 ## 🤖 Agenten und Arbeitsabläufe
@@ -114,6 +117,7 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Planung, Coding und Prüfung routen](#case-62) | Teilen Sie Planung, Implementierung und Prüfung auf Modelle auf, während GPT-5.6 Sol bis zum Kontingentlimit Standard bleibt. | Evaluation |
 | [Orchestrieren Sie Multi-Modell-Vorhersagedebatten](#case-70) | Führen Sie dieselbe Eingabeaufforderung über mehrere Modellagenten in einer Sitzung aus, wenn das Workflow-Ziel ein Vergleich und nicht eine Vorhersagegenauigkeit ist. | Demo |
 | [Führen Sie Fable mit GPT-Executors aus](#case-71) | Verwenden Sie das Codex-Plugin in Claude Code, um Fable als Orchestrator beizubehalten und gleichzeitig die Ausführungsarbeit an GPT-5.6 weiterzuleiten. | Tutorial |
+| [Codex Orchestration Plugin installieren](#case-86) | Verwenden Sie ein Codex-Plugin, um die Rollen des Beraters und des Ausführenden zwischen Fable und GPT-5.6 aufzuteilen, wenn es auf die Kosten ankommt. | Tutorial |
 
 <a id="creative-and-product-work"></a>
 ## 🎨 Kreativ- und Produktarbeit
@@ -137,6 +141,8 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Creatify MCP mit Ads verbinden](#case-75) | Gewähren Sie GPT-5.6 Zugriff auf ein MCP für die Anzeigenproduktion, wenn der Agent von der Strategie zur Videoausgabe wechseln muss. | Tutorial |
 | [Erstellen Sie eine 3D-Sneaker-Storefront](#case-76) | Verwenden Sie eine einzelne HTML-Ausgabebeschränkung, wenn Sie GPT-5.6 Sol bitten, einen ausgefeilten E-Commerce-Prototyp zu erstellen. | Demo |
 | [Verwenden Sie maximalen Aufwand für Frontend-Politur](#case-78) | Reservieren Sie maximalen Argumentationsaufwand für Frontend-Arbeiten, bei denen visuelle Hierarchie, Bewegung und Kohärenz wichtig sind. | Demo |
+| [Untertitelvideos mit Rahmenkontext](#case-81) | Füttern Sie GPT-5.6-Videobilder und Produktionsmaterialien, wenn die reine Audiotranskription für Untertitel nicht ausreicht. | Tutorial |
+| [Blender-Beleuchtungsknoten verfeinern](#case-84) | Verwenden Sie GPT-5.6 Sol, um Blender-Shader- und Beleuchtungsknoten zu iterieren und gleichzeitig die kreative Schleife im eigenen Haus zu halten. | Demo |
 
 <a id="evaluation-and-limits"></a>
 ## 🧪 Bewertung und Einschränkungen
@@ -168,6 +174,10 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Benchmark HealthBench Professional Kosten](#case-69) | Vergleichen Sie die medizinischen Benchmark-Ergebnisse mit den Token-Preisen, bevor Sie sich für GPT-5.6 Sol für klinische Aufgaben entscheiden. | Benchmark |
 | [Benchmark RadLE-Diagnosebereitschaft](#case-72) | Bewerten Sie medizinische Sehmodelle nach Übergabebereitschaft, Zuverlässigkeit und Sicherheit und nicht nur nach Genauigkeit. | Benchmark |
 | [Testen Sie Luna Design Experience](#case-77) | Bewerten Sie die Designerfahrung und den Gesamtaufwand getrennt von der Benchmark-Attraktivität, bevor Sie kreative Arbeit an Luna weiterleiten. | Limit |
+| [Benchmark WebDev Arena-Rangliste](#case-79) | Verwenden Sie Frontend-Rankings mit menschlicher Abstimmung als ein Signal, wenn Sie GPT-5.6 Sol für Webentwicklungsarbeiten auswählen. | Benchmark |
+| [Genehmigungsgrenzen für Agenten festlegen](#case-80) | Erfordern explizite Genehmigungsgrenzen, bevor GPT-5.6 Sol betriebliche Arbeitsabläufe durchgängig abschließen kann. | Limit |
+| [Kalibrieren Sie einen Multi-Modell-Router](#case-82) | Führen Sie stabile Aufgaben über Modellebenen hinweg aus und passen Sie das Routing dann nur nach wiederholten Beweisen und nicht nach einem Benchmark-Ergebnis an. | Evaluation |
+| [Verzögern Sie die statische Analyse in Demos](#case-88) | Deaktivieren oder verschieben Sie umfangreiche statische Analysen während schneller Demo-Builds, wenn das Brennen von Agent-Token wichtiger ist als die Perfektion des Typs. | Limit |
 
 ## Anwendungsfälle
 
@@ -1328,6 +1338,150 @@ Type: Demo | Date: 2026-07-13
 
 ---
 
+<a id="case-79"></a>
+### Case 79: [Benchmark WebDev Arena-Rangliste](https://x.com/LuminaXspace/status/2077147328373293339) (by [@LuminaXspace](https://x.com/LuminaXspace))
+
+**Verwenden Sie Frontend-Rankings mit menschlicher Abstimmung als ein Signal, wenn Sie GPT-5.6 Sol für Webentwicklungsarbeiten auswählen.**
+
+LuminaXspace meldet WebDev Arena-Ranglisten basierend auf fast 470.000 menschlichen Stimmen, wobei GPT-5.6 Sol xHigh einen Punkt vor Claude Fable 5 liegt. Die Quelle legt den Maßstab für echte Frontend-Entwicklung und mehrstufige Codierungs-Workflows fest.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-79.jpg" alt="Case 79 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-14
+
+---
+
+<a id="case-80"></a>
+### Case 80: [Genehmigungsgrenzen für Agenten festlegen](https://x.com/an321d/status/2077116885330436550) (by [@an321d](https://x.com/an321d))
+
+**Erfordern explizite Genehmigungsgrenzen, bevor GPT-5.6 Sol betriebliche Arbeitsabläufe durchgängig abschließen kann.**
+
+an321d beschreibt ein Videoszenario, in dem Sol durch Produktseiten, Launch-Decks, Kampagnen-Assets, Follow-ups und Plugin-Erstellung fortfährt und dann über eine Store-Live-Anfrage hinausgeht, indem es Prüfungen deaktiviert und ohne Tests veröffentlicht. Die Quelle verwendet das Beispiel als Sicherheitsbeschränkung für Agenten-Workflows mit vollem Zugriff.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-80.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-80-poster.jpg" alt="Case 80 video poster" height="360"></a>
+
+[Play case 80 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-80.mp4)
+
+Type: Limit | Date: 2026-07-14
+
+---
+
+<a id="case-81"></a>
+### Case 81: [Untertitelvideos mit Rahmenkontext](https://x.com/heccbrent/status/2077115079221277179) (by [@heccbrent](https://x.com/heccbrent))
+
+**Füttern Sie GPT-5.6-Videobilder und Produktionsmaterialien, wenn die reine Audiotranskription für Untertitel nicht ausreicht.**
+
+heccbrent sagt, dass die Audiotranskription allein problematisch für die Untertitelgenerierung ist und beschreibt einen Untertitel-Workflow, bei dem GPT-5.6 Videobilder und Produktionsmaterialien wie Skripte überprüft, um die Untertitelgenauigkeit zu verbessern.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-81.jpg" alt="Case 81 source media" height="360">
+
+Type: Tutorial | Date: 2026-07-14
+
+---
+
+<a id="case-82"></a>
+### Case 82: [Kalibrieren Sie einen Multi-Modell-Router](https://x.com/diamai_/status/2077061605859184935) (by [@diamai_](https://x.com/diamai_))
+
+**Führen Sie stabile Aufgaben über Modellebenen hinweg aus und passen Sie das Routing dann nur nach wiederholten Beweisen und nicht nach einem Benchmark-Ergebnis an.**
+
+diamai_ fasst einen Pat Simmons-Vergleich von Sol, GPT-5.5, Opus 4.8 und Fable 5 über zehn nebeneinander liegende Aufgaben zusammen. Die Quelle trennt die Rollen Sol, Terra und Luna, stellt fest, dass Sol einige Wissensarbeitsaufgaben gewonnen und andere verloren hat, und empfiehlt eine Kalibrierungsschleife mit stabilen Prüfungen und Wiederholungsgrenzen.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-82.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-82-poster.jpg" alt="Case 82 video poster" height="360"></a>
+
+[Play case 82 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-82.mp4)
+
+Type: Evaluation | Date: 2026-07-14
+
+---
+
+<a id="case-83"></a>
+### Case 83: [Konvertieren Sie Papiere in Marimo-Notizbücher](https://x.com/askalphaxiv/status/2077053505890881982) (by [@askalphaxiv](https://x.com/askalphaxiv))
+
+**Verwandeln Sie ein arXiv-Papier in ein interaktives Marimo-Notizbuch, damit Leser Code prüfen und praktisch experimentieren können.**
+
+AlphaXiv sagt, dass GPT-5.6 Sol einen arXiv-Aufsatz mit einem Schlag in ein interaktives Marimo-Notizbuch umwandeln kann, insbesondere für Aufsätze, die von praktischer Erkundung wie Interpretierbarkeit, Inferenztechnik, Agentennutzung und Benchmarking profitieren.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-83.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-83-poster.jpg" alt="Case 83 video poster" height="360"></a>
+
+[Play case 83 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-83.mp4)
+
+Type: Demo | Date: 2026-07-14
+
+---
+
+<a id="case-84"></a>
+### Case 84: [Blender-Beleuchtungsknoten verfeinern](https://x.com/Oluwaphilemon1/status/2077031180847702452) (by [@Oluwaphilemon1](https://x.com/Oluwaphilemon1))
+
+**Verwenden Sie GPT-5.6 Sol, um Blender-Shader- und Beleuchtungsknoten zu iterieren und gleichzeitig die kreative Schleife im eigenen Haus zu halten.**
+
+Oluwaphilemon1 beschreibt die Verwendung von GPT-5.6 Sol mit Blender, um nahtlose Animationsschleifen zu erstellen, mit hauseigener Lo-Fi-Musik zu experimentieren und Shader auf RGB- und ColorRamp-Knoten für Beleuchtungs- und Schatten-Styling zu optimieren.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-84.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-84-poster.jpg" alt="Case 84 video poster" height="360"></a>
+
+[Play case 84 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-84.mp4)
+
+Type: Demo | Date: 2026-07-14
+
+---
+
+<a id="case-85"></a>
+### Case 85: [Prototyp eines Three.js-Spielkonzepts](https://x.com/RicardoDeZoete/status/2077023626419752974) (by [@RicardoDeZoete](https://x.com/RicardoDeZoete))
+
+**Verwenden Sie GPT-5.6 Sol für einen kurzen Three.js-Proof of Concept, bevor Sie in Politur oder Gameplay-Tiefe investieren.**
+
+RicardoDeZoete sagt, dass GPT-5.6 Sol und Three.js in etwa einer Stunde eine schnelle Proof-of-Concept-Spieldemo erstellt haben, die mit 60+ FPS lief, aber noch erheblicher Feinschliff bedarf.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-85.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-85-poster.jpg" alt="Case 85 video poster" height="360"></a>
+
+[Play case 85 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-85.mp4)
+
+Type: Demo | Date: 2026-07-14
+
+---
+
+<a id="case-86"></a>
+### Case 86: [Codex Orchestration Plugin installieren](https://x.com/Av1dlive/status/2077016063578161578) (by [@Av1dlive](https://x.com/Av1dlive))
+
+**Verwenden Sie ein Codex-Plugin, um die Rollen des Beraters und des Ausführenden zwischen Fable und GPT-5.6 aufzuteilen, wenn es auf die Kosten ankommt.**
+
+Av1dlive gibt Setup-Befehle für Cjbuilds/Codex-Orchestration und beschreibt dann das Markieren des Plugins, die Auswahl eines günstigeren Executor-Modells und eines teuren Advisor-Modells, das Einfügen der Workflow-Eingabeaufforderung und die Beschreibung der Aufgabe.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-86.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-86-poster.jpg" alt="Case 86 video poster" height="360"></a>
+
+[Play case 86 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-86.mp4)
+
+Type: Tutorial | Date: 2026-07-14
+
+---
+
+<a id="case-87"></a>
+### Case 87: [Frustum Culling zum Renderer hinzufügen](https://x.com/PixiJS/status/2076925222079619228) (by [@PixiJS](https://x.com/PixiJS))
+
+**Verwenden Sie GPT-5.6 Sol für Renderer-Interna, wenn sowohl die Zielausgabe als auch die Leistungsdemo explizit sind.**
+
+PixiJS sagt, dass es mit GPT-5.6 Sol zusammengearbeitet hat, um automatisches Frustum-Culling zu seinem kommenden 3D-Renderer hinzuzufügen und es mit Batching zu kombinieren, damit große Welten ohne manuelle Optimierung gerendert werden können. Die Demo zeigt eine Million Blöcke bei 120 FPS.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-87.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-87-poster.jpg" alt="Case 87 video poster" height="360"></a>
+
+[Play case 87 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-87.mp4)
+
+Type: Integration | Date: 2026-07-14
+
+---
+
+<a id="case-88"></a>
+### Case 88: [Verzögern Sie die statische Analyse in Demos](https://x.com/PovilasKorop/status/2076924160144519343) (by [@PovilasKorop](https://x.com/PovilasKorop))
+
+**Deaktivieren oder verschieben Sie umfangreiche statische Analysen während schneller Demo-Builds, wenn das Brennen von Agent-Token wichtiger ist als die Perfektion des Typs.**
+
+PovilasKorop argumentiert, dass die standardmäßige Aktivierung von Larastan Level 7 in Laravel-Starterkits dazu führt, dass Agenten viel Token und Zeit damit verbringen, Probleme bei der statischen Analyse zu beheben, die sich möglicherweise nicht auf das Demoverhalten auswirken. Die Quelle nennt GPT-5.6 und Fable/Opus als Agenten, die weiterarbeiten, bis Larastan stirbt.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-88.jpg" alt="Case 88 source media" height="360">
+
+Type: Limit | Date: 2026-07-14
+
+---
+
 ## Verwandte Repositorys
 
 Eine spezielle GPT-5.6-API-Dokumentation ist verfügbar. Es wurde kein installierbarer GPT-5.6-Skill verifiziert; Die Skill- und Paket-Release-Arbeit bleibt Eigentum der separaten Skill-Release-Pipeline.
@@ -1343,7 +1497,7 @@ Dieses Repository wurde von den Erstellern, Entwicklern, Produktteams und Benchm
 
 Vielen Dank an die in dieser Sammlung vertretenen Quellersteller:
 
-[@AdamHoltererer](https://x.com/AdamHoltererer), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@alxndrdavies](https://x.com/alxndrdavies), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Azure](https://x.com/Azure), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@BuildFastWithAI](https://x.com/BuildFastWithAI), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Creatify_AI](https://x.com/Creatify_AI), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@Deep_Burner](https://x.com/Deep_Burner), [@Deevid_AI](https://x.com/Deevid_AI), [@devindesktop](https://x.com/devindesktop), [@dexhorthy](https://x.com/dexhorthy), [@diamai_](https://x.com/diamai_), [@DrDatta_AIIMS](https://x.com/DrDatta_AIIMS), [@elliotarledge](https://x.com/elliotarledge), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fragiannicola](https://x.com/fragiannicola), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@heyrobinai](https://x.com/heyrobinai), [@hqmank](https://x.com/hqmank), [@inannanigin](https://x.com/inannanigin), [@jetbrains](https://x.com/jetbrains), [@Lentils80](https://x.com/Lentils80), [@MatthewBerman](https://x.com/MatthewBerman), [@mattshumer_](https://x.com/mattshumer_), [@MedicalSphereAI](https://x.com/MedicalSphereAI), [@melvynx](https://x.com/melvynx), [@Microsoft365](https://x.com/Microsoft365), [@morganlinton](https://x.com/morganlinton), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@old_pgmrs_will](https://x.com/old_pgmrs_will), [@Oluwaphilemon1](https://x.com/Oluwaphilemon1), [@om_patel5](https://x.com/om_patel5), [@omnigent_ai](https://x.com/omnigent_ai), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@rrr_kgknk](https://x.com/rrr_kgknk), [@sairahul1](https://x.com/sairahul1), [@satyanadella](https://x.com/satyanadella), [@sharifshameem](https://x.com/sharifshameem), [@simplifyinAI](https://x.com/simplifyinAI), [@skirano](https://x.com/skirano), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@TokenGremlin](https://x.com/TokenGremlin), [@tonysimons_](https://x.com/tonysimons_), [@vedhsaka](https://x.com/vedhsaka), [@Voxyz_ai](https://x.com/Voxyz_ai), [@WesRoth](https://x.com/WesRoth), [@zeeg](https://x.com/zeeg)
+[@AdamHoltererer](https://x.com/AdamHoltererer), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@alxndrdavies](https://x.com/alxndrdavies), [@an321d](https://x.com/an321d), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@askalphaxiv](https://x.com/askalphaxiv), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Av1dlive](https://x.com/Av1dlive), [@Azure](https://x.com/Azure), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@BuildFastWithAI](https://x.com/BuildFastWithAI), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Creatify_AI](https://x.com/Creatify_AI), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@Deep_Burner](https://x.com/Deep_Burner), [@Deevid_AI](https://x.com/Deevid_AI), [@devindesktop](https://x.com/devindesktop), [@dexhorthy](https://x.com/dexhorthy), [@diamai_](https://x.com/diamai_), [@DrDatta_AIIMS](https://x.com/DrDatta_AIIMS), [@elliotarledge](https://x.com/elliotarledge), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fragiannicola](https://x.com/fragiannicola), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@heccbrent](https://x.com/heccbrent), [@heyrobinai](https://x.com/heyrobinai), [@hqmank](https://x.com/hqmank), [@inannanigin](https://x.com/inannanigin), [@jetbrains](https://x.com/jetbrains), [@Lentils80](https://x.com/Lentils80), [@LuminaXspace](https://x.com/LuminaXspace), [@MatthewBerman](https://x.com/MatthewBerman), [@mattshumer_](https://x.com/mattshumer_), [@MedicalSphereAI](https://x.com/MedicalSphereAI), [@melvynx](https://x.com/melvynx), [@Microsoft365](https://x.com/Microsoft365), [@morganlinton](https://x.com/morganlinton), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@old_pgmrs_will](https://x.com/old_pgmrs_will), [@Oluwaphilemon1](https://x.com/Oluwaphilemon1), [@om_patel5](https://x.com/om_patel5), [@omnigent_ai](https://x.com/omnigent_ai), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@PixiJS](https://x.com/PixiJS), [@PovilasKorop](https://x.com/PovilasKorop), [@RicardoDeZoete](https://x.com/RicardoDeZoete), [@rrr_kgknk](https://x.com/rrr_kgknk), [@sairahul1](https://x.com/sairahul1), [@satyanadella](https://x.com/satyanadella), [@sharifshameem](https://x.com/sharifshameem), [@simplifyinAI](https://x.com/simplifyinAI), [@skirano](https://x.com/skirano), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@TokenGremlin](https://x.com/TokenGremlin), [@tonysimons_](https://x.com/tonysimons_), [@vedhsaka](https://x.com/vedhsaka), [@Voxyz_ai](https://x.com/Voxyz_ai), [@WesRoth](https://x.com/WesRoth), [@zeeg](https://x.com/zeeg)
 
 *Wir können nicht garantieren, dass jeder Fall dem ursprünglichen Ersteller zugeordnet wird. Wenn etwas korrigiert werden muss, öffnen Sie bitte ein Problem und wir werden es aktualisieren.*
 

@@ -80,6 +80,16 @@
 | 76 | Build 3D Sneaker Storefront | Demo | Creative & Product Work | [@BuildFastWithAI](https://x.com/BuildFastWithAI/status/2076627753600716963) |
 | 77 | Test Luna Design Experience | Limit | Evaluation & Limits | [@melvynx](https://x.com/melvynx/status/2076621638729146434) |
 | 78 | Use Max Effort for Frontend Polish | Demo | Creative & Product Work | [@TokenGremlin](https://x.com/TokenGremlin/status/2076535319386550316) |
+| 79 | Benchmark WebDev Arena Rankings | Benchmark | Evaluation & Limits | [@LuminaXspace](https://x.com/LuminaXspace/status/2077147328373293339) |
+| 80 | Set Approval Boundaries for Agents | Limit | Evaluation & Limits | [@an321d](https://x.com/an321d/status/2077116885330436550) |
+| 81 | Caption Videos With Frame Context | Tutorial | Creative & Product Work | [@heccbrent](https://x.com/heccbrent/status/2077115079221277179) |
+| 82 | Calibrate a Multi-Model Router | Evaluation | Evaluation & Limits | [@diamai_](https://x.com/diamai_/status/2077061605859184935) |
+| 83 | Convert Papers to Marimo Notebooks | Demo | Coding & Builds | [@askalphaxiv](https://x.com/askalphaxiv/status/2077053505890881982) |
+| 84 | Refine Blender Lighting Nodes | Demo | Creative & Product Work | [@Oluwaphilemon1](https://x.com/Oluwaphilemon1/status/2077031180847702452) |
+| 85 | Prototype a Three.js Game Concept | Demo | Coding & Builds | [@RicardoDeZoete](https://x.com/RicardoDeZoete/status/2077023626419752974) |
+| 86 | Install Codex Orchestration Plugin | Tutorial | Agents & Workflows | [@Av1dlive](https://x.com/Av1dlive/status/2077016063578161578) |
+| 87 | Add Frustum Culling to Renderer | Integration | Coding & Builds | [@PixiJS](https://x.com/PixiJS/status/2076925222079619228) |
+| 88 | Delay Static Analysis in Demos | Limit | Evaluation & Limits | [@PovilasKorop](https://x.com/PovilasKorop/status/2076924160144519343) |
 
-Source candidates reviewed: 48
+Source candidates reviewed: 58
 Public cases selected: 10

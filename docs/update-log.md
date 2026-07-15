@@ -39,3 +39,11 @@
 - Added Cases 69-78 covering healthcare benchmarks, multi-agent orchestration, Claude Code plugin routing, WordPress publishing, video direction, ad-production MCP, ecommerce prototyping, Luna design limits, and frontend polish.
 - Prepared seven videos, seven poster frames, and three source-image cases for the repository's R2 namespace.
 - Updated English first, then synchronized all 10 localized README files after the English gate passed.
+
+## 2026-07-15 - Daily Usecase Update
+
+- Collected 557 deduplicated candidates from 10 GPT-5.6 searches and reviewed 58 records that met the fixed 24-hour and engagement window.
+- Selected 10 high-confidence cases, deferred 5, marked 7 unsure, and dropped 36.
+- Added Cases 79-88 covering WebDev Arena rankings, agent approval limits, caption workflows, model-router calibration, paper-to-notebook builds, Blender lighting, Three.js prototyping, Codex orchestration, renderer culling, and static-analysis limits.
+- Prepared seven videos, seven poster frames, and three source-image cases for the repository's R2 namespace.
+- Updated English first, then synchronized all 10 localized README files after the English gate passed.
