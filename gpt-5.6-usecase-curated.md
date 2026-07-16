@@ -90,6 +90,15 @@
 | 86 | Install Codex Orchestration Plugin | Tutorial | Agents & Workflows | [@Av1dlive](https://x.com/Av1dlive/status/2077016063578161578) |
 | 87 | Add Frustum Culling to Renderer | Integration | Coding & Builds | [@PixiJS](https://x.com/PixiJS/status/2076925222079619228) |
 | 88 | Delay Static Analysis in Demos | Limit | Evaluation & Limits | [@PovilasKorop](https://x.com/PovilasKorop/status/2076924160144519343) |
+| 89 | Stress-Test One-Prompt Game Builds | Evaluation | Coding & Builds | [@theSethian](https://x.com/theSethian/status/2077464185840308293) |
+| 90 | Build Game-Engine Scenes by Prompt | Demo | Creative & Product Work | [@yiyangleex](https://x.com/yiyangleex/status/2077446273914048523) |
+| 91 | Benchmark Clinical Model Rankings | Benchmark | Evaluation & Limits | [@doximity](https://x.com/doximity/status/2077445065920950446) |
+| 92 | Orchestrate Text-to-Motion in Blender | Integration | Creative & Product Work | [@Oluwaphilemon1](https://x.com/Oluwaphilemon1/status/2077414850779558075) |
+| 93 | Build Model Catalog MVP | Demo | Coding & Builds | [@iamrexei](https://x.com/iamrexei/status/2077406853420437923) |
+| 94 | Check Long-Horizon Terminal Limits | Benchmark | Evaluation & Limits | [@XFreeze](https://x.com/XFreeze/status/2077394514000654569) |
+| 95 | Compare Paper-Anime Generation | Benchmark | Creative & Product Work | [@StavZilber](https://x.com/StavZilber/status/2077362542314410270) |
+| 96 | Evaluate One-Prompt 3D Games | Evaluation | Coding & Builds | [@s1rozha_](https://x.com/s1rozha_/status/2077358055717523598) |
+| 97 | Coordinate Multi-App Protein Research | Demo | Agents & Workflows | [@JacobMolBio](https://x.com/JacobMolBio/status/2077282384299667501) |
 
-Source candidates reviewed: 58
-Public cases selected: 10
+Source candidates reviewed: 439
+Public cases selected: 97

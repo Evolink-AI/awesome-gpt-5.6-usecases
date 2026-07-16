@@ -47,3 +47,11 @@
 - Added Cases 79-88 covering WebDev Arena rankings, agent approval limits, caption workflows, model-router calibration, paper-to-notebook builds, Blender lighting, Three.js prototyping, Codex orchestration, renderer culling, and static-analysis limits.
 - Prepared seven videos, seven poster frames, and three source-image cases for the repository's R2 namespace.
 - Updated English first, then synchronized all 10 localized README files after the English gate passed.
+
+## 2026-07-16 - Daily Usecase Update
+
+- Collected 587 deduplicated candidates from 10 GPT-5.6 searches and reviewed 32 records that met the fixed 24-hour and engagement window.
+- Selected 9 high-confidence cases, deferred 4, marked 2 unsure, and dropped 17.
+- Added Cases 89-97 covering one-prompt game stress tests, game-engine scene building, clinical and terminal benchmarks, Blender text-to-motion, model-catalog MVPs, creative benchmark comparison, and multi-app protein research.
+- Prepared seven videos, seven poster frames, and two source-image cases for the repository's R2 namespace.
+- Updated English first, then synchronized all 10 localized README files after the English gate passed.

@@ -34,7 +34,7 @@ Every public case is curated from launch-window and recurring public evidence. C
 
 ## 📊 Overview
 
-- **88 selected GPT-5.6 cases from public creators, developers, product teams, and benchmark groups.**
+- **97 selected GPT-5.6 cases from public creators, developers, product teams, and benchmark groups.**
 - Covers coding builds, long-running agents, business workflows, creative production, product integrations, benchmarks, and practical limits.
 - Each case includes the original source, creator attribution, a concise takeaway, evidence type, and publication date.
 - Use this repository to identify practical workflows and compare strengths, costs, and limitations before choosing a GPT-5.6 tier.
@@ -61,10 +61,10 @@ export EVOLINK_API_KEY="your_api_key_here"
 
 | Section | Cases |
 |---|---|
-| [💻 Coding & Builds](#coding-and-builds) | 20 Cases |
-| [🤖 Agents & Workflows](#agents-and-workflows) | 20 Cases |
-| [🎨 Creative & Product Work](#creative-and-product-work) | 19 Cases |
-| [🧪 Evaluation & Limits](#evaluation-and-limits) | 29 Cases |
+| [💻 Coding & Builds](#coding-and-builds) | 23 Cases |
+| [🤖 Agents & Workflows](#agents-and-workflows) | 21 Cases |
+| [🎨 Creative & Product Work](#creative-and-product-work) | 22 Cases |
+| [🧪 Evaluation & Limits](#evaluation-and-limits) | 31 Cases |
 | [Acknowledge](#acknowledge) | Credits and correction policy |
 
 <a id="coding-and-builds"></a>
@@ -92,6 +92,9 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Convert Papers to Marimo Notebooks](#case-83) | Turn an arXiv paper into an interactive Marimo notebook so readers can inspect code and experiment hands on. | Demo |
 | [Prototype a Three.js Game Concept](#case-85) | Use GPT-5.6 Sol for a short Three.js proof of concept before investing in polish or gameplay depth. | Demo |
 | [Add Frustum Culling to Renderer](#case-87) | Use GPT-5.6 Sol on renderer internals when the target output and performance demo are both explicit. | Integration |
+| [Stress-Test One-Prompt Game Builds](#case-89) | Use escalating game briefs to test where GPT-5.6 Sol produces playable prototypes and where controls or enemy logic still fail. | Evaluation |
+| [Build Model Catalog MVP](#case-93) | Describe a searchable model-comparison product in one prompt when the MVP needs filters, pricing, pages, and URL state. | Demo |
+| [Evaluate One-Prompt 3D Games](#case-96) | Treat one-prompt game clones as prototype evaluations by recording both playable mechanics and missing world-system depth. | Evaluation |
 
 <a id="agents-and-workflows"></a>
 ## 🤖 Agents & Workflows
@@ -118,6 +121,7 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Orchestrate Multi-Model Prediction Debates](#case-70) | Run the same prompt through multiple model agents in one session when the workflow goal is comparison, not prediction accuracy. | Demo |
 | [Run Fable With GPT Executors](#case-71) | Use the Codex plugin inside Claude Code to keep Fable as orchestrator while routing execution work to GPT-5.6. | Tutorial |
 | [Install Codex Orchestration Plugin](#case-86) | Use a Codex plugin to split advisor and executor roles between Fable and GPT-5.6 when cost matters. | Tutorial |
+| [Coordinate Multi-App Protein Research](#case-97) | Use GPT-5.6 Sol computer use to coordinate browser research, desktop scientific tools, and a local reporting site. | Demo |
 
 <a id="creative-and-product-work"></a>
 ## 🎨 Creative & Product Work
@@ -143,6 +147,9 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Use Max Effort for Frontend Polish](#case-78) | Reserve max reasoning effort for frontend work where visual hierarchy, motion, and coherence matter. | Demo |
 | [Caption Videos With Frame Context](#case-81) | Feed GPT-5.6 video frames and production materials when audio-only transcription is not enough for captions. | Tutorial |
 | [Refine Blender Lighting Nodes](#case-84) | Use GPT-5.6 Sol to iterate Blender shader and lighting nodes while keeping the creative loop in-house. | Demo |
+| [Build Game-Engine Scenes by Prompt](#case-90) | Keep the AI workflow inside the game engine when the goal is to generate a playable scene with lighting, assets, and physics together. | Demo |
+| [Orchestrate Text-to-Motion in Blender](#case-92) | Let Codex coordinate Blender, text-to-motion, and a bridge library when animation speed matters more than direct joint control. | Integration |
+| [Compare Paper-Anime Generation](#case-95) | Run the same creative benchmark through competing models when judging visual style transfer with an MCP workflow. | Benchmark |
 
 <a id="evaluation-and-limits"></a>
 ## 🧪 Evaluation & Limits
@@ -178,6 +185,8 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Set Approval Boundaries for Agents](#case-80) | Require explicit approval boundaries before letting GPT-5.6 Sol complete operational workflows end to end. | Limit |
 | [Calibrate a Multi-Model Router](#case-82) | Run stable tasks across model tiers, then adjust routing only after repeated evidence rather than one benchmark result. | Evaluation |
 | [Delay Static Analysis in Demos](#case-88) | Disable or defer heavy static analysis during quick demo builds when agent token burn matters more than type perfection. | Limit |
+| [Benchmark Clinical Model Rankings](#case-91) | Use independent clinical rankings as a safety and domain-fit signal before routing medical-style questions to a frontier model. | Benchmark |
+| [Check Long-Horizon Terminal Limits](#case-94) | Use long-horizon terminal benchmarks to evaluate whether GPT-5.6 Sol can sustain dependent actions over extended coding tasks. | Benchmark |
 
 ## Use Cases
 
@@ -1482,6 +1491,137 @@ Type: Limit | Date: 2026-07-14
 
 ---
 
+<a id="case-89"></a>
+### Case 89: [Stress-Test One-Prompt Game Builds](https://x.com/theSethian/status/2077464185840308293) (by [@theSethian](https://x.com/theSethian))
+
+**Use escalating game briefs to test where GPT-5.6 Sol produces playable prototypes and where controls or enemy logic still fail.**
+
+theSethian summarizes a Prompt Potato test where GPT-5.6 Sol Ultra built Geometry Dash-style, Doom-style, and Rocket League-style games. The source notes shipped mechanics such as movement forms, gravity changes, weapon fixes, keycards, boss fights, car modes, replays, and aerial controls, while also calling out input registration, stacked enemy damage, and weak bot behavior.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-89.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-89-poster.jpg" alt="Case 89 video poster" height="360"></a>
+
+[Play case 89 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-89.mp4)
+
+Type: Evaluation | Date: 2026-07-15
+
+---
+
+<a id="case-90"></a>
+### Case 90: [Build Game-Engine Scenes by Prompt](https://x.com/yiyangleex/status/2077446273914048523) (by [@yiyangleex](https://x.com/yiyangleex))
+
+**Keep the AI workflow inside the game engine when the goal is to generate a playable scene with lighting, assets, and physics together.**
+
+yiyangleex says the Solers engine used GPT 5.6-Sol to build a quiet, realistic modern bedroom game scene from one conversation in under 15 minutes. The source says the engine-native workflow handled whiteboxing, asset import, materials, lighting, post-processing, light baking, and physics collisions without switching tools or adding an external MCP.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-90.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-90-poster.jpg" alt="Case 90 video poster" height="360"></a>
+
+[Play case 90 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-90.mp4)
+
+Type: Demo | Date: 2026-07-15
+
+---
+
+<a id="case-91"></a>
+### Case 91: [Benchmark Clinical Model Rankings](https://x.com/doximity/status/2077445065920950446) (by [@doximity](https://x.com/doximity))
+
+**Use independent clinical rankings as a safety and domain-fit signal before routing medical-style questions to a frontier model.**
+
+Doximity cites Stanford Arise Lab's independent clinical AI evaluation covering 24 frontier and clinical models, 12,747 expert rankings, and real-world clinical questions. The source says Doximity Ask outperformed OpenEvidence, GPT-5.6, Claude Fable 5, Gemini 3.1 Pro, and other models, framing the benchmark as a rigorous clinical-AI comparison.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-91.jpg" alt="Case 91 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-15
+
+---
+
+<a id="case-92"></a>
+### Case 92: [Orchestrate Text-to-Motion in Blender](https://x.com/Oluwaphilemon1/status/2077414850779558075) (by [@Oluwaphilemon1](https://x.com/Oluwaphilemon1))
+
+**Let Codex coordinate Blender, text-to-motion, and a bridge library when animation speed matters more than direct joint control.**
+
+Oluwaphilemon1 says Codex 5.6 and Blender MCP produced character animations from text descriptions by coordinating an open-source text-to-motion model and a bridge library into Blender. The source says the workflow created smooth movement and an acrobatic combat scene, while clarifying that Codex did not directly control every joint and that the camera was animated by hand.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-92.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-92-poster.jpg" alt="Case 92 video poster" height="360"></a>
+
+[Play case 92 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-92.mp4)
+
+Type: Integration | Date: 2026-07-15
+
+---
+
+<a id="case-93"></a>
+### Case 93: [Build Model Catalog MVP](https://x.com/iamrexei/status/2077406853420437923) (by [@iamrexei](https://x.com/iamrexei))
+
+**Describe a searchable model-comparison product in one prompt when the MVP needs filters, pricing, pages, and URL state.**
+
+iamrexei says GPT-5.6 Sol Ultra built Model Atlas from one prompt: a website for comparing AI models by price, provider, context window, use case, open-source status, and API access. The source lists search by model name, API ID, provider, and use case, filters by provider, pricing comparison, model pages, query-state URLs, and pricing methodology display.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-93.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-93-poster.jpg" alt="Case 93 video poster" height="360"></a>
+
+[Play case 93 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-93.mp4)
+
+Type: Demo | Date: 2026-07-15
+
+---
+
+<a id="case-94"></a>
+### Case 94: [Check Long-Horizon Terminal Limits](https://x.com/XFreeze/status/2077394514000654569) (by [@XFreeze](https://x.com/XFreeze))
+
+**Use long-horizon terminal benchmarks to evaluate whether GPT-5.6 Sol can sustain dependent actions over extended coding tasks.**
+
+XFreeze reports Long-Horizon Terminal-Bench results where Grok 4.5 outperformed Claude Fable 5, Claude Opus 4.8, and GPT-5.6-sol. The source says the benchmark tests hundreds of dependent terminal actions for up to 90 minutes across 46 difficult tasks and 18 frontier models, with Grok 4.5 reaching a 0.505 mean reward.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-94.jpg" alt="Case 94 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-15
+
+---
+
+<a id="case-95"></a>
+### Case 95: [Compare Paper-Anime Generation](https://x.com/StavZilber/status/2077362542314410270) (by [@StavZilber](https://x.com/StavZilber))
+
+**Run the same creative benchmark through competing models when judging visual style transfer with an MCP workflow.**
+
+StavZilber posts a Fable 5 versus GPT 5.6 Sol paper-anime benchmark created with maxfusion MCP. The source provides a public video comparison and frames the result as a model-to-model creative benchmark rather than a standalone prompt gallery.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-95.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-95-poster.jpg" alt="Case 95 video poster" height="360"></a>
+
+[Play case 95 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-95.mp4)
+
+Type: Benchmark | Date: 2026-07-15
+
+---
+
+<a id="case-96"></a>
+### Case 96: [Evaluate One-Prompt 3D Games](https://x.com/s1rozha_/status/2077358055717523598) (by [@s1rozha_](https://x.com/s1rozha_))
+
+**Treat one-prompt game clones as prototype evaluations by recording both playable mechanics and missing world-system depth.**
+
+s1rozha_ reports GPT-5.6 Sol building Rocket League, Dark Souls, and Minecraft-style games from one prompt each. The source says the Rocket League clone included a 3D arena, car soccer, boost, enemy AI, ball physics, scoring, and controls, while the Dark Souls and Minecraft builds had working core pieces but visible limitations such as clipping, weak chunk generation, and inaccurate blocks.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-96.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-96-poster.jpg" alt="Case 96 video poster" height="360"></a>
+
+[Play case 96 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-96.mp4)
+
+Type: Evaluation | Date: 2026-07-15
+
+---
+
+<a id="case-97"></a>
+### Case 97: [Coordinate Multi-App Protein Research](https://x.com/JacobMolBio/status/2077282384299667501) (by [@JacobMolBio](https://x.com/JacobMolBio))
+
+**Use GPT-5.6 Sol computer use to coordinate browser research, desktop scientific tools, and a local reporting site.**
+
+JacobMolBio demonstrates GPT 5.6-Sol controlling several surfaces at once: using a browser to find major cancer-driving protein mutations, loading structures into ChimeraX to record loops, and updating a local site with a most-wanted card for each structure. The source also says Sol arranged windows and handled the screen recording.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-97.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-97-poster.jpg" alt="Case 97 video poster" height="360"></a>
+
+[Play case 97 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-97.mp4)
+
+Type: Demo | Date: 2026-07-15
+
+---
+
 ## Related Repositories
 
 Dedicated GPT-5.6 API documentation is available. No installable GPT-5.6 skill has been verified; skill and package release work remains owned by the separate skill-release pipeline.
@@ -1497,7 +1637,7 @@ This repository was inspired by the creators, developers, product teams, and ben
 
 Thanks to the source creators represented in this collection:
 
-[@AdamHoltererer](https://x.com/AdamHoltererer), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@alxndrdavies](https://x.com/alxndrdavies), [@an321d](https://x.com/an321d), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@askalphaxiv](https://x.com/askalphaxiv), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Av1dlive](https://x.com/Av1dlive), [@Azure](https://x.com/Azure), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@BuildFastWithAI](https://x.com/BuildFastWithAI), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Creatify_AI](https://x.com/Creatify_AI), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@Deep_Burner](https://x.com/Deep_Burner), [@Deevid_AI](https://x.com/Deevid_AI), [@devindesktop](https://x.com/devindesktop), [@dexhorthy](https://x.com/dexhorthy), [@diamai_](https://x.com/diamai_), [@DrDatta_AIIMS](https://x.com/DrDatta_AIIMS), [@elliotarledge](https://x.com/elliotarledge), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fragiannicola](https://x.com/fragiannicola), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@heccbrent](https://x.com/heccbrent), [@heyrobinai](https://x.com/heyrobinai), [@hqmank](https://x.com/hqmank), [@inannanigin](https://x.com/inannanigin), [@jetbrains](https://x.com/jetbrains), [@Lentils80](https://x.com/Lentils80), [@LuminaXspace](https://x.com/LuminaXspace), [@MatthewBerman](https://x.com/MatthewBerman), [@mattshumer_](https://x.com/mattshumer_), [@MedicalSphereAI](https://x.com/MedicalSphereAI), [@melvynx](https://x.com/melvynx), [@Microsoft365](https://x.com/Microsoft365), [@morganlinton](https://x.com/morganlinton), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@old_pgmrs_will](https://x.com/old_pgmrs_will), [@Oluwaphilemon1](https://x.com/Oluwaphilemon1), [@om_patel5](https://x.com/om_patel5), [@omnigent_ai](https://x.com/omnigent_ai), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@PixiJS](https://x.com/PixiJS), [@PovilasKorop](https://x.com/PovilasKorop), [@RicardoDeZoete](https://x.com/RicardoDeZoete), [@rrr_kgknk](https://x.com/rrr_kgknk), [@sairahul1](https://x.com/sairahul1), [@satyanadella](https://x.com/satyanadella), [@sharifshameem](https://x.com/sharifshameem), [@simplifyinAI](https://x.com/simplifyinAI), [@skirano](https://x.com/skirano), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@TokenGremlin](https://x.com/TokenGremlin), [@tonysimons_](https://x.com/tonysimons_), [@vedhsaka](https://x.com/vedhsaka), [@Voxyz_ai](https://x.com/Voxyz_ai), [@WesRoth](https://x.com/WesRoth), [@zeeg](https://x.com/zeeg)
+[@AdamHoltererer](https://x.com/AdamHoltererer), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@alxndrdavies](https://x.com/alxndrdavies), [@an321d](https://x.com/an321d), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@askalphaxiv](https://x.com/askalphaxiv), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Av1dlive](https://x.com/Av1dlive), [@Azure](https://x.com/Azure), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@BuildFastWithAI](https://x.com/BuildFastWithAI), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Creatify_AI](https://x.com/Creatify_AI), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@Deep_Burner](https://x.com/Deep_Burner), [@Deevid_AI](https://x.com/Deevid_AI), [@devindesktop](https://x.com/devindesktop), [@dexhorthy](https://x.com/dexhorthy), [@diamai_](https://x.com/diamai_), [@doximity](https://x.com/doximity), [@DrDatta_AIIMS](https://x.com/DrDatta_AIIMS), [@elliotarledge](https://x.com/elliotarledge), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fragiannicola](https://x.com/fragiannicola), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@heccbrent](https://x.com/heccbrent), [@heyrobinai](https://x.com/heyrobinai), [@hqmank](https://x.com/hqmank), [@iamrexei](https://x.com/iamrexei), [@inannanigin](https://x.com/inannanigin), [@JacobMolBio](https://x.com/JacobMolBio), [@jetbrains](https://x.com/jetbrains), [@Lentils80](https://x.com/Lentils80), [@LuminaXspace](https://x.com/LuminaXspace), [@MatthewBerman](https://x.com/MatthewBerman), [@mattshumer_](https://x.com/mattshumer_), [@MedicalSphereAI](https://x.com/MedicalSphereAI), [@melvynx](https://x.com/melvynx), [@Microsoft365](https://x.com/Microsoft365), [@morganlinton](https://x.com/morganlinton), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@old_pgmrs_will](https://x.com/old_pgmrs_will), [@Oluwaphilemon1](https://x.com/Oluwaphilemon1), [@om_patel5](https://x.com/om_patel5), [@omnigent_ai](https://x.com/omnigent_ai), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@PixiJS](https://x.com/PixiJS), [@PovilasKorop](https://x.com/PovilasKorop), [@RicardoDeZoete](https://x.com/RicardoDeZoete), [@rrr_kgknk](https://x.com/rrr_kgknk), [@s1rozha_](https://x.com/s1rozha_), [@sairahul1](https://x.com/sairahul1), [@satyanadella](https://x.com/satyanadella), [@sharifshameem](https://x.com/sharifshameem), [@simplifyinAI](https://x.com/simplifyinAI), [@skirano](https://x.com/skirano), [@StavZilber](https://x.com/StavZilber), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@theSethian](https://x.com/theSethian), [@TokenGremlin](https://x.com/TokenGremlin), [@tonysimons_](https://x.com/tonysimons_), [@vedhsaka](https://x.com/vedhsaka), [@Voxyz_ai](https://x.com/Voxyz_ai), [@WesRoth](https://x.com/WesRoth), [@XFreeze](https://x.com/XFreeze), [@yiyangleex](https://x.com/yiyangleex), [@zeeg](https://x.com/zeeg)
 
 *We cannot guarantee that every case is attributed to the original creator. If anything needs to be corrected, please open an issue and we will update it.*
 
