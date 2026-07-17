@@ -65,7 +65,7 @@ def severity_for(url: str, status: int) -> str:
         return "P0"
     if host == "openai.com" and status == 403:
         return "P2"
-    if host == "api.star-history.com" and status in {0, 404, 503}:
+    if host == "api.star-history.com" and status in {0, 404, 500, 503}:
         return "P2"
     if host in {"x.com", "www.x.com"} and status in {0, 401, 403, 429}:
         return "P2"

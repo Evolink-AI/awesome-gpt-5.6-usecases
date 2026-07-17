@@ -34,7 +34,7 @@ GPT-5.6 고신호 사용 사례 저장소에 오신 것을 환영합니다.
 
 ## 📊 개요
 
-- **공개 제작자, 개발자, 제품 팀 및 벤치마크 그룹에서 선정된 97개의 GPT-5.6 사례.**
+- **공개 제작자, 개발자, 제품 팀 및 벤치마크 그룹에서 선정된 105개의 GPT-5.6 사례.**
 - 코딩 빌드, 장기 실행 에이전트, 비즈니스 워크플로, 크리에이티브 제작, 제품 통합, 벤치마크 및 실제 한계를 다룹니다.
 - 각 사례에는 원본 출처, 작성자 속성, 간결한 요약, 증거 유형 및 게시 날짜가 포함됩니다.
 - GPT-5.6 계층을 선택하기 전에 이 저장소를 사용하여 실제 워크플로를 식별하고 강점, 비용 및 제한 사항을 비교하세요.
@@ -61,10 +61,10 @@ export EVOLINK_API_KEY="your_api_key_here"
 
 | 섹션 | 사례 |
 |---|---|
-| [💻 코딩 및 빌드](#coding-and-builds) | 23 사례 |
-| [🤖 에이전트 및 작업 흐름](#agents-and-workflows) | 21 사례 |
+| [💻 코딩 및 빌드](#coding-and-builds) | 24 사례 |
+| [🤖 에이전트 및 작업 흐름](#agents-and-workflows) | 23 사례 |
 | [🎨 창작 및 제품 작업](#creative-and-product-work) | 22 사례 |
-| [🧪 평가 및 제한](#evaluation-and-limits) | 31 사례 |
+| [🧪 평가 및 제한](#evaluation-and-limits) | 36 사례 |
 | [확인](#acknowledge) | 크레딧 및 수정 정책 |
 
 <a id="coding-and-builds"></a>
@@ -95,6 +95,7 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [스트레스 테스트 단일 프롬프트 게임 빌드](#case-89) | 확대되는 게임 개요를 사용하여 GPT-5.6 Sol이 플레이 가능한 프로토타입을 생성하는 위치와 컨트롤 또는 적 논리가 여전히 실패하는 위치를 테스트하세요. | Evaluation |
 | [모델 카탈로그 MVP 구축](#case-93) | MVP에 필터, 가격, 페이지 및 URL 상태가 필요한 경우 검색 가능한 모델 비교 제품을 하나의 프롬프트로 설명하세요. | Demo |
 | [원 프롬프트 3D 게임 평가](#case-96) | 플레이 가능한 메커니즘과 누락된 월드 시스템 깊이를 모두 기록하여 단일 프롬프트 게임 클론을 프로토타입 평가로 처리합니다. | Evaluation |
+| [랜딩 페이지 실시간 구축](#case-102) | 대상이 처음부터 구축된 전체 랜딩 페이지인 경우 라이브 제품 엔지니어 수업에서 GPT-5.6 Sol을 사용하세요. | Tutorial |
 
 <a id="agents-and-workflows"></a>
 ## 🤖 에이전트 및 작업 흐름
@@ -122,6 +123,8 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [GPT 실행자로 Fable 실행](#case-71) | Claude Code 내부의 Codex 플러그인을 사용하여 실행 작업을 GPT-5.6으로 라우팅하는 동안 Fable을 오케스트레이터로 유지하세요. | Tutorial |
 | [Codex 오케스트레이션 플러그인 설치](#case-86) | 비용이 중요한 경우 Codex 플러그인을 사용하여 Fable과 GPT-5.6 간에 조언자와 실행자 역할을 분할하세요. | Tutorial |
 | [다중 앱 단백질 연구 조정](#case-97) | GPT-5.6 Sol 컴퓨터 사용을 사용하여 브라우저 조사, 데스크톱 과학 도구 및 지역 보고 사이트를 조정합니다. | Demo |
+| [코딩 에이전트 간 작업 라우팅](#case-98) | 브라우저, 아키텍처, 장기 실행 및 빠른 변경 작업을 별도의 에이전트에 라우팅하는 동안 GPT-5.6 Sol을 계획 스레드로 유지하세요. | Integration |
+| [Dogfood 헌신 도구](#case-105) | GPT-5.6 Sol 에이전트로 개인 워크플로 앱을 구축한 다음 더 많은 토큰을 투자하기 전에 미완성 버전을 사용하세요. | Demo |
 
 <a id="creative-and-product-work"></a>
 ## 🎨 창작 및 제품 작업
@@ -187,6 +190,11 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [데모에서 정적 분석 지연](#case-88) | 유형 완벽보다 에이전트 토큰 소각이 더 중요한 경우 빠른 데모 빌드 중에 대규모 정적 분석을 비활성화하거나 연기합니다. | Limit |
 | [벤치마크 임상 모델 순위](#case-91) | 의료 스타일 질문을 프론티어 모델에 전달하기 전에 독립적인 임상 순위를 안전 및 영역 적합성 신호로 사용하십시오. | Benchmark |
 | [장수평선 터미널 제한 확인](#case-94) | 장거리 터미널 벤치마크를 사용하여 GPT-5.6 Sol이 확장된 코딩 작업에 대한 종속 작업을 유지할 수 있는지 평가합니다. | Benchmark |
+| [절차적 항구 마을 벤치마크](#case-99) | GPT-5.6, Fable, Kimi 및 Inkling에서 반복 가능한 크리에이티브 코딩 벤치마크로 단일 파일 절차 시뮬레이션을 사용합니다. | Benchmark |
+| [Marble 게임 물리학 평가](#case-100) | 스크린샷만 판단하는 대신 생성된 게임 데모를 컨트롤 정렬, 중력 느낌, 완료 시간 및 적중 제한에 대해 비교하세요. | Benchmark |
+| [벤치마크 포화도 추적](#case-101) | GPT-5.6 Sol Pro가 나머지 질문의 대부분을 포화시키면 벤치마크를 중단하거나 다시 설계하십시오. | Benchmark |
+| [개인 유전체학 에이전트 벤치마크](#case-103) | 단일 모델 구성을 신뢰하기 전에 통과율과 반복 시도를 통해 유전체학 에이전트를 평가하세요. | Benchmark |
+| [에이전트 종료 조건 설정](#case-104) | GPT-5.6 Sol Ultra에 심층적인 계획 검토를 요청하기 전에 검토 라운드를 마무리하고 중지 기준을 정의하세요. | Limit |
 
 ## 사용 사례
 
@@ -1622,6 +1630,119 @@ Type: Demo | Date: 2026-07-15
 
 ---
 
+<a id="case-98"></a>
+### Case 98: [코딩 에이전트 간 작업 라우팅](https://x.com/davis7/status/2077905227874013263) (by [@davis7](https://x.com/davis7))
+
+**브라우저, 아키텍처, 장기 실행 및 빠른 변경 작업을 별도의 에이전트에 라우팅하는 동안 GPT-5.6 Sol을 계획 스레드로 유지하세요.**
+
+davis7은 중간 추론에 대한 GPT-5.6 Sol을 주요 대화 스레드로 사용한 다음, 컴퓨터 사용 작업을 Codex로 보내고, 계획 및 아키텍처를 Fable로 보내고, 장기 실행 작업을 Codex로, 빠른 변경이나 테스트를 pi로 보내는 것을 설명합니다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-98.jpg" alt="Case 98 source media" height="360">
+
+Type: Integration | Date: 2026-07-16
+
+---
+
+<a id="case-99"></a>
+### Case 99: [절차적 항구 마을 벤치마크](https://x.com/emollick/status/2077840214223982975) (by [@emollick](https://x.com/emollick))
+
+**GPT-5.6, Fable, Kimi 및 Inkling에서 반복 가능한 크리에이티브 코딩 벤치마크로 단일 파일 절차 시뮬레이션을 사용합니다.**
+
+emollick은 자신의 벤치마크가 모델에게 역사를 통해 절차적으로 생성된 단일 파일 항구 도시를 한 번에 생성하도록 요청했으며 이제는 플레이 가능한 시뮬레이션과 함께 GPT-5.6 Pro, Fable, Kimi K3 및 Inkling을 포함한다고 말합니다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-99.jpg" alt="Case 99 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-16
+
+---
+
+<a id="case-100"></a>
+### Case 100: [Marble 게임 물리학 평가](https://x.com/Conor_D_Dart/status/2077827608126046247) (by [@Conor_D_Dart](https://x.com/Conor_D_Dart))
+
+**스크린샷만 판단하는 대신 생성된 게임 데모를 컨트롤 정렬, 중력 느낌, 완료 시간 및 적중 제한에 대해 비교하세요.**
+
+Conor_D_Dart는 Kimi K3가 Fable 5 및 GPT 5.6을 포함한 이전의 Marble 벤치마크 실행을 능가했다고 보고했습니다. 소스는 나무 질감, 약 0:20의 보드 움직임, 반전되지 않은 컨트롤, 눈에 띄는 정렬 불량 없음, 사실적인 대리석 중력, 거의 3시간에 가까운 완료 시간 및 반복되는 웹 제한 적중을 호출합니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-100.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-100-poster.jpg" alt="Case 100 video poster" height="360"></a>
+
+[Play case 100 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-100.mp4)
+
+Type: Benchmark | Date: 2026-07-16
+
+---
+
+<a id="case-101"></a>
+### Case 101: [벤치마크 포화도 추적](https://x.com/deredleritt3r/status/2077826494932689346) (by [@deredleritt3r](https://x.com/deredleritt3r))
+
+**GPT-5.6 Sol Pro가 나머지 질문의 대부분을 포화시키면 벤치마크를 중단하거나 다시 설계하십시오.**
+
+deredleritt3r에 따르면 GPT-5.6 Sol Pro는 prinzbench에서 99점 만점에 91점을 얻었으며 역사적으로 해결되지 않은 두 가지 항목을 제외하고 93개 질문 중 91개에 답했습니다. 소식통은 GPT-5.4 Pro Extended를 79, GPT-5.5 Pro Extended를 82, GPT-5.6 Sol Pro를 91로 비교한 후 향후 OpenAI Pro 모델은 더 이상 prinzbench에서 테스트되지 않을 것이라고 말합니다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-101.png" alt="Case 101 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-16
+
+---
+
+<a id="case-102"></a>
+### Case 102: [랜딩 페이지 실시간 구축](https://x.com/eusouomatt/status/2077823984016535788) (by [@eusouomatt](https://x.com/eusouomatt))
+
+**대상이 처음부터 구축된 전체 랜딩 페이지인 경우 라이브 제품 엔지니어 수업에서 GPT-5.6 Sol을 사용하세요.**
+
+eusouomatt는 제품 엔지니어 교육 수업의 라이브 데모 중에 GPT-5.6 Sol을 사용하여 4시간 남짓 만에 랜딩 페이지를 구축했으며 시청자에게 프로세스를 설명하는 자세한 동영상을 보여주었다고 말합니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-102.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-102-poster.jpg" alt="Case 102 video poster" height="360"></a>
+
+[Play case 102 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-102.mp4)
+
+Type: Tutorial | Date: 2026-07-16
+
+---
+
+<a id="case-103"></a>
+### Case 103: [개인 유전체학 에이전트 벤치마크](https://x.com/kenbwork/status/2077804365520543922) (by [@kenbwork](https://x.com/kenbwork))
+
+**단일 모델 구성을 신뢰하기 전에 통과율과 반복 시도를 통해 유전체학 에이전트를 평가하세요.**
+
+kenbwork는 변종 발견, 통계 유전학 및 개인 유전체학을 위한 검증 가능한 에이전트 벤치마크인 VariantBench를 출시합니다. 소식통에 따르면 Codex가 포함된 GPT-5.6 Sol과 Pi가 포함된 Claude Opus 4.8 Max는 42.1%의 합격률을 기록했지만 모든 시도의 절반 이상을 통과한 구성은 없습니다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-103.jpg" alt="Case 103 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-16
+
+---
+
+<a id="case-104"></a>
+### Case 104: [에이전트 종료 조건 설정](https://x.com/Voxyz_ai/status/2077744212204765522) (by [@Voxyz_ai](https://x.com/Voxyz_ai))
+
+**GPT-5.6 Sol Ultra에 심층적인 계획 검토를 요청하기 전에 검토 라운드를 마무리하고 중지 기준을 정의하세요.**
+
+Voxyz_ai는 하나의 계획을 검토하는 데 5시간 이상을 소비한 후 후속 프롬프트에서 수정을 요청한 후 4명의 추가 검토자를 시작한 Sol Ultra 실행에 대해 설명합니다. 소스는 간결한 지침, 증거 요구 사항, 출력 형식 및 명시적인 중지 제한을 권장하기 위해 실패를 사용합니다.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-104.png" alt="Case 104 source media" height="360">
+
+Type: Limit | Date: 2026-07-16
+
+---
+
+<a id="case-105"></a>
+### Case 105: [Dogfood 헌신 도구](https://x.com/mjkabir/status/2077671462530687074) (by [@mjkabir](https://x.com/mjkabir))
+
+**GPT-5.6 Sol 에이전트로 개인 워크플로 앱을 구축한 다음 더 많은 토큰을 투자하기 전에 미완성 버전을 사용하세요.**
+
+mjkabir은 두 명의 GPT-5.6 Sol 에이전트를 투입하여 약정 관리 도구인 Locus를 구축하고 토큰으로 약 200달러를 지출한 다음 추가로 1,000달러를 투자할지 결정하기 전에 v0.5를 테스트했다고 보고합니다.
+
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-105-1.jpg" alt="Case 105 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-105-2.jpg" alt="Case 105 source media 2" height="240"></td>
+  </tr>
+</table>
+
+Type: Demo | Date: 2026-07-16
+
+---
+
 ## 관련 저장소
 
 전용 GPT-5.6 API 문서를 사용할 수 있습니다. 설치 가능한 GPT-5.6 기술이 확인되지 않았습니다. 기술 및 패키지 릴리스 작업은 별도의 기술 릴리스 파이프라인이 계속 소유합니다.
@@ -1637,7 +1758,7 @@ Type: Demo | Date: 2026-07-15
 
 이 컬렉션에 대표되는 소스 제작자에게 감사드립니다:
 
-[@AdamHoltererer](https://x.com/AdamHoltererer), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@alxndrdavies](https://x.com/alxndrdavies), [@an321d](https://x.com/an321d), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@askalphaxiv](https://x.com/askalphaxiv), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Av1dlive](https://x.com/Av1dlive), [@Azure](https://x.com/Azure), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@BuildFastWithAI](https://x.com/BuildFastWithAI), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Creatify_AI](https://x.com/Creatify_AI), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@Deep_Burner](https://x.com/Deep_Burner), [@Deevid_AI](https://x.com/Deevid_AI), [@devindesktop](https://x.com/devindesktop), [@dexhorthy](https://x.com/dexhorthy), [@diamai_](https://x.com/diamai_), [@doximity](https://x.com/doximity), [@DrDatta_AIIMS](https://x.com/DrDatta_AIIMS), [@elliotarledge](https://x.com/elliotarledge), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fragiannicola](https://x.com/fragiannicola), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@heccbrent](https://x.com/heccbrent), [@heyrobinai](https://x.com/heyrobinai), [@hqmank](https://x.com/hqmank), [@iamrexei](https://x.com/iamrexei), [@inannanigin](https://x.com/inannanigin), [@JacobMolBio](https://x.com/JacobMolBio), [@jetbrains](https://x.com/jetbrains), [@Lentils80](https://x.com/Lentils80), [@LuminaXspace](https://x.com/LuminaXspace), [@MatthewBerman](https://x.com/MatthewBerman), [@mattshumer_](https://x.com/mattshumer_), [@MedicalSphereAI](https://x.com/MedicalSphereAI), [@melvynx](https://x.com/melvynx), [@Microsoft365](https://x.com/Microsoft365), [@morganlinton](https://x.com/morganlinton), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@old_pgmrs_will](https://x.com/old_pgmrs_will), [@Oluwaphilemon1](https://x.com/Oluwaphilemon1), [@om_patel5](https://x.com/om_patel5), [@omnigent_ai](https://x.com/omnigent_ai), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@PixiJS](https://x.com/PixiJS), [@PovilasKorop](https://x.com/PovilasKorop), [@RicardoDeZoete](https://x.com/RicardoDeZoete), [@rrr_kgknk](https://x.com/rrr_kgknk), [@s1rozha_](https://x.com/s1rozha_), [@sairahul1](https://x.com/sairahul1), [@satyanadella](https://x.com/satyanadella), [@sharifshameem](https://x.com/sharifshameem), [@simplifyinAI](https://x.com/simplifyinAI), [@skirano](https://x.com/skirano), [@StavZilber](https://x.com/StavZilber), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@theSethian](https://x.com/theSethian), [@TokenGremlin](https://x.com/TokenGremlin), [@tonysimons_](https://x.com/tonysimons_), [@vedhsaka](https://x.com/vedhsaka), [@Voxyz_ai](https://x.com/Voxyz_ai), [@WesRoth](https://x.com/WesRoth), [@XFreeze](https://x.com/XFreeze), [@yiyangleex](https://x.com/yiyangleex), [@zeeg](https://x.com/zeeg)
+[@AdamHoltererer](https://x.com/AdamHoltererer), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@alxndrdavies](https://x.com/alxndrdavies), [@an321d](https://x.com/an321d), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@askalphaxiv](https://x.com/askalphaxiv), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Av1dlive](https://x.com/Av1dlive), [@Azure](https://x.com/Azure), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@BuildFastWithAI](https://x.com/BuildFastWithAI), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@Creatify_AI](https://x.com/Creatify_AI), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@davis7](https://x.com/davis7), [@Deep_Burner](https://x.com/Deep_Burner), [@Deevid_AI](https://x.com/Deevid_AI), [@deredleritt3r](https://x.com/deredleritt3r), [@devindesktop](https://x.com/devindesktop), [@dexhorthy](https://x.com/dexhorthy), [@diamai_](https://x.com/diamai_), [@doximity](https://x.com/doximity), [@DrDatta_AIIMS](https://x.com/DrDatta_AIIMS), [@elliotarledge](https://x.com/elliotarledge), [@emollick](https://x.com/emollick), [@eusouomatt](https://x.com/eusouomatt), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fragiannicola](https://x.com/fragiannicola), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@heccbrent](https://x.com/heccbrent), [@heyrobinai](https://x.com/heyrobinai), [@hqmank](https://x.com/hqmank), [@iamrexei](https://x.com/iamrexei), [@inannanigin](https://x.com/inannanigin), [@JacobMolBio](https://x.com/JacobMolBio), [@jetbrains](https://x.com/jetbrains), [@kenbwork](https://x.com/kenbwork), [@Lentils80](https://x.com/Lentils80), [@LuminaXspace](https://x.com/LuminaXspace), [@MatthewBerman](https://x.com/MatthewBerman), [@mattshumer_](https://x.com/mattshumer_), [@MedicalSphereAI](https://x.com/MedicalSphereAI), [@melvynx](https://x.com/melvynx), [@Microsoft365](https://x.com/Microsoft365), [@mjkabir](https://x.com/mjkabir), [@morganlinton](https://x.com/morganlinton), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@old_pgmrs_will](https://x.com/old_pgmrs_will), [@Oluwaphilemon1](https://x.com/Oluwaphilemon1), [@om_patel5](https://x.com/om_patel5), [@omnigent_ai](https://x.com/omnigent_ai), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@PixiJS](https://x.com/PixiJS), [@PovilasKorop](https://x.com/PovilasKorop), [@RicardoDeZoete](https://x.com/RicardoDeZoete), [@rrr_kgknk](https://x.com/rrr_kgknk), [@s1rozha_](https://x.com/s1rozha_), [@sairahul1](https://x.com/sairahul1), [@satyanadella](https://x.com/satyanadella), [@sharifshameem](https://x.com/sharifshameem), [@simplifyinAI](https://x.com/simplifyinAI), [@skirano](https://x.com/skirano), [@StavZilber](https://x.com/StavZilber), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@theSethian](https://x.com/theSethian), [@TokenGremlin](https://x.com/TokenGremlin), [@tonysimons_](https://x.com/tonysimons_), [@vedhsaka](https://x.com/vedhsaka), [@Voxyz_ai](https://x.com/Voxyz_ai), [@WesRoth](https://x.com/WesRoth), [@XFreeze](https://x.com/XFreeze), [@yiyangleex](https://x.com/yiyangleex), [@zeeg](https://x.com/zeeg)
 
 *저희는 모든 사례가 원본 작성자에게 귀속된다고 보장할 수 없습니다. 수정해야 할 사항이 있는 경우 문제를 공개해 주시면 업데이트해 드리겠습니다.*
 

@@ -1,17 +1,17 @@
 {
   "repository": "Evolink-AI/awesome-gpt-5.6-usecases",
   "model": "GPT-5.6",
-  "source_artifact": "/Users/evolink/Desktop/github-repo/awesome-gpt-5.6-usecases/.codex/usecase-update-loop/runs/20260716T003204Z/review_queue.json",
-  "source_generated_at": "2026-07-16T00:41:00.449347+00:00",
-  "collector_timestamp": "2026-07-16T00:35:14.311123+00:00",
-  "total_candidates_reviewed": 439,
+  "source_artifact": "/Users/evolink/Desktop/github-repo/awesome-gpt-5.6-usecases/.codex/usecase-update-loop/runs/20260717T003246Z/review_queue.json",
+  "source_generated_at": "2026-07-17T00:41:09.312891+00:00",
+  "collector_timestamp": "2026-07-17T00:35:18.491946+00:00",
+  "total_candidates_reviewed": 492,
   "public_subset_policy": "Only high-confidence source-backed workflows, integrations, benchmarks, and limits are public.",
-  "total_public_cases": 97,
+  "total_public_cases": 105,
   "decision_counts": {
-    "high_confidence_update": 97,
-    "deferred": 51,
-    "unsure": 125,
-    "drop": 166
+    "high_confidence_update": 105,
+    "deferred": 55,
+    "unsure": 135,
+    "drop": 197
   },
   "selected_source_urls": [
     "https://x.com/skirano/status/2075283308276220011",
@@ -110,7 +110,15 @@
     "https://x.com/XFreeze/status/2077394514000654569",
     "https://x.com/StavZilber/status/2077362542314410270",
     "https://x.com/s1rozha_/status/2077358055717523598",
-    "https://x.com/JacobMolBio/status/2077282384299667501"
+    "https://x.com/JacobMolBio/status/2077282384299667501",
+    "https://x.com/davis7/status/2077905227874013263",
+    "https://x.com/emollick/status/2077840214223982975",
+    "https://x.com/Conor_D_Dart/status/2077827608126046247",
+    "https://x.com/deredleritt3r/status/2077826494932689346",
+    "https://x.com/eusouomatt/status/2077823984016535788",
+    "https://x.com/kenbwork/status/2077804365520543922",
+    "https://x.com/Voxyz_ai/status/2077744212204765522",
+    "https://x.com/mjkabir/status/2077671462530687074"
   ],
   "items": [
     {
@@ -3428,6 +3436,292 @@
       "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-97-poster.jpg",
       "playable_video_path": "media/cases/case-97.mp4",
       "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-97.mp4"
+    },
+    {
+      "public_number": 98,
+      "title": "Route Work Across Coding Agents",
+      "takeaway": "Keep GPT-5.6 Sol as the planning thread while routing browser, architecture, long-running, and quick-change work to separate agents.",
+      "body_notes": "davis7 describes using GPT-5.6 Sol on medium reasoning as the main conversational thread, then sending computer-use work to Codex, planning and architecture to Fable, long-running work to Codex, and quick changes or testing to pi.",
+      "type": "Integration",
+      "category": "Agents & Workflows",
+      "category_key": "agents",
+      "decision_reason": "Concrete multi-agent routing workflow with task categories, model roles, and source image evidence.",
+      "prompt_boundary": "The post describes routing policy but does not publish exact reusable prompts.",
+      "media_type": "image",
+      "dedup_key": "https://x.com/davis7/status/2077905227874013263",
+      "source_url": "https://x.com/davis7/status/2077905227874013263",
+      "author_handle": "@davis7",
+      "author_url": "https://x.com/davis7",
+      "date": "2026-07-16",
+      "decision": "high_confidence_update",
+      "source_engagement": {
+        "like_count": 27,
+        "view_count": 1539,
+        "bookmark_count": 11,
+        "retweet_count": 0
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/davis7/status/2077905227874013263",
+      "media_author_handle": "@davis7",
+      "media_author_url": "https://x.com/davis7",
+      "media_paths": [
+        "media/cases/case-98.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-98.jpg"
+      ]
+    },
+    {
+      "public_number": 99,
+      "title": "Benchmark Procedural Harbor Towns",
+      "takeaway": "Use one-file procedural simulations as a repeatable creative-coding benchmark across GPT-5.6, Fable, Kimi, and Inkling.",
+      "body_notes": "emollick says his benchmark asks models to create one-file procedurally generated harbor towns through history in one shot, and now includes GPT-5.6 Pro, Fable, Kimi K3, and Inkling with playable simulations.",
+      "type": "Benchmark",
+      "category": "Evaluation & Limits",
+      "category_key": "evaluation",
+      "decision_reason": "Original benchmark source with a reusable task, named compared models, playable outputs, and source image evidence.",
+      "prompt_boundary": "The exact benchmark prompt is not included in the collected post; omit prompt text.",
+      "media_type": "image",
+      "dedup_key": "https://x.com/emollick/status/2077840214223982975",
+      "source_url": "https://x.com/emollick/status/2077840214223982975",
+      "author_handle": "@emollick",
+      "author_url": "https://x.com/emollick",
+      "date": "2026-07-16",
+      "decision": "high_confidence_update",
+      "source_engagement": {
+        "like_count": 142,
+        "view_count": 13999,
+        "bookmark_count": 48,
+        "retweet_count": 9
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/emollick/status/2077840214223982975",
+      "media_author_handle": "@emollick",
+      "media_author_url": "https://x.com/emollick",
+      "media_paths": [
+        "media/cases/case-99.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-99.jpg"
+      ]
+    },
+    {
+      "public_number": 100,
+      "title": "Evaluate Marble Game Physics",
+      "takeaway": "Compare generated game demos on control alignment, gravity feel, completion time, and limit hits instead of judging only screenshots.",
+      "body_notes": "Conor_D_Dart reports that Kimi K3 beat his prior Marble benchmark runs, including Fable 5 and GPT 5.6. The source calls out wood textures, board movement at about 0:20, non-inverted controls, no visible misalignment, realistic marble gravity, a nearly three-hour completion time, and repeated web limit hits.",
+      "type": "Benchmark",
+      "category": "Evaluation & Limits",
+      "category_key": "evaluation",
+      "decision_reason": "Concrete game benchmark with named comparison set, evaluation criteria, runtime limitation, and video evidence.",
+      "prompt_boundary": "The source does not publish the full benchmark prompt; summarize the evaluation criteria only.",
+      "media_type": "video",
+      "dedup_key": "https://x.com/Conor_D_Dart/status/2077827608126046247",
+      "source_url": "https://x.com/Conor_D_Dart/status/2077827608126046247",
+      "author_handle": "@Conor_D_Dart",
+      "author_url": "https://x.com/Conor_D_Dart",
+      "date": "2026-07-16",
+      "decision": "high_confidence_update",
+      "source_engagement": {
+        "like_count": 88,
+        "view_count": 3938,
+        "bookmark_count": 13,
+        "retweet_count": 6
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/Conor_D_Dart/status/2077827608126046247",
+      "media_author_handle": "@Conor_D_Dart",
+      "media_author_url": "https://x.com/Conor_D_Dart",
+      "poster_path": "media/cases/case-100-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-100-poster.jpg",
+      "playable_video_path": "media/cases/case-100.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-100.mp4"
+    },
+    {
+      "public_number": 101,
+      "title": "Track Benchmark Saturation",
+      "takeaway": "Retire or redesign a benchmark when GPT-5.6 Sol Pro saturates most of its remaining questions.",
+      "body_notes": "deredleritt3r says GPT-5.6 Sol Pro scored 91 out of 99 on prinzbench and answered 91 of 93 questions after excluding two historically unsolved items. The source compares GPT-5.4 Pro Extended at 79, GPT-5.5 Pro Extended at 82, and GPT-5.6 Sol Pro at 91, then says future OpenAI Pro models will no longer be tested on prinzbench.",
+      "type": "Benchmark",
+      "category": "Evaluation & Limits",
+      "category_key": "evaluation",
+      "decision_reason": "Benchmark maintenance signal with named scores, previous model baselines, saturation boundary, and source image evidence.",
+      "prompt_boundary": "Benchmark questions are not published in the post; omit prompt text.",
+      "media_type": "image",
+      "dedup_key": "https://x.com/deredleritt3r/status/2077826494932689346",
+      "source_url": "https://x.com/deredleritt3r/status/2077826494932689346",
+      "author_handle": "@deredleritt3r",
+      "author_url": "https://x.com/deredleritt3r",
+      "date": "2026-07-16",
+      "decision": "high_confidence_update",
+      "source_engagement": {
+        "like_count": 251,
+        "view_count": 40305,
+        "bookmark_count": 41,
+        "retweet_count": 20
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/deredleritt3r/status/2077826494932689346",
+      "media_author_handle": "@deredleritt3r",
+      "media_author_url": "https://x.com/deredleritt3r",
+      "media_paths": [
+        "media/cases/case-101.png"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-101.png"
+      ]
+    },
+    {
+      "public_number": 102,
+      "title": "Build a Landing Page Live",
+      "takeaway": "Use GPT-5.6 Sol in a live Product Engineer class when the target is a full landing page built from scratch.",
+      "body_notes": "eusouomatt says he built a landing page from zero in a little over four hours using GPT-5.6 Sol during a live demo for a Product Engineer training class, and points viewers to a detailed video explaining the process.",
+      "type": "Tutorial",
+      "category": "Coding & Builds",
+      "category_key": "coding",
+      "decision_reason": "Original live-build tutorial with model, output type, time boundary, audience, and video evidence.",
+      "prompt_boundary": "The collected post does not include the full build prompt; omit prompt text.",
+      "media_type": "video",
+      "dedup_key": "https://x.com/eusouomatt/status/2077823984016535788",
+      "source_url": "https://x.com/eusouomatt/status/2077823984016535788",
+      "author_handle": "@eusouomatt",
+      "author_url": "https://x.com/eusouomatt",
+      "date": "2026-07-16",
+      "decision": "high_confidence_update",
+      "source_engagement": {
+        "like_count": 167,
+        "view_count": 14793,
+        "bookmark_count": 181,
+        "retweet_count": 2
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/eusouomatt/status/2077823984016535788",
+      "media_author_handle": "@eusouomatt",
+      "media_author_url": "https://x.com/eusouomatt",
+      "poster_path": "media/cases/case-102-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-102-poster.jpg",
+      "playable_video_path": "media/cases/case-102.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-102.mp4"
+    },
+    {
+      "public_number": 103,
+      "title": "Benchmark Personal Genomics Agents",
+      "takeaway": "Evaluate genomics agents with pass rates and repeated attempts before trusting any single model configuration.",
+      "body_notes": "kenbwork introduces VariantBench, a verifiable agent benchmark for variant discovery, statistical genetics, and personal genomics. The source says GPT-5.6 Sol with Codex and Claude Opus 4.8 Max with Pi lead at 42.1% pass rates, while no configuration passed more than half of all attempts.",
+      "type": "Benchmark",
+      "category": "Evaluation & Limits",
+      "category_key": "evaluation",
+      "decision_reason": "Domain-specific benchmark with named scope, model configurations, pass-rate result, ceiling limitation, and source image evidence.",
+      "prompt_boundary": "Benchmark tasks are linked but not fully included in the collected post; omit prompt text.",
+      "media_type": "image",
+      "dedup_key": "https://x.com/kenbwork/status/2077804365520543922",
+      "source_url": "https://x.com/kenbwork/status/2077804365520543922",
+      "author_handle": "@kenbwork",
+      "author_url": "https://x.com/kenbwork",
+      "date": "2026-07-16",
+      "decision": "high_confidence_update",
+      "source_engagement": {
+        "like_count": 82,
+        "view_count": 17602,
+        "bookmark_count": 35,
+        "retweet_count": 18
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/kenbwork/status/2077804365520543922",
+      "media_author_handle": "@kenbwork",
+      "media_author_url": "https://x.com/kenbwork",
+      "media_paths": [
+        "media/cases/case-103.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-103.jpg"
+      ]
+    },
+    {
+      "public_number": 104,
+      "title": "Set Agent Exit Conditions",
+      "takeaway": "Cap review rounds and define stopping criteria before asking GPT-5.6 Sol Ultra for deep plan reviews.",
+      "body_notes": "Voxyz_ai describes a Sol Ultra run that spent more than five hours reviewing one plan, then launched four more reviewers after a follow-up prompt asked for revisions. The source uses the failure to recommend concise instructions, evidence requirements, output format, and explicit stopping limits.",
+      "type": "Limit",
+      "category": "Evaluation & Limits",
+      "category_key": "evaluation",
+      "decision_reason": "Concrete agent-loop limitation with elapsed time, runaway reviewer behavior, mitigation guidance, and source image evidence.",
+      "prompt_boundary": "The post references a rewritten prompt but the public case should keep only the stopping-limit lesson.",
+      "media_type": "image",
+      "dedup_key": "https://x.com/Voxyz_ai/status/2077744212204765522",
+      "source_url": "https://x.com/Voxyz_ai/status/2077744212204765522",
+      "author_handle": "@Voxyz_ai",
+      "author_url": "https://x.com/Voxyz_ai",
+      "date": "2026-07-16",
+      "decision": "high_confidence_update",
+      "source_engagement": {
+        "like_count": 83,
+        "view_count": 15015,
+        "bookmark_count": 86,
+        "retweet_count": 10
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/Voxyz_ai/status/2077744212204765522",
+      "media_author_handle": "@Voxyz_ai",
+      "media_author_url": "https://x.com/Voxyz_ai",
+      "media_paths": [
+        "media/cases/case-104.png"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-104.png"
+      ]
+    },
+    {
+      "public_number": 105,
+      "title": "Dogfood a Commitment Tool",
+      "takeaway": "Build a personal workflow app with GPT-5.6 Sol agents, then use the unfinished version before investing more tokens.",
+      "body_notes": "mjkabir reports putting two GPT-5.6 Sol agents to work building Locus, a commitment-management tool, spending about $200 in tokens, and then dogfooding v0.5 before deciding whether to invest another $1,000.",
+      "type": "Demo",
+      "category": "Agents & Workflows",
+      "category_key": "agents",
+      "decision_reason": "Original product dogfooding workflow with model count, artifact name, token-cost boundary, v0.5 usage test, and source image evidence.",
+      "prompt_boundary": "The post describes the product and dogfooding method but does not publish exact prompts.",
+      "media_type": "image",
+      "dedup_key": "https://x.com/mjkabir/status/2077671462530687074",
+      "source_url": "https://x.com/mjkabir/status/2077671462530687074",
+      "author_handle": "@mjkabir",
+      "author_url": "https://x.com/mjkabir",
+      "date": "2026-07-16",
+      "decision": "high_confidence_update",
+      "source_engagement": {
+        "like_count": 11,
+        "view_count": 257,
+        "bookmark_count": 0,
+        "retweet_count": 1
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/mjkabir/status/2077671462530687074",
+      "media_author_handle": "@mjkabir",
+      "media_author_url": "https://x.com/mjkabir",
+      "media_paths": [
+        "media/cases/case-105-1.jpg",
+        "media/cases/case-105-2.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-105-1.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-105-2.jpg"
+      ]
     }
   ]
 }

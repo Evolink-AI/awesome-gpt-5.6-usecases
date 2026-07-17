@@ -99,6 +99,14 @@
 | 95 | Compare Paper-Anime Generation | Benchmark | Creative & Product Work | [@StavZilber](https://x.com/StavZilber/status/2077362542314410270) |
 | 96 | Evaluate One-Prompt 3D Games | Evaluation | Coding & Builds | [@s1rozha_](https://x.com/s1rozha_/status/2077358055717523598) |
 | 97 | Coordinate Multi-App Protein Research | Demo | Agents & Workflows | [@JacobMolBio](https://x.com/JacobMolBio/status/2077282384299667501) |
+| 98 | Route Work Across Coding Agents | Integration | Agents & Workflows | [@davis7](https://x.com/davis7/status/2077905227874013263) |
+| 99 | Benchmark Procedural Harbor Towns | Benchmark | Evaluation & Limits | [@emollick](https://x.com/emollick/status/2077840214223982975) |
+| 100 | Evaluate Marble Game Physics | Benchmark | Evaluation & Limits | [@Conor_D_Dart](https://x.com/Conor_D_Dart/status/2077827608126046247) |
+| 101 | Track Benchmark Saturation | Benchmark | Evaluation & Limits | [@deredleritt3r](https://x.com/deredleritt3r/status/2077826494932689346) |
+| 102 | Build a Landing Page Live | Tutorial | Coding & Builds | [@eusouomatt](https://x.com/eusouomatt/status/2077823984016535788) |
+| 103 | Benchmark Personal Genomics Agents | Benchmark | Evaluation & Limits | [@kenbwork](https://x.com/kenbwork/status/2077804365520543922) |
+| 104 | Set Agent Exit Conditions | Limit | Evaluation & Limits | [@Voxyz_ai](https://x.com/Voxyz_ai/status/2077744212204765522) |
+| 105 | Dogfood a Commitment Tool | Demo | Agents & Workflows | [@mjkabir](https://x.com/mjkabir/status/2077671462530687074) |
 
-Source candidates reviewed: 439
-Public cases selected: 97
+Source candidates reviewed: 492
+Public cases selected: 105

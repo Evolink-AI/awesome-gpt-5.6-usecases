@@ -55,3 +55,11 @@
 - Added Cases 89-97 covering one-prompt game stress tests, game-engine scene building, clinical and terminal benchmarks, Blender text-to-motion, model-catalog MVPs, creative benchmark comparison, and multi-app protein research.
 - Prepared seven videos, seven poster frames, and two source-image cases for the repository's R2 namespace.
 - Updated English first, then synchronized all 10 localized README files after the English gate passed.
+
+## 2026-07-17 - Daily Usecase Update
+
+- Collected 567 deduplicated candidates from 10 GPT-5.6 searches and reviewed 53 records that met the fixed 24-hour and engagement window.
+- Selected 8 high-confidence cases, deferred 4, marked 10 unsure, and dropped 31.
+- Added Cases 98-105 covering multi-agent coding routing, procedural simulation benchmarks, game-physics benchmarks, benchmark saturation, landing-page live builds, genomics-agent benchmarks, agent exit limits, and dogfooded personal workflow software.
+- Prepared two videos, two poster frames, and seven source-image files for the repository's R2 namespace.
+- Updated English first, then synchronized all 10 localized README files after the English gate passed.
