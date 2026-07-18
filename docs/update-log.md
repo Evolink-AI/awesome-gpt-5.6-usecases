@@ -63,3 +63,11 @@
 - Added Cases 98-105 covering multi-agent coding routing, procedural simulation benchmarks, game-physics benchmarks, benchmark saturation, landing-page live builds, genomics-agent benchmarks, agent exit limits, and dogfooded personal workflow software.
 - Prepared two videos, two poster frames, and seven source-image files for the repository's R2 namespace.
 - Updated English first, then synchronized all 10 localized README files after the English gate passed.
+
+## 2026-07-18 - Daily Usecase Update
+
+- Collected 573 deduplicated candidates from 10 GPT-5.6 searches and reviewed 46 records that met the fixed 24-hour and engagement window.
+- Selected 8 high-confidence cases, deferred 3, marked 1 unsure, and dropped 34.
+- Added Cases 106-113 covering cyber benchmark windows, Codex subagent setup, React repair benchmarks, Fable-to-GPT coding routing, particle demos, ChatLLM routers, creative motion comparison, and cinematic website tutorials.
+- Prepared four videos, four poster frames, and five source-image files for the repository's R2 namespace.
+- Updated English first, then synchronized all 10 localized README files after the English gate passed.

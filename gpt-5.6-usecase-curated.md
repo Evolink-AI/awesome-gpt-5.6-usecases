@@ -96,7 +96,7 @@
 | 92 | Orchestrate Text-to-Motion in Blender | Integration | Creative & Product Work | [@Oluwaphilemon1](https://x.com/Oluwaphilemon1/status/2077414850779558075) |
 | 93 | Build Model Catalog MVP | Demo | Coding & Builds | [@iamrexei](https://x.com/iamrexei/status/2077406853420437923) |
 | 94 | Check Long-Horizon Terminal Limits | Benchmark | Evaluation & Limits | [@XFreeze](https://x.com/XFreeze/status/2077394514000654569) |
-| 95 | Compare Paper-Anime Generation | Benchmark | Creative & Product Work | [@StavZilber](https://x.com/StavZilber/status/2077362542314410270) |
+| 95 | Compare Paper-Anime Generation | Benchmark | Creative & Product Work | [@mightyking](https://x.com/mightyking/status/2077362542314410270) |
 | 96 | Evaluate One-Prompt 3D Games | Evaluation | Coding & Builds | [@s1rozha_](https://x.com/s1rozha_/status/2077358055717523598) |
 | 97 | Coordinate Multi-App Protein Research | Demo | Agents & Workflows | [@JacobMolBio](https://x.com/JacobMolBio/status/2077282384299667501) |
 | 98 | Route Work Across Coding Agents | Integration | Agents & Workflows | [@davis7](https://x.com/davis7/status/2077905227874013263) |
@@ -107,6 +107,14 @@
 | 103 | Benchmark Personal Genomics Agents | Benchmark | Evaluation & Limits | [@kenbwork](https://x.com/kenbwork/status/2077804365520543922) |
 | 104 | Set Agent Exit Conditions | Limit | Evaluation & Limits | [@Voxyz_ai](https://x.com/Voxyz_ai/status/2077744212204765522) |
 | 105 | Dogfood a Commitment Tool | Demo | Agents & Workflows | [@mjkabir](https://x.com/mjkabir/status/2077671462530687074) |
+| 106 | Compare Cyber Benchmark Windows | Benchmark | Evaluation & Limits | [@deredleritt3r](https://x.com/deredleritt3r/status/2078241559494197707) |
+| 107 | Configure Kimi as Codex Subagent | Tutorial | Agents & Workflows | [@nauczymycieAI](https://x.com/nauczymycieAI/status/2078181182701736132) |
+| 108 | Benchmark React Project Repairs | Benchmark | Evaluation & Limits | [@midudev](https://x.com/midudev/status/2078135204548378674) |
+| 109 | Route Fable Plans to GPT Coding | Integration | Agents & Workflows | [@shannholmberg](https://x.com/shannholmberg/status/2078122971898827117) |
+| 110 | Build Particle Geology Demo | Demo | Coding & Builds | [@Psalteric](https://x.com/Psalteric/status/2078094313494299004) |
+| 111 | Build ChatLLM Model Router | Integration | Agents & Workflows | [@abacusai](https://x.com/abacusai/status/2078022418661257411) |
+| 112 | Compare Ink-Wash Motion Prompts | Benchmark | Creative & Product Work | [@LeeLinAI123](https://x.com/LeeLinAI123/status/2077980857868959796) |
+| 113 | Teach Cinematic Website Builds | Tutorial | Coding & Builds | [@twetsfyp](https://x.com/twetsfyp/status/2077937630604304666) |
 
-Source candidates reviewed: 492
-Public cases selected: 105
+Source candidates reviewed: 538
+Public cases selected: 113
