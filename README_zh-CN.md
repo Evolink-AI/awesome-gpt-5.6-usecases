@@ -34,7 +34,7 @@
 
 ## 📊 概览
 
-- **113 从公共创建者、开发者、产品团队和基准小组中精选了 GPT-5.6 案例。**
+- **121 个来自公共创建者、开发者、产品团队和基准测试小组的精选 GPT-5.6 案例。**
 - 涵盖编码构建、长期运行的代理、业务工作流程、创意制作、产品集成、基准测试和实际限制。
 - 每个案例都包含原始来源、创建者归属、简明要点、证据类型和发布日期。
 - 在选择 GPT-5.6 层之前，使用此存储库来确定实际工作流程并比较优势、成本和限制。
@@ -62,9 +62,9 @@ export EVOLINK_API_KEY="your_api_key_here"
 | 部分 | 案例 |
 |---|---|
 | [💻 编码和构建](#coding-and-builds) | 26 案例 |
-| [🤖 代理和工作流程](#agents-and-workflows) | 26 案例 |
-| [🎨 创意与产品工作](#creative-and-product-work) | 23 案例 |
-| [🧪 评估与限制](#evaluation-and-limits) | 38 案例 |
+| [🤖 代理和工作流程](#agents-and-workflows) | 29 案例 |
+| [🎨 创意与产品工作](#creative-and-product-work) | 24 案例 |
+| [🧪 评估与限制](#evaluation-and-limits) | 42 案例 |
 | [确认](#acknowledge) | 学分和更正政策 |
 
 <a id="coding-and-builds"></a>
@@ -130,6 +130,9 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [将 Kimi 配置为 Codex 子代理](#case-107) | 让 GPT-5.6 Sol 负责 Codex 中的逻辑，同时将前端执行委托给 Kimi K3 OpenCode 子代理。 | Tutorial |
 | [将寓言计划转为 GPT 编码](#case-109) | 使用 Fable 进行规划和判断，然后将编码任务发送到 GPT-5.6，而更便宜的或特定于编写的子代理处理日常工作。 | Integration |
 | [构建 ChatLLM 模型路由器](#case-111) | 创建一个自定义路由器，将简单编码、硬编码和设计提示分配给不同的模型，包括 GPT-5.6 Sol。 | Integration |
+| [启动 Herdr Pi 代理工作流程](#case-115) | 将重复的 Claude Code 路由指令移至技能加路由参考中，以便 GPT-5.6 pi 代理在重点窗格中启动。 | Integration |
+| [使用 GPT 构建循环寓言规划](#case-116) | 使用Fable作为规划者和审阅者，而GPT-5.6则反复实现和修复存储库更改。 | Integration |
+| [Cap Codex 子代理递归](#case-119) | 通过故意路由模型层、限制子代理深度和添加显式停止检查点来减少 GPT-5.6 限制消耗。 | Limit |
 
 <a id="creative-and-product-work"></a>
 ## 🎨 创意与产品工作
@@ -159,6 +162,7 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [在 Blender 中编排文本到动画](#case-92) | 当动画速度比直接关节控制更重要时，让 Codex 协调 Blender、文本到运动和桥接库。 | Integration |
 | [比较纸质动画生成](#case-95) | 在使用 MCP 工作流程判断视觉风格转移时，通过竞争模型运行相同的创意基准。 | Benchmark |
 | [比较 Ink-Wash 动作提示](#case-112) | 当风格、时间和变换约束很重要时，在同一电影运动提示上对照另一个模型评估 GPT-5.6 Sol。 | Benchmark |
+| [基准个人网站重新设计](#case-114) | 在同一网站上比较模型——当身份适合、可访问性、性能和复制质量都很重要时，会提示重新设计。 | Benchmark |
 
 <a id="evaluation-and-limits"></a>
 ## 🧪 评估与限制
@@ -203,6 +207,10 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [设置代理退出条件](#case-104) | 在要求 GPT-5.6 Sol Ultra 进行深入计划审查之前，限制审查轮次并定义停止标准。 | Limit |
 | [比较 Cyber Benchmark Windows](#case-106) | 在将一项 GPT-5.6 Sol 分数视为一般能力证据之前，按任务系列和时间窗口比较网络基准测试结果。 | Benchmark |
 | [Benchmark React 项目修复](#case-108) | 使用 React 项目修复基准测试渲染、useEffect 用法、可访问性和可维护性，而不是依赖通用编码排名。 | Benchmark |
+| [基准国际空间站数字孪生](#case-117) | 使用详细的 3D 数字孪生任务来测试重建、照明、控制、标签、游览和细化行为。 | Benchmark |
+| [衡量德语简化推理](#case-118) | 当您需要不太可能被广泛排行榜优化的推理信号时，运行 AlmanBench 等利基基准测试。 | Benchmark |
+| [管理 GPT-5.6 iOS 会话](#case-120) | 每 30-60 分钟检查一次并在架构漂移复合之前进行重定向，保持 GPT-5.6 应用程序构建的协作性。 | Limit |
+| [比较 Coding-Agent 修复线束](#case-121) | 通过成功率、尝试次数、每次修复成本和挂机时间来评估保留修复套件上的编码代理，而不仅仅是竞技场排名。 | Benchmark |
 
 ## 用例
 
@@ -1866,6 +1874,120 @@ Type: Tutorial | Date: 2026-07-17
 
 ---
 
+<a id="case-114"></a>
+### Case 114: [基准个人网站重新设计](https://x.com/fabriciocarraro/status/2078574831466078265) (by [@fabriciocarraro](https://x.com/fabriciocarraro))
+
+**在同一网站上比较模型——当身份适合、可访问性、性能和复制质量都很重要时，会提示重新设计。**
+
+fabriciocarraro 在其官方工具中针对相同的个人站点重新设计提示运行了 Claude Fable 5、GPT-5.6 Sol 和 Kimi K3。源记录的执行时间为 35 分钟、1 小时 10 分钟和 50 分钟，表示所有三个都消除了严重的依赖关系并遵循可访问性指南，并指出 GPT-5.6 Sol 通过将部署大小从约 382MB 减少到 135MB，同时仍然需要复制和布局迭代来强调性能优化。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-114.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-114-poster.jpg" alt="Case 114 video poster" height="360"></a>
+
+[Play case 114 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-114.mp4)
+
+Type: Benchmark | Date: 2026-07-18
+
+---
+
+<a id="case-115"></a>
+### Case 115: [启动 Herdr Pi 代理工作流程](https://x.com/oscabriel/status/2078566660974444576) (by [@oscabriel](https://x.com/oscabriel))
+
+**将重复的 Claude Code 路由指令移至技能加路由参考中，以便 GPT-5.6 pi 代理在重点窗格中启动。**
+
+oscabriel 描述了在聚焦的 herdr 窗格中使用 GPT-5.6 上的 pi 代理从 Claude Code 启动动态工作流程的工作流程。消息人士称，这些指令已从根 CLAUDE.md 移至带有routing.md 参考文件的 /herd-flow 技能中。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-115.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-115-poster.jpg" alt="Case 115 video poster" height="360"></a>
+
+[Play case 115 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-115.mp4)
+
+Type: Integration | Date: 2026-07-18
+
+---
+
+<a id="case-116"></a>
+### Case 116: [使用 GPT 构建循环寓言规划](https://x.com/Adea0x/status/2078541949821124804) (by [@Adea0x](https://x.com/Adea0x))
+
+**使用Fable作为规划者和审阅者，而GPT-5.6则反复实现和修复存储库更改。**
+
+Adea0x 共享 Claude Code 设置，其中 Fable 5 充当协调器，GPT-5.6 充当工作器。所描述的工作流程是安装 Codex，将 Codex 插件添加到 Claude Code，粘贴存储库 URL，创建自定义技能，运行 /root，然后循环执行 Fable 规划、GPT-5.6 构建、Fable 审查和 GPT-5.6 修复。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-116.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-116-poster.jpg" alt="Case 116 video poster" height="360"></a>
+
+[Play case 116 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-116.mp4)
+
+Type: Integration | Date: 2026-07-18
+
+---
+
+<a id="case-117"></a>
+### Case 117: [基准国际空间站数字孪生](https://x.com/AIsaOneHQ/status/2078519527588200536) (by [@AIsaOneHQ](https://x.com/AIsaOneHQ))
+
+**使用详细的 3D 数字孪生任务来测试重建、照明、控制、标签、游览和细化行为。**
+
+AIsaOneHQ 报告了一个相同提示的基准测试，其中 Kimi K3 和 GPT-5.6 Sol 必须从头开始构建国际空间站的真实交互式 3D 数字孪生体。这项挑战不需要预先构建模型、国际空间站重建、地球和轨道照明、电影控制、标签、导游、分解图，以及通过 AIsa 模型网关在同一个 Kimi Code CLI 工具中进行测试和优化工作。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-117.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-117-poster.jpg" alt="Case 117 video poster" height="360"></a>
+
+[Play case 117 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-117.mp4)
+
+Type: Benchmark | Date: 2026-07-18
+
+---
+
+<a id="case-118"></a>
+### Case 118: [衡量德语简化推理](https://x.com/onusoz/status/2078481627739742364) (by [@onusoz](https://x.com/onusoz))
+
+**当您需要不太可能被广泛排行榜优化的推理信号时，运行 AlmanBench 等利基基准测试。**
+
+onusoz 推出 AlmanBench 作为简化德语的基准，并报告 GPT-5.5、GPT-5.6 Sol 和 Fable 5 的正面对比。消息人士称，GPT-5.5 xhigh 在当前运行中的得分高于 GPT-5.6 max，并指出由于成本原因，《神鬼寓言 5》maxxx 尚未运行，并将基准测试定为狭窄的评分器，实验室不太可能进行基准测试优化。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-118.png" alt="Case 118 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-18
+
+---
+
+<a id="case-119"></a>
+### Case 119: [Cap Codex 子代理递归](https://x.com/DamiDefi/status/2078464057573867784) (by [@DamiDefi](https://x.com/DamiDefi))
+
+**通过故意路由模型层、限制子代理深度和添加显式停止检查点来减少 GPT-5.6 限制消耗。**
+
+DamiDefi 认为 Codex 的限制压力通常来自代币使用模式而不是原始编码量。消息来源建议使用 Sol Extra High 进行规划和架构，Sol Medium 进行编码和执行，Luna Extra High 进行文件搜索和分析，max_深度 = 1 以防止递归子代理生成，AGENTS.md 指令以避免自动子代理委派，并提示在计划批准后停止。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-119.jpg" alt="Case 119 source media" height="360">
+
+Type: Limit | Date: 2026-07-18
+
+---
+
+<a id="case-120"></a>
+### Case 120: [管理 GPT-5.6 iOS 会话](https://x.com/spaceagente/status/2078339855814451522) (by [@spaceagente](https://x.com/spaceagente))
+
+**每 30-60 分钟检查一次并在架构漂移复合之前进行重定向，保持 GPT-5.6 应用程序构建的协作性。**
+
+spaceagente 报告使用 GPT-5.6 构建 iOS 应用程序，并发现一次性提示可能会将模型逼入角落。该消息来源将 GPT-5.6 描述为在复杂的范围广泛的任务上表现出色，但在长时间会话中容易出现糟糕的架构决策和连贯性损失，然后建议保持两到三个任务移动，每 30-60 分钟检查一次，审查工作并尽早重定向。
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-120.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-120-poster.jpg" alt="Case 120 video poster" height="360"></a>
+
+[Play case 120 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-120.mp4)
+
+Type: Limit | Date: 2026-07-18
+
+---
+
+<a id="case-121"></a>
+### Case 121: [比较 Coding-Agent 修复线束](https://x.com/AlphaSignalAI/status/2078334825442722173) (by [@AlphaSignalAI](https://x.com/AlphaSignalAI))
+
+**通过成功率、尝试次数、每次修复成本和挂机时间来评估保留修复套件上的编码代理，而不仅仅是竞技场排名。**
+
+AlphaSignalAI 报告在编码代理修复工具上运行 Kimi K3，针对 GPT-5.6 Sol、Fable 5、Grok 4.5、Opus 4.8、GLM-5.2 和 Gemini 3.1 Pro。消息人士称，Kimi K3 在 7 个模型中排名最后，67 次尝试中的 53 次，成功率 79%，每次成功修复 0.186 美元，平均挂墙时间 702 秒，而 GPT-5.6 Sol 在同一套件上的 70 次尝试中，70 次达到 100%。
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-121.jpg" alt="Case 121 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-18
+
+---
+
 ## 相关存储库
 
 提供专用的 GPT-5.6 API 文档。尚未验证可安装的 GPT-5.6 技能；技能和包发布工作仍然由单独的技能发布管道负责。
@@ -1881,7 +2003,7 @@ Type: Tutorial | Date: 2026-07-17
 
 感谢此集合中的源创建者：
 
-[@abacusai](https://x.com/abacusai), [@AdamHoltererer](https://x.com/AdamHoltererer), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@alxndrdavies](https://x.com/alxndrdavies), [@an321d](https://x.com/an321d), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@askalphaxiv](https://x.com/askalphaxiv), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Av1dlive](https://x.com/Av1dlive), [@Azure](https://x.com/Azure), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@BuildFastWithAI](https://x.com/BuildFastWithAI), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@Creatify_AI](https://x.com/Creatify_AI), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@davis7](https://x.com/davis7), [@Deep_Burner](https://x.com/Deep_Burner), [@Deevid_AI](https://x.com/Deevid_AI), [@deredleritt3r](https://x.com/deredleritt3r), [@devindesktop](https://x.com/devindesktop), [@dexhorthy](https://x.com/dexhorthy), [@diamai_](https://x.com/diamai_), [@doximity](https://x.com/doximity), [@DrDatta_AIIMS](https://x.com/DrDatta_AIIMS), [@elliotarledge](https://x.com/elliotarledge), [@emollick](https://x.com/emollick), [@eusouomatt](https://x.com/eusouomatt), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fragiannicola](https://x.com/fragiannicola), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@heccbrent](https://x.com/heccbrent), [@heyrobinai](https://x.com/heyrobinai), [@hqmank](https://x.com/hqmank), [@iamrexei](https://x.com/iamrexei), [@inannanigin](https://x.com/inannanigin), [@JacobMolBio](https://x.com/JacobMolBio), [@jetbrains](https://x.com/jetbrains), [@kenbwork](https://x.com/kenbwork), [@LeeLinAI123](https://x.com/LeeLinAI123), [@Lentils80](https://x.com/Lentils80), [@LuminaXspace](https://x.com/LuminaXspace), [@MatthewBerman](https://x.com/MatthewBerman), [@mattshumer_](https://x.com/mattshumer_), [@MedicalSphereAI](https://x.com/MedicalSphereAI), [@melvynx](https://x.com/melvynx), [@Microsoft365](https://x.com/Microsoft365), [@midudev](https://x.com/midudev), [@mightyking](https://x.com/mightyking), [@mjkabir](https://x.com/mjkabir), [@morganlinton](https://x.com/morganlinton), [@nauczymycieAI](https://x.com/nauczymycieAI), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@old_pgmrs_will](https://x.com/old_pgmrs_will), [@Oluwaphilemon1](https://x.com/Oluwaphilemon1), [@om_patel5](https://x.com/om_patel5), [@omnigent_ai](https://x.com/omnigent_ai), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@PixiJS](https://x.com/PixiJS), [@PovilasKorop](https://x.com/PovilasKorop), [@Psalteric](https://x.com/Psalteric), [@RicardoDeZoete](https://x.com/RicardoDeZoete), [@rrr_kgknk](https://x.com/rrr_kgknk), [@s1rozha_](https://x.com/s1rozha_), [@sairahul1](https://x.com/sairahul1), [@satyanadella](https://x.com/satyanadella), [@shannholmberg](https://x.com/shannholmberg), [@sharifshameem](https://x.com/sharifshameem), [@simplifyinAI](https://x.com/simplifyinAI), [@skirano](https://x.com/skirano), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@theSethian](https://x.com/theSethian), [@TokenGremlin](https://x.com/TokenGremlin), [@tonysimons_](https://x.com/tonysimons_), [@twetsfyp](https://x.com/twetsfyp), [@vedhsaka](https://x.com/vedhsaka), [@Voxyz_ai](https://x.com/Voxyz_ai), [@WesRoth](https://x.com/WesRoth), [@XFreeze](https://x.com/XFreeze), [@yiyangleex](https://x.com/yiyangleex), [@zeeg](https://x.com/zeeg)
+[@abacusai](https://x.com/abacusai), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Adea0x](https://x.com/Adea0x), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@AIsaOneHQ](https://x.com/AIsaOneHQ), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@AlphaSignalAI](https://x.com/AlphaSignalAI), [@alxndrdavies](https://x.com/alxndrdavies), [@an321d](https://x.com/an321d), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@askalphaxiv](https://x.com/askalphaxiv), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Av1dlive](https://x.com/Av1dlive), [@Azure](https://x.com/Azure), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@BuildFastWithAI](https://x.com/BuildFastWithAI), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@Creatify_AI](https://x.com/Creatify_AI), [@DamiDefi](https://x.com/DamiDefi), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@davis7](https://x.com/davis7), [@Deep_Burner](https://x.com/Deep_Burner), [@Deevid_AI](https://x.com/Deevid_AI), [@deredleritt3r](https://x.com/deredleritt3r), [@devindesktop](https://x.com/devindesktop), [@dexhorthy](https://x.com/dexhorthy), [@diamai_](https://x.com/diamai_), [@doximity](https://x.com/doximity), [@DrDatta_AIIMS](https://x.com/DrDatta_AIIMS), [@elliotarledge](https://x.com/elliotarledge), [@emollick](https://x.com/emollick), [@eusouomatt](https://x.com/eusouomatt), [@fabriciocarraro](https://x.com/fabriciocarraro), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fragiannicola](https://x.com/fragiannicola), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@heccbrent](https://x.com/heccbrent), [@heyrobinai](https://x.com/heyrobinai), [@hqmank](https://x.com/hqmank), [@iamrexei](https://x.com/iamrexei), [@inannanigin](https://x.com/inannanigin), [@JacobMolBio](https://x.com/JacobMolBio), [@jetbrains](https://x.com/jetbrains), [@kenbwork](https://x.com/kenbwork), [@LeeLinAI123](https://x.com/LeeLinAI123), [@Lentils80](https://x.com/Lentils80), [@LuminaXspace](https://x.com/LuminaXspace), [@MatthewBerman](https://x.com/MatthewBerman), [@mattshumer_](https://x.com/mattshumer_), [@MedicalSphereAI](https://x.com/MedicalSphereAI), [@melvynx](https://x.com/melvynx), [@Microsoft365](https://x.com/Microsoft365), [@midudev](https://x.com/midudev), [@mightyking](https://x.com/mightyking), [@mjkabir](https://x.com/mjkabir), [@morganlinton](https://x.com/morganlinton), [@nauczymycieAI](https://x.com/nauczymycieAI), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@old_pgmrs_will](https://x.com/old_pgmrs_will), [@Oluwaphilemon1](https://x.com/Oluwaphilemon1), [@om_patel5](https://x.com/om_patel5), [@omnigent_ai](https://x.com/omnigent_ai), [@onusoz](https://x.com/onusoz), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@oscabriel](https://x.com/oscabriel), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@PixiJS](https://x.com/PixiJS), [@PovilasKorop](https://x.com/PovilasKorop), [@Psalteric](https://x.com/Psalteric), [@RicardoDeZoete](https://x.com/RicardoDeZoete), [@rrr_kgknk](https://x.com/rrr_kgknk), [@s1rozha_](https://x.com/s1rozha_), [@sairahul1](https://x.com/sairahul1), [@satyanadella](https://x.com/satyanadella), [@shannholmberg](https://x.com/shannholmberg), [@sharifshameem](https://x.com/sharifshameem), [@simplifyinAI](https://x.com/simplifyinAI), [@skirano](https://x.com/skirano), [@spaceagente](https://x.com/spaceagente), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@theSethian](https://x.com/theSethian), [@TokenGremlin](https://x.com/TokenGremlin), [@tonysimons_](https://x.com/tonysimons_), [@twetsfyp](https://x.com/twetsfyp), [@vedhsaka](https://x.com/vedhsaka), [@Voxyz_ai](https://x.com/Voxyz_ai), [@WesRoth](https://x.com/WesRoth), [@XFreeze](https://x.com/XFreeze), [@yiyangleex](https://x.com/yiyangleex), [@zeeg](https://x.com/zeeg)
 
 *我们无法保证每个案例均归属于原创者。如果有任何需要纠正的地方，请提出问题，我们将更新它。*
 

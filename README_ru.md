@@ -34,7 +34,7 @@
 
 ## 📊 Обзор
 
-- **113 выбранных случаев GPT-5.6 от общедоступных авторов, разработчиков, групп разработчиков и групп тестирования.**
+- **121 выбранный случай GPT-5.6 от общедоступных авторов, разработчиков, продуктовых групп и групп тестирования.**
 - Охватывает сборки кода, долговременные агенты, бизнес-рабочие процессы, творческое производство, интеграцию продуктов, тесты и практические ограничения.
 - Каждый случай включает первоначальный источник, указание автора, краткий вывод, тип доказательства и дату публикации.
 - Используйте этот репозиторий, чтобы определить практические рабочие процессы и сравнить сильные стороны, затраты и ограничения, прежде чем выбирать уровень GPT-5.6.
@@ -62,9 +62,9 @@ export EVOLINK_API_KEY="your_api_key_here"
 | Раздел | Случаи |
 |---|---|
 | [💻 Кодирование и сборки](#coding-and-builds) | 26 Случаи |
-| [🤖 Агенты и рабочие процессы](#agents-and-workflows) | 26 Случаи |
-| [🎨 Творческая работа и работа над продуктом](#creative-and-product-work) | 23 Случаи |
-| [🧪 Оценка и ограничения](#evaluation-and-limits) | 38 Случаи |
+| [🤖 Агенты и рабочие процессы](#agents-and-workflows) | 29 Случаи |
+| [🎨 Творческая работа и работа над продуктом](#creative-and-product-work) | 24 Случаи |
+| [🧪 Оценка и ограничения](#evaluation-and-limits) | 42 Случаи |
 | [Подтвердить](#acknowledge) | Политика кредитов и исправлений |
 
 <a id="coding-and-builds"></a>
@@ -130,6 +130,9 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Настроить Кими в качестве субагента Кодекса](#case-107) | Оставьте GPT-5.6 Sol ответственным за логику в Кодексе, а выполнение внешнего интерфейса делегируйте субагенту Kimi K3 OpenCode. | Tutorial |
 | [Направьте планы Fable на кодировку GPT](#case-109) | Используйте Fable для планирования и принятия решений, а затем отправляйте задачи кодирования в GPT-5.6, пока более дешевые или специализированные субагенты выполняют рутинную работу. | Integration |
 | [Создать модель маршрутизатора ChatLLM](#case-111) | Создайте собственный маршрутизатор, который будет назначать простое и жесткое кодирование, а также подсказки по проектированию для различных моделей, включая GPT-5.6 Sol. | Integration |
+| [Запуск рабочих процессов агента Herdr Pi](#case-115) | Переместите повторяющиеся инструкции по маршрутизации кода Клода в навык плюс ссылку на маршрутизацию, чтобы агенты GPT-5.6 pi запускались на выделенных панелях. | Integration |
+| [Планирование Loop Fable с использованием сборок GPT](#case-116) | Используйте Fable в качестве планировщика и рецензента, пока GPT-5.6 постоянно реализует и исправляет изменения в репозитории. | Integration |
+| [Рекурсия субагента Cap Codex](#case-119) | Уменьшите ограничение GPT-5.6 за счет сознательной маршрутизации уровней модели, ограничения глубины субагента и добавления явных контрольных точек остановки. | Limit |
 
 <a id="creative-and-product-work"></a>
 ## 🎨 Творческая работа и работа над продуктом
@@ -159,6 +162,7 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Управление преобразованием текста в движение в Blender](#case-92) | Позвольте Codex координировать работу Blender, библиотеки преобразования текста в движение и библиотеки мостов, когда скорость анимации имеет большее значение, чем прямое совместное управление. | Integration |
 | [Сравните создание бумажного аниме и аниме](#case-95) | Проведите один и тот же творческий тест на конкурирующих моделях при оценке передачи визуального стиля с помощью рабочего процесса MCP. | Benchmark |
 | [Сравнение подсказок движения «Смывка чернил»](#case-112) | Оцените GPT-5.6 Sol по сравнению с другой моделью в той же подсказке кинематографического движения, когда важны стиль, время и ограничения преобразования. | Benchmark |
+| [Протестируйте обновленный дизайн личного сайта](#case-114) | Сравнивайте модели в одном и том же запросе на изменение дизайна сайта, когда важны соответствие идентичности, доступность, производительность и качество копирования. | Benchmark |
 
 <a id="evaluation-and-limits"></a>
 ## 🧪 Оценка и ограничения
@@ -203,6 +207,10 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Установить условия выхода агента](#case-104) | Ограничьте раунды проверки и определите критерии остановки, прежде чем обращаться к GPT-5.6 Sol Ultra за углубленной проверкой плана. | Limit |
 | [Сравнить Cyber Benchmark для Windows](#case-106) | Сравните результаты кибертестов по семействам задач и временным окнам, прежде чем рассматривать одну оценку GPT-5.6 Sol как общее свидетельство возможностей. | Benchmark |
 | [Проверка восстановления проекта React](#case-108) | Используйте тесты восстановления проекта React для проверки рендеринга, использования, доступности и удобства использования useEffect вместо того, чтобы полагаться на общие рейтинги кода. | Benchmark |
+| [Протестируйте цифровые двойники МКС](#case-117) | Используйте подробную задачу цифрового 3D-двойника, чтобы проверить реконструкцию, освещение, элементы управления, метки, обходы и поведение уточнения. | Benchmark |
+| [Оценка рассуждений об упрощении немецкого языка](#case-118) | Запускайте нишевые тесты, такие как AlmanBench, когда вам нужны аналитические сигналы, которые вряд ли будут оптимизированы с помощью широких таблиц лидеров. | Benchmark |
+| [Управление сеансами iOS GPT-5.6](#case-120) | Поддерживайте совместную работу над сборками приложений GPT-5.6, проверяя каждые 30–60 минут и перенаправляя их до того, как архитектура изменится. | Limit |
+| [Сравнение средств восстановления агента кодирования](#case-121) | Оценивайте агентов кодирования на отложенных ремонтных пакетах с помощью показателя успеха, попыток, стоимости исправления и времени ожидания, а не только рейтинга на арене. | Benchmark |
 
 ## Случаи использования
 
@@ -1866,6 +1874,120 @@ Type: Tutorial | Date: 2026-07-17
 
 ---
 
+<a id="case-114"></a>
+### Case 114: [Протестируйте обновленный дизайн личного сайта](https://x.com/fabriciocarraro/status/2078574831466078265) (by [@fabriciocarraro](https://x.com/fabriciocarraro))
+
+**Сравнивайте модели в одном и том же запросе на изменение дизайна сайта, когда важны соответствие идентичности, доступность, производительность и качество копирования.**
+
+fabriciocarraro запустил Claude Fable 5, GPT-5.6 Sol и Kimi K3 с одинаковым приглашением на изменение дизайна личного сайта в своих официальных ремнях. Источник сообщает, что время выполнения составило 35 минут, 1 час, 10 минут и 50 минут, говорит, что все три удалили тяжелые зависимости и следовали рекомендациям по обеспечению доступности, а также отмечает, что GPT-5.6 Sol уделяет особое внимание оптимизации производительности за счет уменьшения размера развертывания примерно с 382 МБ до 135 МБ, при этом все еще требуется итерация копирования и макета.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-114.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-114-poster.jpg" alt="Case 114 video poster" height="360"></a>
+
+[Play case 114 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-114.mp4)
+
+Type: Benchmark | Date: 2026-07-18
+
+---
+
+<a id="case-115"></a>
+### Case 115: [Запуск рабочих процессов агента Herdr Pi](https://x.com/oscabriel/status/2078566660974444576) (by [@oscabriel](https://x.com/oscabriel))
+
+**Переместите повторяющиеся инструкции по маршрутизации кода Клода в навык плюс ссылку на маршрутизацию, чтобы агенты GPT-5.6 pi запускались на выделенных панелях.**
+
+oscabriel описывает формализацию рабочего процесса для запуска динамических рабочих процессов из Claude Code с использованием агентов pi на GPT-5.6 в специализированных панелях Herdr. Источник сообщает, что инструкции были перемещены из корня CLAUDE.md в навык /herd-flow со справочным файлом маршрутизации.md.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-115.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-115-poster.jpg" alt="Case 115 video poster" height="360"></a>
+
+[Play case 115 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-115.mp4)
+
+Type: Integration | Date: 2026-07-18
+
+---
+
+<a id="case-116"></a>
+### Case 116: [Планирование Loop Fable с использованием сборок GPT](https://x.com/Adea0x/status/2078541949821124804) (by [@Adea0x](https://x.com/Adea0x))
+
+**Используйте Fable в качестве планировщика и рецензента, пока GPT-5.6 постоянно реализует и исправляет изменения в репозитории.**
+
+Adea0x использует настройку Claude Code, где Fable 5 выступает в качестве оркестратора, а GPT-5.6 — в качестве рабочего. Описанный рабочий процесс заключается в установке Кодекса, добавлении плагина Кодекса в Claude Code, вставке URL-адреса репозитория, создании пользовательского навыка, запуске /root, затем циклическом планировании Fable, сборке GPT-5.6, проверке Fable и исправлениях GPT-5.6.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-116.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-116-poster.jpg" alt="Case 116 video poster" height="360"></a>
+
+[Play case 116 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-116.mp4)
+
+Type: Integration | Date: 2026-07-18
+
+---
+
+<a id="case-117"></a>
+### Case 117: [Протестируйте цифровые двойники МКС](https://x.com/AIsaOneHQ/status/2078519527588200536) (by [@AIsaOneHQ](https://x.com/AIsaOneHQ))
+
+**Используйте подробную задачу цифрового 3D-двойника, чтобы проверить реконструкцию, освещение, элементы управления, метки, обходы и поведение уточнения.**
+
+AIsaOneHQ сообщает о таком же тесте, в котором Кими K3 и GPT-5.6 Sol должны были с нуля построить реалистичный интерактивный 3D-цифровой двойник Международной космической станции. Задача не требовала предварительно созданной модели, реконструкции МКС, земного и орбитального освещения, кинематографических элементов управления, меток, экскурсий, покомпонентного изображения, а также работы по тестированию и доработке в одном и том же интерфейсе командной строки Kimi Code через шлюз модели AIsa.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-117.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-117-poster.jpg" alt="Case 117 video poster" height="360"></a>
+
+[Play case 117 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-117.mp4)
+
+Type: Benchmark | Date: 2026-07-18
+
+---
+
+<a id="case-118"></a>
+### Case 118: [Оценка рассуждений об упрощении немецкого языка](https://x.com/onusoz/status/2078481627739742364) (by [@onusoz](https://x.com/onusoz))
+
+**Запускайте нишевые тесты, такие как AlmanBench, когда вам нужны аналитические сигналы, которые вряд ли будут оптимизированы с помощью широких таблиц лидеров.**
+
+onusoz представляет AlmanBench как эталон для упрощения немецкого языка и сообщает, что GPT-5.5, GPT-5.6 Sol и Fable 5 сравниваются друг с другом. Источник сообщает, что в текущем тесте GPT-5.5 xhigh набрал больше баллов, чем GPT-5.6 max, отмечает, что Fable 5 maxxx еще не запускалась из-за стоимости, и называет этот тест узким показателем, который лаборатории с меньшей вероятностью будут оптимизировать для тестирования.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-118.png" alt="Case 118 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-18
+
+---
+
+<a id="case-119"></a>
+### Case 119: [Рекурсия субагента Cap Codex](https://x.com/DamiDefi/status/2078464057573867784) (by [@DamiDefi](https://x.com/DamiDefi))
+
+**Уменьшите ограничение GPT-5.6 за счет сознательной маршрутизации уровней модели, ограничения глубины субагента и добавления явных контрольных точек остановки.**
+
+DamiDefi утверждает, что ограничения Кодекса часто обусловлены моделями использования токенов, а не объемом исходного кода. Источник рекомендует Sol Extra High для планирования и архитектуры, Sol Medium для кодирования и выполнения, Luna Extra High для поиска и анализа файлов, max_length = 1 для предотвращения рекурсивного создания субагентов, инструкции AGENTS.md для предотвращения автоматического делегирования субагентов и запросы, которые прекращаются после планирования для утверждения.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-119.jpg" alt="Case 119 source media" height="360">
+
+Type: Limit | Date: 2026-07-18
+
+---
+
+<a id="case-120"></a>
+### Case 120: [Управление сеансами iOS GPT-5.6](https://x.com/spaceagente/status/2078339855814451522) (by [@spaceagente](https://x.com/spaceagente))
+
+**Поддерживайте совместную работу над сборками приложений GPT-5.6, проверяя каждые 30–60 минут и перенаправляя их до того, как архитектура изменится.**
+
+spaceagente сообщает о создании приложения для iOS с GPT-5.6 и обнаруживает, что одноразовые подсказки могут загнать модель в угол. Источник характеризует GPT-5.6 как превосходный вариант для сложных задач с большим объемом задач, но склонен к плохим архитектурным решениям и потере согласованности в течение длительных сеансов, а затем рекомендует сохранять две или три задачи в движении, проверять каждые 30–60 минут, проверять работу и перенаправлять как можно раньше.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-120.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-120-poster.jpg" alt="Case 120 video poster" height="360"></a>
+
+[Play case 120 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-120.mp4)
+
+Type: Limit | Date: 2026-07-18
+
+---
+
+<a id="case-121"></a>
+### Case 121: [Сравнение средств восстановления агента кодирования](https://x.com/AlphaSignalAI/status/2078334825442722173) (by [@AlphaSignalAI](https://x.com/AlphaSignalAI))
+
+**Оценивайте агентов кодирования на отложенных ремонтных пакетах с помощью показателя успеха, попыток, стоимости исправления и времени ожидания, а не только рейтинга на арене.**
+
+AlphaSignalAI сообщает, что Kimi K3 работает на средстве восстановления агента кодирования для GPT-5.6 Sol, Fable 5, Grok 4.5, Opus 4.8, GLM-5.2 и Gemini 3.1 Pro. Источник сообщает, что Kimi K3 финишировал последним из семи моделей с 53 попытками из 67, успехом 79%, 0,186 доллара за успешное исправление и средним временем стены 702 секунды, в то время как GPT-5.6 Sol показал 100% результат в 70 из 70 попыток в том же наборе.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-121.jpg" alt="Case 121 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-18
+
+---
+
 ## Связанные репозитории
 
 Доступна специальная документация по API GPT-5.6. Никакой устанавливаемый навык GPT-5.6 не был проверен; Работа по выпуску навыков и пакетов остается в ведении отдельного конвейера выпуска навыков.
@@ -1881,7 +2003,7 @@ Type: Tutorial | Date: 2026-07-17
 
 Спасибо создателям исходников, представленным в этой подборке:
 
-[@abacusai](https://x.com/abacusai), [@AdamHoltererer](https://x.com/AdamHoltererer), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@alxndrdavies](https://x.com/alxndrdavies), [@an321d](https://x.com/an321d), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@askalphaxiv](https://x.com/askalphaxiv), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Av1dlive](https://x.com/Av1dlive), [@Azure](https://x.com/Azure), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@BuildFastWithAI](https://x.com/BuildFastWithAI), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@Creatify_AI](https://x.com/Creatify_AI), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@davis7](https://x.com/davis7), [@Deep_Burner](https://x.com/Deep_Burner), [@Deevid_AI](https://x.com/Deevid_AI), [@deredleritt3r](https://x.com/deredleritt3r), [@devindesktop](https://x.com/devindesktop), [@dexhorthy](https://x.com/dexhorthy), [@diamai_](https://x.com/diamai_), [@doximity](https://x.com/doximity), [@DrDatta_AIIMS](https://x.com/DrDatta_AIIMS), [@elliotarledge](https://x.com/elliotarledge), [@emollick](https://x.com/emollick), [@eusouomatt](https://x.com/eusouomatt), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fragiannicola](https://x.com/fragiannicola), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@heccbrent](https://x.com/heccbrent), [@heyrobinai](https://x.com/heyrobinai), [@hqmank](https://x.com/hqmank), [@iamrexei](https://x.com/iamrexei), [@inannanigin](https://x.com/inannanigin), [@JacobMolBio](https://x.com/JacobMolBio), [@jetbrains](https://x.com/jetbrains), [@kenbwork](https://x.com/kenbwork), [@LeeLinAI123](https://x.com/LeeLinAI123), [@Lentils80](https://x.com/Lentils80), [@LuminaXspace](https://x.com/LuminaXspace), [@MatthewBerman](https://x.com/MatthewBerman), [@mattshumer_](https://x.com/mattshumer_), [@MedicalSphereAI](https://x.com/MedicalSphereAI), [@melvynx](https://x.com/melvynx), [@Microsoft365](https://x.com/Microsoft365), [@midudev](https://x.com/midudev), [@mightyking](https://x.com/mightyking), [@mjkabir](https://x.com/mjkabir), [@morganlinton](https://x.com/morganlinton), [@nauczymycieAI](https://x.com/nauczymycieAI), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@old_pgmrs_will](https://x.com/old_pgmrs_will), [@Oluwaphilemon1](https://x.com/Oluwaphilemon1), [@om_patel5](https://x.com/om_patel5), [@omnigent_ai](https://x.com/omnigent_ai), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@PixiJS](https://x.com/PixiJS), [@PovilasKorop](https://x.com/PovilasKorop), [@Psalteric](https://x.com/Psalteric), [@RicardoDeZoete](https://x.com/RicardoDeZoete), [@rrr_kgknk](https://x.com/rrr_kgknk), [@s1rozha_](https://x.com/s1rozha_), [@sairahul1](https://x.com/sairahul1), [@satyanadella](https://x.com/satyanadella), [@shannholmberg](https://x.com/shannholmberg), [@sharifshameem](https://x.com/sharifshameem), [@simplifyinAI](https://x.com/simplifyinAI), [@skirano](https://x.com/skirano), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@theSethian](https://x.com/theSethian), [@TokenGremlin](https://x.com/TokenGremlin), [@tonysimons_](https://x.com/tonysimons_), [@twetsfyp](https://x.com/twetsfyp), [@vedhsaka](https://x.com/vedhsaka), [@Voxyz_ai](https://x.com/Voxyz_ai), [@WesRoth](https://x.com/WesRoth), [@XFreeze](https://x.com/XFreeze), [@yiyangleex](https://x.com/yiyangleex), [@zeeg](https://x.com/zeeg)
+[@abacusai](https://x.com/abacusai), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Adea0x](https://x.com/Adea0x), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@AIsaOneHQ](https://x.com/AIsaOneHQ), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@AlphaSignalAI](https://x.com/AlphaSignalAI), [@alxndrdavies](https://x.com/alxndrdavies), [@an321d](https://x.com/an321d), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@askalphaxiv](https://x.com/askalphaxiv), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Av1dlive](https://x.com/Av1dlive), [@Azure](https://x.com/Azure), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@BuildFastWithAI](https://x.com/BuildFastWithAI), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@Creatify_AI](https://x.com/Creatify_AI), [@DamiDefi](https://x.com/DamiDefi), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@davis7](https://x.com/davis7), [@Deep_Burner](https://x.com/Deep_Burner), [@Deevid_AI](https://x.com/Deevid_AI), [@deredleritt3r](https://x.com/deredleritt3r), [@devindesktop](https://x.com/devindesktop), [@dexhorthy](https://x.com/dexhorthy), [@diamai_](https://x.com/diamai_), [@doximity](https://x.com/doximity), [@DrDatta_AIIMS](https://x.com/DrDatta_AIIMS), [@elliotarledge](https://x.com/elliotarledge), [@emollick](https://x.com/emollick), [@eusouomatt](https://x.com/eusouomatt), [@fabriciocarraro](https://x.com/fabriciocarraro), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fragiannicola](https://x.com/fragiannicola), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@heccbrent](https://x.com/heccbrent), [@heyrobinai](https://x.com/heyrobinai), [@hqmank](https://x.com/hqmank), [@iamrexei](https://x.com/iamrexei), [@inannanigin](https://x.com/inannanigin), [@JacobMolBio](https://x.com/JacobMolBio), [@jetbrains](https://x.com/jetbrains), [@kenbwork](https://x.com/kenbwork), [@LeeLinAI123](https://x.com/LeeLinAI123), [@Lentils80](https://x.com/Lentils80), [@LuminaXspace](https://x.com/LuminaXspace), [@MatthewBerman](https://x.com/MatthewBerman), [@mattshumer_](https://x.com/mattshumer_), [@MedicalSphereAI](https://x.com/MedicalSphereAI), [@melvynx](https://x.com/melvynx), [@Microsoft365](https://x.com/Microsoft365), [@midudev](https://x.com/midudev), [@mightyking](https://x.com/mightyking), [@mjkabir](https://x.com/mjkabir), [@morganlinton](https://x.com/morganlinton), [@nauczymycieAI](https://x.com/nauczymycieAI), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@old_pgmrs_will](https://x.com/old_pgmrs_will), [@Oluwaphilemon1](https://x.com/Oluwaphilemon1), [@om_patel5](https://x.com/om_patel5), [@omnigent_ai](https://x.com/omnigent_ai), [@onusoz](https://x.com/onusoz), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@oscabriel](https://x.com/oscabriel), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@PixiJS](https://x.com/PixiJS), [@PovilasKorop](https://x.com/PovilasKorop), [@Psalteric](https://x.com/Psalteric), [@RicardoDeZoete](https://x.com/RicardoDeZoete), [@rrr_kgknk](https://x.com/rrr_kgknk), [@s1rozha_](https://x.com/s1rozha_), [@sairahul1](https://x.com/sairahul1), [@satyanadella](https://x.com/satyanadella), [@shannholmberg](https://x.com/shannholmberg), [@sharifshameem](https://x.com/sharifshameem), [@simplifyinAI](https://x.com/simplifyinAI), [@skirano](https://x.com/skirano), [@spaceagente](https://x.com/spaceagente), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@theSethian](https://x.com/theSethian), [@TokenGremlin](https://x.com/TokenGremlin), [@tonysimons_](https://x.com/tonysimons_), [@twetsfyp](https://x.com/twetsfyp), [@vedhsaka](https://x.com/vedhsaka), [@Voxyz_ai](https://x.com/Voxyz_ai), [@WesRoth](https://x.com/WesRoth), [@XFreeze](https://x.com/XFreeze), [@yiyangleex](https://x.com/yiyangleex), [@zeeg](https://x.com/zeeg)
 
 *Мы не можем гарантировать, что каждое дело связано с первоначальным создателем. Если что-то необходимо исправить, откройте проблему, и мы обновим ее.*
 

@@ -71,3 +71,11 @@
 - Added Cases 106-113 covering cyber benchmark windows, Codex subagent setup, React repair benchmarks, Fable-to-GPT coding routing, particle demos, ChatLLM routers, creative motion comparison, and cinematic website tutorials.
 - Prepared four videos, four poster frames, and five source-image files for the repository's R2 namespace.
 - Updated English first, then synchronized all 10 localized README files after the English gate passed.
+
+## 2026-07-19 - Daily Usecase Update
+
+- Collected 540 deduplicated candidates from 10 GPT-5.6 searches and reviewed 37 records that met the fixed 24-hour and engagement window.
+- Selected 8 high-confidence cases, deferred 5, marked 2 unsure, and dropped 22.
+- Added Cases 114-121 covering personal-site redesign benchmarking, herdr/pi agent workflows, Fable-plus-GPT Claude Code loops, ISS 3D digital twins, AlmanBench, Codex subagent recursion limits, iOS app session management, and coding-agent repair harnesses.
+- Prepared five videos, five poster frames, and three source-image files for the repository's R2 namespace.
+- Updated English first, then synchronized all 10 localized README files after the English gate passed.

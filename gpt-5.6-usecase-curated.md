@@ -115,6 +115,14 @@
 | 111 | Build ChatLLM Model Router | Integration | Agents & Workflows | [@abacusai](https://x.com/abacusai/status/2078022418661257411) |
 | 112 | Compare Ink-Wash Motion Prompts | Benchmark | Creative & Product Work | [@LeeLinAI123](https://x.com/LeeLinAI123/status/2077980857868959796) |
 | 113 | Teach Cinematic Website Builds | Tutorial | Coding & Builds | [@twetsfyp](https://x.com/twetsfyp/status/2077937630604304666) |
+| 114 | Benchmark Personal Site Redesigns | Benchmark | Creative & Product Work | [@fabriciocarraro](https://x.com/fabriciocarraro/status/2078574831466078265) |
+| 115 | Launch Herdr Pi Agent Workflows | Integration | Agents & Workflows | [@oscabriel](https://x.com/oscabriel/status/2078566660974444576) |
+| 116 | Loop Fable Planning With GPT Builds | Integration | Agents & Workflows | [@Adea0x](https://x.com/Adea0x/status/2078541949821124804) |
+| 117 | Benchmark ISS Digital Twins | Benchmark | Evaluation & Limits | [@AIsaOneHQ](https://x.com/AIsaOneHQ/status/2078519527588200536) |
+| 118 | Measure German Simplification Reasoning | Benchmark | Evaluation & Limits | [@onusoz](https://x.com/onusoz/status/2078481627739742364) |
+| 119 | Cap Codex Subagent Recursion | Limit | Agents & Workflows | [@DamiDefi](https://x.com/DamiDefi/status/2078464057573867784) |
+| 120 | Manage GPT-5.6 iOS Sessions | Limit | Evaluation & Limits | [@spaceagente](https://x.com/spaceagente/status/2078339855814451522) |
+| 121 | Compare Coding-Agent Repair Harnesses | Benchmark | Evaluation & Limits | [@AlphaSignalAI](https://x.com/AlphaSignalAI/status/2078334825442722173) |
 
-Source candidates reviewed: 538
-Public cases selected: 113
+Source candidates reviewed: 575
+Public cases selected: 121
