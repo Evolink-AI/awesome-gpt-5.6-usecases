@@ -4163,6 +4163,74 @@
       "r2_media_urls": [
         "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-121.jpg"
       ]
+    },
+    {
+      "public_number": 122,
+      "title": "Build Three.js Water Shaders",
+      "takeaway": "Use GPT-5.6 Sol for specialized Three.js shader work, then integrate model-generated scene assets into one browser demo.",
+      "body_notes": "cedric_chee says he spent a week learning modern water rendering, built a Three.js TSL shader with GPT-5.6 Sol for Arena's Golden Gate Bridge ocean, used Fable to generate Apo Island with Blender, and integrated the pieces into the final demo video.",
+      "type": "Demo",
+      "category": "Creative & Product Work",
+      "category_key": "creative",
+      "decision_reason": "Concrete visual build workflow with a named shader task, GPT-5.6 Sol role, Blender/Fable asset role, integration step, and video evidence.",
+      "prompt_boundary": "The source describes the shader and asset workflow but does not publish the exact prompt text.",
+      "media_type": "video",
+      "dedup_key": "https://x.com/cedric_chee/status/2078712516641955980",
+      "source_url": "https://x.com/cedric_chee/status/2078712516641955980",
+      "author_handle": "@cedric_chee",
+      "author_url": "https://x.com/cedric_chee",
+      "date": "2026-07-19",
+      "decision": "high_confidence_update",
+      "source_engagement": {
+        "like_count": 90,
+        "view_count": 18158,
+        "bookmark_count": 47,
+        "retweet_count": 3
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/cedric_chee/status/2078712516641955980",
+      "media_author_handle": "@cedric_chee",
+      "media_author_url": "https://x.com/cedric_chee",
+      "poster_path": "media/cases/case-122-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-122-poster.jpg",
+      "playable_video_path": "media/cases/case-122.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-122.mp4"
+    },
+    {
+      "public_number": 123,
+      "title": "Build SQL Terminal Games",
+      "takeaway": "Prototype unusual interactive systems by letting GPT-5.6 Sol Ultra push core game logic into SQLite while Python bridges the runtime.",
+      "body_notes": "Oluwaphilemon1 reports a GPT-5.6 Sol Ultra Doom-style terminal game where SQL handles raycasting, per-pixel RGB calculation, colored terminal rendering, player controls, collision detection, enemy AI, and combat, while a lightweight Python layer connects SQLite to keyboard input, timing, and the terminal.",
+      "type": "Demo",
+      "category": "Coding & Builds",
+      "category_key": "coding",
+      "decision_reason": "Concrete interactive-system demo with a named GPT-5.6 tier, SQL/Python architecture boundary, gameplay functions, and video evidence.",
+      "prompt_boundary": "The source describes the generated architecture and behavior but does not publish exact prompt text.",
+      "media_type": "video",
+      "dedup_key": "https://x.com/Oluwaphilemon1/status/2078641579737141654",
+      "source_url": "https://x.com/Oluwaphilemon1/status/2078641579737141654",
+      "author_handle": "@Oluwaphilemon1",
+      "author_url": "https://x.com/Oluwaphilemon1",
+      "date": "2026-07-19",
+      "decision": "high_confidence_update",
+      "source_engagement": {
+        "like_count": 23,
+        "view_count": 4832,
+        "bookmark_count": 6,
+        "retweet_count": 4
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/Oluwaphilemon1/status/2078641579737141654",
+      "media_author_handle": "@Oluwaphilemon1",
+      "media_author_url": "https://x.com/Oluwaphilemon1",
+      "poster_path": "media/cases/case-123-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-123-poster.jpg",
+      "playable_video_path": "media/cases/case-123.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-123.mp4"
     }
   ]
 }

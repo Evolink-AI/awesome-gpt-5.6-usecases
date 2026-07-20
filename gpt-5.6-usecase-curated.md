@@ -123,6 +123,8 @@
 | 119 | Cap Codex Subagent Recursion | Limit | Agents & Workflows | [@DamiDefi](https://x.com/DamiDefi/status/2078464057573867784) |
 | 120 | Manage GPT-5.6 iOS Sessions | Limit | Evaluation & Limits | [@spaceagente](https://x.com/spaceagente/status/2078339855814451522) |
 | 121 | Compare Coding-Agent Repair Harnesses | Benchmark | Evaluation & Limits | [@AlphaSignalAI](https://x.com/AlphaSignalAI/status/2078334825442722173) |
+| 122 | Build Three.js Water Shaders | Demo | Creative & Product Work | [@cedric_chee](https://x.com/cedric_chee/status/2078712516641955980) |
+| 123 | Build SQL Terminal Games | Demo | Coding & Builds | [@Oluwaphilemon1](https://x.com/Oluwaphilemon1/status/2078641579737141654) |
 
-Source candidates reviewed: 575
-Public cases selected: 121
+Source candidates reviewed: 560
+Public cases selected: 123

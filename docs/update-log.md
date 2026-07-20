@@ -79,3 +79,11 @@
 - Added Cases 114-121 covering personal-site redesign benchmarking, herdr/pi agent workflows, Fable-plus-GPT Claude Code loops, ISS 3D digital twins, AlmanBench, Codex subagent recursion limits, iOS app session management, and coding-agent repair harnesses.
 - Prepared five videos, five poster frames, and three source-image files for the repository's R2 namespace.
 - Updated English first, then synchronized all 10 localized README files after the English gate passed.
+
+## 2026-07-20 - Daily Usecase Update
+
+- Collected 560 deduplicated candidates from 10 GPT-5.6 searches and reviewed 41 records that met the fixed 24-hour and engagement window.
+- Selected 2 high-confidence cases, deferred 2, marked 10 unsure, and dropped 27.
+- Added Cases 122-123 covering a GPT-5.6 Sol Three.js water-shader workflow and a GPT-5.6 Sol Ultra SQL-driven terminal game demo.
+- Prepared two videos and two poster frames for the repository's R2 namespace.
+- Updated English first, then synchronized all 10 localized README files after the English gate passed.
