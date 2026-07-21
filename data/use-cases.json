@@ -4231,6 +4231,226 @@
       "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-123-poster.jpg",
       "playable_video_path": "media/cases/case-123.mp4",
       "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-123.mp4"
+    },
+    {
+      "public_number": 124,
+      "title": "Write Code Agents Can Read",
+      "takeaway": "Optimize code structure and naming for coding agents so GPT-5.6 Sol spends fewer tokens on search and retrieval.",
+      "body_notes": "Ben Vinegar links a Modem post on how coding agents read files and says agent-discovery-friendly code can reduce search and retrieval token use even when generated code comes from frontier models like GPT-5.6 Sol.",
+      "type": "Tutorial",
+      "category": "Coding & Builds",
+      "category_key": "coding",
+      "decision_reason": "Source tweet and linked article provide a concrete code-writing tutorial for agent discovery and token savings.",
+      "prompt_boundary": "The article title and topic are public; no exact GPT-5.6 prompt is provided.",
+      "media_type": "image",
+      "dedup_key": "https://modem.dev/blog/how-coding-agents-read-your-code",
+      "source_url": "https://modem.dev/blog/how-coding-agents-read-your-code",
+      "author_handle": "@bentlegen",
+      "author_url": "https://x.com/bentlegen",
+      "date": "2026-07-20",
+      "decision": "high_confidence_update",
+      "source_engagement": {
+        "like_count": 88,
+        "view_count": 5842,
+        "bookmark_count": 78,
+        "retweet_count": 11
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/bentlegen/status/2079210412143153275",
+      "media_author_handle": "@bentlegen",
+      "media_author_url": "https://x.com/bentlegen",
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-124.jpg"
+      ],
+      "media_paths": [
+        "media/cases/case-124.jpg"
+      ]
+    },
+    {
+      "public_number": 125,
+      "title": "Combine Frontend Design Plugins",
+      "takeaway": "Pair GPT-5.6 with design, animation, product, and Figma plugins when a Codex frontend build needs stronger visual polish.",
+      "body_notes": "Divyansh Tiwari recommends a four-plugin frontend stack after testing workflows: Taste-Skill for typography and spacing, GSAP Skills for animation, Product Design for upfront UX direction, and Figma for converting existing design systems into responsive code.",
+      "type": "Tutorial",
+      "category": "Coding & Builds",
+      "category_key": "coding",
+      "decision_reason": "Concrete multi-plugin frontend workflow with named repositories, ranked roles, and screenshots.",
+      "prompt_boundary": "The source publishes plugin links and workflow roles, but not an exact reusable prompt.",
+      "media_type": "image",
+      "dedup_key": "https://x.com/DivyanshT91162/status/2079214312800055303",
+      "source_url": "https://x.com/DivyanshT91162/status/2079214312800055303",
+      "author_handle": "@DivyanshT91162",
+      "author_url": "https://x.com/DivyanshT91162",
+      "date": "2026-07-20",
+      "decision": "high_confidence_update",
+      "source_engagement": {
+        "like_count": 23,
+        "view_count": 2138,
+        "bookmark_count": 9,
+        "retweet_count": 9
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/DivyanshT91162/status/2079214312800055303",
+      "media_author_handle": "@DivyanshT91162",
+      "media_author_url": "https://x.com/DivyanshT91162",
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-125-1.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-125-2.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-125-3.jpg"
+      ],
+      "media_paths": [
+        "media/cases/case-125-1.jpg",
+        "media/cases/case-125-2.jpg",
+        "media/cases/case-125-3.jpg"
+      ]
+    },
+    {
+      "public_number": 126,
+      "title": "Cut Agent Credit Use",
+      "takeaway": "Reduce agent operating cost by combining prompt-cache telemetry, a GPT-5.6 Terra base model, and tighter tool-result context.",
+      "body_notes": "Charles Maddock says Strawberry cut credit use by 70% by patching prompt-cache miss patterns, switching the base model to GPT-5.6 Terra, and limiting large tool results while improving memory/file-tree search.",
+      "type": "Integration",
+      "category": "Agents & Workflows",
+      "category_key": "agents",
+      "decision_reason": "Product-side agent optimization post with named GPT-5.6 Terra migration, telemetry, cache, and context-harness changes.",
+      "prompt_boundary": "The optimization steps are public; exact internal eval prompts and telemetry data are not published.",
+      "media_type": "image",
+      "dedup_key": "https://x.com/charles_maddock/status/2079162933670809771",
+      "source_url": "https://x.com/charles_maddock/status/2079162933670809771",
+      "author_handle": "@charles_maddock",
+      "author_url": "https://x.com/charles_maddock",
+      "date": "2026-07-20",
+      "decision": "high_confidence_update",
+      "source_engagement": {
+        "like_count": 55,
+        "view_count": 3164,
+        "bookmark_count": 7,
+        "retweet_count": 4
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/charles_maddock/status/2079162933670809771",
+      "media_author_handle": "@charles_maddock",
+      "media_author_url": "https://x.com/charles_maddock",
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-126.jpg"
+      ],
+      "media_paths": [
+        "media/cases/case-126.jpg"
+      ]
+    },
+    {
+      "public_number": 127,
+      "title": "Build 3D Scrolling Websites",
+      "takeaway": "Use GPT-5.6 Sol to prototype a polished 3D scrolling website, then inspect the generated motion and layout before reuse.",
+      "body_notes": "Viktor Oddy posts a GPT-5.6 Sol 3D scrolling website result with video evidence and links the prompt page used for the Sky Estate example.",
+      "type": "Demo",
+      "category": "Creative & Product Work",
+      "category_key": "creative",
+      "decision_reason": "Concrete one-shot visual website demo with GPT-5.6 Sol attribution, source video, and prompt-page link in the thread.",
+      "prompt_boundary": "The thread links a prompt page, but the README case summarizes only what is visible in the source and video.",
+      "media_type": "video",
+      "dedup_key": "https://x.com/viktoroddy/status/2079179480581730625",
+      "source_url": "https://x.com/viktoroddy/status/2079179480581730625",
+      "author_handle": "@viktoroddy",
+      "author_url": "https://x.com/viktoroddy",
+      "date": "2026-07-20",
+      "decision": "high_confidence_update",
+      "source_engagement": {
+        "like_count": 341,
+        "view_count": 20624,
+        "bookmark_count": 356,
+        "retweet_count": 19
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/viktoroddy/status/2079179480581730625",
+      "media_author_handle": "@viktoroddy",
+      "media_author_url": "https://x.com/viktoroddy",
+      "poster_path": "media/cases/case-127-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-127-poster.jpg",
+      "playable_video_path": "media/cases/case-127.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-127.mp4"
+    },
+    {
+      "public_number": 128,
+      "title": "Delegate Code Reading Locally",
+      "takeaway": "Keep GPT-5.6 as the reasoning lead while local Qwen agents read code in parallel and mechanically verify citations.",
+      "body_notes": "Vishal Singh describes Jugaad AI: local Qwen 3.8 agents handle bounded code-reading tasks in tmux, GPT-5.6 or Claude Fable acts as lead orchestrator, and citations are mechanically checked before being trusted.",
+      "type": "Integration",
+      "category": "Agents & Workflows",
+      "category_key": "agents",
+      "decision_reason": "Concrete multi-agent coding setup with model roles, local execution boundary, citation verification, and video demo evidence.",
+      "prompt_boundary": "The source describes architecture and verification behavior; exact prompts and repository link are not available in the retrieved thread context.",
+      "media_type": "video",
+      "dedup_key": "https://x.com/vishalsingh2972/status/2079178952871162185",
+      "source_url": "https://x.com/vishalsingh2972/status/2079178952871162185",
+      "author_handle": "@vishalsingh2972",
+      "author_url": "https://x.com/vishalsingh2972",
+      "date": "2026-07-20",
+      "decision": "high_confidence_update",
+      "source_engagement": {
+        "like_count": 16,
+        "view_count": 2073,
+        "bookmark_count": 5,
+        "retweet_count": 4
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/vishalsingh2972/status/2079178952871162185",
+      "media_author_handle": "@vishalsingh2972",
+      "media_author_url": "https://x.com/vishalsingh2972",
+      "poster_path": "media/cases/case-128-poster.jpg",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-128-poster.jpg",
+      "playable_video_path": "media/cases/case-128.mp4",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-128.mp4"
+    },
+    {
+      "public_number": 129,
+      "title": "Compare Distillation-Law Answers",
+      "takeaway": "Use a fixed policy-sensitive question to compare how GPT-5.6 and peer models frame uncertainty and risk.",
+      "body_notes": "Lyra Intheflesh asks several models whether distillation is illegal and summarizes differences: GPT-5.6 Sol Pro gives a qualified answer with the longest list of ways a user could still get sued, while other models are more direct or skeptical.",
+      "type": "Evaluation",
+      "category": "Evaluation & Limits",
+      "category_key": "evaluation",
+      "decision_reason": "Source contains the comparison question, model-by-model summarized answers, and screenshot evidence for a policy-sensitive evaluation.",
+      "prompt_boundary": "The core question is public in the source; the case does not present the model outputs as legal advice.",
+      "media_type": "image",
+      "dedup_key": "https://x.com/LyraInTheFlesh/status/2079010347436900805",
+      "source_url": "https://x.com/LyraInTheFlesh/status/2079010347436900805",
+      "author_handle": "@LyraInTheFlesh",
+      "author_url": "https://x.com/LyraInTheFlesh",
+      "date": "2026-07-20",
+      "decision": "high_confidence_update",
+      "source_engagement": {
+        "like_count": 11,
+        "view_count": 297,
+        "bookmark_count": 1,
+        "retweet_count": 0
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/LyraInTheFlesh/status/2079010347436900805",
+      "media_author_handle": "@LyraInTheFlesh",
+      "media_author_url": "https://x.com/LyraInTheFlesh",
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-129-1.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-129-2.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-129-3.jpg"
+      ],
+      "media_paths": [
+        "media/cases/case-129-1.jpg",
+        "media/cases/case-129-2.jpg",
+        "media/cases/case-129-3.jpg"
+      ]
     }
   ]
 }

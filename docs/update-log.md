@@ -80,6 +80,14 @@
 - Prepared five videos, five poster frames, and three source-image files for the repository's R2 namespace.
 - Updated English first, then synchronized all 10 localized README files after the English gate passed.
 
+## 2026-07-21 - Daily Usecase Update
+
+- Collected 548 deduplicated candidates from 10 GPT-5.6 searches and reviewed 42 records that met the fixed 24-hour and engagement window.
+- Selected 6 high-confidence cases, deferred 5, marked 11 unsure, and dropped 20.
+- Added Cases 124-129 covering agent-readable code, frontend plugin stacks, Strawberry agent-cost optimization, 3D scrolling website demos, local code-reading delegation, and policy-sensitive answer comparison.
+- Prepared eight source-image files, two videos, and two poster frames for the repository's R2 namespace.
+- Updated English first, then synchronized all 10 localized README files after the English gate passed.
+
 ## 2026-07-20 - Daily Usecase Update
 
 - Collected 560 deduplicated candidates from 10 GPT-5.6 searches and reviewed 41 records that met the fixed 24-hour and engagement window.

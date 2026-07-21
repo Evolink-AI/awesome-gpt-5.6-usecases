@@ -125,6 +125,12 @@
 | 121 | Compare Coding-Agent Repair Harnesses | Benchmark | Evaluation & Limits | [@AlphaSignalAI](https://x.com/AlphaSignalAI/status/2078334825442722173) |
 | 122 | Build Three.js Water Shaders | Demo | Creative & Product Work | [@cedric_chee](https://x.com/cedric_chee/status/2078712516641955980) |
 | 123 | Build SQL Terminal Games | Demo | Coding & Builds | [@Oluwaphilemon1](https://x.com/Oluwaphilemon1/status/2078641579737141654) |
+| 124 | Write Code Agents Can Read | Tutorial | Coding & Builds | [@bentlegen](https://modem.dev/blog/how-coding-agents-read-your-code) |
+| 125 | Combine Frontend Design Plugins | Tutorial | Coding & Builds | [@DivyanshT91162](https://x.com/DivyanshT91162/status/2079214312800055303) |
+| 126 | Cut Agent Credit Use | Integration | Agents & Workflows | [@charles_maddock](https://x.com/charles_maddock/status/2079162933670809771) |
+| 127 | Build 3D Scrolling Websites | Demo | Creative & Product Work | [@viktoroddy](https://x.com/viktoroddy/status/2079179480581730625) |
+| 128 | Delegate Code Reading Locally | Integration | Agents & Workflows | [@vishalsingh2972](https://x.com/vishalsingh2972/status/2079178952871162185) |
+| 129 | Compare Distillation-Law Answers | Evaluation | Evaluation & Limits | [@LyraInTheFlesh](https://x.com/LyraInTheFlesh/status/2079010347436900805) |
 
-Source candidates reviewed: 560
-Public cases selected: 123
+Source candidates reviewed: 42
+Public cases selected: 129
