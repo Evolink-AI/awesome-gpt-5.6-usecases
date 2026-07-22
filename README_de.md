@@ -34,7 +34,7 @@ Jeder öffentliche Fall wird aus dem Startfenster und wiederkehrenden öffentlic
 
 ## 📊 Übersicht
 
-- **129 ausgewählte GPT-5.6-Fälle von öffentlichen Erstellern, Entwicklern, Produktteams und Benchmark-Gruppen.**
+- **135 ausgewählte GPT-5.6-Fälle von öffentlichen Erstellern, Entwicklern, Produktteams und Benchmark-Gruppen.**
 - Behandelt Codierungs-Builds, lang laufende Agenten, Geschäftsabläufe, kreative Produktion, Produktintegrationen, Benchmarks und praktische Grenzen.
 - Jeder Fall enthält die Originalquelle, die Urheberangabe, eine kurze Zusammenfassung, die Art des Beweismittels und das Veröffentlichungsdatum.
 - Verwenden Sie dieses Repository, um praktische Arbeitsabläufe zu identifizieren und Stärken, Kosten und Einschränkungen zu vergleichen, bevor Sie sich für eine GPT-5.6-Stufe entscheiden.
@@ -62,9 +62,9 @@ export EVOLINK_API_KEY="your_api_key_here"
 | Abschnitt | Fälle |
 |---|---|
 | [💻 Codierung und Builds](#coding-and-builds) | 29 Fälle |
-| [🤖 Agenten und Arbeitsabläufe](#agents-and-workflows) | 31 Fälle |
+| [🤖 Agenten und Arbeitsabläufe](#agents-and-workflows) | 33 Fälle |
 | [🎨 Kreativ- und Produktarbeit](#creative-and-product-work) | 26 Fälle |
-| [🧪 Bewertung und Einschränkungen](#evaluation-and-limits) | 43 Fälle |
+| [🧪 Bewertung und Einschränkungen](#evaluation-and-limits) | 47 Fälle |
 | [Bestätigen](#acknowledge) | Credits und Korrekturrichtlinien |
 
 <a id="coding-and-builds"></a>
@@ -138,6 +138,8 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Cap Codex Subagent Rekursion](#case-119) | Reduzieren Sie den GPT-5.6-Limit-Burn, indem Sie Modellebenen gezielt weiterleiten, die Subagententiefe begrenzen und explizite Stopp-Prüfpunkte hinzufügen. | Limit |
 | [Kürzung der Verwendung von Agentenguthaben](#case-126) | Reduzieren Sie die Betriebskosten der Agenten durch die Kombination von Prompt-Cache-Telemetrie, einem GPT-5.6-Terra-Basismodell und einem engeren Tool-Ergebnis-Kontext. | Integration |
 | [Codelesung lokal delegieren](#case-128) | Behalten Sie GPT-5.6 als Argumentation bei, während lokale Qwen-Agenten parallel Code lesen und Zitate mechanisch überprüfen. | Integration |
+| [Optimieren Sie die OpenCode-Token-Steuerelemente](#case-132) | Begrenzen Sie die Agentenausgabe und das Spawnen von Subagenten nur, wenn Sie die Workflow-Kompromisse verstehen, die diese Steuerelemente beseitigen. | Limit |
+| [GPT-Builds mit Fable-Rezensionen koppeln](#case-134) | Teilen Sie einen Codierungsworkflow auf, sodass GPT-5.6 Implementierungsiterationen abwickelt, während Claude Fable den Kontext für Überprüfung und Feedback beibehält. | Demo |
 
 <a id="creative-and-product-work"></a>
 ## 🎨 Kreativ- und Produktarbeit
@@ -219,6 +221,10 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [GPT-5.6 iOS-Sitzungen verwalten](#case-120) | Halten Sie GPT-5.6-App-Builds kollaborativ, indem Sie sie alle 30–60 Minuten überprüfen und umleiten, bevor es zu Architekturabweichungen kommt. | Limit |
 | [Vergleichen Sie Coding-Agent-Reparaturkabelbäume](#case-121) | Bewerten Sie Codierungsagenten in ausstehenden Reparatursuiten anhand der Erfolgsquote, der Versuche, der Kosten pro Reparatur und der Bearbeitungszeit statt allein anhand des Arena-Rangs. | Benchmark |
 | [Vergleichen Sie die Antworten zum Destillationsgesetz](#case-129) | Verwenden Sie eine feste, richtlinienrelevante Frage, um zu vergleichen, wie GPT-5.6 und Peer-Modelle Unsicherheit und Risiko darstellen. | Evaluation |
+| [Führen Sie OpenBench auf Codebasen aus](#case-130) | Verwenden Sie OpenBench, um Modell- und Kabelbaumoptionen in Ihrer eigenen Codebasis zu vergleichen, bevor Sie die Arbeit des Codierungsagenten weiterleiten. | Benchmark |
+| [Vergleichen Sie echte bezahlte Programmierjobs](#case-131) | Führen Sie modellübergreifend dieselben kostenpflichtigen Codierungsjobs aus, um Qualität, Fehlersuche und Kosten zu trennen, anstatt sich auf generische Bewertungen zu verlassen. | Evaluation |
+| [Benchmark fur Kuestenwellen-Agenten](#case-133) | Verwenden Sie Küstenwellensimulationen, um zu testen, ob ein Modell Forschungskonzepte über lange iterative visuelle Aufbauten hinweg anwenden kann. | Evaluation |
+| [Klassifizieren Sie Taxonomien mit der Vektorsuche](#case-135) | Beschriftungen mit Vektorsuche vor der Klassifizierung in die engere Wahl ziehen, wenn direkte Grenzaufrufe für große Taxonomien zu kostspielig sind. | Evaluation |
 
 ## Anwendungsfälle
 
@@ -2128,6 +2134,95 @@ Type: Evaluation | Date: 2026-07-20
 
 ---
 
+<a id="case-130"></a>
+### Case 130: [Führen Sie OpenBench auf Codebasen aus](https://x.com/mattlam_/status/2079605387121049605) (by [@mattlam_](https://x.com/mattlam_))
+
+**Verwenden Sie OpenBench, um Modell- und Kabelbaumoptionen in Ihrer eigenen Codebasis zu vergleichen, bevor Sie die Arbeit des Codierungsagenten weiterleiten.**
+
+Die Quelle stellt OpenBench v1 als offenes Framework zur Messung der KI-Leistung und -Effizienz nach Codebasis und Anwendungsfall vor. Es heißt, dass das Framework die Korrektheit, Token-Nutzung und Latenz über Kabelbaum- und Modellkombinationen hinweg verfolgt und benutzerdefinierte Kabelbaumvarianten wie Codex-Ablationen umfasst.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-130.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-130-poster.jpg" alt="Case 130 video poster" height="360"></a>
+
+[Play case 130 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-130.mp4)
+
+Type: Benchmark | Date: 2026-07-21
+
+---
+
+<a id="case-131"></a>
+### Case 131: [Vergleichen Sie echte bezahlte Programmierjobs](https://x.com/Skaly__Bull/status/2079667940073291950) (by [@Skaly__Bull](https://x.com/Skaly__Bull))
+
+**Führen Sie modellübergreifend dieselben kostenpflichtigen Codierungsjobs aus, um Qualität, Fehlersuche und Kosten zu trennen, anstatt sich auf generische Bewertungen zu verlassen.**
+
+Der Ersteller sagt, dass Kimi K3, Claude Fable 5 und GPT-5.6 Sol an fünf echten bezahlten Jobs getestet wurden: einer Live-Funktion, einem schwierigen Fehler, einer 3D-Seite, unordentlichen Daten und einer großen Codebasis. Die Quelle berichtet, dass Sol bei der Datenarbeit schnell und präzise war, aber selbstbewusst den falschen Fehler behebte, während Fable einen zusätzlichen Fehler entdeckte und Kimi die Qualität anspruchsvoller Aufgaben zu geringeren Kosten erreichte.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-131.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-131-poster.jpg" alt="Case 131 video poster" height="360"></a>
+
+[Play case 131 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-131.mp4)
+
+Type: Evaluation | Date: 2026-07-21
+
+---
+
+<a id="case-132"></a>
+### Case 132: [Optimieren Sie die OpenCode-Token-Steuerelemente](https://x.com/0x_kaize/status/2079572857919525352) (by [@0x_kaize](https://x.com/0x_kaize))
+
+**Begrenzen Sie die Agentenausgabe und das Spawnen von Subagenten nur, wenn Sie die Workflow-Kompromisse verstehen, die diese Steuerelemente beseitigen.**
+
+Die Quelle überprüft eine OpenCode-Konfiguration für GPT-5.6 Sol, die das Spawnen von Subagenten deaktiviert und die Tool-Ausgabe auf 8 KB begrenzt. Es wird darauf hingewiesen, dass diese Einstellungen das rekursive Token-Burn und die Rückgabe großer Tools reduzieren können, aber auch Orchestrator-Workflows unterbrechen oder nach abgeschnittenem Kontext Wiederholungsversuche auslösen können.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-132.jpg" alt="Case 132 source media" height="360">
+
+Type: Limit | Date: 2026-07-21
+
+---
+
+<a id="case-133"></a>
+### Case 133: [Benchmark fur Kuestenwellen-Agenten](https://x.com/Oluwaphilemon1/status/2079554022994792646) (by [@Oluwaphilemon1](https://x.com/Oluwaphilemon1))
+
+**Verwenden Sie Küstenwellensimulationen, um zu testen, ob ein Modell Forschungskonzepte über lange iterative visuelle Aufbauten hinweg anwenden kann.**
+
+Der Ersteller beschreibt einen realistischen Meereswellen- und Küstenlinien-Swash-Benchmark mit Kimi K3, GPT-5.6 Sol und Claude Fable 5. Die Quelle sagt, dass Kimi methodisch und symbolisch effizient vorgegangen sei, aber GPT-5.6 Sol habe Forschungsarbeiten bei den Wellentests des Erstellers effektiver angewendet.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-133.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-133-poster.jpg" alt="Case 133 video poster" height="360"></a>
+
+[Play case 133 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-133.mp4)
+
+Type: Evaluation | Date: 2026-07-21
+
+---
+
+<a id="case-134"></a>
+### Case 134: [GPT-Builds mit Fable-Rezensionen koppeln](https://x.com/jimmyhuli/status/2079518833510170901) (by [@jimmyhuli](https://x.com/jimmyhuli))
+
+**Teilen Sie einen Codierungsworkflow auf, sodass GPT-5.6 Implementierungsiterationen abwickelt, während Claude Fable den Kontext für Überprüfung und Feedback beibehält.**
+
+Die Quelle beschreibt einen Arbeitsablauf, bei dem der Benutzer Anforderungen bereitstellt, Claude und GPT gemeinsam die Spezifikation gestalten, GPT entwickelt und Claude Fable jede Iteration überprüft. Es werden lange GPT-Überprüfungsläufe, wiederholte Tests und Dokumentationen sowie Gegenprüfungen zwischen den beiden Modellen gemeldet.
+
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-134-1.jpg" alt="Case 134 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-134-2.png" alt="Case 134 source media 2" height="240"></td>
+  </tr>
+</table>
+
+Type: Demo | Date: 2026-07-21
+
+---
+
+<a id="case-135"></a>
+### Case 135: [Klassifizieren Sie Taxonomien mit der Vektorsuche](https://x.com/jjanezhang/status/2079365095831089508) (by [@jjanezhang](https://x.com/jjanezhang))
+
+**Beschriftungen mit Vektorsuche vor der Klassifizierung in die engere Wahl ziehen, wenn direkte Grenzaufrufe für große Taxonomien zu kostspielig sind.**
+
+Die Databricks-Quelle vergleicht die Vektorsuche, einen AI-Klassifizierungsworkflow und direkte Grenzmodellaufrufe, einschließlich GPT-5.6 Luna, für große Taxonomieprobleme wie die Normalisierung von Anbieternamen und die Verknüpfung biomedizinischer Einheiten. Es wird berichtet, dass der AI Classify-Workflow die beste Gesamtgenauigkeit aufwies und etwa 100-mal günstiger war als der nächstbeste Ansatz mit direktem Grenzmodell.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-135.png" alt="Case 135 source media" height="360">
+
+Type: Evaluation | Date: 2026-07-21
+
+---
+
 ## Verwandte Repositorys
 
 Eine spezielle GPT-5.6-API-Dokumentation ist verfügbar. Es wurde kein installierbarer GPT-5.6-Skill verifiziert; Die Skill- und Paket-Release-Arbeit bleibt Eigentum der separaten Skill-Release-Pipeline.
@@ -2143,7 +2238,7 @@ Dieses Repository wurde von den Erstellern, Entwicklern, Produktteams und Benchm
 
 Vielen Dank an die in dieser Sammlung vertretenen Quellersteller:
 
-[@abacusai](https://x.com/abacusai), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Adea0x](https://x.com/Adea0x), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@AIsaOneHQ](https://x.com/AIsaOneHQ), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@AlphaSignalAI](https://x.com/AlphaSignalAI), [@alxndrdavies](https://x.com/alxndrdavies), [@an321d](https://x.com/an321d), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@askalphaxiv](https://x.com/askalphaxiv), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Av1dlive](https://x.com/Av1dlive), [@Azure](https://x.com/Azure), [@bentlegen](https://x.com/bentlegen), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@BuildFastWithAI](https://x.com/BuildFastWithAI), [@cedric_chee](https://x.com/cedric_chee), [@charles_maddock](https://x.com/charles_maddock), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@Creatify_AI](https://x.com/Creatify_AI), [@DamiDefi](https://x.com/DamiDefi), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@davis7](https://x.com/davis7), [@Deep_Burner](https://x.com/Deep_Burner), [@Deevid_AI](https://x.com/Deevid_AI), [@deredleritt3r](https://x.com/deredleritt3r), [@devindesktop](https://x.com/devindesktop), [@dexhorthy](https://x.com/dexhorthy), [@diamai_](https://x.com/diamai_), [@DivyanshT91162](https://x.com/DivyanshT91162), [@doximity](https://x.com/doximity), [@DrDatta_AIIMS](https://x.com/DrDatta_AIIMS), [@elliotarledge](https://x.com/elliotarledge), [@emollick](https://x.com/emollick), [@eusouomatt](https://x.com/eusouomatt), [@fabriciocarraro](https://x.com/fabriciocarraro), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fragiannicola](https://x.com/fragiannicola), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@heccbrent](https://x.com/heccbrent), [@heyrobinai](https://x.com/heyrobinai), [@hqmank](https://x.com/hqmank), [@iamrexei](https://x.com/iamrexei), [@inannanigin](https://x.com/inannanigin), [@JacobMolBio](https://x.com/JacobMolBio), [@jetbrains](https://x.com/jetbrains), [@kenbwork](https://x.com/kenbwork), [@LeeLinAI123](https://x.com/LeeLinAI123), [@Lentils80](https://x.com/Lentils80), [@LuminaXspace](https://x.com/LuminaXspace), [@LyraInTheFlesh](https://x.com/LyraInTheFlesh), [@MatthewBerman](https://x.com/MatthewBerman), [@mattshumer_](https://x.com/mattshumer_), [@MedicalSphereAI](https://x.com/MedicalSphereAI), [@melvynx](https://x.com/melvynx), [@Microsoft365](https://x.com/Microsoft365), [@midudev](https://x.com/midudev), [@mightyking](https://x.com/mightyking), [@mjkabir](https://x.com/mjkabir), [@morganlinton](https://x.com/morganlinton), [@nauczymycieAI](https://x.com/nauczymycieAI), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@old_pgmrs_will](https://x.com/old_pgmrs_will), [@Oluwaphilemon1](https://x.com/Oluwaphilemon1), [@om_patel5](https://x.com/om_patel5), [@omnigent_ai](https://x.com/omnigent_ai), [@onusoz](https://x.com/onusoz), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@oscabriel](https://x.com/oscabriel), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@PixiJS](https://x.com/PixiJS), [@PovilasKorop](https://x.com/PovilasKorop), [@Psalteric](https://x.com/Psalteric), [@RicardoDeZoete](https://x.com/RicardoDeZoete), [@rrr_kgknk](https://x.com/rrr_kgknk), [@s1rozha_](https://x.com/s1rozha_), [@sairahul1](https://x.com/sairahul1), [@satyanadella](https://x.com/satyanadella), [@shannholmberg](https://x.com/shannholmberg), [@sharifshameem](https://x.com/sharifshameem), [@simplifyinAI](https://x.com/simplifyinAI), [@skirano](https://x.com/skirano), [@spaceagente](https://x.com/spaceagente), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@theSethian](https://x.com/theSethian), [@TokenGremlin](https://x.com/TokenGremlin), [@tonysimons_](https://x.com/tonysimons_), [@twetsfyp](https://x.com/twetsfyp), [@vedhsaka](https://x.com/vedhsaka), [@viktoroddy](https://x.com/viktoroddy), [@vishalsingh2972](https://x.com/vishalsingh2972), [@Voxyz_ai](https://x.com/Voxyz_ai), [@WesRoth](https://x.com/WesRoth), [@XFreeze](https://x.com/XFreeze), [@yiyangleex](https://x.com/yiyangleex), [@zeeg](https://x.com/zeeg)
+[@0x_kaize](https://x.com/0x_kaize), [@abacusai](https://x.com/abacusai), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Adea0x](https://x.com/Adea0x), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@AIsaOneHQ](https://x.com/AIsaOneHQ), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@AlphaSignalAI](https://x.com/AlphaSignalAI), [@alxndrdavies](https://x.com/alxndrdavies), [@an321d](https://x.com/an321d), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@askalphaxiv](https://x.com/askalphaxiv), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Av1dlive](https://x.com/Av1dlive), [@Azure](https://x.com/Azure), [@bentlegen](https://x.com/bentlegen), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@BuildFastWithAI](https://x.com/BuildFastWithAI), [@cedric_chee](https://x.com/cedric_chee), [@charles_maddock](https://x.com/charles_maddock), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@Creatify_AI](https://x.com/Creatify_AI), [@DamiDefi](https://x.com/DamiDefi), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@davis7](https://x.com/davis7), [@Deep_Burner](https://x.com/Deep_Burner), [@Deevid_AI](https://x.com/Deevid_AI), [@deredleritt3r](https://x.com/deredleritt3r), [@devindesktop](https://x.com/devindesktop), [@dexhorthy](https://x.com/dexhorthy), [@diamai_](https://x.com/diamai_), [@DivyanshT91162](https://x.com/DivyanshT91162), [@doximity](https://x.com/doximity), [@DrDatta_AIIMS](https://x.com/DrDatta_AIIMS), [@elliotarledge](https://x.com/elliotarledge), [@emollick](https://x.com/emollick), [@eusouomatt](https://x.com/eusouomatt), [@fabriciocarraro](https://x.com/fabriciocarraro), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fragiannicola](https://x.com/fragiannicola), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@heccbrent](https://x.com/heccbrent), [@heyrobinai](https://x.com/heyrobinai), [@hqmank](https://x.com/hqmank), [@iamrexei](https://x.com/iamrexei), [@inannanigin](https://x.com/inannanigin), [@JacobMolBio](https://x.com/JacobMolBio), [@jetbrains](https://x.com/jetbrains), [@jimmyhuli](https://x.com/jimmyhuli), [@jjanezhang](https://x.com/jjanezhang), [@kenbwork](https://x.com/kenbwork), [@LeeLinAI123](https://x.com/LeeLinAI123), [@Lentils80](https://x.com/Lentils80), [@LuminaXspace](https://x.com/LuminaXspace), [@LyraInTheFlesh](https://x.com/LyraInTheFlesh), [@MatthewBerman](https://x.com/MatthewBerman), [@mattlam_](https://x.com/mattlam_), [@mattshumer_](https://x.com/mattshumer_), [@MedicalSphereAI](https://x.com/MedicalSphereAI), [@melvynx](https://x.com/melvynx), [@Microsoft365](https://x.com/Microsoft365), [@midudev](https://x.com/midudev), [@mightyking](https://x.com/mightyking), [@mjkabir](https://x.com/mjkabir), [@morganlinton](https://x.com/morganlinton), [@nauczymycieAI](https://x.com/nauczymycieAI), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@old_pgmrs_will](https://x.com/old_pgmrs_will), [@Oluwaphilemon1](https://x.com/Oluwaphilemon1), [@om_patel5](https://x.com/om_patel5), [@omnigent_ai](https://x.com/omnigent_ai), [@onusoz](https://x.com/onusoz), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@oscabriel](https://x.com/oscabriel), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@PixiJS](https://x.com/PixiJS), [@PovilasKorop](https://x.com/PovilasKorop), [@Psalteric](https://x.com/Psalteric), [@RicardoDeZoete](https://x.com/RicardoDeZoete), [@rrr_kgknk](https://x.com/rrr_kgknk), [@s1rozha_](https://x.com/s1rozha_), [@sairahul1](https://x.com/sairahul1), [@satyanadella](https://x.com/satyanadella), [@shannholmberg](https://x.com/shannholmberg), [@sharifshameem](https://x.com/sharifshameem), [@simplifyinAI](https://x.com/simplifyinAI), [@Skaly__Bull](https://x.com/Skaly__Bull), [@skirano](https://x.com/skirano), [@spaceagente](https://x.com/spaceagente), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@theSethian](https://x.com/theSethian), [@TokenGremlin](https://x.com/TokenGremlin), [@tonysimons_](https://x.com/tonysimons_), [@twetsfyp](https://x.com/twetsfyp), [@vedhsaka](https://x.com/vedhsaka), [@viktoroddy](https://x.com/viktoroddy), [@vishalsingh2972](https://x.com/vishalsingh2972), [@Voxyz_ai](https://x.com/Voxyz_ai), [@WesRoth](https://x.com/WesRoth), [@XFreeze](https://x.com/XFreeze), [@yiyangleex](https://x.com/yiyangleex), [@zeeg](https://x.com/zeeg)
 
 *Wir können nicht garantieren, dass jeder Fall dem ursprünglichen Ersteller zugeordnet wird. Wenn etwas korrigiert werden muss, öffnen Sie bitte ein Problem und wir werden es aktualisieren.*
 

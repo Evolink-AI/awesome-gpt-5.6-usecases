@@ -131,6 +131,12 @@
 | 127 | Build 3D Scrolling Websites | Demo | Creative & Product Work | [@viktoroddy](https://x.com/viktoroddy/status/2079179480581730625) |
 | 128 | Delegate Code Reading Locally | Integration | Agents & Workflows | [@vishalsingh2972](https://x.com/vishalsingh2972/status/2079178952871162185) |
 | 129 | Compare Distillation-Law Answers | Evaluation | Evaluation & Limits | [@LyraInTheFlesh](https://x.com/LyraInTheFlesh/status/2079010347436900805) |
+| 130 | Run OpenBench on Codebases | Benchmark | Evaluation & Limits | [@mattlam_](https://x.com/mattlam_/status/2079605387121049605) |
+| 131 | Compare Real Paid Coding Jobs | Evaluation | Evaluation & Limits | [@Skaly__Bull](https://x.com/Skaly__Bull/status/2079667940073291950) |
+| 132 | Tune OpenCode Token Controls | Limit | Agents & Workflows | [@0x_kaize](https://x.com/0x_kaize/status/2079572857919525352) |
+| 133 | Benchmark Shoreline Wave Agents | Evaluation | Evaluation & Limits | [@Oluwaphilemon1](https://x.com/Oluwaphilemon1/status/2079554022994792646) |
+| 134 | Pair GPT Builds With Fable Reviews | Demo | Agents & Workflows | [@jimmyhuli](https://x.com/jimmyhuli/status/2079518833510170901) |
+| 135 | Classify Taxonomies With Vector Search | Evaluation | Evaluation & Limits | [@jjanezhang](https://x.com/jjanezhang/status/2079365095831089508) |
 
-Source candidates reviewed: 42
-Public cases selected: 129
+Source candidates reviewed: 716
+Public cases selected: 135

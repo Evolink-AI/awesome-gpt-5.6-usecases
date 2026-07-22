@@ -2,7 +2,7 @@
   "bucket": "image",
   "public_base_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev",
   "key_prefix": "github-repo-media",
-  "repository": "Evolink-AI/awesome-gpt-5.6-usecases",
+  "repository": "awesome-gpt-5.6-usecases",
   "files": {
     "images/banner-template.png": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/images/banner-template.png",
     "images/de.png": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/images/de.png",
@@ -233,6 +233,16 @@
     "media/cases/case-128-poster.jpg": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-128-poster.jpg",
     "media/cases/case-129-1.jpg": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-129-1.jpg",
     "media/cases/case-129-2.jpg": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-129-2.jpg",
-    "media/cases/case-129-3.jpg": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-129-3.jpg"
+    "media/cases/case-129-3.jpg": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-129-3.jpg",
+    "media/cases/case-130.mp4": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-130.mp4",
+    "media/cases/case-130-poster.jpg": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-130-poster.jpg",
+    "media/cases/case-131.mp4": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-131.mp4",
+    "media/cases/case-131-poster.jpg": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-131-poster.jpg",
+    "media/cases/case-132.jpg": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-132.jpg",
+    "media/cases/case-133.mp4": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-133.mp4",
+    "media/cases/case-133-poster.jpg": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-133-poster.jpg",
+    "media/cases/case-134-1.jpg": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-134-1.jpg",
+    "media/cases/case-134-2.png": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-134-2.png",
+    "media/cases/case-135.png": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-135.png"
   }
 }

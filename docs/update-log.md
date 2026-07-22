@@ -95,3 +95,11 @@
 - Added Cases 122-123 covering a GPT-5.6 Sol Three.js water-shader workflow and a GPT-5.6 Sol Ultra SQL-driven terminal game demo.
 - Prepared two videos and two poster frames for the repository's R2 namespace.
 - Updated English first, then synchronized all 10 localized README files after the English gate passed.
+
+## 2026-07-22 - Daily Usecase Update
+
+- Collected 571 deduplicated candidates from 10 GPT-5.6 searches and reviewed 58 records that met the fixed 24-hour and engagement window.
+- Selected 6 high-confidence cases, deferred 6, marked 11 unsure, and dropped 35. Did not fill the cap because the remaining candidates were secondary cyber-incident commentary, other-model-primary comparisons, bare links, generic market/model commentary, or questions without reusable evidence.
+- Added Cases 130-135 covering OpenBench codebase evaluation, real paid coding-job comparisons, OpenCode token-control tradeoffs, shoreline-wave model evaluation, GPT/Fable development-review loops, and Databricks taxonomy classification.
+- Prepared three videos, three poster frames, and four source-image files for the repository's R2 namespace.
+- Updated English first, then synchronized all 10 localized README files after the English gate passed.
