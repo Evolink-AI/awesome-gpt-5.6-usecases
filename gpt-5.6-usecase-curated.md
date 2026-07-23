@@ -137,6 +137,10 @@
 | 133 | Benchmark Shoreline Wave Agents | Evaluation | Evaluation & Limits | [@Oluwaphilemon1](https://x.com/Oluwaphilemon1/status/2079554022994792646) |
 | 134 | Pair GPT Builds With Fable Reviews | Demo | Agents & Workflows | [@jimmyhuli](https://x.com/jimmyhuli/status/2079518833510170901) |
 | 135 | Classify Taxonomies With Vector Search | Evaluation | Evaluation & Limits | [@jjanezhang](https://x.com/jjanezhang/status/2079365095831089508) |
+| 136 | Map Codex To Macro Hardware | Integration | Agents & Workflows | [@viccsmind](https://x.com/viccsmind/status/2080001548277715060) |
+| 137 | Turn Reference Sheets Into Viewers | Demo | Creative & Product Work | [@givros](https://x.com/givros/status/2079946571622326363) |
+| 138 | Approve Agent Actions By Voice | Integration | Agents & Workflows | [@ai_for_success](https://x.com/ai_for_success/status/2079946417154695430) |
+| 139 | Build Rust Robotics Actors | Demo | Coding & Builds | [@wightmanr](https://x.com/wightmanr/status/2079741937146581002) |
 
-Source candidates reviewed: 716
-Public cases selected: 135
+Source candidates reviewed: 32
+Public cases selected: 139

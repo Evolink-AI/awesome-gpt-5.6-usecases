@@ -34,7 +34,7 @@ GPT-5.6 고신호 사용 사례 저장소에 오신 것을 환영합니다.
 
 ## 📊 개요
 
-- **공개 제작자, 개발자, 제품팀, 벤치마크 그룹에서 선정된 135개의 GPT-5.6 사례.**
+- **공개 제작자, 개발자, 제품팀, 벤치마크 그룹에서 선정된 139개의 GPT-5.6 사례.**
 - 코딩 빌드, 장기 실행 에이전트, 비즈니스 워크플로, 크리에이티브 제작, 제품 통합, 벤치마크 및 실제 한계를 다룹니다.
 - 각 사례에는 원본 출처, 작성자 속성, 간결한 요약, 증거 유형 및 게시 날짜가 포함됩니다.
 - GPT-5.6 계층을 선택하기 전에 이 저장소를 사용하여 실제 워크플로를 식별하고 강점, 비용 및 제한 사항을 비교하세요.
@@ -61,9 +61,9 @@ export EVOLINK_API_KEY="your_api_key_here"
 
 | 섹션 | 사례 |
 |---|---|
-| [💻 코딩 및 빌드](#coding-and-builds) | 29 사례 |
-| [🤖 에이전트 및 작업 흐름](#agents-and-workflows) | 33 사례 |
-| [🎨 창작 및 제품 작업](#creative-and-product-work) | 26 사례 |
+| [💻 코딩 및 빌드](#coding-and-builds) | 30 사례 |
+| [🤖 에이전트 및 작업 흐름](#agents-and-workflows) | 35 사례 |
+| [🎨 창작 및 제품 작업](#creative-and-product-work) | 27 사례 |
 | [🧪 평가 및 제한](#evaluation-and-limits) | 47 사례 |
 | [확인](#acknowledge) | 크레딧 및 수정 정책 |
 
@@ -101,6 +101,7 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [SQL 터미널 게임 구축](#case-123) | GPT-5.6 Sol Ultra가 핵심 게임 로직을 SQLite에 푸시하고 Python이 런타임을 연결하도록 하여 특이한 대화형 시스템을 프로토타입합니다. | Demo |
 | [에이전트가 읽을 수 있는 쓰기 코드](#case-124) | 코딩 에이전트의 코드 구조와 이름 지정을 최적화하여 GPT-5.6 Sol이 검색에 더 적은 토큰을 소비하도록 합니다. | Tutorial |
 | [프런트엔드 디자인 플러그인 결합](#case-125) | Codex 프런트엔드 빌드에 더 강력한 시각적 개선이 필요한 경우 GPT-5.6을 디자인, 애니메이션, 제품 및 Figma 플러그인과 페어링하세요. | Tutorial |
+| [Rust Robotics Actor 구축](#case-139) | 코딩 에이전트를 사용하여 로봇 공학 행위자 시스템의 프로토타입을 제작할 때 Rust 실시간 코어와 Python 인터페이스를 결합하세요. | Demo |
 
 <a id="agents-and-workflows"></a>
 ## 🤖 에이전트 및 작업 흐름
@@ -140,6 +141,8 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [로컬에서 코드 읽기 위임](#case-128) | 현지 Qwen 에이전트가 코드를 병렬로 읽고 기계적으로 인용을 확인하는 동안 GPT-5.6을 추론 리드로 유지합니다. | Integration |
 | [OpenCode 토큰 제어 조정](#case-132) | 해당 컨트롤이 제거하는 워크플로 장단점을 이해한 경우에만 에이전트 출력 및 하위 에이전트 생성을 제한합니다. | Limit |
 | [우화 리뷰와 GPT 빌드 연결](#case-134) | GPT-5.6이 구현 반복을 처리하고 Claude Fable이 검토 및 피드백을 위해 컨텍스트를 보존하도록 코딩 작업 흐름을 분할합니다. | Demo |
+| [코덱스를 매크로 하드웨어에 매핑](#case-136) | 키보드 작업 흐름에 더 빠른 에이전트 명령이 필요한 경우 Codex 작업을 전용 하드웨어 제어에 매핑합니다. | Integration |
+| [음성으로 상담원 작업 승인](#case-138) | 어시스턴트가 작업을 계속하기 전에 위험한 에이전트 작업을 확인할 수 있도록 음성 승인 브리지를 추가하세요. | Integration |
 
 <a id="creative-and-product-work"></a>
 ## 🎨 창작 및 제품 작업
@@ -172,6 +175,7 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [개인 사이트 재설계 벤치마크](#case-114) | ID 적합성, 접근성, 성능 및 복사 품질이 모두 중요한 경우 동일한 사이트 재설계 프롬프트에서 모델을 비교하세요. | Benchmark |
 | [Three.js 워터 셰이더 구축](#case-122) | 전문 Three.js 셰이더 작업에 GPT-5.6 Sol을 사용한 다음 모델 생성 장면 자산을 하나의 브라우저 데모에 통합하세요. | Demo |
 | [3D 스크롤 웹사이트 구축](#case-127) | GPT-5.6 Sol을 사용하여 세련된 3D 스크롤 웹사이트의 프로토타입을 만든 다음 재사용하기 전에 생성된 모션과 레이아웃을 검사하세요. | Demo |
+| [참조 시트를 시청자로 전환](#case-137) | Blender MCP 및 Codex를 통해 참조 시트를 라우팅하여 3D 자산과 탐색 가능한 웹 뷰어를 모두 생성합니다. | Demo |
 
 <a id="evaluation-and-limits"></a>
 ## 🧪 평가 및 제한
@@ -2223,6 +2227,68 @@ Type: Evaluation | Date: 2026-07-21
 
 ---
 
+<a id="case-136"></a>
+### Case 136: [코덱스를 매크로 하드웨어에 매핑](https://x.com/viccsmind/status/2080001548277715060) (by [@viccsmind](https://x.com/viccsmind))
+
+**키보드 작업 흐름에 더 빠른 에이전트 명령이 필요한 경우 Codex 작업을 전용 하드웨어 제어에 매핑합니다.**
+
+제작자는 Codex plus GPT-5.6 Sol Ultra가 이전 2022 Work Louder Micro 1 보드에서 작업하면서 Codex Micro 경험을 얻었다고 말합니다. 소스에는 에이전트 키, 상태 LED, 눌러서 말하기, ChatGPT 작업, 왼쪽 롤러 탐색 및 오른쪽 손잡이 방사형 컨트롤이 나열되어 있으며 Micro 1에는 조이스틱 대신 손잡이가 두 개 있기 때문에 설정에 조정이 필요하다고 기록되어 있습니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-136.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-136-poster.jpg" alt="Case 136 video poster" height="360"></a>
+
+[Play case 136 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-136.mp4)
+
+Type: Integration | Date: 2026-07-22
+
+---
+
+<a id="case-137"></a>
+### Case 137: [참조 시트를 시청자로 전환](https://x.com/givros/status/2079946571622326363) (by [@givros](https://x.com/givros))
+
+**Blender MCP 및 Codex를 통해 참조 시트를 라우팅하여 3D 자산과 탐색 가능한 웹 뷰어를 모두 생성합니다.**
+
+제작자는 GPT Image 2.0으로 멀티뷰 사원 컨셉을 생성한 후 Blender MCP를 통해 Codex plus GPT-5.6 Ultra에 제공했습니다. 소식통에 따르면 Blender는 터미널에서 제어되었으며 Python 스크립트는 모델, 재료, 카메라, 렌더링 및 내보내기를 생성했으며 Codex는 회전, 각도 전환 및 레이어 숨기기 기능을 갖춘 Three.js 뷰어를 만들었습니다. 또한 지붕과 장식품에는 여전히 개선이 필요하다는 점을 지적합니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-137.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-137-poster.jpg" alt="Case 137 video poster" height="360"></a>
+
+[Play case 137 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-137.mp4)
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-137-1.jpg" alt="Case 137 supplementary source media" height="360">
+
+Type: Demo | Date: 2026-07-22
+
+---
+
+<a id="case-138"></a>
+### Case 138: [음성으로 상담원 작업 승인](https://x.com/ai_for_success/status/2079946417154695430) (by [@ai_for_success](https://x.com/ai_for_success))
+
+**어시스턴트가 작업을 계속하기 전에 위험한 에이전트 작업을 확인할 수 있도록 음성 승인 브리지를 추가하세요.**
+
+제작자는 IRIS 개인 음성 비서를 개선하기 위해 커서 내부에 GPT-5.6 Sol을 사용했습니다. 소식통에 따르면 확인이 필요한 Hermes 작업은 이제 IRIS에 승인 요청을 다시 보내고 IRIS는 사용자에게 음성으로 요청한 다음 Hermes가 자동으로 계속할 수 있도록 응답을 다시 보냅니다. 예는 계속하기 전에 승인이 필요한 파일 삭제 요청입니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-138.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-138-poster.jpg" alt="Case 138 video poster" height="360"></a>
+
+[Play case 138 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-138.mp4)
+
+Type: Integration | Date: 2026-07-22
+
+---
+
+<a id="case-139"></a>
+### Case 139: [Rust Robotics Actor 구축](https://x.com/wightmanr/status/2079741937146581002) (by [@wightmanr](https://x.com/wightmanr))
+
+**코딩 에이전트를 사용하여 로봇 공학 행위자 시스템의 프로토타입을 제작할 때 Rust 실시간 코어와 Python 인터페이스를 결합하세요.**
+
+제작자는 GPT-5.6 Sol Max가 Python을 사용하여 작동하는 Rust 우선 로봇 배우 프레임워크를 바이브 코딩하는 데 사용된 경로 중 하나라고 말합니다. 소스에서는 Rust를 빠른 코어 런타임 및 실시간 제어 계층으로, Python을 로봇 공학, 시뮬레이션 및 기계 학습 인터페이스로, 구성 요소를 재설계 없이 둘 사이에서 이동할 수 있게 해주는 공유 행위자/메시지 모델로 설명합니다. 데모는 Isaac 브리지 개념 증명을 보여줍니다.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-139.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-139-poster.jpg" alt="Case 139 video poster" height="360"></a>
+
+[Play case 139 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-139.mp4)
+
+Type: Demo | Date: 2026-07-22
+
+---
+
 ## 관련 저장소
 
 전용 GPT-5.6 API 문서를 사용할 수 있습니다. 설치 가능한 GPT-5.6 기술이 확인되지 않았습니다. 기술 및 패키지 릴리스 작업은 별도의 기술 릴리스 파이프라인이 계속 소유합니다.
@@ -2238,7 +2304,7 @@ Type: Evaluation | Date: 2026-07-21
 
 이 컬렉션에 대표되는 소스 제작자에게 감사드립니다:
 
-[@0x_kaize](https://x.com/0x_kaize), [@abacusai](https://x.com/abacusai), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Adea0x](https://x.com/Adea0x), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@AIsaOneHQ](https://x.com/AIsaOneHQ), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@AlphaSignalAI](https://x.com/AlphaSignalAI), [@alxndrdavies](https://x.com/alxndrdavies), [@an321d](https://x.com/an321d), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@askalphaxiv](https://x.com/askalphaxiv), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Av1dlive](https://x.com/Av1dlive), [@Azure](https://x.com/Azure), [@bentlegen](https://x.com/bentlegen), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@BuildFastWithAI](https://x.com/BuildFastWithAI), [@cedric_chee](https://x.com/cedric_chee), [@charles_maddock](https://x.com/charles_maddock), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@Creatify_AI](https://x.com/Creatify_AI), [@DamiDefi](https://x.com/DamiDefi), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@davis7](https://x.com/davis7), [@Deep_Burner](https://x.com/Deep_Burner), [@Deevid_AI](https://x.com/Deevid_AI), [@deredleritt3r](https://x.com/deredleritt3r), [@devindesktop](https://x.com/devindesktop), [@dexhorthy](https://x.com/dexhorthy), [@diamai_](https://x.com/diamai_), [@DivyanshT91162](https://x.com/DivyanshT91162), [@doximity](https://x.com/doximity), [@DrDatta_AIIMS](https://x.com/DrDatta_AIIMS), [@elliotarledge](https://x.com/elliotarledge), [@emollick](https://x.com/emollick), [@eusouomatt](https://x.com/eusouomatt), [@fabriciocarraro](https://x.com/fabriciocarraro), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fragiannicola](https://x.com/fragiannicola), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@heccbrent](https://x.com/heccbrent), [@heyrobinai](https://x.com/heyrobinai), [@hqmank](https://x.com/hqmank), [@iamrexei](https://x.com/iamrexei), [@inannanigin](https://x.com/inannanigin), [@JacobMolBio](https://x.com/JacobMolBio), [@jetbrains](https://x.com/jetbrains), [@jimmyhuli](https://x.com/jimmyhuli), [@jjanezhang](https://x.com/jjanezhang), [@kenbwork](https://x.com/kenbwork), [@LeeLinAI123](https://x.com/LeeLinAI123), [@Lentils80](https://x.com/Lentils80), [@LuminaXspace](https://x.com/LuminaXspace), [@LyraInTheFlesh](https://x.com/LyraInTheFlesh), [@MatthewBerman](https://x.com/MatthewBerman), [@mattlam_](https://x.com/mattlam_), [@mattshumer_](https://x.com/mattshumer_), [@MedicalSphereAI](https://x.com/MedicalSphereAI), [@melvynx](https://x.com/melvynx), [@Microsoft365](https://x.com/Microsoft365), [@midudev](https://x.com/midudev), [@mightyking](https://x.com/mightyking), [@mjkabir](https://x.com/mjkabir), [@morganlinton](https://x.com/morganlinton), [@nauczymycieAI](https://x.com/nauczymycieAI), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@old_pgmrs_will](https://x.com/old_pgmrs_will), [@Oluwaphilemon1](https://x.com/Oluwaphilemon1), [@om_patel5](https://x.com/om_patel5), [@omnigent_ai](https://x.com/omnigent_ai), [@onusoz](https://x.com/onusoz), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@oscabriel](https://x.com/oscabriel), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@PixiJS](https://x.com/PixiJS), [@PovilasKorop](https://x.com/PovilasKorop), [@Psalteric](https://x.com/Psalteric), [@RicardoDeZoete](https://x.com/RicardoDeZoete), [@rrr_kgknk](https://x.com/rrr_kgknk), [@s1rozha_](https://x.com/s1rozha_), [@sairahul1](https://x.com/sairahul1), [@satyanadella](https://x.com/satyanadella), [@shannholmberg](https://x.com/shannholmberg), [@sharifshameem](https://x.com/sharifshameem), [@simplifyinAI](https://x.com/simplifyinAI), [@Skaly__Bull](https://x.com/Skaly__Bull), [@skirano](https://x.com/skirano), [@spaceagente](https://x.com/spaceagente), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@theSethian](https://x.com/theSethian), [@TokenGremlin](https://x.com/TokenGremlin), [@tonysimons_](https://x.com/tonysimons_), [@twetsfyp](https://x.com/twetsfyp), [@vedhsaka](https://x.com/vedhsaka), [@viktoroddy](https://x.com/viktoroddy), [@vishalsingh2972](https://x.com/vishalsingh2972), [@Voxyz_ai](https://x.com/Voxyz_ai), [@WesRoth](https://x.com/WesRoth), [@XFreeze](https://x.com/XFreeze), [@yiyangleex](https://x.com/yiyangleex), [@zeeg](https://x.com/zeeg)
+[@0x_kaize](https://x.com/0x_kaize), [@abacusai](https://x.com/abacusai), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Adea0x](https://x.com/Adea0x), [@ai_for_success](https://x.com/ai_for_success), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@AIsaOneHQ](https://x.com/AIsaOneHQ), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@AlphaSignalAI](https://x.com/AlphaSignalAI), [@alxndrdavies](https://x.com/alxndrdavies), [@an321d](https://x.com/an321d), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@askalphaxiv](https://x.com/askalphaxiv), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Av1dlive](https://x.com/Av1dlive), [@Azure](https://x.com/Azure), [@bentlegen](https://x.com/bentlegen), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@BuildFastWithAI](https://x.com/BuildFastWithAI), [@cedric_chee](https://x.com/cedric_chee), [@charles_maddock](https://x.com/charles_maddock), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@Creatify_AI](https://x.com/Creatify_AI), [@DamiDefi](https://x.com/DamiDefi), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@davis7](https://x.com/davis7), [@Deep_Burner](https://x.com/Deep_Burner), [@Deevid_AI](https://x.com/Deevid_AI), [@deredleritt3r](https://x.com/deredleritt3r), [@devindesktop](https://x.com/devindesktop), [@dexhorthy](https://x.com/dexhorthy), [@diamai_](https://x.com/diamai_), [@DivyanshT91162](https://x.com/DivyanshT91162), [@doximity](https://x.com/doximity), [@DrDatta_AIIMS](https://x.com/DrDatta_AIIMS), [@elliotarledge](https://x.com/elliotarledge), [@emollick](https://x.com/emollick), [@eusouomatt](https://x.com/eusouomatt), [@fabriciocarraro](https://x.com/fabriciocarraro), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fragiannicola](https://x.com/fragiannicola), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@heccbrent](https://x.com/heccbrent), [@heyrobinai](https://x.com/heyrobinai), [@hqmank](https://x.com/hqmank), [@iamrexei](https://x.com/iamrexei), [@inannanigin](https://x.com/inannanigin), [@JacobMolBio](https://x.com/JacobMolBio), [@jetbrains](https://x.com/jetbrains), [@jimmyhuli](https://x.com/jimmyhuli), [@jjanezhang](https://x.com/jjanezhang), [@kenbwork](https://x.com/kenbwork), [@LeeLinAI123](https://x.com/LeeLinAI123), [@Lentils80](https://x.com/Lentils80), [@LuminaXspace](https://x.com/LuminaXspace), [@LyraInTheFlesh](https://x.com/LyraInTheFlesh), [@MatthewBerman](https://x.com/MatthewBerman), [@mattlam_](https://x.com/mattlam_), [@mattshumer_](https://x.com/mattshumer_), [@MedicalSphereAI](https://x.com/MedicalSphereAI), [@melvynx](https://x.com/melvynx), [@Microsoft365](https://x.com/Microsoft365), [@midudev](https://x.com/midudev), [@mightyking](https://x.com/mightyking), [@mjkabir](https://x.com/mjkabir), [@morganlinton](https://x.com/morganlinton), [@nauczymycieAI](https://x.com/nauczymycieAI), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@old_pgmrs_will](https://x.com/old_pgmrs_will), [@Oluwaphilemon1](https://x.com/Oluwaphilemon1), [@om_patel5](https://x.com/om_patel5), [@omnigent_ai](https://x.com/omnigent_ai), [@onusoz](https://x.com/onusoz), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@oscabriel](https://x.com/oscabriel), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@PixiJS](https://x.com/PixiJS), [@PovilasKorop](https://x.com/PovilasKorop), [@Psalteric](https://x.com/Psalteric), [@RicardoDeZoete](https://x.com/RicardoDeZoete), [@rrr_kgknk](https://x.com/rrr_kgknk), [@s1rozha_](https://x.com/s1rozha_), [@sairahul1](https://x.com/sairahul1), [@satyanadella](https://x.com/satyanadella), [@shannholmberg](https://x.com/shannholmberg), [@sharifshameem](https://x.com/sharifshameem), [@simplifyinAI](https://x.com/simplifyinAI), [@Skaly__Bull](https://x.com/Skaly__Bull), [@skirano](https://x.com/skirano), [@spaceagente](https://x.com/spaceagente), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@theSethian](https://x.com/theSethian), [@TokenGremlin](https://x.com/TokenGremlin), [@tonysimons_](https://x.com/tonysimons_), [@twetsfyp](https://x.com/twetsfyp), [@vedhsaka](https://x.com/vedhsaka), [@viccsmind](https://x.com/viccsmind), [@viktoroddy](https://x.com/viktoroddy), [@vishalsingh2972](https://x.com/vishalsingh2972), [@Voxyz_ai](https://x.com/Voxyz_ai), [@WesRoth](https://x.com/WesRoth), [@wightmanr](https://x.com/wightmanr), [@XFreeze](https://x.com/XFreeze), [@yiyangleex](https://x.com/yiyangleex), [@zeeg](https://x.com/zeeg)
 
 *저희는 모든 사례가 원본 작성자에게 귀속된다고 보장할 수 없습니다. 수정해야 할 사항이 있는 경우 문제를 공개해 주시면 업데이트해 드리겠습니다.*
 

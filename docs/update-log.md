@@ -103,3 +103,11 @@
 - Added Cases 130-135 covering OpenBench codebase evaluation, real paid coding-job comparisons, OpenCode token-control tradeoffs, shoreline-wave model evaluation, GPT/Fable development-review loops, and Databricks taxonomy classification.
 - Prepared three videos, three poster frames, and four source-image files for the repository's R2 namespace.
 - Updated English first, then synchronized all 10 localized README files after the English gate passed.
+
+## 2026-07-23 - Daily Usecase Update
+
+- Collected 565 deduplicated candidates from 10 GPT-5.6 searches and reviewed 32 records that met the fixed 24-hour and engagement window.
+- Selected 4 high-confidence cases, deferred 5, marked 8 unsure, and dropped 15. Did not fill the cap because the remaining candidates were bare links, duplicate cyber commentary, other-model-primary comparisons, regulatory/market noise, or lacked media/source boundary evidence.
+- Added Cases 136-139 covering Codex Micro hardware controls, reference-sheet-to-3D web viewers, voice approval bridges for agent actions, and Rust/Python robotics actor frameworks.
+- Prepared four videos, four poster frames, and one supplementary source image for the repository's R2 namespace.
+- Updated English first, then synchronized all 10 localized README files after the English gate passed.

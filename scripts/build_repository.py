@@ -342,6 +342,21 @@ def render_case_media(case: dict) -> list[str]:
             f'<a href="{case["playable_video_url"]}"><img src="{case["poster_url"]}" alt="Case {number} video poster" height="360"></a>', "",
             f'[Play case {number} demo video]({case["playable_video_url"]})', "",
         ])
+        supplementary_urls = case.get("r2_media_urls", [])
+        if supplementary_urls:
+            if len(supplementary_urls) == 1:
+                lines.extend([f'<img src="{supplementary_urls[0]}" alt="Case {number} supplementary source media" height="360">', ""])
+            else:
+                lines.extend(["<table>", "  <tr>"])
+                for index, url in enumerate(supplementary_urls, start=1):
+                    if index > 1 and index % 2 == 1:
+                        lines.extend(["  </tr>", "  <tr>"])
+                    lines.append(
+                        f'    <td align="center"><img src="{url}" alt="Case {number} supplementary source media {index}" height="240"></td>'
+                    )
+                if len(supplementary_urls) % 2 == 1:
+                    lines.append("    <td></td>")
+                lines.extend(["  </tr>", "</table>", ""])
     else:
         urls = case.get("r2_media_urls", [])
         if len(urls) == 1:

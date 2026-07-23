@@ -1,17 +1,17 @@
 {
   "repository": "Evolink-AI/awesome-gpt-5.6-usecases",
   "model": "GPT-5.6",
-  "source_artifact": "/Users/evolink/Desktop/github-repo/awesome-gpt-5.6-usecases/.codex/usecase-update-loop/runs/20260722T003327Z/review_queue.json",
+  "source_artifact": "/Users/evolink/Desktop/github-repo/awesome-gpt-5.6-usecases/.codex/usecase-update-loop/runs/20260723T003245Z/review_queue.json",
   "source_generated_at": "2026-07-20T00:42:24.307120+00:00",
-  "collector_timestamp": "2026-07-22T00:36:16.874730+00:00",
-  "total_candidates_reviewed": 716,
+  "collector_timestamp": "2026-07-23T00:35:21.857542+00:00",
+  "total_candidates_reviewed": 748,
   "public_subset_policy": "Only high-confidence source-backed workflows, integrations, benchmarks, and limits are public.",
-  "total_public_cases": 135,
+  "total_public_cases": 139,
   "decision_counts": {
-    "high_confidence_update": 135,
-    "deferred": 76,
-    "unsure": 170,
-    "drop": 335
+    "high_confidence_update": 139,
+    "deferred": 81,
+    "unsure": 178,
+    "drop": 350
   },
   "selected_source_urls": [
     "https://x.com/skirano/status/2075283308276220011",
@@ -148,7 +148,11 @@
     "https://x.com/0x_kaize/status/2079572857919525352",
     "https://x.com/Oluwaphilemon1/status/2079554022994792646",
     "https://x.com/jimmyhuli/status/2079518833510170901",
-    "https://x.com/jjanezhang/status/2079365095831089508"
+    "https://x.com/jjanezhang/status/2079365095831089508",
+    "https://x.com/viccsmind/status/2080001548277715060",
+    "https://x.com/givros/status/2079946571622326363",
+    "https://x.com/ai_for_success/status/2079946417154695430",
+    "https://x.com/wightmanr/status/2079741937146581002"
   ],
   "items": [
     {
@@ -4820,6 +4824,180 @@
       "r2_media_urls": [
         "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-135.png"
       ]
+    },
+    {
+      "public_number": 136,
+      "title": "Map Codex To Macro Hardware",
+      "takeaway": "Map Codex actions onto dedicated hardware controls when a keyboard workflow needs faster agent commands.",
+      "body_notes": "The creator says Codex plus GPT-5.6 Sol Ultra got the Codex Micro experience working on an older 2022 Work Louder Micro 1 board. The source lists agent keys, status LEDs, push-to-talk, ChatGPT actions, left-roller navigation, and right-knob radial controls, and notes the setup needed tweaks because Micro 1 has two knobs instead of a joystick.",
+      "type": "Integration",
+      "category": "Agents & Workflows",
+      "category_key": "agents",
+      "decision_reason": "Concrete hardware-control integration with named device constraints, mapped agent controls, and a live demo video.",
+      "media_type": "video",
+      "source_url": "https://x.com/viccsmind/status/2080001548277715060",
+      "author_handle": "@viccsmind",
+      "author_url": "https://x.com/viccsmind",
+      "date": "2026-07-22",
+      "decision": "high_confidence_update",
+      "dedup_key": "https://x.com/viccsmind/status/2080001548277715060",
+      "prompt_boundary": "No exact reusable prompt text is public in the source; summarize the workflow and omit prompt reconstruction.",
+      "source_engagement": {
+        "like_count": 58,
+        "view_count": 5526,
+        "bookmark_count": 32,
+        "retweet_count": 2,
+        "reply_count": 9
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/viccsmind/status/2080001548277715060",
+      "media_author_handle": "@viccsmind",
+      "media_author_url": "https://x.com/viccsmind",
+      "poster_path": "media/cases/case-136-poster.jpg",
+      "playable_video_path": "media/cases/case-136.mp4",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-136-poster.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-136.mp4",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2080000284085088257/vid/avc1/3840x2160/LiNRYUb7c7wVd357.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "public_media_disposition": "r2-video",
+      "expected_public_visual_count": 1,
+      "r2_media_urls": []
+    },
+    {
+      "public_number": 137,
+      "title": "Turn Reference Sheets Into Viewers",
+      "takeaway": "Route a reference sheet through Blender MCP and Codex to produce both a 3D asset and a navigable web viewer.",
+      "body_notes": "The creator generated a multi-view temple concept with GPT Image 2.0, then gave it to Codex plus GPT-5.6 Ultra through Blender MCP. The source says Blender was controlled from the terminal, Python scripts generated the model, materials, cameras, renders, and exports, and Codex created a Three.js viewer with rotation, angle switching, and layer hiding; it also notes the roofs and ornaments still need refinement.",
+      "type": "Demo",
+      "category": "Creative & Product Work",
+      "category_key": "creative",
+      "decision_reason": "End-to-end image-to-3D-to-web workflow with named tools, generated artifacts, interactive viewer behavior, and stated limitations.",
+      "media_type": "video",
+      "source_url": "https://x.com/givros/status/2079946571622326363",
+      "author_handle": "@givros",
+      "author_url": "https://x.com/givros",
+      "date": "2026-07-22",
+      "decision": "high_confidence_update",
+      "dedup_key": "https://x.com/givros/status/2079946571622326363",
+      "prompt_boundary": "No exact reusable prompt text is public in the source; summarize the workflow and omit prompt reconstruction.",
+      "source_engagement": {
+        "like_count": 40,
+        "view_count": 2270,
+        "bookmark_count": 40,
+        "retweet_count": 3,
+        "reply_count": 1
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/givros/status/2079946571622326363",
+      "media_author_handle": "@givros",
+      "media_author_url": "https://x.com/givros",
+      "poster_path": "media/cases/case-137-poster.jpg",
+      "playable_video_path": "media/cases/case-137.mp4",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-137-poster.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-137.mp4",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079945700205350912/vid/avc1/1920x1000/Swf-8KTtH6S6_1WW.mp4?tag=29",
+        "https://pbs.twimg.com/media/HN1zrLlXAAEzbVX.jpg"
+      ],
+      "source_media_count": 2,
+      "public_media_disposition": "r2-video",
+      "expected_public_visual_count": 2,
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-137-1.jpg"
+      ],
+      "media_paths": [
+        "media/cases/case-137-1.jpg"
+      ]
+    },
+    {
+      "public_number": 138,
+      "title": "Approve Agent Actions By Voice",
+      "takeaway": "Add a voice approval bridge so an assistant can confirm risky agent actions before continuing a task.",
+      "body_notes": "The creator used GPT-5.6 Sol inside Cursor to improve the IRIS personal voice assistant. The source says Hermes tasks that need confirmation now send approval requests back to IRIS, IRIS asks the user by voice, then sends the response back so Hermes can continue automatically; the example is a delete-file request requiring approval before proceeding.",
+      "type": "Integration",
+      "category": "Agents & Workflows",
+      "category_key": "agents",
+      "decision_reason": "Concrete approval workflow with named tools, risk boundary, voice interaction loop, and demo video evidence.",
+      "media_type": "video",
+      "source_url": "https://x.com/ai_for_success/status/2079946417154695430",
+      "author_handle": "@ai_for_success",
+      "author_url": "https://x.com/ai_for_success",
+      "date": "2026-07-22",
+      "decision": "high_confidence_update",
+      "dedup_key": "https://x.com/ai_for_success/status/2079946417154695430",
+      "prompt_boundary": "No exact reusable prompt text is public in the source; summarize the workflow and omit prompt reconstruction.",
+      "source_engagement": {
+        "like_count": 70,
+        "view_count": 5763,
+        "bookmark_count": 19,
+        "retweet_count": 2,
+        "reply_count": 8
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/ai_for_success/status/2079946417154695430",
+      "media_author_handle": "@ai_for_success",
+      "media_author_url": "https://x.com/ai_for_success",
+      "poster_path": "media/cases/case-138-poster.jpg",
+      "playable_video_path": "media/cases/case-138.mp4",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-138-poster.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-138.mp4",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079945887984623617/vid/avc1/3840x2104/O_Ch1FzYHWnUrfMw.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "public_media_disposition": "r2-video",
+      "expected_public_visual_count": 1,
+      "r2_media_urls": []
+    },
+    {
+      "public_number": 139,
+      "title": "Build Rust Robotics Actors",
+      "takeaway": "Combine a Rust real-time core with Python interfaces when prototyping robotics actor systems with coding agents.",
+      "body_notes": "The creator says GPT-5.6 Sol Max was one path used to vibe-code a working Rust-first robotics actor framework with Python. The source describes Rust as the fast core runtime and real-time control layer, Python as the robotics, simulation, and machine-learning interface, and a shared actor/message model that lets components move between the two without redesign; the demo shows an Isaac bridge proof of concept.",
+      "type": "Demo",
+      "category": "Coding & Builds",
+      "category_key": "coding",
+      "decision_reason": "Concrete robotics software architecture with Rust/Python roles, shared actor model, Isaac bridge proof of concept, and video evidence.",
+      "media_type": "video",
+      "source_url": "https://x.com/wightmanr/status/2079741937146581002",
+      "author_handle": "@wightmanr",
+      "author_url": "https://x.com/wightmanr",
+      "date": "2026-07-22",
+      "decision": "high_confidence_update",
+      "dedup_key": "https://x.com/wightmanr/status/2079741937146581002",
+      "prompt_boundary": "No exact reusable prompt text is public in the source; summarize the workflow and omit prompt reconstruction.",
+      "source_engagement": {
+        "like_count": 57,
+        "view_count": 3069,
+        "bookmark_count": 21,
+        "retweet_count": 7,
+        "reply_count": 5
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/wightmanr/status/2079741937146581002",
+      "media_author_handle": "@wightmanr",
+      "media_author_url": "https://x.com/wightmanr",
+      "poster_path": "media/cases/case-139-poster.jpg",
+      "playable_video_path": "media/cases/case-139.mp4",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-139-poster.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-139.mp4",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079739378793103360/vid/avc1/1280x720/7DwOK6ji9unSyMEU.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "public_media_disposition": "r2-video",
+      "expected_public_visual_count": 1,
+      "r2_media_urls": []
     }
   ]
 }

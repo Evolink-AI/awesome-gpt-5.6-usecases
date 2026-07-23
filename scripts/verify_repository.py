@@ -148,6 +148,7 @@ def verify() -> list[str]:
         for item in expected:
             if item["media_type"] == "video":
                 expected_media.update((item["poster_path"], item["playable_video_path"]))
+                expected_media.update(item.get("media_paths", []))
             else:
                 expected_media.update(item["media_paths"])
         if set(remote_media) != expected_media:
