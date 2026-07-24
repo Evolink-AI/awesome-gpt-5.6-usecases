@@ -141,6 +141,14 @@
 | 137 | Turn Reference Sheets Into Viewers | Demo | Creative & Product Work | [@givros](https://x.com/givros/status/2079946571622326363) |
 | 138 | Approve Agent Actions By Voice | Integration | Agents & Workflows | [@ai_for_success](https://x.com/ai_for_success/status/2079946417154695430) |
 | 139 | Build Rust Robotics Actors | Demo | Coding & Builds | [@wightmanr](https://x.com/wightmanr/status/2079741937146581002) |
+| 140 | Open EnigmaEval Reasoning Benchmark | Benchmark | Evaluation & Limits | [@CAIS](https://x.com/CAIS/status/2080344746699170214) |
+| 141 | Onboard Slack Agents With Hermes | Integration | Agents & Workflows | [@IBuzovskyi](https://x.com/IBuzovskyi/status/2080333342646423774) |
+| 142 | Measure AutoCAD Computer Use | Benchmark | Evaluation & Limits | [@DevvMandal](https://x.com/DevvMandal/status/2080325376463736986) |
+| 143 | Stress Test 3D Website Quality | Limit | Creative & Product Work | [@LexnLin](https://x.com/LexnLin/status/2080321818825523540) |
+| 144 | Compare VulcanBench Engineering Tasks | Benchmark | Evaluation & Limits | [@XFreeze](https://x.com/XFreeze/status/2080300216842965040) |
+| 145 | Compare Mobile UI Recreation Limits | Limit | Coding & Builds | [@thebuggeddev](https://x.com/thebuggeddev/status/2080295524142587933) |
+| 146 | Compare React Native App Builds | Evaluation | Coding & Builds | [@betomoedano](https://x.com/betomoedano/status/2080277338198012232) |
+| 147 | Route Models In Custom Agents | Integration | Agents & Workflows | [@abacusai](https://x.com/abacusai/status/2080158817980137839) |
 
-Source candidates reviewed: 32
-Public cases selected: 139
+Source candidates reviewed: 790
+Public cases selected: 147

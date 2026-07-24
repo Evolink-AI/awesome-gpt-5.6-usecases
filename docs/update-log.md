@@ -111,3 +111,11 @@
 - Added Cases 136-139 covering Codex Micro hardware controls, reference-sheet-to-3D web viewers, voice approval bridges for agent actions, and Rust/Python robotics actor frameworks.
 - Prepared four videos, four poster frames, and one supplementary source image for the repository's R2 namespace.
 - Updated English first, then synchronized all 10 localized README files after the English gate passed.
+
+## 2026-07-24 - Daily Usecase Update
+
+- Collected 551 deduplicated candidates from 10 GPT-5.6 searches and reviewed 42 records that met the fixed 24-hour and engagement window.
+- Selected 8 high-confidence cases, deferred 3, marked 9 unsure, and dropped 22. Did not fill the cap because the remaining candidates were bare links, no-media workflow threads, secondary cyber commentary, rumors, or other-model-primary comparisons.
+- Added Cases 140-147 covering EnigmaEval reasoning, Hermes Slack onboarding, AutoCAD computer-use evaluation, 3D website quality limits, VulcanBench engineering tasks, mobile UI recreation limits, React Native app comparisons, and custom coding-agent routing.
+- Prepared five videos, five poster frames, and five source-image files for the repository's R2 namespace.
+- Updated English first, then synchronized all 10 localized README files after the English gate passed.

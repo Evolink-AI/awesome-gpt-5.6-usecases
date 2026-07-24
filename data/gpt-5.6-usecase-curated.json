@@ -1,17 +1,17 @@
 {
   "repository": "Evolink-AI/awesome-gpt-5.6-usecases",
   "model": "GPT-5.6",
-  "source_artifact": "/Users/evolink/Desktop/github-repo/awesome-gpt-5.6-usecases/.codex/usecase-update-loop/runs/20260723T003245Z/review_queue.json",
-  "source_generated_at": "2026-07-20T00:42:24.307120+00:00",
-  "collector_timestamp": "2026-07-23T00:35:21.857542+00:00",
-  "total_candidates_reviewed": 748,
+  "source_artifact": "/Users/evolink/Desktop/github-repo/awesome-gpt-5.6-usecases/.codex/usecase-update-loop/runs/20260724T034354Z/review_queue.json",
+  "source_generated_at": "2026-07-24T04:00:45.960736+00:00",
+  "collector_timestamp": "2026-07-24T03:46:57.357313+00:00",
+  "total_candidates_reviewed": 790,
   "public_subset_policy": "Only high-confidence source-backed workflows, integrations, benchmarks, and limits are public.",
-  "total_public_cases": 139,
+  "total_public_cases": 147,
   "decision_counts": {
-    "high_confidence_update": 139,
-    "deferred": 81,
-    "unsure": 178,
-    "drop": 350
+    "high_confidence_update": 147,
+    "deferred": 84,
+    "unsure": 187,
+    "drop": 372
   },
   "selected_source_urls": [
     "https://x.com/skirano/status/2075283308276220011",
@@ -152,7 +152,15 @@
     "https://x.com/viccsmind/status/2080001548277715060",
     "https://x.com/givros/status/2079946571622326363",
     "https://x.com/ai_for_success/status/2079946417154695430",
-    "https://x.com/wightmanr/status/2079741937146581002"
+    "https://x.com/wightmanr/status/2079741937146581002",
+    "https://x.com/CAIS/status/2080344746699170214",
+    "https://x.com/IBuzovskyi/status/2080333342646423774",
+    "https://x.com/DevvMandal/status/2080325376463736986",
+    "https://x.com/LexnLin/status/2080321818825523540",
+    "https://x.com/XFreeze/status/2080300216842965040",
+    "https://x.com/thebuggeddev/status/2080295524142587933",
+    "https://x.com/betomoedano/status/2080277338198012232",
+    "https://x.com/abacusai/status/2080158817980137839"
   ],
   "items": [
     {
@@ -4997,6 +5005,362 @@
       "source_media_count": 1,
       "public_media_disposition": "r2-video",
       "expected_public_visual_count": 1,
+      "r2_media_urls": []
+    },
+    {
+      "public_number": 140,
+      "title": "Open EnigmaEval Reasoning Benchmark",
+      "takeaway": "Use EnigmaEval when comparing GPT-5.6 Sol on long puzzle-hunt reasoning tasks rather than short benchmark questions.",
+      "body_notes": "CAIS made EnigmaEval public as a collection of long, complex reasoning challenges that can take groups of people many hours or days to solve. The source says Claude Fable 5 and GPT-5.6 Sol are ahead of other frontier models, and that the hard set contains puzzles that take MIT students days to solve.",
+      "type": "Benchmark",
+      "category": "Evaluation & Limits",
+      "category_key": "evaluation",
+      "decision_reason": "Official benchmark-release post with named dataset scope, model comparison, hard-set context, and three source images.",
+      "media_type": "image",
+      "source_url": "https://x.com/CAIS/status/2080344746699170214",
+      "author_handle": "@CAIS",
+      "author_url": "https://x.com/CAIS",
+      "date": "2026-07-23",
+      "decision": "high_confidence_update",
+      "dedup_key": "https://x.com/CAIS/status/2080344746699170214",
+      "prompt_boundary": "No exact reusable prompt text is public in the source; summarize only the visible workflow and omit prompt reconstruction.",
+      "source_engagement": {
+        "like_count": 59,
+        "view_count": 4747,
+        "bookmark_count": 19,
+        "retweet_count": 6,
+        "reply_count": 4
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/CAIS/status/2080344746699170214",
+      "media_author_handle": "@CAIS",
+      "media_author_url": "https://x.com/CAIS",
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HN7bo3ZacAA-MAJ.jpg",
+        "https://pbs.twimg.com/media/HN7b3gwaUAAUyZd.jpg",
+        "https://pbs.twimg.com/media/HN7bwu0aEAEQtbJ.png"
+      ],
+      "source_media_count": 3,
+      "expected_public_visual_count": 3,
+      "public_media_disposition": "r2-image",
+      "r2_media_paths": [
+        "media/cases/case-140-1.jpg",
+        "media/cases/case-140-2.jpg",
+        "media/cases/case-140-3.png"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-140-1.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-140-2.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-140-3.png"
+      ],
+      "media_paths": [
+        "media/cases/case-140-1.jpg",
+        "media/cases/case-140-2.jpg",
+        "media/cases/case-140-3.png"
+      ]
+    },
+    {
+      "public_number": 141,
+      "title": "Onboard Slack Agents With Hermes",
+      "takeaway": "Use a screen-operating GPT-5.6 Terra agent to provision new Slack agents when onboarding needs repeatable admin work.",
+      "body_notes": "IBuzovskyi describes Hermes agent Dewey onboarding new AI agents into customer Slack workspaces with GPT-5.6 Terra and computer use through trycua. The source names a two-environment setup, says Dewey opens apps.slack.com, creates bot tokens, configures scopes and permissions, sets up the agent profile, and connects the new agent to the workspace without a human touching Slack settings.",
+      "type": "Integration",
+      "category": "Agents & Workflows",
+      "category_key": "agents",
+      "decision_reason": "Concrete production onboarding workflow with named tools, model tier, admin actions, and a source video.",
+      "media_type": "video",
+      "source_url": "https://x.com/IBuzovskyi/status/2080333342646423774",
+      "author_handle": "@IBuzovskyi",
+      "author_url": "https://x.com/IBuzovskyi",
+      "date": "2026-07-23",
+      "decision": "high_confidence_update",
+      "dedup_key": "https://x.com/IBuzovskyi/status/2080333342646423774",
+      "prompt_boundary": "No exact reusable prompt text is public in the source; summarize only the visible workflow and omit prompt reconstruction.",
+      "source_engagement": {
+        "like_count": 86,
+        "view_count": 12084,
+        "bookmark_count": 144,
+        "retweet_count": 6,
+        "reply_count": 9
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/IBuzovskyi/status/2080333342646423774",
+      "media_author_handle": "@IBuzovskyi",
+      "media_author_url": "https://x.com/IBuzovskyi",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2080333205178142720/vid/avc1/720x1280/x5mq1YIeyCPK9sD5.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "public_media_disposition": "r2-video",
+      "poster_path": "media/cases/case-141-poster.jpg",
+      "playable_video_path": "media/cases/case-141.mp4",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-141-poster.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-141.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "public_number": 142,
+      "title": "Measure AutoCAD Computer Use",
+      "takeaway": "Benchmark GPT-5.6 Sol on precise AutoCAD tasks when computer-use accuracy matters more than generic coding scores.",
+      "body_notes": "DevvMandal announces AutoCAD-Bench for measuring whether AI models can complete precise AutoCAD tasks using computer-use alone. The source reports GPT-5.6 Sol at 46%, solving many basic and intermediate tasks one-shot, and includes a source image for the report.",
+      "type": "Benchmark",
+      "category": "Evaluation & Limits",
+      "category_key": "evaluation",
+      "decision_reason": "Benchmark-release post with task domain, computer-use method, GPT-5.6 Sol result, and source media.",
+      "media_type": "image",
+      "source_url": "https://x.com/DevvMandal/status/2080325376463736986",
+      "author_handle": "@DevvMandal",
+      "author_url": "https://x.com/DevvMandal",
+      "date": "2026-07-23",
+      "decision": "high_confidence_update",
+      "dedup_key": "https://x.com/DevvMandal/status/2080325376463736986",
+      "prompt_boundary": "No exact reusable prompt text is public in the source; summarize only the visible workflow and omit prompt reconstruction.",
+      "source_engagement": {
+        "like_count": 607,
+        "view_count": 45924,
+        "bookmark_count": 215,
+        "retweet_count": 57,
+        "reply_count": 32
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/DevvMandal/status/2080325376463736986",
+      "media_author_handle": "@DevvMandal",
+      "media_author_url": "https://x.com/DevvMandal",
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HN7M2mgasAAu3SB.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "public_media_disposition": "r2-image",
+      "r2_media_paths": [
+        "media/cases/case-142-1.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-142-1.jpg"
+      ],
+      "media_paths": [
+        "media/cases/case-142-1.jpg"
+      ]
+    },
+    {
+      "public_number": 143,
+      "title": "Stress Test 3D Website Quality",
+      "takeaway": "Treat speed and output quality separately when GPT-5.6 Sol builds a personal 3D website benchmark quickly.",
+      "body_notes": "LexnLin ran GPT-5.6 Sol on high effort against a personal 3D website benchmark. The source says it finished in less than an hour compared with four hours from Kimi K3, but the result looked worse and too simple, making it a useful limitation case rather than a pure win.",
+      "type": "Limit",
+      "category": "Creative & Product Work",
+      "category_key": "creative",
+      "decision_reason": "Concrete same-task benchmark with duration comparison, qualitative limitation, and a source video.",
+      "media_type": "video",
+      "source_url": "https://x.com/LexnLin/status/2080321818825523540",
+      "author_handle": "@LexnLin",
+      "author_url": "https://x.com/LexnLin",
+      "date": "2026-07-23",
+      "decision": "high_confidence_update",
+      "dedup_key": "https://x.com/LexnLin/status/2080321818825523540",
+      "prompt_boundary": "No exact reusable prompt text is public in the source; summarize only the visible workflow and omit prompt reconstruction.",
+      "source_engagement": {
+        "like_count": 31,
+        "view_count": 3240,
+        "bookmark_count": 5,
+        "retweet_count": 0,
+        "reply_count": 3
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/LexnLin/status/2080321818825523540",
+      "media_author_handle": "@LexnLin",
+      "media_author_url": "https://x.com/LexnLin",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2080318722254729216/vid/avc1/1638x1028/R_BuWyRnfhdsVpZ_.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "public_media_disposition": "r2-video",
+      "poster_path": "media/cases/case-143-poster.jpg",
+      "playable_video_path": "media/cases/case-143.mp4",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-143-poster.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-143.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "public_number": 144,
+      "title": "Compare VulcanBench Engineering Tasks",
+      "takeaway": "Use repository-level hidden-test benchmarks to check whether GPT-5.6 Sol remains competitive on real engineering changes.",
+      "body_notes": "XFreeze reports VulcanBench v3 results for complex, real-world repository-level software-engineering tasks across Python, Rust, TypeScript, JavaScript, and Go. The source says Grok 4.5 reached 91.3%, while GPT-5.6 Sol and Claude Fable 5 each reached 87.0%, with tasks evaluated by deterministic hidden tests in isolated environments.",
+      "type": "Benchmark",
+      "category": "Evaluation & Limits",
+      "category_key": "evaluation",
+      "decision_reason": "Specific benchmark, task construction, language coverage, hidden-test method, comparative score, and source image.",
+      "media_type": "image",
+      "source_url": "https://x.com/XFreeze/status/2080300216842965040",
+      "author_handle": "@XFreeze",
+      "author_url": "https://x.com/XFreeze",
+      "date": "2026-07-23",
+      "decision": "high_confidence_update",
+      "dedup_key": "https://x.com/XFreeze/status/2080300216842965040",
+      "prompt_boundary": "No exact reusable prompt text is public in the source; summarize only the visible workflow and omit prompt reconstruction.",
+      "source_engagement": {
+        "like_count": 220,
+        "view_count": 10677,
+        "bookmark_count": 12,
+        "retweet_count": 26,
+        "reply_count": 22
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/XFreeze/status/2080300216842965040",
+      "media_author_handle": "@XFreeze",
+      "media_author_url": "https://x.com/XFreeze",
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HN62AuOXkAAc2kK.jpg"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "public_media_disposition": "r2-image",
+      "r2_media_paths": [
+        "media/cases/case-144-1.jpg"
+      ],
+      "r2_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-144-1.jpg"
+      ],
+      "media_paths": [
+        "media/cases/case-144-1.jpg"
+      ]
+    },
+    {
+      "public_number": 145,
+      "title": "Compare Mobile UI Recreation Limits",
+      "takeaway": "Run the same Expo React Native UI prompt across models before trusting GPT-5.6 Sol on brand-sensitive design recreation.",
+      "body_notes": "thebuggeddev compares GPT-5.6 Sol and Kimi K3 on the same three-screen Expo React Native mobile UI recreation. The source says GPT-5.6 Sol consumed a large share of the session, changed the brand name, and produced a weaker design-system match, while linking both code outputs and the earlier GPT-5.6 Sol post.",
+      "type": "Limit",
+      "category": "Coding & Builds",
+      "category_key": "coding",
+      "decision_reason": "Same-prompt app UI comparison with named framework, failure details, linked code artifacts, and source video.",
+      "media_type": "video",
+      "source_url": "https://x.com/thebuggeddev/status/2080295524142587933",
+      "author_handle": "@thebuggeddev",
+      "author_url": "https://x.com/thebuggeddev",
+      "date": "2026-07-23",
+      "decision": "high_confidence_update",
+      "dedup_key": "https://x.com/thebuggeddev/status/2080295524142587933",
+      "prompt_boundary": "No exact reusable prompt text is public in the source; summarize only the visible workflow and omit prompt reconstruction.",
+      "source_engagement": {
+        "like_count": 16,
+        "view_count": 1201,
+        "bookmark_count": 6,
+        "retweet_count": 1,
+        "reply_count": 5
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/thebuggeddev/status/2080295524142587933",
+      "media_author_handle": "@thebuggeddev",
+      "media_author_url": "https://x.com/thebuggeddev",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2080292716752392193/vid/avc1/1722x1080/B-vBV1sxNklM-BG-.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "public_media_disposition": "r2-video",
+      "poster_path": "media/cases/case-145-poster.jpg",
+      "playable_video_path": "media/cases/case-145.mp4",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-145-poster.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-145.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "public_number": 146,
+      "title": "Compare React Native App Builds",
+      "takeaway": "Compare finished mobile apps on real devices when evaluating GPT-5.6 Sol against another frontier coding model.",
+      "body_notes": "betomoedano tested GPT-5.6 Sol against Claude Fable 5 on a real Expo React Native app. The source lists onboarding, dark mode, notifications, sortable habits, haptics, and a native iOS widget, then frames the evidence as two finished apps running side by side on real devices rather than benchmark charts.",
+      "type": "Evaluation",
+      "category": "Coding & Builds",
+      "category_key": "coding",
+      "decision_reason": "Concrete app-build comparison with named stack, features, real-device evidence, and source video.",
+      "media_type": "video",
+      "source_url": "https://x.com/betomoedano/status/2080277338198012232",
+      "author_handle": "@betomoedano",
+      "author_url": "https://x.com/betomoedano",
+      "date": "2026-07-23",
+      "decision": "high_confidence_update",
+      "dedup_key": "https://x.com/betomoedano/status/2080277338198012232",
+      "prompt_boundary": "No exact reusable prompt text is public in the source; summarize only the visible workflow and omit prompt reconstruction.",
+      "source_engagement": {
+        "like_count": 46,
+        "view_count": 2506,
+        "bookmark_count": 13,
+        "retweet_count": 0,
+        "reply_count": 2
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/betomoedano/status/2080277338198012232",
+      "media_author_handle": "@betomoedano",
+      "media_author_url": "https://x.com/betomoedano",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2080275736229810176/vid/avc1/1280x720/b63lDWC-YZR16Aem.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "public_media_disposition": "r2-video",
+      "poster_path": "media/cases/case-146-poster.jpg",
+      "playable_video_path": "media/cases/case-146.mp4",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-146-poster.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-146.mp4",
+      "r2_media_urls": []
+    },
+    {
+      "public_number": 147,
+      "title": "Route Models In Custom Agents",
+      "takeaway": "Create a custom coding agent that routes GPT-5.6 Sol to backend tasks while other models handle their strengths.",
+      "body_notes": "abacusai announces a custom coding-agent feature that can mix Fable 5, GPT-5.6 Sol, Grok 4.5, Kimi K3, and Opus 4.8. The source gives an example routing policy with Fable 5 for hard coding, GPT-5.6 Sol for backend work, Kimi K3 for normal coding, Opus 4.8 for frontend, and Grok 4.5 for easy coding, usable in the API, chat, or the agent platform.",
+      "type": "Integration",
+      "category": "Agents & Workflows",
+      "category_key": "agents",
+      "decision_reason": "Concrete model-routing integration with named model roles, product surfaces, cost-optimization note, and source video.",
+      "media_type": "video",
+      "source_url": "https://x.com/abacusai/status/2080158817980137839",
+      "author_handle": "@abacusai",
+      "author_url": "https://x.com/abacusai",
+      "date": "2026-07-23",
+      "decision": "high_confidence_update",
+      "dedup_key": "https://x.com/abacusai/status/2080158817980137839",
+      "prompt_boundary": "No exact reusable prompt text is public in the source; summarize only the visible workflow and omit prompt reconstruction.",
+      "source_engagement": {
+        "like_count": 110,
+        "view_count": 81316,
+        "bookmark_count": 24,
+        "retweet_count": 9,
+        "reply_count": 17
+      },
+      "quality_tier": "high",
+      "prompt_public": false,
+      "prompt_text": "",
+      "media_source_url": "https://x.com/abacusai/status/2080158817980137839",
+      "media_author_handle": "@abacusai",
+      "media_author_url": "https://x.com/abacusai",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2080158741954236416/vid/avc1/1920x1080/TGtIl2BkfvcDQS6b.mp4?tag=29"
+      ],
+      "source_media_count": 1,
+      "expected_public_visual_count": 1,
+      "public_media_disposition": "r2-video",
+      "poster_path": "media/cases/case-147-poster.jpg",
+      "playable_video_path": "media/cases/case-147.mp4",
+      "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-147-poster.jpg",
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-147.mp4",
       "r2_media_urls": []
     }
   ]

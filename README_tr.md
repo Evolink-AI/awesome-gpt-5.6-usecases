@@ -34,7 +34,7 @@ Her genel vaka, başlatma penceresinden ve yinelenen genel kanıtlardan seçilmi
 
 ## 📊 Genel Bakış
 
-- **Herkese açık yaratıcılardan, geliştiricilerden, ürün ekiplerinden ve karşılaştırma gruplarından seçilmiş 139 GPT-5.6 örneği.**
+- **Herkese açık yaratıcılardan, geliştiricilerden, ürün ekiplerinden ve karşılaştırma gruplarından seçilmiş 147 GPT-5.6 örneği.**
 - Kodlama derlemelerini, uzun süre çalışan aracıları, iş iş akışlarını, yaratıcı üretimi, ürün entegrasyonlarını, karşılaştırmaları ve pratik sınırları kapsar.
 - Her vaka orijinal kaynağı, yaratıcının atıfını, kısa bir çıkarımı, kanıt türünü ve yayın tarihini içerir.
 - GPT-5.6 katmanını seçmeden önce pratik iş akışlarını belirlemek ve güçlü yönleri, maliyetleri ve sınırlamaları karşılaştırmak için bu depoyu kullanın.
@@ -61,10 +61,10 @@ export EVOLINK_API_KEY="your_api_key_here"
 
 | Bölüm | Vakalar |
 |---|---|
-| [💻 Kodlama ve Derlemeler](#coding-and-builds) | 30 Vakalar |
-| [🤖 Aracılar ve İş Akışları](#agents-and-workflows) | 35 Vakalar |
-| [🎨 Yaratıcı ve Ürün Çalışması](#creative-and-product-work) | 27 Vakalar |
-| [🧪 Değerlendirme ve Sınırlar](#evaluation-and-limits) | 47 Vakalar |
+| [💻 Kodlama ve Derlemeler](#coding-and-builds) | 32 Vakalar |
+| [🤖 Aracılar ve İş Akışları](#agents-and-workflows) | 37 Vakalar |
+| [🎨 Yaratıcı ve Ürün Çalışması](#creative-and-product-work) | 28 Vakalar |
+| [🧪 Değerlendirme ve Sınırlar](#evaluation-and-limits) | 50 Vakalar |
 | [Onayla](#acknowledge) | Krediler ve düzeltme politikası |
 
 <a id="coding-and-builds"></a>
@@ -102,6 +102,8 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Aracıların Okuyabileceği Kodu Yaz](#case-124) | Kod yapısını ve kodlama aracılarına yönelik adlandırmayı optimize ederek GPT-5.6 Sol'un arama ve erişim için daha az jeton harcamasını sağlayın. | Tutorial |
 | [Ön Uç Tasarım Eklentilerini Birleştirin](#case-125) | Codex ön uç yapısının daha güçlü görsel cilaya ihtiyacı olduğunda GPT-5.6'yı tasarım, animasyon, ürün ve Figma eklentileriyle eşleştirin. | Tutorial |
 | [Build Rust Robotics Aktörleri](#case-139) | Kodlama aracılarıyla robotik aktör sistemlerinin prototipini oluştururken Rust gerçek zamanlı çekirdeğini Python arayüzleriyle birleştirin. | Demo |
+| [Mobil Kullanıcı Arayüzü Yeniden Oluşturma Sınırlarını Karşılaştırın](#case-145) | Markaya duyarlı tasarım yeniden oluşturma konusunda GPT-5.6 Sol'a güvenmeden önce aynı Expo React Native UI istemini modeller arasında çalıştırın. | Limit |
+| [React Yerel Uygulama Derlemelerini Karşılaştırın](#case-146) | GPT-5.6 Sol'u başka bir sınır kodlama modeliyle karşılaştırırken, gerçek cihazlardaki tamamlanmış mobil uygulamaları karşılaştırın. | Evaluation |
 
 <a id="agents-and-workflows"></a>
 ## 🤖 Aracılar ve İş Akışları
@@ -143,6 +145,8 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [GPT Yapılarını Fable İncelemeleriyle Eşleştirin](#case-134) | Kodlama iş akışını GPT-5.6'nın uygulama yinelemelerini yöneteceği, Claude Fable'ın ise inceleme ve geri bildirim için bağlamı koruyacağı şekilde bölün. | Demo |
 | [Kodeksi Makro Donanımla Eşleme](#case-136) | Bir klavye iş akışı daha hızlı aracı komutlarına ihtiyaç duyduğunda Codex eylemlerini özel donanım kontrolleriyle eşleyin. | Integration |
 | [Temsilci Eylemlerini Sesle Onaylama](#case-138) | Asistanın bir göreve devam etmeden önce riskli aracı eylemlerini doğrulayabilmesi için bir sesli onay köprüsü ekleyin. | Integration |
+| [Hermes'le Slack Temsilcilerini Yerleştirin](#case-141) | Katılım işleminin tekrarlanabilir yönetici çalışması gerektirdiği durumlarda yeni Slack aracılarının hazırlığını yapmak için ekranla çalışan bir GPT-5.6 Terra aracısı kullanın. | Integration |
+| [Özel Aracılarda Modelleri Yönlendir](#case-147) | Diğer modeller güçlü yönlerini ele alırken GPT-5.6 Sol'u arka uç görevlerine yönlendiren özel bir kodlama aracısı oluşturun. | Integration |
 
 <a id="creative-and-product-work"></a>
 ## 🎨 Yaratıcı ve Ürün Çalışması
@@ -176,6 +180,7 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Three.js Su Gölgelendiricileri Oluşturun](#case-122) | Özel Three.js gölgelendirici çalışması için GPT-5.6 Sol'u kullanın, ardından model tarafından oluşturulan sahne varlıklarını tek bir tarayıcı demosuna entegre edin. | Demo |
 | [3D Kaydırmalı Web Siteleri Oluşturun](#case-127) | Gösterişli bir 3D kaydırmalı web sitesinin prototipini oluşturmak için GPT-5.6 Sol'u kullanın, ardından yeniden kullanmadan önce oluşturulan hareketi ve düzeni inceleyin. | Demo |
 | [Referans Sayfalarını Görüntüleyicilere Dönüştürün](#case-137) | Hem bir 3D varlık hem de gezinilebilir bir web görüntüleyici oluşturmak için bir referans sayfasını Blender MCP ve Codex aracılığıyla yönlendirin. | Demo |
+| [3D Web Sitesi Kalitesi Stres Testi](#case-143) | GPT-5.6 Sol hızlı bir şekilde kişisel bir 3D web sitesi karşılaştırması oluşturduğunda hızı ve çıktı kalitesini ayrı ayrı ele alın. | Limit |
 
 <a id="evaluation-and-limits"></a>
 ## 🧪 Değerlendirme ve Sınırlar
@@ -229,6 +234,9 @@ export EVOLINK_API_KEY="your_api_key_here"
 | [Gerçek Ücretli Kodlama İşlerini Karşılaştırın](#case-131) | Genel puanlara güvenmek yerine kaliteyi, hata bulmayı ve maliyeti ayırmak için aynı ücretli kodlama işlerini modeller arasında çalıştırın. | Evaluation |
 | [Kıyı Şeridi Dalga Ajanlarının Karşılaştırmalı Değeri](#case-133) | Bir modelin araştırma konseptlerini uzun yinelemeli görsel yapılar üzerinde uygulayıp uygulayamayacağını test etmek için kıyı şeridi dalgası simülasyonlarını kullanın. | Evaluation |
 | [Taksonomileri Vektör Aramayla Sınıflandırın](#case-135) | Büyük taksonomiler için doğrudan sınır aramalarının çok maliyetli olduğu durumlarda, sınıflandırmadan önce vektör aramalı kısa liste etiketleri. | Evaluation |
+| [EnigmaEval Akıl Yürütme Karşılaştırmasını Aç](#case-140) | GPT-5.6 Sol'u uzun bulmaca avı akıl yürütme görevlerinde karşılaştırırken, kısa karşılaştırma soruları yerine EnigmaEval'i kullanın. | Benchmark |
+| [AutoCAD Bilgisayar Kullanımını Ölçme](#case-142) | Bilgisayar kullanımı doğruluğunun genel kodlama puanlarından daha önemli olduğu durumlarda, hassas AutoCAD görevlerinde GPT-5.6 Sol'u karşılaştırın. | Benchmark |
+| [VulcanBench Mühendislik Görevlerini Karşılaştırın](#case-144) | GPT-5.6 Sol'un gerçek mühendislik değişikliklerinde rekabetçi kalıp kalmadığını kontrol etmek için depo düzeyinde gizli test karşılaştırmalarını kullanın. | Benchmark |
 
 ## Kullanım Durumları
 
@@ -2289,6 +2297,129 @@ Type: Demo | Date: 2026-07-22
 
 ---
 
+<a id="case-140"></a>
+### Case 140: [EnigmaEval Akıl Yürütme Karşılaştırmasını Aç](https://x.com/CAIS/status/2080344746699170214) (by [@CAIS](https://x.com/CAIS))
+
+**GPT-5.6 Sol'u uzun bulmaca avı akıl yürütme görevlerinde karşılaştırırken, kısa karşılaştırma soruları yerine EnigmaEval'i kullanın.**
+
+CAIS, EnigmaEval'i, bir grup insanın çözmesi saatler veya günler sürebilecek uzun, karmaşık muhakeme zorluklarının bir koleksiyonu olarak halka açık hale getirdi. Kaynak, Claude Fable 5 ve GPT-5.6 Sol'un diğer sınır modellerinden önde olduğunu ve zor setin, MIT öğrencilerinin çözmesi günler süren bulmacalar içerdiğini söylüyor.
+
+<table>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-140-1.jpg" alt="Case 140 source media 1" height="240"></td>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-140-2.jpg" alt="Case 140 source media 2" height="240"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-140-3.png" alt="Case 140 source media 3" height="240"></td>
+    <td></td>
+  </tr>
+</table>
+
+Type: Benchmark | Date: 2026-07-23
+
+---
+
+<a id="case-141"></a>
+### Case 141: [Hermes'le Slack Temsilcilerini Yerleştirin](https://x.com/IBuzovskyi/status/2080333342646423774) (by [@IBuzovskyi](https://x.com/IBuzovskyi))
+
+**Katılım işleminin tekrarlanabilir yönetici çalışması gerektirdiği durumlarda yeni Slack aracılarının hazırlığını yapmak için ekranla çalışan bir GPT-5.6 Terra aracısı kullanın.**
+
+IBuzovskyi, Hermes ajanı Dewey'in yeni AI ajanlarını GPT-5.6 Terra ile müşteri Slack çalışma alanlarına ve trycua aracılığıyla bilgisayar kullanımına dahil ettiğini anlatıyor. Kaynak, iki ortamlı bir kurulumun adını veriyor; Dewey, apps.slack.com adresini açtığını, bot tokenleri oluşturduğunu, kapsamları ve izinleri yapılandırdığını, aracı profilini kurduğunu ve yeni aracıyı, Slack ayarlarına insan eli değmeden çalışma alanına bağladığını söylüyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-141.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-141-poster.jpg" alt="Case 141 video poster" height="360"></a>
+
+[Play case 141 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-141.mp4)
+
+Type: Integration | Date: 2026-07-23
+
+---
+
+<a id="case-142"></a>
+### Case 142: [AutoCAD Bilgisayar Kullanımını Ölçme](https://x.com/DevvMandal/status/2080325376463736986) (by [@DevvMandal](https://x.com/DevvMandal))
+
+**Bilgisayar kullanımı doğruluğunun genel kodlama puanlarından daha önemli olduğu durumlarda, hassas AutoCAD görevlerinde GPT-5.6 Sol'u karşılaştırın.**
+
+DevvMandal, yapay zeka modellerinin yalnızca bilgisayar kullanarak hassas AutoCAD görevlerini tamamlayıp tamamlayamayacağını ölçmek için AutoCAD-Bench'i duyurdu. Kaynak, GPT-5.6 Sol'un %46 oranında olduğunu, birçok temel ve orta düzey görevi tek seferde çözdüğünü bildiriyor ve rapor için bir kaynak görseli içeriyor.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-142-1.jpg" alt="Case 142 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-23
+
+---
+
+<a id="case-143"></a>
+### Case 143: [3D Web Sitesi Kalitesi Stres Testi](https://x.com/LexnLin/status/2080321818825523540) (by [@LexnLin](https://x.com/LexnLin))
+
+**GPT-5.6 Sol hızlı bir şekilde kişisel bir 3D web sitesi karşılaştırması oluşturduğunda hızı ve çıktı kalitesini ayrı ayrı ele alın.**
+
+LexnLin, kişisel bir 3D web sitesi karşılaştırmasına göre GPT-5.6 Sol'u yüksek çabayla çalıştırdı. Kaynak, Kimi K3'ün dört saatine kıyasla bir saatten daha kısa sürede bittiğini söylüyor ancak sonuç daha kötü ve çok basit görünüyordu, bu da onu saf bir galibiyetten ziyade yararlı bir sınırlama durumu haline getiriyordu.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-143.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-143-poster.jpg" alt="Case 143 video poster" height="360"></a>
+
+[Play case 143 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-143.mp4)
+
+Type: Limit | Date: 2026-07-23
+
+---
+
+<a id="case-144"></a>
+### Case 144: [VulcanBench Mühendislik Görevlerini Karşılaştırın](https://x.com/XFreeze/status/2080300216842965040) (by [@XFreeze](https://x.com/XFreeze))
+
+**GPT-5.6 Sol'un gerçek mühendislik değişikliklerinde rekabetçi kalıp kalmadığını kontrol etmek için depo düzeyinde gizli test karşılaştırmalarını kullanın.**
+
+XFreeze, Python, Rust, TypeScript, JavaScript ve Go genelinde karmaşık, gerçek dünyadaki veri havuzu düzeyinde yazılım mühendisliği görevleri için VulcanBench v3 sonuçlarını raporlar. Kaynak, görevlerin izole ortamlarda deterministik gizli testlerle değerlendirildiği Grok 4.5'in %91,3'e, GPT-5.6 Sol ve Claude Fable 5'in ise %87,0'a ulaştığını söylüyor.
+
+<img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-144-1.jpg" alt="Case 144 source media" height="360">
+
+Type: Benchmark | Date: 2026-07-23
+
+---
+
+<a id="case-145"></a>
+### Case 145: [Mobil Kullanıcı Arayüzü Yeniden Oluşturma Sınırlarını Karşılaştırın](https://x.com/thebuggeddev/status/2080295524142587933) (by [@thebuggeddev](https://x.com/thebuggeddev))
+
+**Markaya duyarlı tasarım yeniden oluşturma konusunda GPT-5.6 Sol'a güvenmeden önce aynı Expo React Native UI istemini modeller arasında çalıştırın.**
+
+thebuggeddev, GPT-5.6 Sol ve Kimi K3'ü aynı üç ekranlı Expo React Native mobil kullanıcı arayüzü oyununda karşılaştırıyor. Kaynak, GPT-5.6 Sol'un oturumun büyük bir kısmını tükettiğini, marka adını değiştirdiğini ve hem kod çıktılarını hem de önceki GPT-5.6 Sol gönderisini birbirine bağlarken daha zayıf bir tasarım-sistem eşleşmesi ürettiğini söylüyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-145.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-145-poster.jpg" alt="Case 145 video poster" height="360"></a>
+
+[Play case 145 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-145.mp4)
+
+Type: Limit | Date: 2026-07-23
+
+---
+
+<a id="case-146"></a>
+### Case 146: [React Yerel Uygulama Derlemelerini Karşılaştırın](https://x.com/betomoedano/status/2080277338198012232) (by [@betomoedano](https://x.com/betomoedano))
+
+**GPT-5.6 Sol'u başka bir sınır kodlama modeliyle karşılaştırırken, gerçek cihazlardaki tamamlanmış mobil uygulamaları karşılaştırın.**
+
+betomoedano, gerçek bir Expo React Native uygulamasında GPT-5.6 Sol'u Claude Fable 5'e karşı test etti. Kaynak, başlangıç, karanlık mod, bildirimler, sıralanabilir alışkanlıklar, dokunsal özellikler ve yerel bir iOS widget'ını listeliyor ve ardından kanıtları, kıyaslama grafikleri yerine gerçek cihazlarda yan yana çalışan iki tamamlanmış uygulama olarak çerçeveliyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-146.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-146-poster.jpg" alt="Case 146 video poster" height="360"></a>
+
+[Play case 146 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-146.mp4)
+
+Type: Evaluation | Date: 2026-07-23
+
+---
+
+<a id="case-147"></a>
+### Case 147: [Özel Aracılarda Modelleri Yönlendir](https://x.com/abacusai/status/2080158817980137839) (by [@abacusai](https://x.com/abacusai))
+
+**Diğer modeller güçlü yönlerini ele alırken GPT-5.6 Sol'u arka uç görevlerine yönlendiren özel bir kodlama aracısı oluşturun.**
+
+abacusai, Fable 5, GPT-5.6 Sol, Grok 4.5, Kimi K3 ve Opus 4.8'i karıştırabilen özel bir kodlama aracısı özelliğini duyurdu. Kaynak, API, sohbet veya aracı platformunda kullanılabilen, sabit kodlama için Fable 5, arka uç çalışması için GPT-5.6 Sol, normal kodlama için Kimi K3, ön uç için Opus 4.8 ve kolay kodlama için Grok 4.5 ile örnek bir yönlendirme politikası veriyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-147.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-147-poster.jpg" alt="Case 147 video poster" height="360"></a>
+
+[Play case 147 demo video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-5.6-usecases/media/cases/case-147.mp4)
+
+Type: Integration | Date: 2026-07-23
+
+---
+
 ## İlgili Depolar
 
 Özel GPT-5.6 API belgeleri mevcuttur. Yüklenebilir hiçbir GPT-5.6 becerisi doğrulanmadı; beceri ve paket yayınlama işi, ayrı bir beceri yayınlama hattına ait olmaya devam ediyor.
@@ -2304,7 +2435,7 @@ Bu depo, gerçek GPT-5.6 kullanım örneklerini herkese açık olarak paylaşan 
 
 Bu koleksiyonda temsil edilen kaynak oluşturuculara teşekkürler:
 
-[@0x_kaize](https://x.com/0x_kaize), [@abacusai](https://x.com/abacusai), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Adea0x](https://x.com/Adea0x), [@ai_for_success](https://x.com/ai_for_success), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@AIsaOneHQ](https://x.com/AIsaOneHQ), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@AlphaSignalAI](https://x.com/AlphaSignalAI), [@alxndrdavies](https://x.com/alxndrdavies), [@an321d](https://x.com/an321d), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@askalphaxiv](https://x.com/askalphaxiv), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Av1dlive](https://x.com/Av1dlive), [@Azure](https://x.com/Azure), [@bentlegen](https://x.com/bentlegen), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@BuildFastWithAI](https://x.com/BuildFastWithAI), [@cedric_chee](https://x.com/cedric_chee), [@charles_maddock](https://x.com/charles_maddock), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@Creatify_AI](https://x.com/Creatify_AI), [@DamiDefi](https://x.com/DamiDefi), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@davis7](https://x.com/davis7), [@Deep_Burner](https://x.com/Deep_Burner), [@Deevid_AI](https://x.com/Deevid_AI), [@deredleritt3r](https://x.com/deredleritt3r), [@devindesktop](https://x.com/devindesktop), [@dexhorthy](https://x.com/dexhorthy), [@diamai_](https://x.com/diamai_), [@DivyanshT91162](https://x.com/DivyanshT91162), [@doximity](https://x.com/doximity), [@DrDatta_AIIMS](https://x.com/DrDatta_AIIMS), [@elliotarledge](https://x.com/elliotarledge), [@emollick](https://x.com/emollick), [@eusouomatt](https://x.com/eusouomatt), [@fabriciocarraro](https://x.com/fabriciocarraro), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fragiannicola](https://x.com/fragiannicola), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@heccbrent](https://x.com/heccbrent), [@heyrobinai](https://x.com/heyrobinai), [@hqmank](https://x.com/hqmank), [@iamrexei](https://x.com/iamrexei), [@inannanigin](https://x.com/inannanigin), [@JacobMolBio](https://x.com/JacobMolBio), [@jetbrains](https://x.com/jetbrains), [@jimmyhuli](https://x.com/jimmyhuli), [@jjanezhang](https://x.com/jjanezhang), [@kenbwork](https://x.com/kenbwork), [@LeeLinAI123](https://x.com/LeeLinAI123), [@Lentils80](https://x.com/Lentils80), [@LuminaXspace](https://x.com/LuminaXspace), [@LyraInTheFlesh](https://x.com/LyraInTheFlesh), [@MatthewBerman](https://x.com/MatthewBerman), [@mattlam_](https://x.com/mattlam_), [@mattshumer_](https://x.com/mattshumer_), [@MedicalSphereAI](https://x.com/MedicalSphereAI), [@melvynx](https://x.com/melvynx), [@Microsoft365](https://x.com/Microsoft365), [@midudev](https://x.com/midudev), [@mightyking](https://x.com/mightyking), [@mjkabir](https://x.com/mjkabir), [@morganlinton](https://x.com/morganlinton), [@nauczymycieAI](https://x.com/nauczymycieAI), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@old_pgmrs_will](https://x.com/old_pgmrs_will), [@Oluwaphilemon1](https://x.com/Oluwaphilemon1), [@om_patel5](https://x.com/om_patel5), [@omnigent_ai](https://x.com/omnigent_ai), [@onusoz](https://x.com/onusoz), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@oscabriel](https://x.com/oscabriel), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@PixiJS](https://x.com/PixiJS), [@PovilasKorop](https://x.com/PovilasKorop), [@Psalteric](https://x.com/Psalteric), [@RicardoDeZoete](https://x.com/RicardoDeZoete), [@rrr_kgknk](https://x.com/rrr_kgknk), [@s1rozha_](https://x.com/s1rozha_), [@sairahul1](https://x.com/sairahul1), [@satyanadella](https://x.com/satyanadella), [@shannholmberg](https://x.com/shannholmberg), [@sharifshameem](https://x.com/sharifshameem), [@simplifyinAI](https://x.com/simplifyinAI), [@Skaly__Bull](https://x.com/Skaly__Bull), [@skirano](https://x.com/skirano), [@spaceagente](https://x.com/spaceagente), [@super_bonochin](https://x.com/super_bonochin), [@theo](https://x.com/theo), [@theSethian](https://x.com/theSethian), [@TokenGremlin](https://x.com/TokenGremlin), [@tonysimons_](https://x.com/tonysimons_), [@twetsfyp](https://x.com/twetsfyp), [@vedhsaka](https://x.com/vedhsaka), [@viccsmind](https://x.com/viccsmind), [@viktoroddy](https://x.com/viktoroddy), [@vishalsingh2972](https://x.com/vishalsingh2972), [@Voxyz_ai](https://x.com/Voxyz_ai), [@WesRoth](https://x.com/WesRoth), [@wightmanr](https://x.com/wightmanr), [@XFreeze](https://x.com/XFreeze), [@yiyangleex](https://x.com/yiyangleex), [@zeeg](https://x.com/zeeg)
+[@0x_kaize](https://x.com/0x_kaize), [@abacusai](https://x.com/abacusai), [@AdamHoltererer](https://x.com/AdamHoltererer), [@Adea0x](https://x.com/Adea0x), [@ai_for_success](https://x.com/ai_for_success), [@ai_layer2](https://x.com/ai_layer2), [@AIna_artmusic](https://x.com/AIna_artmusic), [@AIsaOneHQ](https://x.com/AIsaOneHQ), [@aisdk](https://x.com/aisdk), [@ajambrosino](https://x.com/ajambrosino), [@Akasheth_](https://x.com/Akasheth_), [@AlphaSignalAI](https://x.com/AlphaSignalAI), [@alxndrdavies](https://x.com/alxndrdavies), [@an321d](https://x.com/an321d), [@arcprize](https://x.com/arcprize), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@askalphaxiv](https://x.com/askalphaxiv), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@Av1dlive](https://x.com/Av1dlive), [@Azure](https://x.com/Azure), [@bentlegen](https://x.com/bentlegen), [@betomoedano](https://x.com/betomoedano), [@bindureddy](https://x.com/bindureddy), [@bridgemindai](https://x.com/bridgemindai), [@btibor91](https://x.com/btibor91), [@BuildFastWithAI](https://x.com/BuildFastWithAI), [@CAIS](https://x.com/CAIS), [@cedric_chee](https://x.com/cedric_chee), [@charles_maddock](https://x.com/charles_maddock), [@cjzafir](https://x.com/cjzafir), [@clairevo](https://x.com/clairevo), [@CodexReleases](https://x.com/CodexReleases), [@cognition](https://x.com/cognition), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@Creatify_AI](https://x.com/Creatify_AI), [@DamiDefi](https://x.com/DamiDefi), [@danizeres](https://x.com/danizeres), [@danshipper](https://x.com/danshipper), [@datacurve](https://x.com/datacurve), [@davis7](https://x.com/davis7), [@Deep_Burner](https://x.com/Deep_Burner), [@Deevid_AI](https://x.com/Deevid_AI), [@deredleritt3r](https://x.com/deredleritt3r), [@devindesktop](https://x.com/devindesktop), [@DevvMandal](https://x.com/DevvMandal), [@dexhorthy](https://x.com/dexhorthy), [@diamai_](https://x.com/diamai_), [@DivyanshT91162](https://x.com/DivyanshT91162), [@doximity](https://x.com/doximity), [@DrDatta_AIIMS](https://x.com/DrDatta_AIIMS), [@elliotarledge](https://x.com/elliotarledge), [@emollick](https://x.com/emollick), [@eusouomatt](https://x.com/eusouomatt), [@fabriciocarraro](https://x.com/fabriciocarraro), [@figma](https://x.com/figma), [@fkadev](https://x.com/fkadev), [@fragiannicola](https://x.com/fragiannicola), [@fuuro_ito](https://x.com/fuuro_ito), [@github](https://x.com/github), [@givros](https://x.com/givros), [@gregisenberg](https://x.com/gregisenberg), [@heccbrent](https://x.com/heccbrent), [@heyrobinai](https://x.com/heyrobinai), [@hqmank](https://x.com/hqmank), [@iamrexei](https://x.com/iamrexei), [@IBuzovskyi](https://x.com/IBuzovskyi), [@inannanigin](https://x.com/inannanigin), [@JacobMolBio](https://x.com/JacobMolBio), [@jetbrains](https://x.com/jetbrains), [@jimmyhuli](https://x.com/jimmyhuli), [@jjanezhang](https://x.com/jjanezhang), [@kenbwork](https://x.com/kenbwork), [@LeeLinAI123](https://x.com/LeeLinAI123), [@Lentils80](https://x.com/Lentils80), [@LexnLin](https://x.com/LexnLin), [@LuminaXspace](https://x.com/LuminaXspace), [@LyraInTheFlesh](https://x.com/LyraInTheFlesh), [@MatthewBerman](https://x.com/MatthewBerman), [@mattlam_](https://x.com/mattlam_), [@mattshumer_](https://x.com/mattshumer_), [@MedicalSphereAI](https://x.com/MedicalSphereAI), [@melvynx](https://x.com/melvynx), [@Microsoft365](https://x.com/Microsoft365), [@midudev](https://x.com/midudev), [@mightyking](https://x.com/mightyking), [@mjkabir](https://x.com/mjkabir), [@morganlinton](https://x.com/morganlinton), [@nauczymycieAI](https://x.com/nauczymycieAI), [@neelajj](https://x.com/neelajj), [@nickbaumann_](https://x.com/nickbaumann_), [@NousResearch](https://x.com/NousResearch), [@nvidia](https://x.com/nvidia), [@old_pgmrs_will](https://x.com/old_pgmrs_will), [@Oluwaphilemon1](https://x.com/Oluwaphilemon1), [@om_patel5](https://x.com/om_patel5), [@omnigent_ai](https://x.com/omnigent_ai), [@onusoz](https://x.com/onusoz), [@OpenAI](https://x.com/OpenAI), [@OpenAIDevs](https://x.com/OpenAIDevs), [@oscabriel](https://x.com/oscabriel), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@PixiJS](https://x.com/PixiJS), [@PovilasKorop](https://x.com/PovilasKorop), [@Psalteric](https://x.com/Psalteric), [@RicardoDeZoete](https://x.com/RicardoDeZoete), [@rrr_kgknk](https://x.com/rrr_kgknk), [@s1rozha_](https://x.com/s1rozha_), [@sairahul1](https://x.com/sairahul1), [@satyanadella](https://x.com/satyanadella), [@shannholmberg](https://x.com/shannholmberg), [@sharifshameem](https://x.com/sharifshameem), [@simplifyinAI](https://x.com/simplifyinAI), [@Skaly__Bull](https://x.com/Skaly__Bull), [@skirano](https://x.com/skirano), [@spaceagente](https://x.com/spaceagente), [@super_bonochin](https://x.com/super_bonochin), [@thebuggeddev](https://x.com/thebuggeddev), [@theo](https://x.com/theo), [@theSethian](https://x.com/theSethian), [@TokenGremlin](https://x.com/TokenGremlin), [@tonysimons_](https://x.com/tonysimons_), [@twetsfyp](https://x.com/twetsfyp), [@vedhsaka](https://x.com/vedhsaka), [@viccsmind](https://x.com/viccsmind), [@viktoroddy](https://x.com/viktoroddy), [@vishalsingh2972](https://x.com/vishalsingh2972), [@Voxyz_ai](https://x.com/Voxyz_ai), [@WesRoth](https://x.com/WesRoth), [@wightmanr](https://x.com/wightmanr), [@XFreeze](https://x.com/XFreeze), [@yiyangleex](https://x.com/yiyangleex), [@zeeg](https://x.com/zeeg)
 
 *Her vakanın orijinal yaratıcıya atfedildiğini garanti edemeyiz. Düzeltilmesi gereken bir şey varsa lütfen bir konu açın, biz de güncelleyeceğiz.*
 
